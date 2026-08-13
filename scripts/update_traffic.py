@@ -12,7 +12,7 @@ import json
 import time
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Optional
+from typing import Optional, Any
 
 import requests
 
@@ -161,22 +161,68 @@ def mark_key_failed(state: dict, key: str):
     state["current_index"] = (state.get("current_index", 0) + 1) % max(len(failed) + 1, 1)
 
 
-def call_waze(endpoint: str, params: dict, api_key: str) -> Optional[dict]:
-    """یک درخواست به WazeAPI می‌زند"""
+def call_waze(endpoint: str, params: dict, api_key: str) -> Optional[Any]:
+    """یک درخواست به WazeAPI می‌زند. ممکن است dict یا list برگرداند."""
     url = f"{BASE_URL}/{endpoint}"
     headers = {"X-API-Key": api_key, "Accept": "application/json"}
     try:
         resp = requests.get(url, params=params, headers=headers, timeout=45)
         if resp.status_code == 200:
-            return resp.json()
+            try:
+                return resp.json()
+            except Exception as e:
+                print(f"   ⚠️  JSON parse error: {e}")
+                return None
         if resp.status_code in (401, 403, 429):
             print(f"   ❌ کلید مشکل دارد (status={resp.status_code})")
             return None  # یعنی کلید را fail کن
-        print(f"   ⚠️  پاسخ غیرمنتظره: {resp.status_code} - {resp.text[:200]}")
+        print(f"   ⚠️  پاسخ غیرمنتظره: {resp.status_code} - {resp.text[:300]}")
         return None
     except Exception as e:
         print(f"   ⚠️  خطا در درخواست: {e}")
         return None
+
+
+def extract_alerts(data: Any) -> list:
+    """از پاسخ API (dict یا list) لیست alerts را استخراج می‌کند."""
+    if data is None:
+        return []
+    if isinstance(data, list):
+        return data
+    if isinstance(data, dict):
+        # فرمت‌های رایج: {"alerts": [...]}, {"data": {"alerts": [...]}}, {"count": N, "alerts": [...]}
+        if "alerts" in data and isinstance(data["alerts"], list):
+            return data["alerts"]
+        if "data" in data and isinstance(data["data"], dict):
+            inner = data["data"]
+            if "alerts" in inner and isinstance(inner["alerts"], list):
+                return inner["alerts"]
+        # گاهی خود data لیست است
+        if "data" in data and isinstance(data["data"], list):
+            return data["data"]
+    return []
+
+
+def extract_jams(data: Any, fallback_alerts_data: Any = None) -> list:
+    """از پاسخ API لیست jams را استخراج می‌کند."""
+    if data is None:
+        data = {}
+    if isinstance(data, list):
+        return data
+    if isinstance(data, dict):
+        if "jams" in data and isinstance(data["jams"], list):
+            return data["jams"]
+        if "data" in data and isinstance(data["data"], dict):
+            inner = data["data"]
+            if "jams" in inner and isinstance(inner["jams"], list):
+                return inner["jams"]
+        if "data" in data and isinstance(data["data"], list):
+            return data["data"]
+    # fallback: ممکن است jams داخل پاسخ alerts باشد
+    if fallback_alerts_data and isinstance(fallback_alerts_data, dict):
+        if "jams" in fallback_alerts_data and isinstance(fallback_alerts_data["jams"], list):
+            return fallback_alerts_data["jams"]
+    return []
 
 
 def fetch_region(region_id: str, region: dict, keys: list[str], state: dict) -> dict:
@@ -217,17 +263,10 @@ def fetch_region(region_id: str, region: dict, keys: list[str], state: dict) -> 
         # jams (اگر endpoint جدا باشد)
         jams_data = call_waze("alerts/jams", params, key)
         # اگر jams جدا کار نکرد، ممکن است داخل alerts باشد یا endpoint دیگری
-        if jams_data is None:
-            jams_data = {}
 
-        # استخراج داده
-        alerts = alerts_data.get("alerts") or alerts_data.get("data", {}).get("alerts") or []
-        jams = (
-            jams_data.get("jams")
-            or jams_data.get("data", {}).get("jams")
-            or alerts_data.get("jams")
-            or []
-        )
+        # استخراج داده (مقاوم در برابر list یا dict)
+        alerts = extract_alerts(alerts_data)
+        jams = extract_jams(jams_data, fallback_alerts_data=alerts_data)
 
         result["alerts"] = alerts
         result["jams"] = jams
@@ -236,6 +275,7 @@ def fetch_region(region_id: str, region: dict, keys: list[str], state: dict) -> 
             "alerts_count": len(alerts),
             "jams_count": len(jams),
             "key_used_suffix": key[-8:],
+            "alerts_response_type": type(alerts_data).__name__,
         }
         print(f"  ✅ موفق: {len(alerts)} alert، {len(jams)} jam")
         # این کلید خوب بود → ایندکس را نگه دار
