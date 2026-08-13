@@ -1,13 +1,178 @@
 {
   "region": "bandar_abbas",
   "name": "بندرعباس",
-  "updated_at": "2026-08-13T17:04:40.844323Z",
+  "updated_at": "2026-08-13T17:12:11.464505Z",
   "status": "ok",
   "alerts": [],
-  "jams": [],
+  "jams": [
+    {
+      "id": 1791892392,
+      "street": "Mostafa Khomeini Blvd - بلوار مصطفی خمینی",
+      "city": "بندرعباس",
+      "country": null,
+      "level": 3,
+      "length": 506,
+      "speed": 3.5833333333333335,
+      "endNode": "Daneshgah Blvd - بلوار دانشگاه",
+      "line": [
+        {
+          "x": 56.338745,
+          "y": 27.202004
+        },
+        {
+          "x": 56.339107,
+          "y": 27.202399
+        },
+        {
+          "x": 56.339283,
+          "y": 27.202591
+        },
+        {
+          "x": 56.339995,
+          "y": 27.203369
+        },
+        {
+          "x": 56.340209,
+          "y": 27.203603
+        },
+        {
+          "x": 56.341009,
+          "y": 27.204476
+        },
+        {
+          "x": 56.341198,
+          "y": 27.204683
+        },
+        {
+          "x": 56.341799,
+          "y": 27.205377
+        },
+        {
+          "x": 56.341955,
+          "y": 27.205557
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 259708882,
+          "ID": 322349742,
+          "toNode": 260079106,
+          "isForward": false
+        },
+        {
+          "fromNode": 260079106,
+          "ID": 410752578,
+          "toNode": 316951671,
+          "isForward": false
+        },
+        {
+          "fromNode": 316951671,
+          "ID": 438113607,
+          "toNode": 334978946,
+          "isForward": false
+        },
+        {
+          "fromNode": 334978946,
+          "ID": 438113606,
+          "toNode": 260074892,
+          "isForward": false
+        },
+        {
+          "fromNode": 260074892,
+          "ID": 445269569,
+          "toNode": 260074838,
+          "isForward": false
+        },
+        {
+          "fromNode": 260074838,
+          "ID": 373734278,
+          "toNode": 292621695,
+          "isForward": false
+        },
+        {
+          "fromNode": 292621695,
+          "ID": 373734277,
+          "toNode": 275475204,
+          "isForward": false
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 27.202004,
+      "locationX": 56.338745,
+      "updateMillis": 1786641102730,
+      "blockUpdate": null
+    },
+    {
+      "id": 1791652200,
+      "street": "Imam Khomeini Blvd - بلوار امام خمینی",
+      "city": "بندرعباس",
+      "country": null,
+      "level": 3,
+      "length": 377,
+      "speed": 2.9305555555555554,
+      "endNode": "Isar - ایثار",
+      "line": [
+        {
+          "x": 56.347415,
+          "y": 27.204483
+        },
+        {
+          "x": 56.34677,
+          "y": 27.203778
+        },
+        {
+          "x": 56.346249,
+          "y": 27.203211
+        },
+        {
+          "x": 56.346006,
+          "y": 27.202937
+        },
+        {
+          "x": 56.345736,
+          "y": 27.202634
+        },
+        {
+          "x": 56.344999,
+          "y": 27.201861
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 218949736,
+          "ID": 343901334,
+          "toNode": 273513323,
+          "isForward": false
+        },
+        {
+          "fromNode": 273513323,
+          "ID": 343901333,
+          "toNode": 218949391,
+          "isForward": false
+        },
+        {
+          "fromNode": 218949391,
+          "ID": 343901336,
+          "toNode": 273513324,
+          "isForward": false
+        },
+        {
+          "fromNode": 273513324,
+          "ID": 343901335,
+          "toNode": 273513257,
+          "isForward": false
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 27.204483,
+      "locationX": 56.347415,
+      "updateMillis": 1786641101886,
+      "blockUpdate": null
+    }
+  ],
   "meta": {
     "alerts_count": 0,
-    "jams_count": 0,
+    "jams_count": 2,
     "key_used_suffix": "NMPn3a8W",
     "alerts_response_type": "list"
   }

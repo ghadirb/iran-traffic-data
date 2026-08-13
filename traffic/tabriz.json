@@ -1,7 +1,7 @@
 {
   "region": "tabriz",
   "name": "تبریز",
-  "updated_at": "2026-08-13T17:04:09.403632Z",
+  "updated_at": "2026-08-13T17:11:42.250853Z",
   "status": "ok",
   "alerts": [
     {
@@ -247,7 +247,7 @@
       },
       "locationY": 38.080258,
       "locationX": 46.281775,
-      "updateMillis": 1786640616064,
+      "updateMillis": 1786641103787,
       "blockUpdate": 1755926202833
     },
     {
@@ -322,7 +322,7 @@
       },
       "locationY": 38.029604,
       "locationX": 46.450085,
-      "updateMillis": 1786640615879,
+      "updateMillis": 1786641103318,
       "blockUpdate": 1779816238161
     },
     {
@@ -382,175 +382,17 @@
       },
       "locationY": 38.081648,
       "locationX": 46.256777,
-      "updateMillis": 1786640614911,
+      "updateMillis": 1786641102643,
       "blockUpdate": 1727773325278
     },
     {
-      "id": 1790575808,
-      "street": "Imam Khomeini - امام خمینی",
-      "city": "تبریز",
-      "country": null,
-      "level": 3,
-      "length": 792,
-      "speed": 2.013888888888889,
-      "endNode": "29th Bahman Blvd - بلوار بیست و نهم بهمن",
-      "line": [
-        {
-          "x": 46.318707,
-          "y": 38.067628
-        },
-        {
-          "x": 46.319145,
-          "y": 38.067499
-        },
-        {
-          "x": 46.320254,
-          "y": 38.067172
-        },
-        {
-          "x": 46.320668,
-          "y": 38.067049
-        },
-        {
-          "x": 46.321216,
-          "y": 38.066886
-        },
-        {
-          "x": 46.32144,
-          "y": 38.066819
-        },
-        {
-          "x": 46.321697,
-          "y": 38.066742
-        },
-        {
-          "x": 46.322459,
-          "y": 38.066518
-        },
-        {
-          "x": 46.322622,
-          "y": 38.066466
-        },
-        {
-          "x": 46.32345,
-          "y": 38.066218
-        },
-        {
-          "x": 46.323731,
-          "y": 38.066131
-        },
-        {
-          "x": 46.324549,
-          "y": 38.065887
-        },
-        {
-          "x": 46.324754,
-          "y": 38.065825
-        },
-        {
-          "x": 46.325869,
-          "y": 38.06549
-        },
-        {
-          "x": 46.327159,
-          "y": 38.065102
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 222244859,
-          "ID": 441960059,
-          "toNode": 188061448,
-          "isForward": true
-        },
-        {
-          "fromNode": 188061448,
-          "ID": 346362912,
-          "toNode": 274746807,
-          "isForward": true
-        },
-        {
-          "fromNode": 274746807,
-          "ID": 373519373,
-          "toNode": 292483828,
-          "isForward": true
-        },
-        {
-          "fromNode": 292483828,
-          "ID": 373519374,
-          "toNode": 188061450,
-          "isForward": true
-        },
-        {
-          "fromNode": 188061450,
-          "ID": 265769475,
-          "toNode": 222244922,
-          "isForward": true
-        },
-        {
-          "fromNode": 222244922,
-          "ID": 340338220,
-          "toNode": 271269028,
-          "isForward": true
-        },
-        {
-          "fromNode": 271269028,
-          "ID": 340338221,
-          "toNode": 222244916,
-          "isForward": true
-        },
-        {
-          "fromNode": 222244916,
-          "ID": 340702673,
-          "toNode": 271501504,
-          "isForward": true
-        },
-        {
-          "fromNode": 271501504,
-          "ID": 340702674,
-          "toNode": 262589012,
-          "isForward": true
-        },
-        {
-          "fromNode": 262589012,
-          "ID": 326422996,
-          "toNode": 262589194,
-          "isForward": true
-        },
-        {
-          "fromNode": 262589194,
-          "ID": 326424122,
-          "toNode": 262589544,
-          "isForward": true
-        },
-        {
-          "fromNode": 262589544,
-          "ID": 326425819,
-          "toNode": 262590240,
-          "isForward": true
-        },
-        {
-          "fromNode": 262590240,
-          "ID": 348202509,
-          "toNode": 274228424,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 38.067628,
-      "locationX": 46.318707,
-      "updateMillis": 1786640614522,
-      "blockUpdate": null
-    },
-    {
-      "id": 1789020934,
+      "id": 1791704462,
       "street": "Shahryar Blvd - بلوار شهریار",
       "city": "تبریز",
       "country": null,
       "level": 3,
-      "length": 972,
-      "speed": 4.694444444444445,
-      "endNode": "Golkar Blvd - بلوار گلکار",
+      "length": 529,
+      "speed": 3.4611111111111112,
       "line": [
         {
           "x": 46.325314,
@@ -567,18 +409,6 @@
         {
           "x": 46.330411,
           "y": 38.064972
-        },
-        {
-          "x": 46.332823,
-          "y": 38.063486
-        },
-        {
-          "x": 46.333633,
-          "y": 38.063144
-        },
-        {
-          "x": 46.334646,
-          "y": 38.062862
         }
       ],
       "segments": [
@@ -587,91 +417,12 @@
           "ID": 340702189,
           "toNode": 188157848,
           "isForward": false
-        },
-        {
-          "fromNode": 188157848,
-          "ID": 339912473,
-          "toNode": 271001463,
-          "isForward": false
         }
       ],
       "causeAlert": null,
       "locationY": 38.067487,
       "locationX": 46.325314,
-      "updateMillis": 1786640614402,
-      "blockUpdate": null
-    },
-    {
-      "id": 1790146628,
-      "street": "Shahryar - شهریار",
-      "city": "تبریز",
-      "country": null,
-      "level": 4,
-      "length": 220,
-      "speed": 1.4722222222222223,
-      "endNode": "",
-      "line": [
-        {
-          "x": 46.361813,
-          "y": 38.064492
-        },
-        {
-          "x": 46.361797,
-          "y": 38.064297
-        },
-        {
-          "x": 46.361776,
-          "y": 38.063883
-        },
-        {
-          "x": 46.361725,
-          "y": 38.063415
-        },
-        {
-          "x": 46.361684,
-          "y": 38.062919
-        },
-        {
-          "x": 46.361611,
-          "y": 38.062519
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 188150461,
-          "ID": 212014808,
-          "toNode": 188150466,
-          "isForward": true
-        },
-        {
-          "fromNode": 188150466,
-          "ID": 212014809,
-          "toNode": 188150463,
-          "isForward": true
-        },
-        {
-          "fromNode": 188150463,
-          "ID": 212022400,
-          "toNode": 188153777,
-          "isForward": true
-        },
-        {
-          "fromNode": 188153777,
-          "ID": 212022401,
-          "toNode": 188153776,
-          "isForward": true
-        },
-        {
-          "fromNode": 188153776,
-          "ID": 212022399,
-          "toNode": 272555369,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 38.064492,
-      "locationX": 46.361813,
-      "updateMillis": 1786640614143,
+      "updateMillis": 1786641102444,
       "blockUpdate": null
     },
     {
@@ -681,7 +432,7 @@
       "country": null,
       "level": 4,
       "length": 181,
-      "speed": 0.3055555555555556,
+      "speed": 0.32222222222222224,
       "endNode": "",
       "line": [
         {
@@ -704,7 +455,7 @@
       "causeAlert": null,
       "locationY": 38.065348,
       "locationX": 46.354814,
-      "updateMillis": 1786640614089,
+      "updateMillis": 1786641101762,
       "blockUpdate": null
     },
     {
@@ -764,7 +515,7 @@
       },
       "locationY": 38.081595,
       "locationX": 46.257112,
-      "updateMillis": 1786640614030,
+      "updateMillis": 1786641101659,
       "blockUpdate": 1727773325339
     },
     {
@@ -774,7 +525,7 @@
       "country": null,
       "level": 3,
       "length": 749,
-      "speed": 4.416666666666667,
+      "speed": 2.691666666666667,
       "endNode": "",
       "line": [
         {
@@ -807,7 +558,7 @@
       "causeAlert": null,
       "locationY": 38.04592,
       "locationX": 46.352599,
-      "updateMillis": 1786640613598,
+      "updateMillis": 1786641100876,
       "blockUpdate": null
     },
     {
@@ -816,14 +567,9 @@
       "city": "تبریز",
       "country": null,
       "level": 4,
-      "length": 188,
-      "speed": 1.25,
-      "endNode": "1st Nasim - نسیم یکم",
+      "length": 330,
+      "speed": 0.8805555555555555,
       "line": [
-        {
-          "x": 46.351391,
-          "y": 38.066492
-        },
         {
           "x": 46.352468,
           "y": 38.066195
@@ -831,332 +577,309 @@
         {
           "x": 46.353461,
           "y": 38.066113
+        },
+        {
+          "x": 46.354273,
+          "y": 38.066056
+        },
+        {
+          "x": 46.354746,
+          "y": 38.066018
+        },
+        {
+          "x": 46.354947,
+          "y": 38.066003
+        },
+        {
+          "x": 46.356193,
+          "y": 38.065927
         }
       ],
       "segments": [
-        {
-          "fromNode": 264480417,
-          "ID": 253221652,
-          "toNode": 268609581,
-          "isForward": true
-        },
         {
           "fromNode": 268609581,
           "ID": 345774369,
           "toNode": 274699205,
           "isForward": false
+        },
+        {
+          "fromNode": 274699205,
+          "ID": 345774368,
+          "toNode": 188154487,
+          "isForward": false
+        },
+        {
+          "fromNode": 188154487,
+          "ID": 336101118,
+          "toNode": 268609484,
+          "isForward": false
+        },
+        {
+          "fromNode": 268609484,
+          "ID": 336101117,
+          "toNode": 188154486,
+          "isForward": false
+        },
+        {
+          "fromNode": 188154486,
+          "ID": 336101064,
+          "toNode": 268609544,
+          "isForward": false
         }
       ],
       "causeAlert": null,
-      "locationY": 38.066492,
-      "locationX": 46.351391,
-      "updateMillis": 1786640613578,
+      "locationY": 38.066195,
+      "locationX": 46.352468,
+      "updateMillis": 1786641100526,
       "blockUpdate": null
     },
     {
-      "id": 1788462102,
-      "street": "Maleki Tabrizi Blvd - بلوار ملکی تبریزی",
-      "city": "تبریز",
-      "country": null,
-      "level": 3,
-      "length": 357,
-      "speed": 2.7083333333333335,
-      "endNode": "",
-      "line": [
-        {
-          "x": 46.370309,
-          "y": 38.041574
-        },
-        {
-          "x": 46.371361,
-          "y": 38.040967
-        },
-        {
-          "x": 46.372405,
-          "y": 38.039879
-        },
-        {
-          "x": 46.37316,
-          "y": 38.039307
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 322534506,
-          "ID": 419417680,
-          "toNode": 322534485,
-          "isForward": true
-        },
-        {
-          "fromNode": 322534485,
-          "ID": 419417634,
-          "toNode": 265106746,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 38.041574,
-      "locationX": 46.370309,
-      "updateMillis": 1786640613510,
-      "blockUpdate": null
-    },
-    {
-      "id": 1789517094,
-      "street": "Taleqani - طالقانی",
-      "city": "تبریز",
-      "country": null,
-      "level": 3,
-      "length": 178,
-      "speed": 1.0527777777777778,
-      "endNode": "",
-      "line": [
-        {
-          "x": 46.290015,
-          "y": 38.058965
-        },
-        {
-          "x": 46.289913,
-          "y": 38.057366
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 223063341,
-          "ID": 267095068,
-          "toNode": 272912467,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 38.058965,
-      "locationX": 46.290015,
-      "updateMillis": 1786640613245,
-      "blockUpdate": null
-    },
-    {
-      "id": 1789784780,
-      "street": "16, Kasaei Hwy",
+      "id": 1785352328,
+      "street": "Shahryar Blvd - بلوار شهریار",
       "city": "تبریز",
       "country": null,
       "level": 2,
-      "length": 1295,
-      "speed": 8.591666666666667,
-      "endNode": "2, Kasaei Fwy",
+      "length": 1542,
+      "speed": 7.591666666666667,
+      "endNode": "Valiasr Blvd - بلوار ولیعصر",
       "line": [
         {
-          "x": 46.384784,
-          "y": 38.025528
+          "x": 46.330411,
+          "y": 38.064972
         },
         {
-          "x": 46.384362,
-          "y": 38.025232
+          "x": 46.332823,
+          "y": 38.063486
         },
         {
-          "x": 46.38408,
-          "y": 38.02502
+          "x": 46.333633,
+          "y": 38.063144
         },
         {
-          "x": 46.382645,
-          "y": 38.023939
+          "x": 46.334646,
+          "y": 38.062862
         },
         {
-          "x": 46.380081,
-          "y": 38.021944
+          "x": 46.335105,
+          "y": 38.062738
         },
         {
-          "x": 46.379383,
-          "y": 38.021496
+          "x": 46.335439,
+          "y": 38.062649
         },
         {
-          "x": 46.378718,
-          "y": 38.021133
+          "x": 46.335978,
+          "y": 38.062515
         },
         {
-          "x": 46.378117,
-          "y": 38.020905
+          "x": 46.341128,
+          "y": 38.061374
         },
         {
-          "x": 46.375446,
-          "y": 38.020102
+          "x": 46.341643,
+          "y": 38.061183
         },
         {
-          "x": 46.372901,
-          "y": 38.018879
+          "x": 46.342134,
+          "y": 38.060977
+        },
+        {
+          "x": 46.342637,
+          "y": 38.060721
+        },
+        {
+          "x": 46.343086,
+          "y": 38.060449
+        },
+        {
+          "x": 46.343929,
+          "y": 38.059788
+        },
+        {
+          "x": 46.345053,
+          "y": 38.058788
+        },
+        {
+          "x": 46.345314,
+          "y": 38.058505
+        },
+        {
+          "x": 46.345399,
+          "y": 38.058408
         }
       ],
       "segments": [
         {
-          "fromNode": 268458577,
-          "ID": 335856915,
-          "toNode": 268458578,
+          "fromNode": 188157848,
+          "ID": 339912473,
+          "toNode": 271001463,
           "isForward": false
         },
         {
-          "fromNode": 268458578,
-          "ID": 335856914,
-          "toNode": 220288299,
+          "fromNode": 271001463,
+          "ID": 359530977,
+          "toNode": 283484967,
+          "isForward": false
+        },
+        {
+          "fromNode": 283484967,
+          "ID": 359530976,
+          "toNode": 272029401,
+          "isForward": false
+        },
+        {
+          "fromNode": 272029401,
+          "ID": 341540157,
+          "toNode": 271001181,
+          "isForward": false
+        },
+        {
+          "fromNode": 271001181,
+          "ID": 376745036,
+          "toNode": 294542943,
+          "isForward": false
+        },
+        {
+          "fromNode": 294542943,
+          "ID": 376745035,
+          "toNode": 188158573,
           "isForward": false
         }
       ],
       "causeAlert": null,
-      "locationY": 38.025528,
-      "locationX": 46.384784,
-      "updateMillis": 1786640613166,
+      "locationY": 38.064972,
+      "locationX": 46.330411,
+      "updateMillis": 1786641100319,
       "blockUpdate": null
     },
     {
-      "id": 1786570320,
-      "street": "Azadi Blvd - بلوار آزادی",
+      "id": 1790870480,
+      "street": "Shariati - شریعتی",
       "city": "تبریز",
       "country": null,
       "level": 3,
-      "length": 1655,
-      "speed": 5.488888888888889,
+      "length": 390,
+      "speed": 2.2111111111111112,
       "endNode": "",
       "line": [
         {
-          "x": 46.276581,
-          "y": 38.05866
+          "x": 46.358778,
+          "y": 38.060341
         },
         {
-          "x": 46.277442,
-          "y": 38.058512
+          "x": 46.358731,
+          "y": 38.059698
         },
         {
-          "x": 46.27943,
-          "y": 38.05828
+          "x": 46.35867,
+          "y": 38.058943
         },
         {
-          "x": 46.280393,
-          "y": 38.058185
+          "x": 46.358609,
+          "y": 38.058166
         },
         {
-          "x": 46.281046,
-          "y": 38.058146
-        },
-        {
-          "x": 46.283913,
-          "y": 38.057862
-        },
-        {
-          "x": 46.284214,
-          "y": 38.0578
-        },
-        {
-          "x": 46.285437,
+          "x": 46.358533,
           "y": 38.057421
         },
         {
-          "x": 46.28595,
-          "y": 38.057279
-        },
-        {
-          "x": 46.286264,
-          "y": 38.057228
-        },
-        {
-          "x": 46.286628,
-          "y": 38.05717
-        },
-        {
-          "x": 46.287001,
-          "y": 38.057156
-        },
-        {
-          "x": 46.293037,
-          "y": 38.05704
-        },
-        {
-          "x": 46.29378,
-          "y": 38.05701
-        },
-        {
-          "x": 46.294297,
-          "y": 38.05699
-        },
-        {
-          "x": 46.295247,
-          "y": 38.056947
+          "x": 46.35847,
+          "y": 38.056825
         }
       ],
       "segments": [
         {
-          "fromNode": 223288759,
-          "ID": 267447761,
-          "toNode": 222586465,
+          "fromNode": 315648776,
+          "ID": 212022175,
+          "toNode": 188153692,
+          "isForward": false
+        },
+        {
+          "fromNode": 188153692,
+          "ID": 342406884,
+          "toNode": 262351646,
+          "isForward": false
+        },
+        {
+          "fromNode": 262351646,
+          "ID": 212010718,
+          "toNode": 188148581,
+          "isForward": false
+        },
+        {
+          "fromNode": 188148581,
+          "ID": 212015360,
+          "toNode": 188150763,
+          "isForward": false
+        },
+        {
+          "fromNode": 188150763,
+          "ID": 212015359,
+          "toNode": 272555128,
+          "isForward": false
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 38.060341,
+      "locationX": 46.358778,
+      "updateMillis": 1786641099572,
+      "blockUpdate": null
+    },
+    {
+      "id": 1789469750,
+      "street": "21 local lane - کنارگذر",
+      "city": "تبریز",
+      "country": null,
+      "level": 3,
+      "length": 850,
+      "speed": 5.480555555555555,
+      "endNode": "21",
+      "line": [
+        {
+          "x": 46.182729,
+          "y": 38.045046
+        },
+        {
+          "x": 46.18099,
+          "y": 38.044556
+        },
+        {
+          "x": 46.175695,
+          "y": 38.043059
+        },
+        {
+          "x": 46.174054,
+          "y": 38.04256
+        },
+        {
+          "x": 46.173681,
+          "y": 38.042359
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 285551026,
+          "ID": 362741255,
+          "toNode": 285551089,
           "isForward": true
         },
         {
-          "fromNode": 222586465,
-          "ID": 266332217,
-          "toNode": 222586462,
+          "fromNode": 285551089,
+          "ID": 362741256,
+          "toNode": 273718918,
           "isForward": true
         },
         {
-          "fromNode": 222586462,
-          "ID": 266332840,
-          "toNode": 222586827,
-          "isForward": true
-        },
-        {
-          "fromNode": 222586827,
-          "ID": 267447155,
-          "toNode": 223288425,
-          "isForward": true
-        },
-        {
-          "fromNode": 223288425,
-          "ID": 267447156,
-          "toNode": 223288160,
-          "isForward": true
-        },
-        {
-          "fromNode": 223288160,
-          "ID": 362910266,
-          "toNode": 285658771,
-          "isForward": true
-        },
-        {
-          "fromNode": 285658771,
-          "ID": 365037908,
-          "toNode": 287025527,
-          "isForward": true
-        },
-        {
-          "fromNode": 287025527,
-          "ID": 365037909,
-          "toNode": 223288007,
-          "isForward": true
-        },
-        {
-          "fromNode": 223288007,
-          "ID": 342970296,
-          "toNode": 223287955,
-          "isForward": true
-        },
-        {
-          "fromNode": 223287955,
-          "ID": 267446366,
-          "toNode": 223064113,
-          "isForward": true
-        },
-        {
-          "fromNode": 223064113,
-          "ID": 347355301,
-          "toNode": 275691971,
-          "isForward": true
-        },
-        {
-          "fromNode": 275691971,
-          "ID": 420940497,
-          "toNode": 323537898,
+          "fromNode": 273718918,
+          "ID": 344216733,
+          "toNode": 273754195,
           "isForward": true
         }
       ],
       "causeAlert": null,
-      "locationY": 38.05866,
-      "locationX": 46.276581,
-      "updateMillis": 1786640612484,
+      "locationY": 38.045046,
+      "locationX": 46.182729,
+      "updateMillis": 1786641099521,
       "blockUpdate": null
     },
     {
@@ -1166,7 +889,7 @@
       "country": null,
       "level": 4,
       "length": 407,
-      "speed": 1.9916666666666667,
+      "speed": 1.975,
       "endNode": "Bakeri Blvd - بلوار باکری",
       "line": [
         {
@@ -1249,117 +972,76 @@
       "causeAlert": null,
       "locationY": 38.049644,
       "locationX": 46.350458,
-      "updateMillis": 1786640612028,
+      "updateMillis": 1786641099428,
       "blockUpdate": null
     },
     {
-      "id": 1790870480,
-      "street": "Shariati - شریعتی",
+      "id": 1791248332,
+      "street": "21",
       "city": "تبریز",
       "country": null,
       "level": 3,
-      "length": 324,
-      "speed": 2.558333333333333,
-      "endNode": "Homaun - همایون",
+      "length": 725,
+      "speed": 5.763888888888889,
+      "endNode": "تبریز",
       "line": [
         {
-          "x": 46.358778,
-          "y": 38.060341
+          "x": 46.182431,
+          "y": 38.166673
         },
         {
-          "x": 46.358731,
-          "y": 38.059698
+          "x": 46.182782,
+          "y": 38.166478
         },
         {
-          "x": 46.35867,
-          "y": 38.058943
+          "x": 46.183281,
+          "y": 38.16617
         },
         {
-          "x": 46.358609,
-          "y": 38.058166
+          "x": 46.184371,
+          "y": 38.165399
         },
         {
-          "x": 46.358533,
-          "y": 38.057421
+          "x": 46.184998,
+          "y": 38.164956
+        },
+        {
+          "x": 46.186458,
+          "y": 38.16408
+        },
+        {
+          "x": 46.18798,
+          "y": 38.163167
+        },
+        {
+          "x": 46.188851,
+          "y": 38.162561
         }
       ],
       "segments": [
         {
-          "fromNode": 315648776,
-          "ID": 212022175,
-          "toNode": 188153692,
+          "fromNode": 207353651,
+          "ID": 390349635,
+          "toNode": 303371399,
           "isForward": false
         },
         {
-          "fromNode": 188153692,
-          "ID": 342406884,
-          "toNode": 262351646,
+          "fromNode": 303371399,
+          "ID": 390349634,
+          "toNode": 282410556,
           "isForward": false
         },
         {
-          "fromNode": 262351646,
-          "ID": 212010718,
-          "toNode": 188148581,
-          "isForward": false
-        },
-        {
-          "fromNode": 188148581,
-          "ID": 212015360,
-          "toNode": 188150763,
+          "fromNode": 282410556,
+          "ID": 395100580,
+          "toNode": 280123689,
           "isForward": false
         }
       ],
       "causeAlert": null,
-      "locationY": 38.060341,
-      "locationX": 46.358778,
-      "updateMillis": 1786640611999,
-      "blockUpdate": null
-    },
-    {
-      "id": 1789469750,
-      "street": "21 local lane - کنارگذر",
-      "city": "تبریز",
-      "country": null,
-      "level": 4,
-      "length": 688,
-      "speed": 2.4694444444444446,
-      "endNode": "21",
-      "line": [
-        {
-          "x": 46.18099,
-          "y": 38.044556
-        },
-        {
-          "x": 46.175695,
-          "y": 38.043059
-        },
-        {
-          "x": 46.174054,
-          "y": 38.04256
-        },
-        {
-          "x": 46.173681,
-          "y": 38.042359
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 285551089,
-          "ID": 362741256,
-          "toNode": 273718918,
-          "isForward": true
-        },
-        {
-          "fromNode": 273718918,
-          "ID": 344216733,
-          "toNode": 273754195,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 38.044556,
-      "locationX": 46.18099,
-      "updateMillis": 1786640611934,
+      "locationY": 38.166673,
+      "locationX": 46.182431,
+      "updateMillis": 1786641099424,
       "blockUpdate": null
     },
     {
@@ -1438,19 +1120,39 @@
       },
       "locationY": 38.04783,
       "locationX": 46.267145,
-      "updateMillis": 1786640611891,
+      "updateMillis": 1786641099377,
       "blockUpdate": 1759287390887
     },
     {
-      "id": 1790130632,
+      "id": 1792002858,
       "street": "Valiasr Blvd - بلوار ولیعصر",
       "city": "تبریز",
       "country": null,
       "level": 3,
-      "length": 703,
-      "speed": 1.863888888888889,
+      "length": 1060,
+      "speed": 2.161111111111111,
       "endNode": "Shariati - شریعتی",
       "line": [
+        {
+          "x": 46.345979,
+          "y": 38.058702
+        },
+        {
+          "x": 46.346555,
+          "y": 38.058974
+        },
+        {
+          "x": 46.347515,
+          "y": 38.059281
+        },
+        {
+          "x": 46.34826,
+          "y": 38.059393
+        },
+        {
+          "x": 46.348955,
+          "y": 38.059433
+        },
         {
           "x": 46.349863,
           "y": 38.059446
@@ -1510,6 +1212,18 @@
       ],
       "segments": [
         {
+          "fromNode": 272557349,
+          "ID": 342407678,
+          "toNode": 221535513,
+          "isForward": false
+        },
+        {
+          "fromNode": 221535513,
+          "ID": 342407424,
+          "toNode": 270447964,
+          "isForward": false
+        },
+        {
           "fromNode": 270447964,
           "ID": 339031078,
           "toNode": 216993258,
@@ -1559,9 +1273,1065 @@
         }
       ],
       "causeAlert": null,
-      "locationY": 38.059446,
-      "locationX": 46.349863,
-      "updateMillis": 1786640611871,
+      "locationY": 38.058702,
+      "locationX": 46.345979,
+      "updateMillis": 1786641099336,
+      "blockUpdate": null
+    },
+    {
+      "id": 1791386094,
+      "street": "",
+      "city": "Chavān - چوان",
+      "country": null,
+      "level": 1,
+      "length": 961,
+      "speed": 7.377777777777778,
+      "endNode": "Chavān - چوان",
+      "line": [
+        {
+          "x": 46.378025,
+          "y": 37.991511
+        },
+        {
+          "x": 46.378554,
+          "y": 37.991486
+        },
+        {
+          "x": 46.378532,
+          "y": 37.991841
+        },
+        {
+          "x": 46.378672,
+          "y": 37.991925
+        },
+        {
+          "x": 46.379605,
+          "y": 37.9919
+        },
+        {
+          "x": 46.380839,
+          "y": 37.992061
+        },
+        {
+          "x": 46.382448,
+          "y": 37.992644
+        },
+        {
+          "x": 46.382792,
+          "y": 37.992314
+        },
+        {
+          "x": 46.383167,
+          "y": 37.992077
+        },
+        {
+          "x": 46.383682,
+          "y": 37.991934
+        },
+        {
+          "x": 46.383864,
+          "y": 37.991773
+        },
+        {
+          "x": 46.383854,
+          "y": 37.991435
+        },
+        {
+          "x": 46.384015,
+          "y": 37.991367
+        },
+        {
+          "x": 46.384143,
+          "y": 37.991629
+        },
+        {
+          "x": 46.385249,
+          "y": 37.992466
+        },
+        {
+          "x": 46.385817,
+          "y": 37.993117
+        },
+        {
+          "x": 46.386303,
+          "y": 37.993054
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 313127655,
+          "ID": 404855923,
+          "toNode": 313127660,
+          "isForward": true
+        },
+        {
+          "fromNode": 313127660,
+          "ID": 404855924,
+          "toNode": 313127653,
+          "isForward": true
+        },
+        {
+          "fromNode": 313127653,
+          "ID": 419814852,
+          "toNode": 322794645,
+          "isForward": true
+        },
+        {
+          "fromNode": 322794645,
+          "ID": 419814853,
+          "toNode": 283297369,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 37.991511,
+      "locationX": 46.378025,
+      "updateMillis": 1786641099233,
+      "blockUpdate": null
+    },
+    {
+      "id": 1792085514,
+      "street": "Azadi Blvd - بلوار آزادی",
+      "city": "تبریز",
+      "country": null,
+      "level": 1,
+      "length": 1190,
+      "speed": 8.705555555555556,
+      "line": [
+        {
+          "x": 46.265966,
+          "y": 38.058353
+        },
+        {
+          "x": 46.266309,
+          "y": 38.058382
+        },
+        {
+          "x": 46.268199,
+          "y": 38.058551
+        },
+        {
+          "x": 46.27341,
+          "y": 38.058975
+        },
+        {
+          "x": 46.274239,
+          "y": 38.058933
+        },
+        {
+          "x": 46.276581,
+          "y": 38.05866
+        },
+        {
+          "x": 46.277442,
+          "y": 38.058512
+        },
+        {
+          "x": 46.27943,
+          "y": 38.05828
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 276456007,
+          "ID": 348573957,
+          "toNode": 222588618,
+          "isForward": true
+        },
+        {
+          "fromNode": 222588618,
+          "ID": 346112069,
+          "toNode": 223288821,
+          "isForward": true
+        },
+        {
+          "fromNode": 223288821,
+          "ID": 267734915,
+          "toNode": 223288759,
+          "isForward": false
+        },
+        {
+          "fromNode": 223288759,
+          "ID": 267447761,
+          "toNode": 222586465,
+          "isForward": true
+        },
+        {
+          "fromNode": 222586465,
+          "ID": 266332217,
+          "toNode": 222586462,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 38.058353,
+      "locationX": 46.265966,
+      "updateMillis": 1786641099171,
+      "blockUpdate": null
+    },
+    {
+      "id": 1767841454,
+      "street": "Moqavemat Blvd - بلوار مقاومت",
+      "city": "تبریز",
+      "country": "IR",
+      "level": 5,
+      "length": 579,
+      "speed": 0,
+      "endNode": "",
+      "line": [
+        {
+          "x": 46.273856,
+          "y": 38.048345
+        },
+        {
+          "x": 46.279087,
+          "y": 38.048416
+        },
+        {
+          "x": 46.27972,
+          "y": 38.048376
+        },
+        {
+          "x": 46.280445,
+          "y": 38.048281
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 271790880,
+          "ID": 341157719,
+          "toNode": 271791193,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": true,
+        "city": "تبریز",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 7,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 271790880,
+        "uuid": "a3af3621-5342-4623-8f4c-848e1910c795",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 7,
+        "magvar": 89,
+        "subtype": "",
+        "street": "Moqavemat Blvd - بلوار مقاومت",
+        "additionalInfo": "",
+        "wazeData": "world,46.27385633806447,38.04834557228137,a3af3621-5342-4623-8f4c-848e1910c795",
+        "toNodeId": 271791193,
+        "reportDescription": "",
+        "location": {
+          "x": 46.273856,
+          "y": 38.048345
+        },
+        "id": "alert-88960421/a3af3621-5342-4623-8f4c-848e1910c795",
+        "pubMillis": 1769396844000
+      },
+      "locationY": 38.048345,
+      "locationX": 46.273856,
+      "updateMillis": 1786641098823,
+      "blockUpdate": 1769396844132
+    },
+    {
+      "id": 1786570320,
+      "street": "Azadi Blvd - بلوار آزادی",
+      "city": "تبریز",
+      "country": null,
+      "level": 2,
+      "length": 1260,
+      "speed": 6.747222222222222,
+      "endNode": "",
+      "line": [
+        {
+          "x": 46.281046,
+          "y": 38.058146
+        },
+        {
+          "x": 46.283913,
+          "y": 38.057862
+        },
+        {
+          "x": 46.284214,
+          "y": 38.0578
+        },
+        {
+          "x": 46.285437,
+          "y": 38.057421
+        },
+        {
+          "x": 46.28595,
+          "y": 38.057279
+        },
+        {
+          "x": 46.286264,
+          "y": 38.057228
+        },
+        {
+          "x": 46.286628,
+          "y": 38.05717
+        },
+        {
+          "x": 46.287001,
+          "y": 38.057156
+        },
+        {
+          "x": 46.293037,
+          "y": 38.05704
+        },
+        {
+          "x": 46.29378,
+          "y": 38.05701
+        },
+        {
+          "x": 46.294297,
+          "y": 38.05699
+        },
+        {
+          "x": 46.295247,
+          "y": 38.056947
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 223288425,
+          "ID": 267447156,
+          "toNode": 223288160,
+          "isForward": true
+        },
+        {
+          "fromNode": 223288160,
+          "ID": 362910266,
+          "toNode": 285658771,
+          "isForward": true
+        },
+        {
+          "fromNode": 285658771,
+          "ID": 365037908,
+          "toNode": 287025527,
+          "isForward": true
+        },
+        {
+          "fromNode": 287025527,
+          "ID": 365037909,
+          "toNode": 223288007,
+          "isForward": true
+        },
+        {
+          "fromNode": 223288007,
+          "ID": 342970296,
+          "toNode": 223287955,
+          "isForward": true
+        },
+        {
+          "fromNode": 223287955,
+          "ID": 267446366,
+          "toNode": 223064113,
+          "isForward": true
+        },
+        {
+          "fromNode": 223064113,
+          "ID": 347355301,
+          "toNode": 275691971,
+          "isForward": true
+        },
+        {
+          "fromNode": 275691971,
+          "ID": 420940497,
+          "toNode": 323537898,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 38.058146,
+      "locationX": 46.281046,
+      "updateMillis": 1786641098778,
+      "blockUpdate": null
+    },
+    {
+      "id": 1792050360,
+      "street": "Azadi local lane - کنارگذر آزادی",
+      "city": "تبریز",
+      "country": null,
+      "level": 3,
+      "length": 518,
+      "speed": 2.5805555555555557,
+      "endNode": "Azadi Blvd - بلوار آزادی",
+      "line": [
+        {
+          "x": 46.254068,
+          "y": 38.073818
+        },
+        {
+          "x": 46.254115,
+          "y": 38.073545
+        },
+        {
+          "x": 46.254261,
+          "y": 38.073211
+        },
+        {
+          "x": 46.254368,
+          "y": 38.072974
+        },
+        {
+          "x": 46.254543,
+          "y": 38.072561
+        },
+        {
+          "x": 46.254772,
+          "y": 38.072014
+        },
+        {
+          "x": 46.255673,
+          "y": 38.069988
+        },
+        {
+          "x": 46.256115,
+          "y": 38.069466
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 251597059,
+          "ID": 344230128,
+          "toNode": 273727788,
+          "isForward": true
+        },
+        {
+          "fromNode": 273727788,
+          "ID": 344230129,
+          "toNode": 226328359,
+          "isForward": true
+        },
+        {
+          "fromNode": 226328359,
+          "ID": 270598835,
+          "toNode": 226328362,
+          "isForward": true
+        },
+        {
+          "fromNode": 226328362,
+          "ID": 422050455,
+          "toNode": 282348260,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 38.073818,
+      "locationX": 46.254068,
+      "updateMillis": 1786641098771,
+      "blockUpdate": null
+    },
+    {
+      "id": 1791271588,
+      "street": "Azarbaijan Blvd - بلوار آذربایجان",
+      "city": "تبریز",
+      "country": null,
+      "level": 4,
+      "length": 1027,
+      "speed": 3.1555555555555554,
+      "endNode": "Azarbaijan local lane - کنارگذر آذربایجان",
+      "line": [
+        {
+          "x": 46.263659,
+          "y": 38.098275
+        },
+        {
+          "x": 46.263527,
+          "y": 38.098016
+        },
+        {
+          "x": 46.263288,
+          "y": 38.097554
+        },
+        {
+          "x": 46.263106,
+          "y": 38.097248
+        },
+        {
+          "x": 46.263062,
+          "y": 38.096994
+        },
+        {
+          "x": 46.260217,
+          "y": 38.092394
+        },
+        {
+          "x": 46.259907,
+          "y": 38.092054
+        },
+        {
+          "x": 46.2598,
+          "y": 38.091857
+        },
+        {
+          "x": 46.259601,
+          "y": 38.091537
+        },
+        {
+          "x": 46.259424,
+          "y": 38.091234
+        },
+        {
+          "x": 46.259216,
+          "y": 38.090895
+        },
+        {
+          "x": 46.258803,
+          "y": 38.090176
+        },
+        {
+          "x": 46.258746,
+          "y": 38.089912
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 223186079,
+          "ID": 420458485,
+          "toNode": 323218222,
+          "isForward": true
+        },
+        {
+          "fromNode": 323218222,
+          "ID": 420458486,
+          "toNode": 223186084,
+          "isForward": true
+        },
+        {
+          "fromNode": 223186084,
+          "ID": 337727951,
+          "toNode": 223186090,
+          "isForward": true
+        },
+        {
+          "fromNode": 223186090,
+          "ID": 337723622,
+          "toNode": 222498546,
+          "isForward": true
+        },
+        {
+          "fromNode": 222498546,
+          "ID": 337725674,
+          "toNode": 222498581,
+          "isForward": true
+        },
+        {
+          "fromNode": 222498581,
+          "ID": 267285710,
+          "toNode": 223187274,
+          "isForward": true
+        },
+        {
+          "fromNode": 223187274,
+          "ID": 267285711,
+          "toNode": 223187271,
+          "isForward": true
+        },
+        {
+          "fromNode": 223187271,
+          "ID": 267285705,
+          "toNode": 223187268,
+          "isForward": true
+        },
+        {
+          "fromNode": 223187268,
+          "ID": 267285696,
+          "toNode": 222498582,
+          "isForward": true
+        },
+        {
+          "fromNode": 222498582,
+          "ID": 266187684,
+          "toNode": 221990779,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 38.098275,
+      "locationX": 46.263659,
+      "updateMillis": 1786641098606,
+      "blockUpdate": null
+    },
+    {
+      "id": 1790265058,
+      "street": "32 local lane - کنارگذر",
+      "city": "تبریز",
+      "country": null,
+      "level": 3,
+      "length": 567,
+      "speed": 2.0527777777777776,
+      "endNode": "",
+      "line": [
+        {
+          "x": 46.43984,
+          "y": 38.030537
+        },
+        {
+          "x": 46.439459,
+          "y": 38.030655
+        },
+        {
+          "x": 46.438413,
+          "y": 38.031013
+        },
+        {
+          "x": 46.436179,
+          "y": 38.03177
+        },
+        {
+          "x": 46.434671,
+          "y": 38.032197
+        },
+        {
+          "x": 46.433818,
+          "y": 38.032368
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 292441865,
+          "ID": 373452162,
+          "toNode": 292441873,
+          "isForward": false
+        },
+        {
+          "fromNode": 292441873,
+          "ID": 430859535,
+          "toNode": 274863452,
+          "isForward": false
+        },
+        {
+          "fromNode": 274863452,
+          "ID": 430859532,
+          "toNode": 330108233,
+          "isForward": false
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 38.030537,
+      "locationX": 46.43984,
+      "updateMillis": 1786641098430,
+      "blockUpdate": null
+    },
+    {
+      "id": 1790265004,
+      "street": "32",
+      "city": "تبریز",
+      "country": null,
+      "level": 2,
+      "length": 5197,
+      "speed": 9.697222222222223,
+      "endNode": "تبریز",
+      "line": [
+        {
+          "x": 46.446491,
+          "y": 38.029095
+        },
+        {
+          "x": 46.444153,
+          "y": 38.029401
+        },
+        {
+          "x": 46.442657,
+          "y": 38.02965
+        },
+        {
+          "x": 46.441056,
+          "y": 38.030041
+        },
+        {
+          "x": 46.440224,
+          "y": 38.030275
+        },
+        {
+          "x": 46.438295,
+          "y": 38.030948
+        },
+        {
+          "x": 46.436876,
+          "y": 38.031404
+        },
+        {
+          "x": 46.43546,
+          "y": 38.031841
+        },
+        {
+          "x": 46.434048,
+          "y": 38.032193
+        },
+        {
+          "x": 46.432988,
+          "y": 38.032421
+        },
+        {
+          "x": 46.431884,
+          "y": 38.03259
+        },
+        {
+          "x": 46.430608,
+          "y": 38.032739
+        },
+        {
+          "x": 46.429542,
+          "y": 38.032799
+        },
+        {
+          "x": 46.428371,
+          "y": 38.032863
+        },
+        {
+          "x": 46.427419,
+          "y": 38.03287
+        },
+        {
+          "x": 46.426564,
+          "y": 38.032848
+        },
+        {
+          "x": 46.425157,
+          "y": 38.032746
+        },
+        {
+          "x": 46.424107,
+          "y": 38.032622
+        },
+        {
+          "x": 46.422642,
+          "y": 38.032401
+        },
+        {
+          "x": 46.420003,
+          "y": 38.031972
+        },
+        {
+          "x": 46.418986,
+          "y": 38.031845
+        },
+        {
+          "x": 46.417683,
+          "y": 38.031729
+        },
+        {
+          "x": 46.416816,
+          "y": 38.031695
+        },
+        {
+          "x": 46.415628,
+          "y": 38.031678
+        },
+        {
+          "x": 46.414815,
+          "y": 38.031693
+        },
+        {
+          "x": 46.413748,
+          "y": 38.031754
+        },
+        {
+          "x": 46.412498,
+          "y": 38.031881
+        },
+        {
+          "x": 46.410739,
+          "y": 38.032156
+        },
+        {
+          "x": 46.407305,
+          "y": 38.032775
+        },
+        {
+          "x": 46.406624,
+          "y": 38.032861
+        },
+        {
+          "x": 46.405782,
+          "y": 38.032933
+        },
+        {
+          "x": 46.40495,
+          "y": 38.032971
+        },
+        {
+          "x": 46.404709,
+          "y": 38.03297
+        },
+        {
+          "x": 46.402799,
+          "y": 38.032954
+        },
+        {
+          "x": 46.401945,
+          "y": 38.032906
+        },
+        {
+          "x": 46.398534,
+          "y": 38.03251
+        },
+        {
+          "x": 46.397928,
+          "y": 38.03251
+        },
+        {
+          "x": 46.397124,
+          "y": 38.032565
+        },
+        {
+          "x": 46.396625,
+          "y": 38.03265
+        },
+        {
+          "x": 46.396142,
+          "y": 38.03276
+        },
+        {
+          "x": 46.395549,
+          "y": 38.032929
+        },
+        {
+          "x": 46.394067,
+          "y": 38.033466
+        },
+        {
+          "x": 46.39328,
+          "y": 38.033715
+        },
+        {
+          "x": 46.392218,
+          "y": 38.034171
+        },
+        {
+          "x": 46.389951,
+          "y": 38.035255
+        },
+        {
+          "x": 46.389257,
+          "y": 38.035555
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 309037907,
+          "ID": 478735699,
+          "toNode": 328117360,
+          "isForward": false
+        },
+        {
+          "fromNode": 328117360,
+          "ID": 430859536,
+          "toNode": 330108234,
+          "isForward": false
+        },
+        {
+          "fromNode": 330108234,
+          "ID": 430859533,
+          "toNode": 304352803,
+          "isForward": false
+        },
+        {
+          "fromNode": 304352803,
+          "ID": 391864972,
+          "toNode": 274247408,
+          "isForward": false
+        },
+        {
+          "fromNode": 274247408,
+          "ID": 415915656,
+          "toNode": 274249742,
+          "isForward": false
+        },
+        {
+          "fromNode": 274249742,
+          "ID": 345064896,
+          "toNode": 257082037,
+          "isForward": false
+        },
+        {
+          "fromNode": 257082037,
+          "ID": 317583581,
+          "toNode": 220248086,
+          "isForward": false
+        },
+        {
+          "fromNode": 220248086,
+          "ID": 262646874,
+          "toNode": 220247769,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 38.029095,
+      "locationX": 46.446491,
+      "updateMillis": 1786641098257,
+      "blockUpdate": null
+    },
+    {
+      "id": 1789107176,
+      "street": "32, Pasdaran Hwy",
+      "city": "تبریز",
+      "country": null,
+      "level": 2,
+      "length": 1390,
+      "speed": 9.66388888888889,
+      "endNode": "",
+      "line": [
+        {
+          "x": 46.36423,
+          "y": 38.075402
+        },
+        {
+          "x": 46.36568,
+          "y": 38.075026
+        },
+        {
+          "x": 46.366571,
+          "y": 38.074739
+        },
+        {
+          "x": 46.36763,
+          "y": 38.074314
+        },
+        {
+          "x": 46.37029,
+          "y": 38.073229
+        },
+        {
+          "x": 46.371525,
+          "y": 38.07273
+        },
+        {
+          "x": 46.37542,
+          "y": 38.071052
+        },
+        {
+          "x": 46.377539,
+          "y": 38.070158
+        },
+        {
+          "x": 46.378327,
+          "y": 38.069753
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 220245811,
+          "ID": 266605104,
+          "toNode": 222758009,
+          "isForward": true
+        },
+        {
+          "fromNode": 222758009,
+          "ID": 266605105,
+          "toNode": 222757985,
+          "isForward": true
+        },
+        {
+          "fromNode": 222757985,
+          "ID": 266605065,
+          "toNode": 222757831,
+          "isForward": true
+        },
+        {
+          "fromNode": 222757831,
+          "ID": 381796261,
+          "toNode": 222757823,
+          "isForward": true
+        },
+        {
+          "fromNode": 222757823,
+          "ID": 380427433,
+          "toNode": 296919564,
+          "isForward": true
+        },
+        {
+          "fromNode": 296919564,
+          "ID": 380427435,
+          "toNode": 222757853,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 38.075402,
+      "locationX": 46.36423,
+      "updateMillis": 1786641098209,
+      "blockUpdate": null
+    },
+    {
+      "id": 1790602720,
+      "street": "Atar Neyshaburi - عطار نیشابوری",
+      "city": "تبریز",
+      "country": null,
+      "level": 2,
+      "length": 635,
+      "speed": 3.7694444444444444,
+      "endNode": "",
+      "line": [
+        {
+          "x": 46.315775,
+          "y": 38.0454
+        },
+        {
+          "x": 46.31846,
+          "y": 38.045728
+        },
+        {
+          "x": 46.318824,
+          "y": 38.045721
+        },
+        {
+          "x": 46.319205,
+          "y": 38.045803
+        },
+        {
+          "x": 46.319486,
+          "y": 38.045955
+        },
+        {
+          "x": 46.32015,
+          "y": 38.04667
+        },
+        {
+          "x": 46.320519,
+          "y": 38.047187
+        },
+        {
+          "x": 46.320822,
+          "y": 38.047774
+        },
+        {
+          "x": 46.320995,
+          "y": 38.048346
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 223475195,
+          "ID": 270600176,
+          "toNode": 226329169,
+          "isForward": true
+        },
+        {
+          "fromNode": 226329169,
+          "ID": 339226373,
+          "toNode": 265044111,
+          "isForward": true
+        },
+        {
+          "fromNode": 265044111,
+          "ID": 339226374,
+          "toNode": 275623327,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 38.0454,
+      "locationX": 46.315775,
+      "updateMillis": 1786641001211,
       "blockUpdate": null
     },
     {
@@ -1570,8 +2340,8 @@
       "city": "سردرود",
       "country": null,
       "level": 1,
-      "length": 5909,
-      "speed": 15.658333333333333,
+      "length": 6465,
+      "speed": 15.761111111111111,
       "endNode": "سردرود",
       "line": [
         {
@@ -1749,6 +2519,18 @@
         {
           "x": 46.158083,
           "y": 38.042738
+        },
+        {
+          "x": 46.160511,
+          "y": 38.042374
+        },
+        {
+          "x": 46.16221,
+          "y": 38.042117
+        },
+        {
+          "x": 46.164269,
+          "y": 38.041702
         }
       ],
       "segments": [
@@ -1955,1111 +2737,36 @@
           "ID": 349610345,
           "toNode": 222896882,
           "isForward": true
+        },
+        {
+          "fromNode": 222896882,
+          "ID": 266829365,
+          "toNode": 222896870,
+          "isForward": true
+        },
+        {
+          "fromNode": 222896870,
+          "ID": 266829349,
+          "toNode": 207356542,
+          "isForward": true
+        },
+        {
+          "fromNode": 207356542,
+          "ID": 242425846,
+          "toNode": 207356857,
+          "isForward": true
         }
       ],
       "causeAlert": null,
       "locationY": 38.008098,
       "locationX": 46.110213,
-      "updateMillis": 1786640611832,
-      "blockUpdate": null
-    },
-    {
-      "id": 1790548302,
-      "street": "Bakeri Blvd - بلوار باکری",
-      "city": "تبریز",
-      "country": null,
-      "level": 4,
-      "length": 235,
-      "speed": 1.363888888888889,
-      "endNode": "Sina Blvd - بلوار سینا",
-      "line": [
-        {
-          "x": 46.353466,
-          "y": 38.044225
-        },
-        {
-          "x": 46.352686,
-          "y": 38.045751
-        },
-        {
-          "x": 46.352599,
-          "y": 38.04592
-        },
-        {
-          "x": 46.352464,
-          "y": 38.046197
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 281360222,
-          "ID": 403592825,
-          "toNode": 312262218,
-          "isForward": true
-        },
-        {
-          "fromNode": 312262218,
-          "ID": 403592826,
-          "toNode": 272032067,
-          "isForward": true
-        },
-        {
-          "fromNode": 272032067,
-          "ID": 356257940,
-          "toNode": 264837394,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 38.044225,
-      "locationX": 46.353466,
-      "updateMillis": 1786640611603,
-      "blockUpdate": null
-    },
-    {
-      "id": 1767841454,
-      "street": "Moqavemat Blvd - بلوار مقاومت",
-      "city": "تبریز",
-      "country": "IR",
-      "level": 5,
-      "length": 579,
-      "speed": 0,
-      "endNode": "",
-      "line": [
-        {
-          "x": 46.273856,
-          "y": 38.048345
-        },
-        {
-          "x": 46.279087,
-          "y": 38.048416
-        },
-        {
-          "x": 46.27972,
-          "y": 38.048376
-        },
-        {
-          "x": 46.280445,
-          "y": 38.048281
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 271790880,
-          "ID": 341157719,
-          "toNode": 271791193,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": true,
-        "city": "تبریز",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 0,
-        "reliability": 7,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 271790880,
-        "uuid": "a3af3621-5342-4623-8f4c-848e1910c795",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 7,
-        "magvar": 89,
-        "subtype": "",
-        "street": "Moqavemat Blvd - بلوار مقاومت",
-        "additionalInfo": "",
-        "wazeData": "world,46.27385633806447,38.04834557228137,a3af3621-5342-4623-8f4c-848e1910c795",
-        "toNodeId": 271791193,
-        "reportDescription": "",
-        "location": {
-          "x": 46.273856,
-          "y": 38.048345
-        },
-        "id": "alert-88960421/a3af3621-5342-4623-8f4c-848e1910c795",
-        "pubMillis": 1769396844000
-      },
-      "locationY": 38.048345,
-      "locationX": 46.273856,
-      "updateMillis": 1786640611538,
-      "blockUpdate": 1769396844132
-    },
-    {
-      "id": 1790602720,
-      "street": "Atar Neyshaburi - عطار نیشابوری",
-      "city": "تبریز",
-      "country": null,
-      "level": 2,
-      "length": 635,
-      "speed": 4.863888888888889,
-      "endNode": "",
-      "line": [
-        {
-          "x": 46.315775,
-          "y": 38.0454
-        },
-        {
-          "x": 46.31846,
-          "y": 38.045728
-        },
-        {
-          "x": 46.318824,
-          "y": 38.045721
-        },
-        {
-          "x": 46.319205,
-          "y": 38.045803
-        },
-        {
-          "x": 46.319486,
-          "y": 38.045955
-        },
-        {
-          "x": 46.32015,
-          "y": 38.04667
-        },
-        {
-          "x": 46.320519,
-          "y": 38.047187
-        },
-        {
-          "x": 46.320822,
-          "y": 38.047774
-        },
-        {
-          "x": 46.320995,
-          "y": 38.048346
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 223475195,
-          "ID": 270600176,
-          "toNode": 226329169,
-          "isForward": true
-        },
-        {
-          "fromNode": 226329169,
-          "ID": 339226373,
-          "toNode": 265044111,
-          "isForward": true
-        },
-        {
-          "fromNode": 265044111,
-          "ID": 339226374,
-          "toNode": 275623327,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 38.0454,
-      "locationX": 46.315775,
-      "updateMillis": 1786640611391,
-      "blockUpdate": null
-    },
-    {
-      "id": 1790441686,
-      "street": "2nd Golbad - گلباد دوم",
-      "city": "تبریز",
-      "country": null,
-      "level": 4,
-      "length": 177,
-      "speed": 1.3833333333333333,
-      "endNode": "",
-      "line": [
-        {
-          "x": 46.359244,
-          "y": 38.065064
-        },
-        {
-          "x": 46.359145,
-          "y": 38.065126
-        },
-        {
-          "x": 46.358713,
-          "y": 38.065156
-        },
-        {
-          "x": 46.358073,
-          "y": 38.0652
-        },
-        {
-          "x": 46.357249,
-          "y": 38.065248
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 262357358,
-          "ID": 342404695,
-          "toNode": 272555557,
-          "isForward": true
-        },
-        {
-          "fromNode": 272555557,
-          "ID": 383077027,
-          "toNode": 298715103,
-          "isForward": true
-        },
-        {
-          "fromNode": 298715103,
-          "ID": 383077028,
-          "toNode": 262357117,
-          "isForward": true
-        },
-        {
-          "fromNode": 262357117,
-          "ID": 336101889,
-          "toNode": 268611118,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 38.065064,
-      "locationX": 46.359244,
-      "updateMillis": 1786640611282,
-      "blockUpdate": null
-    },
-    {
-      "id": 1790166088,
-      "street": "Elgoli Blvd - بلوار ائل گلی",
-      "city": "تبریز",
-      "country": null,
-      "level": 4,
-      "length": 250,
-      "speed": 1.9527777777777777,
-      "endNode": "",
-      "line": [
-        {
-          "x": 46.36381,
-          "y": 38.018748
-        },
-        {
-          "x": 46.363283,
-          "y": 38.016976
-        },
-        {
-          "x": 46.363153,
-          "y": 38.016558
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 155561881,
-          "ID": 330909495,
-          "toNode": 265354631,
-          "isForward": true
-        },
-        {
-          "fromNode": 265354631,
-          "ID": 330909496,
-          "toNode": 264774552,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 38.018748,
-      "locationX": 46.36381,
-      "updateMillis": 1786640611266,
-      "blockUpdate": null
-    },
-    {
-      "id": 1790265058,
-      "street": "32 local lane - کنارگذر",
-      "city": "تبریز",
-      "country": null,
-      "level": 3,
-      "length": 1099,
-      "speed": 2.8555555555555556,
-      "endNode": "Kargeh - کرگه",
-      "line": [
-        {
-          "x": 46.446491,
-          "y": 38.029095
-        },
-        {
-          "x": 46.445933,
-          "y": 38.029342
-        },
-        {
-          "x": 46.444732,
-          "y": 38.029488
-        },
-        {
-          "x": 46.442232,
-          "y": 38.029898
-        },
-        {
-          "x": 46.440516,
-          "y": 38.030329
-        },
-        {
-          "x": 46.43984,
-          "y": 38.030537
-        },
-        {
-          "x": 46.439459,
-          "y": 38.030655
-        },
-        {
-          "x": 46.438413,
-          "y": 38.031013
-        },
-        {
-          "x": 46.436179,
-          "y": 38.03177
-        },
-        {
-          "x": 46.434671,
-          "y": 38.032197
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 309037907,
-          "ID": 373452152,
-          "toNode": 292441865,
-          "isForward": false
-        },
-        {
-          "fromNode": 292441865,
-          "ID": 373452162,
-          "toNode": 292441873,
-          "isForward": false
-        },
-        {
-          "fromNode": 292441873,
-          "ID": 430859535,
-          "toNode": 274863452,
-          "isForward": false
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 38.029095,
-      "locationX": 46.446491,
-      "updateMillis": 1786640611204,
-      "blockUpdate": null
-    },
-    {
-      "id": 1790265004,
-      "street": "32",
-      "city": "تبریز",
-      "country": null,
-      "level": 3,
-      "length": 1384,
-      "speed": 4.525,
-      "endNode": "تبریز",
-      "line": [
-        {
-          "x": 46.449115,
-          "y": 38.028734
-        },
-        {
-          "x": 46.44742,
-          "y": 38.028974
-        },
-        {
-          "x": 46.446491,
-          "y": 38.029095
-        },
-        {
-          "x": 46.444153,
-          "y": 38.029401
-        },
-        {
-          "x": 46.442657,
-          "y": 38.02965
-        },
-        {
-          "x": 46.441056,
-          "y": 38.030041
-        },
-        {
-          "x": 46.440224,
-          "y": 38.030275
-        },
-        {
-          "x": 46.438295,
-          "y": 38.030948
-        },
-        {
-          "x": 46.436876,
-          "y": 38.031404
-        },
-        {
-          "x": 46.43546,
-          "y": 38.031841
-        },
-        {
-          "x": 46.434048,
-          "y": 38.032193
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 279028763,
-          "ID": 398814004,
-          "toNode": 309037907,
-          "isForward": false
-        },
-        {
-          "fromNode": 309037907,
-          "ID": 478735699,
-          "toNode": 328117360,
-          "isForward": false
-        },
-        {
-          "fromNode": 328117360,
-          "ID": 430859536,
-          "toNode": 330108234,
-          "isForward": false
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 38.028734,
-      "locationX": 46.449115,
-      "updateMillis": 1786640611086,
-      "blockUpdate": null
-    },
-    {
-      "id": 1789961950,
-      "street": "29th Bahman Blvd - بلوار بیست و نهم بهمن",
-      "city": "تبریز",
-      "country": null,
-      "level": 2,
-      "length": 1402,
-      "speed": 6.2444444444444445,
-      "endNode": "Shahryar Blvd - بلوار شهریار",
-      "line": [
-        {
-          "x": 46.365306,
-          "y": 38.049235
-        },
-        {
-          "x": 46.363626,
-          "y": 38.050122
-        },
-        {
-          "x": 46.363302,
-          "y": 38.05028
-        },
-        {
-          "x": 46.362566,
-          "y": 38.050622
-        },
-        {
-          "x": 46.361674,
-          "y": 38.051036
-        },
-        {
-          "x": 46.361602,
-          "y": 38.051069
-        },
-        {
-          "x": 46.360561,
-          "y": 38.051424
-        },
-        {
-          "x": 46.359526,
-          "y": 38.051695
-        },
-        {
-          "x": 46.358748,
-          "y": 38.051868
-        },
-        {
-          "x": 46.357643,
-          "y": 38.05205
-        },
-        {
-          "x": 46.356523,
-          "y": 38.05213
-        },
-        {
-          "x": 46.354858,
-          "y": 38.052186
-        },
-        {
-          "x": 46.353797,
-          "y": 38.052223
-        },
-        {
-          "x": 46.35325,
-          "y": 38.052269
-        },
-        {
-          "x": 46.352659,
-          "y": 38.052337
-        },
-        {
-          "x": 46.351683,
-          "y": 38.052552
-        },
-        {
-          "x": 46.351557,
-          "y": 38.052587
-        },
-        {
-          "x": 46.350636,
-          "y": 38.052894
-        },
-        {
-          "x": 46.350358,
-          "y": 38.053008
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 226314760,
-          "ID": 270577116,
-          "toNode": 226314762,
-          "isForward": true
-        },
-        {
-          "fromNode": 226314762,
-          "ID": 331128617,
-          "toNode": 265493966,
-          "isForward": true
-        },
-        {
-          "fromNode": 265493966,
-          "ID": 346207063,
-          "toNode": 274972801,
-          "isForward": true
-        },
-        {
-          "fromNode": 274972801,
-          "ID": 346207064,
-          "toNode": 265493965,
-          "isForward": true
-        },
-        {
-          "fromNode": 265493965,
-          "ID": 340703048,
-          "toNode": 271501725,
-          "isForward": true
-        },
-        {
-          "fromNode": 271501725,
-          "ID": 340703049,
-          "toNode": 265493982,
-          "isForward": true
-        },
-        {
-          "fromNode": 265493982,
-          "ID": 347790553,
-          "toNode": 275962242,
-          "isForward": true
-        },
-        {
-          "fromNode": 275962242,
-          "ID": 347790554,
-          "toNode": 216993571,
-          "isForward": true
-        },
-        {
-          "fromNode": 216993571,
-          "ID": 435157641,
-          "toNode": 332979363,
-          "isForward": true
-        },
-        {
-          "fromNode": 332979363,
-          "ID": 435157642,
-          "toNode": 188151434,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 38.049235,
-      "locationX": 46.365306,
-      "updateMillis": 1786640610980,
-      "blockUpdate": null
-    },
-    {
-      "id": 1790075746,
-      "street": "2, Kasaei Fwy",
-      "city": "تبریز",
-      "country": null,
-      "level": 1,
-      "length": 4113,
-      "speed": 15.347222222222221,
-      "endNode": "",
-      "line": [
-        {
-          "x": 46.361892,
-          "y": 38.018282
-        },
-        {
-          "x": 46.360599,
-          "y": 38.018463
-        },
-        {
-          "x": 46.358443,
-          "y": 38.018843
-        },
-        {
-          "x": 46.355935,
-          "y": 38.019304
-        },
-        {
-          "x": 46.355444,
-          "y": 38.019387
-        },
-        {
-          "x": 46.3549,
-          "y": 38.019522
-        },
-        {
-          "x": 46.353937,
-          "y": 38.019828
-        },
-        {
-          "x": 46.353318,
-          "y": 38.020088
-        },
-        {
-          "x": 46.352564,
-          "y": 38.020451
-        },
-        {
-          "x": 46.352067,
-          "y": 38.020733
-        },
-        {
-          "x": 46.351665,
-          "y": 38.020982
-        },
-        {
-          "x": 46.350941,
-          "y": 38.021451
-        },
-        {
-          "x": 46.350206,
-          "y": 38.022064
-        },
-        {
-          "x": 46.34946,
-          "y": 38.022782
-        },
-        {
-          "x": 46.348896,
-          "y": 38.023454
-        },
-        {
-          "x": 46.347861,
-          "y": 38.024734
-        },
-        {
-          "x": 46.346858,
-          "y": 38.026002
-        },
-        {
-          "x": 46.346018,
-          "y": 38.027033
-        },
-        {
-          "x": 46.344782,
-          "y": 38.028601
-        },
-        {
-          "x": 46.344112,
-          "y": 38.029417
-        },
-        {
-          "x": 46.343235,
-          "y": 38.030382
-        },
-        {
-          "x": 46.342041,
-          "y": 38.031276
-        },
-        {
-          "x": 46.341349,
-          "y": 38.031669
-        },
-        {
-          "x": 46.340501,
-          "y": 38.032091
-        },
-        {
-          "x": 46.339305,
-          "y": 38.032514
-        },
-        {
-          "x": 46.337181,
-          "y": 38.033228
-        },
-        {
-          "x": 46.329611,
-          "y": 38.035727
-        },
-        {
-          "x": 46.327858,
-          "y": 38.036301
-        },
-        {
-          "x": 46.324095,
-          "y": 38.037559
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 207351135,
-          "ID": 330909403,
-          "toNode": 265354560,
-          "isForward": false
-        },
-        {
-          "fromNode": 265354560,
-          "ID": 332940489,
-          "toNode": 265354562,
-          "isForward": true
-        },
-        {
-          "fromNode": 265354562,
-          "ID": 397315955,
-          "toNode": 308031581,
-          "isForward": false
-        },
-        {
-          "fromNode": 308031581,
-          "ID": 397312618,
-          "toNode": 266871054,
-          "isForward": false
-        },
-        {
-          "fromNode": 266871054,
-          "ID": 333301549,
-          "toNode": 155561979,
-          "isForward": true
-        },
-        {
-          "fromNode": 155561979,
-          "ID": 332913547,
-          "toNode": 266627477,
-          "isForward": true
-        },
-        {
-          "fromNode": 266627477,
-          "ID": 332940662,
-          "toNode": 266627687,
-          "isForward": false
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 38.018282,
-      "locationX": 46.361892,
-      "updateMillis": 1786640610948,
-      "blockUpdate": null
-    },
-    {
-      "id": 1789954142,
-      "street": "Imam Khomeini - امام خمینی",
-      "city": "تبریز",
-      "country": null,
-      "level": 3,
-      "length": 538,
-      "speed": 2.3777777777777778,
-      "endNode": "13th Aban - سیزدهم آبان",
-      "line": [
-        {
-          "x": 46.310562,
-          "y": 38.070043
-        },
-        {
-          "x": 46.311721,
-          "y": 38.069698
-        },
-        {
-          "x": 46.312362,
-          "y": 38.069508
-        },
-        {
-          "x": 46.313076,
-          "y": 38.069304
-        },
-        {
-          "x": 46.313565,
-          "y": 38.069166
-        },
-        {
-          "x": 46.314123,
-          "y": 38.069008
-        },
-        {
-          "x": 46.314854,
-          "y": 38.068776
-        },
-        {
-          "x": 46.315398,
-          "y": 38.068615
-        },
-        {
-          "x": 46.316119,
-          "y": 38.068396
-        },
-        {
-          "x": 46.316292,
-          "y": 38.068344
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 222244877,
-          "ID": 359084556,
-          "toNode": 283196583,
-          "isForward": true
-        },
-        {
-          "fromNode": 283196583,
-          "ID": 359084557,
-          "toNode": 272026323,
-          "isForward": true
-        },
-        {
-          "fromNode": 272026323,
-          "ID": 341535003,
-          "toNode": 222243858,
-          "isForward": true
-        },
-        {
-          "fromNode": 222243858,
-          "ID": 359084573,
-          "toNode": 283196599,
-          "isForward": true
-        },
-        {
-          "fromNode": 283196599,
-          "ID": 359084574,
-          "toNode": 222202728,
-          "isForward": true
-        },
-        {
-          "fromNode": 222202728,
-          "ID": 339033448,
-          "toNode": 222244285,
-          "isForward": true
-        },
-        {
-          "fromNode": 222244285,
-          "ID": 265768388,
-          "toNode": 222244293,
-          "isForward": true
-        },
-        {
-          "fromNode": 222244293,
-          "ID": 367275662,
-          "toNode": 288466109,
-          "isForward": true
-        },
-        {
-          "fromNode": 288466109,
-          "ID": 367275663,
-          "toNode": 275401008,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 38.070043,
-      "locationX": 46.310562,
-      "updateMillis": 1786640610921,
-      "blockUpdate": null
-    },
-    {
-      "id": 1789107176,
-      "street": "32, Pasdaran Hwy",
-      "city": "تبریز",
-      "country": null,
-      "level": 2,
-      "length": 1097,
-      "speed": 6.938888888888889,
-      "line": [
-        {
-          "x": 46.36423,
-          "y": 38.075402
-        },
-        {
-          "x": 46.36568,
-          "y": 38.075026
-        },
-        {
-          "x": 46.366571,
-          "y": 38.074739
-        },
-        {
-          "x": 46.36763,
-          "y": 38.074314
-        },
-        {
-          "x": 46.37029,
-          "y": 38.073229
-        },
-        {
-          "x": 46.371525,
-          "y": 38.07273
-        },
-        {
-          "x": 46.37542,
-          "y": 38.071052
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 220245811,
-          "ID": 266605104,
-          "toNode": 222758009,
-          "isForward": true
-        },
-        {
-          "fromNode": 222758009,
-          "ID": 266605105,
-          "toNode": 222757985,
-          "isForward": true
-        },
-        {
-          "fromNode": 222757985,
-          "ID": 266605065,
-          "toNode": 222757831,
-          "isForward": true
-        },
-        {
-          "fromNode": 222757831,
-          "ID": 381796261,
-          "toNode": 222757823,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 38.075402,
-      "locationX": 46.36423,
-      "updateMillis": 1786640610856,
-      "blockUpdate": null
-    },
-    {
-      "id": 1790071752,
-      "street": "Saba S - صبا جنوبی",
-      "city": "تبریز",
-      "country": null,
-      "level": 2,
-      "length": 781,
-      "speed": 4.972222222222222,
-      "line": [
-        {
-          "x": 46.352741,
-          "y": 38.037276
-        },
-        {
-          "x": 46.353114,
-          "y": 38.036658
-        },
-        {
-          "x": 46.353272,
-          "y": 38.035757
-        },
-        {
-          "x": 46.353249,
-          "y": 38.035251
-        },
-        {
-          "x": 46.353271,
-          "y": 38.034601
-        },
-        {
-          "x": 46.353275,
-          "y": 38.034479
-        },
-        {
-          "x": 46.353299,
-          "y": 38.033773
-        },
-        {
-          "x": 46.353348,
-          "y": 38.032356
-        },
-        {
-          "x": 46.35336,
-          "y": 38.032024
-        },
-        {
-          "x": 46.353375,
-          "y": 38.031583
-        },
-        {
-          "x": 46.353388,
-          "y": 38.031234
-        },
-        {
-          "x": 46.353438,
-          "y": 38.030316
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 220296273,
-          "ID": 379778535,
-          "toNode": 296541880,
-          "isForward": false
-        },
-        {
-          "fromNode": 296541880,
-          "ID": 379778534,
-          "toNode": 276806746,
-          "isForward": false
-        },
-        {
-          "fromNode": 276806746,
-          "ID": 379778458,
-          "toNode": 296541835,
-          "isForward": false
-        },
-        {
-          "fromNode": 296541835,
-          "ID": 441859496,
-          "toNode": 309289087,
-          "isForward": false
-        },
-        {
-          "fromNode": 309289087,
-          "ID": 399182814,
-          "toNode": 275907898,
-          "isForward": false
-        },
-        {
-          "fromNode": 275907898,
-          "ID": 370462425,
-          "toNode": 289748283,
-          "isForward": false
-        },
-        {
-          "fromNode": 289748283,
-          "ID": 370462424,
-          "toNode": 286577312,
-          "isForward": false
-        },
-        {
-          "fromNode": 286577312,
-          "ID": 364343529,
-          "toNode": 275907974,
-          "isForward": false
-        },
-        {
-          "fromNode": 275907974,
-          "ID": 347703378,
-          "toNode": 155541482,
-          "isForward": false
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 38.037276,
-      "locationX": 46.352741,
-      "updateMillis": 1786640610817,
+      "updateMillis": 1786640904259,
       "blockUpdate": null
     }
   ],
   "meta": {
     "alerts_count": 8,
-    "jams_count": 32,
+    "jams_count": 26,
     "key_used_suffix": "NMPn3a8W",
     "alerts_response_type": "list"
   }

@@ -1,82 +1,59 @@
 {
   "region": "kerman",
   "name": "کرمان",
-  "updated_at": "2026-08-13T17:04:33.671081Z",
+  "updated_at": "2026-08-13T17:12:04.440239Z",
   "status": "ok",
   "alerts": [],
   "jams": [
     {
-      "id": 1790891306,
-      "street": "",
+      "id": 1791892388,
+      "street": "Moallem - معلم",
       "city": "کرمان",
       "country": null,
-      "level": 2,
-      "length": 422,
-      "speed": 3.513888888888889,
+      "level": 3,
+      "length": 473,
+      "speed": 2.3944444444444444,
+      "endNode": "Qarani - قرنی",
       "line": [
         {
-          "x": 57.068496,
-          "y": 30.290198
+          "x": 57.074072,
+          "y": 30.290201
         },
         {
-          "x": 57.070006,
-          "y": 30.291086
+          "x": 57.073346,
+          "y": 30.289848
         },
         {
-          "x": 57.070039,
-          "y": 30.291216
+          "x": 57.072,
+          "y": 30.289098
         },
         {
-          "x": 57.070297,
-          "y": 30.291325
+          "x": 57.070403,
+          "y": 30.288169
         },
         {
-          "x": 57.071381,
-          "y": 30.291494
-        },
-        {
-          "x": 57.071409,
-          "y": 30.291399
-        },
-        {
-          "x": 57.071525,
-          "y": 30.29101
-        },
-        {
-          "x": 57.071635,
-          "y": 30.290641
+          "x": 57.069935,
+          "y": 30.287897
         }
       ],
       "segments": [
         {
-          "fromNode": 293562448,
-          "ID": 352518915,
-          "toNode": 278900917,
-          "isForward": true
+          "fromNode": 222405233,
+          "ID": 342955468,
+          "toNode": 272903335,
+          "isForward": false
         },
         {
-          "fromNode": 278900917,
-          "ID": 352518925,
-          "toNode": 278900279,
-          "isForward": true
-        },
-        {
-          "fromNode": 278900279,
-          "ID": 352519078,
-          "toNode": 278901017,
-          "isForward": true
-        },
-        {
-          "fromNode": 278901017,
-          "ID": 352519081,
-          "toNode": 278899989,
-          "isForward": true
+          "fromNode": 272903335,
+          "ID": 342955467,
+          "toNode": 222405235,
+          "isForward": false
         }
       ],
       "causeAlert": null,
-      "locationY": 30.290198,
-      "locationX": 57.068496,
-      "updateMillis": 1786640655303,
+      "locationY": 30.290201,
+      "locationX": 57.074072,
+      "updateMillis": 1786641102677,
       "blockUpdate": null
     },
     {
@@ -86,7 +63,7 @@
       "country": null,
       "level": 3,
       "length": 281,
-      "speed": 1.575,
+      "speed": 1.6416666666666666,
       "endNode": "Vila - ویلا",
       "line": [
         {
@@ -169,7 +146,7 @@
       "causeAlert": null,
       "locationY": 30.292008,
       "locationX": 57.03056,
-      "updateMillis": 1786640654811,
+      "updateMillis": 1786640990212,
       "blockUpdate": null
     }
   ],

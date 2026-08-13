@@ -1,394 +1,87 @@
 {
   "region": "kermanshah",
   "name": "کرمانشاه",
-  "updated_at": "2026-08-13T17:04:26.160257Z",
+  "updated_at": "2026-08-13T17:11:57.367648Z",
   "status": "ok",
   "alerts": [],
   "jams": [
     {
-      "id": 1789708554,
-      "street": "",
+      "id": 1792085718,
+      "street": "Safa - صفا",
       "city": "کرمانشاه",
       "country": null,
-      "level": 3,
-      "length": 337,
-      "speed": 2.397222222222222,
-      "endNode": "45 Metri Moradhasel - چهل و پنج متری مرادحاصل",
+      "level": 2,
+      "length": 438,
+      "speed": 2.613888888888889,
+      "endNode": "Ale Aqa Blvd - بلوار آل آقا",
       "line": [
         {
-          "x": 47.120382,
-          "y": 34.373575
+          "x": 47.087967,
+          "y": 34.348286
         },
         {
-          "x": 47.120571,
-          "y": 34.374086
+          "x": 47.088885,
+          "y": 34.34829
         },
         {
-          "x": 47.120423,
-          "y": 34.374148
+          "x": 47.089203,
+          "y": 34.348291
         },
         {
-          "x": 47.120743,
-          "y": 34.374511
+          "x": 47.091597,
+          "y": 34.348281
         },
         {
-          "x": 47.120452,
-          "y": 34.37466
+          "x": 47.091801,
+          "y": 34.348284
         },
         {
-          "x": 47.12021,
-          "y": 34.374804
-        },
-        {
-          "x": 47.120167,
-          "y": 34.374964
-        },
-        {
-          "x": 47.119088,
-          "y": 34.375606
-        },
-        {
-          "x": 47.119158,
-          "y": 34.375728
+          "x": 47.092722,
+          "y": 34.348266
         }
       ],
       "segments": [
         {
-          "fromNode": 275860796,
-          "ID": 347626582,
-          "toNode": 275860794,
+          "fromNode": 271226713,
+          "ID": 405191994,
+          "toNode": 313350934,
           "isForward": true
         },
         {
-          "fromNode": 275860794,
-          "ID": 347626577,
-          "toNode": 275860793,
+          "fromNode": 313350934,
+          "ID": 405191995,
+          "toNode": 270610689,
           "isForward": true
         },
         {
-          "fromNode": 275860793,
-          "ID": 347626574,
-          "toNode": 275860698,
+          "fromNode": 270610689,
+          "ID": 405192115,
+          "toNode": 313351000,
           "isForward": true
         },
         {
-          "fromNode": 275860698,
-          "ID": 347626452,
-          "toNode": 275860720,
-          "isForward": false
-        },
-        {
-          "fromNode": 275860720,
-          "ID": 347626212,
-          "toNode": 275860559,
+          "fromNode": 313351000,
+          "ID": 405192116,
+          "toNode": 270610750,
           "isForward": true
         },
         {
-          "fromNode": 275860559,
-          "ID": 347626215,
-          "toNode": 275860561,
+          "fromNode": 270610750,
+          "ID": 339289274,
+          "toNode": 270607339,
           "isForward": true
         }
       ],
       "causeAlert": null,
-      "locationY": 34.373575,
-      "locationX": 47.120382,
-      "updateMillis": 1786640656026,
-      "blockUpdate": null
-    },
-    {
-      "id": 1789641258,
-      "street": "17th Shahrivar Blvd - بلوار هفده شهریور",
-      "city": "کرمانشاه",
-      "country": null,
-      "level": 4,
-      "length": 243,
-      "speed": 1.1972222222222222,
-      "endNode": "Ershad Blvd - بلوار ارشاد",
-      "line": [
-        {
-          "x": 47.080245,
-          "y": 34.333511
-        },
-        {
-          "x": 47.079969,
-          "y": 34.333046
-        },
-        {
-          "x": 47.079895,
-          "y": 34.33292
-        },
-        {
-          "x": 47.07982,
-          "y": 34.332794
-        },
-        {
-          "x": 47.079588,
-          "y": 34.332402
-        },
-        {
-          "x": 47.079243,
-          "y": 34.331821
-        },
-        {
-          "x": 47.079067,
-          "y": 34.331553
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 242787277,
-          "ID": 295473064,
-          "toNode": 242787279,
-          "isForward": false
-        },
-        {
-          "fromNode": 242787279,
-          "ID": 295474129,
-          "toNode": 242787923,
-          "isForward": false
-        },
-        {
-          "fromNode": 242787923,
-          "ID": 295474128,
-          "toNode": 242787289,
-          "isForward": false
-        },
-        {
-          "fromNode": 242787289,
-          "ID": 295473088,
-          "toNode": 242787281,
-          "isForward": false
-        },
-        {
-          "fromNode": 242787281,
-          "ID": 339952085,
-          "toNode": 271026799,
-          "isForward": false
-        },
-        {
-          "fromNode": 271026799,
-          "ID": 339960516,
-          "toNode": 271032137,
-          "isForward": false
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 34.333511,
-      "locationX": 47.080245,
-      "updateMillis": 1786640655933,
-      "blockUpdate": null
-    },
-    {
-      "id": 1789652924,
-      "street": "30 Metri Dovom - سی متری دوم",
-      "city": "کرمانشاه",
-      "country": null,
-      "level": 3,
-      "length": 415,
-      "speed": 2.636111111111111,
-      "endNode": "Barat Pur - برات پور",
-      "line": [
-        {
-          "x": 47.085791,
-          "y": 34.3431
-        },
-        {
-          "x": 47.087655,
-          "y": 34.343043
-        },
-        {
-          "x": 47.089109,
-          "y": 34.34301
-        },
-        {
-          "x": 47.090107,
-          "y": 34.342988
-        },
-        {
-          "x": 47.090297,
-          "y": 34.342984
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 242786997,
-          "ID": 295472579,
-          "toNode": 222896728,
-          "isForward": true
-        },
-        {
-          "fromNode": 222896728,
-          "ID": 339319205,
-          "toNode": 270629315,
-          "isForward": true
-        },
-        {
-          "fromNode": 270629315,
-          "ID": 367946429,
-          "toNode": 288909144,
-          "isForward": true
-        },
-        {
-          "fromNode": 288909144,
-          "ID": 367946433,
-          "toNode": 270624645,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 34.3431,
-      "locationX": 47.085791,
-      "updateMillis": 1786640542463,
-      "blockUpdate": null
-    },
-    {
-      "id": 1789980582,
-      "street": "21, Jafari Blvd - بلوار جعفری",
-      "city": "کرمانشاه",
-      "country": null,
-      "level": 3,
-      "length": 760,
-      "speed": 3.1972222222222224,
-      "endNode": "Mansuri - منصوری",
-      "line": [
-        {
-          "x": 47.052057,
-          "y": 34.293886
-        },
-        {
-          "x": 47.051536,
-          "y": 34.293806
-        },
-        {
-          "x": 47.051049,
-          "y": 34.293722
-        },
-        {
-          "x": 47.049577,
-          "y": 34.293484
-        },
-        {
-          "x": 47.048885,
-          "y": 34.2934
-        },
-        {
-          "x": 47.048176,
-          "y": 34.293335
-        },
-        {
-          "x": 47.047204,
-          "y": 34.293421
-        },
-        {
-          "x": 47.046859,
-          "y": 34.293429
-        },
-        {
-          "x": 47.04647,
-          "y": 34.293416
-        },
-        {
-          "x": 47.045843,
-          "y": 34.293403
-        },
-        {
-          "x": 47.044492,
-          "y": 34.29335
-        },
-        {
-          "x": 47.044223,
-          "y": 34.293339
-        },
-        {
-          "x": 47.043872,
-          "y": 34.293325
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 275122116,
-          "ID": 346440922,
-          "toNode": 275122114,
-          "isForward": false
-        },
-        {
-          "fromNode": 275122114,
-          "ID": 346440917,
-          "toNode": 275122105,
-          "isForward": false
-        },
-        {
-          "fromNode": 275122105,
-          "ID": 346440900,
-          "toNode": 275124622,
-          "isForward": false
-        },
-        {
-          "fromNode": 275124622,
-          "ID": 346444771,
-          "toNode": 275122089,
-          "isForward": false
-        },
-        {
-          "fromNode": 275122089,
-          "ID": 363084264,
-          "toNode": 285770294,
-          "isForward": false
-        },
-        {
-          "fromNode": 285770294,
-          "ID": 346444527,
-          "toNode": 275124440,
-          "isForward": false
-        },
-        {
-          "fromNode": 275124440,
-          "ID": 346444526,
-          "toNode": 275121810,
-          "isForward": false
-        },
-        {
-          "fromNode": 275121810,
-          "ID": 346444521,
-          "toNode": 275124436,
-          "isForward": false
-        },
-        {
-          "fromNode": 275124436,
-          "ID": 361429234,
-          "toNode": 284692425,
-          "isForward": false
-        },
-        {
-          "fromNode": 284692425,
-          "ID": 364409751,
-          "toNode": 275121717,
-          "isForward": false
-        },
-        {
-          "fromNode": 275121717,
-          "ID": 363137699,
-          "toNode": 285804842,
-          "isForward": false
-        },
-        {
-          "fromNode": 285804842,
-          "ID": 363137698,
-          "toNode": 275124386,
-          "isForward": false
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 34.293886,
-      "locationX": 47.052057,
-      "updateMillis": 1786640538934,
+      "locationY": 34.348286,
+      "locationX": 47.087967,
+      "updateMillis": 1786641103451,
       "blockUpdate": null
     }
   ],
   "meta": {
     "alerts_count": 0,
-    "jams_count": 4,
+    "jams_count": 1,
     "key_used_suffix": "NMPn3a8W",
     "alerts_response_type": "list"
   }
