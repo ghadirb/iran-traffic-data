@@ -4,9 +4,6 @@
 
 Workflow هر ۱۰ دقیقه اجرا می‌شود، اما Scheduler/TTL باعث می‌شود
 هر منطقه فقط وقتی واقعاً موعد به‌روزرسانی آن رسیده باشد API را صدا بزند.
-
-نکته مهم: اجرای GitHub Actions به‌خودی‌خود درخواست WazeAPI نیست؛
-فقط فراخوانی HTTP به endpointهای WazeAPI مصرف ایجاد می‌کند.
 """
 
 import os
@@ -22,27 +19,28 @@ import requests
 # تنظیمات مناطق
 # jams_interval_min = فاصله به‌روزرسانی ترافیک
 # alerts_interval_min = فاصله به‌روزرسانی پلیس/تصادف/خطر و ...
+#
+# حالت کم‌مصرف فعلی:
+# 6 شهر بزرگ: ترافیک هر 120 دقیقه، alerts هر 720 دقیقه (12 ساعت)
+# 9 شهر دیگر: ترافیک هر 360 دقیقه (6 ساعت)، alerts هر 1440 دقیقه (24 ساعت)
+# Workflow همچنان هر 10 دقیقه اجرا می‌شود.
 # ============================================================
-# پیش‌فرض فعلی برای کاهش شدید مصرف:
-# شهرهای بزرگ: ترافیک هر ۳۰ دقیقه، هشدارها هر ۲ ساعت
-# شهرهای دیگر: ترافیک هر ۶۰ دقیقه، هشدارها هر ۴ ساعت
-# Workflow همچنان هر ۱۰ دقیقه اجرا می‌شود.
 REGIONS = {
-    "tehran": {"name": "تهران", "bottom_left": "35.45,51.05", "top_right": "35.90,51.65", "jams_interval_min": 30, "alerts_interval_min": 120},
-    "mashhad": {"name": "مشهد", "bottom_left": "36.15,59.40", "top_right": "36.45,59.80", "jams_interval_min": 30, "alerts_interval_min": 120},
-    "karaj": {"name": "کرج", "bottom_left": "35.70,50.80", "top_right": "35.95,51.20", "jams_interval_min": 30, "alerts_interval_min": 120},
-    "isfahan": {"name": "اصفهان", "bottom_left": "32.50,51.50", "top_right": "32.80,51.85", "jams_interval_min": 30, "alerts_interval_min": 120},
-    "shiraz": {"name": "شیراز", "bottom_left": "29.45,52.35", "top_right": "29.75,52.70", "jams_interval_min": 30, "alerts_interval_min": 120},
-    "tabriz": {"name": "تبریز", "bottom_left": "37.95,46.10", "top_right": "38.20,46.45", "jams_interval_min": 30, "alerts_interval_min": 120},
-    "ahvaz": {"name": "اهواز", "bottom_left": "31.20,48.55", "top_right": "31.45,48.85", "jams_interval_min": 60, "alerts_interval_min": 240},
-    "qom": {"name": "قم", "bottom_left": "34.50,50.70", "top_right": "34.75,51.05", "jams_interval_min": 60, "alerts_interval_min": 240},
-    "rasht": {"name": "رشت", "bottom_left": "37.15,49.45", "top_right": "37.40,49.75", "jams_interval_min": 60, "alerts_interval_min": 240},
-    "kermanshah": {"name": "کرمانشاه", "bottom_left": "34.20,46.90", "top_right": "34.45,47.25", "jams_interval_min": 60, "alerts_interval_min": 240},
-    "urmia": {"name": "ارومیه", "bottom_left": "37.40,44.90", "top_right": "37.70,45.25", "jams_interval_min": 60, "alerts_interval_min": 240},
-    "kerman": {"name": "کرمان", "bottom_left": "30.15,56.90", "top_right": "30.40,57.25", "jams_interval_min": 60, "alerts_interval_min": 240},
-    "yazd": {"name": "یزد", "bottom_left": "31.75,54.20", "top_right": "32.00,54.55", "jams_interval_min": 60, "alerts_interval_min": 240},
-    "bandar_abbas": {"name": "بندرعباس", "bottom_left": "27.05,56.10", "top_right": "27.30,56.45", "jams_interval_min": 60, "alerts_interval_min": 240},
-    "zahedan": {"name": "زاهدان", "bottom_left": "29.35,60.70", "top_right": "29.65,61.05", "jams_interval_min": 60, "alerts_interval_min": 240},
+    "tehran": {"name": "تهران", "bottom_left": "35.45,51.05", "top_right": "35.90,51.65", "jams_interval_min": 120, "alerts_interval_min": 720},
+    "mashhad": {"name": "مشهد", "bottom_left": "36.15,59.40", "top_right": "36.45,59.80", "jams_interval_min": 120, "alerts_interval_min": 720},
+    "karaj": {"name": "کرج", "bottom_left": "35.70,50.80", "top_right": "35.95,51.20", "jams_interval_min": 120, "alerts_interval_min": 720},
+    "isfahan": {"name": "اصفهان", "bottom_left": "32.50,51.50", "top_right": "32.80,51.85", "jams_interval_min": 120, "alerts_interval_min": 720},
+    "shiraz": {"name": "شیراز", "bottom_left": "29.45,52.35", "top_right": "29.75,52.70", "jams_interval_min": 120, "alerts_interval_min": 720},
+    "tabriz": {"name": "تبریز", "bottom_left": "37.95,46.10", "top_right": "38.20,46.45", "jams_interval_min": 120, "alerts_interval_min": 720},
+    "ahvaz": {"name": "اهواز", "bottom_left": "31.20,48.55", "top_right": "31.45,48.85", "jams_interval_min": 360, "alerts_interval_min": 1440},
+    "qom": {"name": "قم", "bottom_left": "34.50,50.70", "top_right": "34.75,51.05", "jams_interval_min": 360, "alerts_interval_min": 1440},
+    "rasht": {"name": "رشت", "bottom_left": "37.15,49.45", "top_right": "37.40,49.75", "jams_interval_min": 360, "alerts_interval_min": 1440},
+    "kermanshah": {"name": "کرمانشاه", "bottom_left": "34.20,46.90", "top_right": "34.45,47.25", "jams_interval_min": 360, "alerts_interval_min": 1440},
+    "urmia": {"name": "ارومیه", "bottom_left": "37.40,44.90", "top_right": "37.70,45.25", "jams_interval_min": 360, "alerts_interval_min": 1440},
+    "kerman": {"name": "کرمان", "bottom_left": "30.15,56.90", "top_right": "30.40,57.25", "jams_interval_min": 360, "alerts_interval_min": 1440},
+    "yazd": {"name": "یزد", "bottom_left": "31.75,54.20", "top_right": "32.00,54.55", "jams_interval_min": 360, "alerts_interval_min": 1440},
+    "bandar_abbas": {"name": "بندرعباس", "bottom_left": "27.05,56.10", "top_right": "27.30,56.45", "jams_interval_min": 360, "alerts_interval_min": 1440},
+    "zahedan": {"name": "زاهدان", "bottom_left": "29.35,60.70", "top_right": "29.65,61.05", "jams_interval_min": 360, "alerts_interval_min": 1440},
 }
 
 TRAFFIC_DIR = Path("traffic")
@@ -111,7 +109,6 @@ def get_next_key(keys: list[str], state: dict) -> Optional[str]:
         if key not in failed:
             state["current_index"] = idx
             return key
-    # خطاهای موقت نباید برای همیشه کلیدها را قفل کنند.
     state["failed_keys"] = []
     state["current_index"] = 0
     return keys[0]
@@ -127,7 +124,6 @@ def mark_key_failed(state: dict, key: str, key_count: int):
 
 
 def call_waze(endpoint: str, params: dict, api_key: str) -> tuple[Optional[Any], bool]:
-    """(data, key_error). فقط 401/403/429 را خطای کلید/سهمیه در نظر می‌گیریم."""
     url = f"{BASE_URL}/{endpoint}"
     headers = {"X-API-Key": api_key, "Accept": "application/json"}
     try:
@@ -200,7 +196,6 @@ def load_region_file(region_id: str, region: dict) -> dict:
 
 
 def request_with_rotation(endpoint: str, params: dict, keys: list[str], state: dict) -> Optional[Any]:
-    """برای یک endpoint با چند کلید تلاش می‌کند؛ هر درخواست موفق فقط یک مصرف دارد."""
     if not keys:
         return None
     attempted = set()
@@ -217,14 +212,12 @@ def request_with_rotation(endpoint: str, params: dict, keys: list[str], state: d
         if key_error:
             mark_key_failed(state, key, len(keys))
         else:
-            # خطای شبکه/سرور را با کلید بعدی تکرار نکن تا مصرف بی‌دلیل ایجاد نشود.
             break
     save_state(state)
     return None
 
 
 def fetch_region(region_id: str, region: dict, keys: list[str], state: dict) -> tuple[dict, bool, int]:
-    """فقط endpointهایی را می‌زند که TTL آنها منقضی شده است."""
     result = load_region_file(region_id, region)
     schedule = result.setdefault("schedule", {})
     params = {"bottom-left": region["bottom_left"], "top-right": region["top_right"]}
@@ -233,7 +226,6 @@ def fetch_region(region_id: str, region: dict, keys: list[str], state: dict) -> 
 
     jams_due = due(schedule.get("last_jams_update"), region["jams_interval_min"])
     alerts_due = due(schedule.get("last_alerts_update"), region["alerts_interval_min"])
-
     print(f"  ⏱ jams={'نیاز دارد' if jams_due else 'هنوز معتبر'} | alerts={'نیاز دارد' if alerts_due else 'هنوز معتبر'}")
 
     if not jams_due and not alerts_due:
@@ -243,11 +235,10 @@ def fetch_region(region_id: str, region: dict, keys: list[str], state: dict) -> 
         data = request_with_rotation("alerts/jams", params, keys, state)
         request_count += 1 if data is not None else 0
         if data is not None:
-            jams = extract_jams(data)
-            result["jams"] = jams
+            result["jams"] = extract_jams(data)
             schedule["last_jams_update"] = iso_now()
             changed = True
-            print(f"  ✅ jams: {len(jams)}")
+            print(f"  ✅ jams: {len(result['jams'])}")
         else:
             print("  ⚠️ دریافت jams ناموفق بود؛ timestamp قبلی حفظ شد.")
 
@@ -255,11 +246,10 @@ def fetch_region(region_id: str, region: dict, keys: list[str], state: dict) -> 
         data = request_with_rotation("alerts", params, keys, state)
         request_count += 1 if data is not None else 0
         if data is not None:
-            alerts = extract_alerts(data)
-            result["alerts"] = alerts
+            result["alerts"] = extract_alerts(data)
             schedule["last_alerts_update"] = iso_now()
             changed = True
-            print(f"  ✅ alerts: {len(alerts)}")
+            print(f"  ✅ alerts: {len(result['alerts'])}")
         else:
             print("  ⚠️ دریافت alerts ناموفق بود؛ timestamp قبلی حفظ شد.")
 
@@ -311,7 +301,7 @@ def build_summary() -> dict:
 
 def main():
     print("=" * 60)
-    print("Iran Traffic Data — WazeAPI + Scheduler/TTL")
+    print("Iran Traffic Data — WazeAPI + Aggressive Scheduler/TTL")
     print("Workflow هر ۱۰ دقیقه اجرا می‌شود؛ فقط مناطق due درخواست می‌شوند.")
     print("=" * 60)
 
@@ -330,7 +320,6 @@ def main():
             path = TRAFFIC_DIR / f"{region_id}.json"
             if write_json_if_changed(path, data):
                 any_changed = True
-        # برای جلوگیری از rate-limit؛ فقط بین regionهایی که واقعاً درخواست داشتند.
         if requests_used:
             time.sleep(1.0)
 
