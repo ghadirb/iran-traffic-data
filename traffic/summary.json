@@ -1,0 +1,82 @@
+{
+  "updated_at": "2026-08-13T17:03:41.639591Z",
+  "regions": {
+    "tehran": {
+      "status": "ok",
+      "alerts": 200,
+      "jams": 200
+    },
+    "karaj": {
+      "status": "ok",
+      "alerts": 60,
+      "jams": 132
+    },
+    "isfahan": {
+      "status": "ok",
+      "alerts": 10,
+      "jams": 65
+    },
+    "mashhad": {
+      "status": "ok",
+      "alerts": 23,
+      "jams": 76
+    },
+    "shiraz": {
+      "status": "ok",
+      "alerts": 48,
+      "jams": 116
+    },
+    "tabriz": {
+      "status": "ok",
+      "alerts": 8,
+      "jams": 32
+    },
+    "ahvaz": {
+      "status": "ok",
+      "alerts": 1,
+      "jams": 5
+    },
+    "qom": {
+      "status": "ok",
+      "alerts": 10,
+      "jams": 22
+    },
+    "rasht": {
+      "status": "ok",
+      "alerts": 25,
+      "jams": 70
+    },
+    "kermanshah": {
+      "status": "ok",
+      "alerts": 0,
+      "jams": 4
+    },
+    "urmia": {
+      "status": "ok",
+      "alerts": 1,
+      "jams": 14
+    },
+    "kerman": {
+      "status": "ok",
+      "alerts": 0,
+      "jams": 2
+    },
+    "yazd": {
+      "status": "ok",
+      "alerts": 1,
+      "jams": 4
+    },
+    "bandar_abbas": {
+      "status": "ok",
+      "alerts": 0,
+      "jams": 0
+    },
+    "zahedan": {
+      "status": "ok",
+      "alerts": 0,
+      "jams": 0
+    }
+  },
+  "total_alerts": 387,
+  "total_jams": 742
+}

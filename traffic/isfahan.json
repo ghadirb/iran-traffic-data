@@ -1,7 +1,7236 @@
 {
-  "province": "isfahan",
-  "updated_at": "2026-08-13T16:07:52.206846Z",
-  "status": "placeholder",
-  "message": "کلید API تنظیم نشده است",
-  "routes": []
+  "region": "isfahan",
+  "name": "اصفهان",
+  "updated_at": "2026-08-13T17:03:54.694941Z",
+  "status": "ok",
+  "alerts": [
+    {
+      "id": "alert-1784704495/937922e8-05e6-45af-be4b-3017cc796a42",
+      "type": "POLICE",
+      "subType": "",
+      "reliability": null,
+      "street": "Chaharbagh Paeen - چهارباغ پایین",
+      "city": null,
+      "country": null,
+      "nearBy": null,
+      "locationY": 32.661172,
+      "locationX": 51.669573,
+      "timestamp": 1786640073000,
+      "timestampUTC": "Thu, 13 Aug 2026 16:54:33 GMT",
+      "reportDescription": null,
+      "magvar": null,
+      "nThumbsUp": null,
+      "confidence": null,
+      "roadType": null,
+      "reportRating": null,
+      "reportMood": null,
+      "reportByMunicipalityUser": null,
+      "reported_by": null
+    },
+    {
+      "id": "alert-1753169365/db015f9f-d4b5-4bfd-80bc-b2422c1659d6",
+      "type": "ROAD_CLOSED",
+      "subType": "",
+      "reliability": 6,
+      "street": "",
+      "city": "اصفهان",
+      "country": "IR",
+      "nearBy": null,
+      "locationY": 32.599999,
+      "locationX": 51.769481,
+      "timestamp": 1786393340000,
+      "timestampUTC": "Mon, 10 Aug 2026 20:22:20 GMT",
+      "reportDescription": "",
+      "magvar": 252,
+      "nThumbsUp": null,
+      "confidence": 0,
+      "roadType": 4,
+      "reportRating": 5,
+      "reportMood": 0,
+      "reportByMunicipalityUser": "false",
+      "reported_by": null
+    },
+    {
+      "id": "alert-1726139821/74cb99da-f551-4f3c-b88c-d8a08f59f4c4",
+      "type": "HAZARD",
+      "subType": "HAZARD_ON_ROAD_POT_HOLE",
+      "reliability": null,
+      "street": null,
+      "city": null,
+      "country": null,
+      "nearBy": null,
+      "locationY": 32.634659,
+      "locationX": 51.540848,
+      "timestamp": 1786084173000,
+      "timestampUTC": "Fri, 07 Aug 2026 06:29:33 GMT",
+      "reportDescription": null,
+      "magvar": null,
+      "nThumbsUp": 1,
+      "confidence": null,
+      "roadType": null,
+      "reportRating": null,
+      "reportMood": null,
+      "reportByMunicipalityUser": null,
+      "reported_by": null
+    },
+    {
+      "id": "alert-1635980862/30f1ce9e-bb56-4b69-840d-2268e02d384c",
+      "type": "HAZARD",
+      "subType": "HAZARD_ON_ROAD_POT_HOLE",
+      "reliability": null,
+      "street": "Neshat - نشاط",
+      "city": null,
+      "country": null,
+      "nearBy": null,
+      "locationY": 32.64197,
+      "locationX": 51.5467,
+      "timestamp": 1785259081000,
+      "timestampUTC": "Tue, 28 Jul 2026 17:18:01 GMT",
+      "reportDescription": null,
+      "magvar": null,
+      "nThumbsUp": 1,
+      "confidence": null,
+      "roadType": null,
+      "reportRating": null,
+      "reportMood": null,
+      "reportByMunicipalityUser": null,
+      "reported_by": null
+    },
+    {
+      "id": "alert-1612215809/8aa91992-8aa5-497e-8d05-5be6bbbd9ba7",
+      "type": "HAZARD",
+      "subType": "HAZARD_ON_ROAD_POT_HOLE",
+      "reliability": null,
+      "street": null,
+      "city": null,
+      "country": null,
+      "nearBy": null,
+      "locationY": 32.639604,
+      "locationX": 51.665031,
+      "timestamp": 1785056064000,
+      "timestampUTC": "Sun, 26 Jul 2026 08:54:24 GMT",
+      "reportDescription": null,
+      "magvar": null,
+      "nThumbsUp": 5,
+      "confidence": null,
+      "roadType": null,
+      "reportRating": null,
+      "reportMood": null,
+      "reportByMunicipalityUser": null,
+      "reported_by": null
+    },
+    {
+      "id": "alert-1296303079/7b6bd3b3-4500-4161-8d84-b5c735a76771",
+      "type": "ROAD_CLOSED",
+      "subType": "",
+      "reliability": 9,
+      "street": "Roshan Dasht Blvd - بلوار روشن دشت",
+      "city": "اصفهان",
+      "country": "IR",
+      "nearBy": "اصفهان",
+      "locationY": 32.60227,
+      "locationX": 51.768809,
+      "timestamp": 1759379730000,
+      "timestampUTC": "Thu, 02 Oct 2025 04:35:30 GMT",
+      "reportDescription": "",
+      "magvar": 161,
+      "nThumbsUp": 3,
+      "confidence": 1,
+      "roadType": 6,
+      "reportRating": 5,
+      "reportMood": 0,
+      "reportByMunicipalityUser": "false",
+      "reported_by": null
+    },
+    {
+      "id": "alert-1296274019/84722c75-3c6a-4dd9-8be8-d36d3521edea",
+      "type": "ROAD_CLOSED",
+      "subType": "",
+      "reliability": 9,
+      "street": "A680",
+      "city": "اصفهان",
+      "country": "IR",
+      "nearBy": "اصفهان",
+      "locationY": 32.598194,
+      "locationX": 51.770688,
+      "timestamp": 1759379710000,
+      "timestampUTC": "Thu, 02 Oct 2025 04:35:10 GMT",
+      "reportDescription": "",
+      "magvar": 338,
+      "nThumbsUp": 3,
+      "confidence": 1,
+      "roadType": 6,
+      "reportRating": 5,
+      "reportMood": 0,
+      "reportByMunicipalityUser": "false",
+      "reported_by": null
+    },
+    {
+      "id": "alert-1296196009/187873ed-28a7-42a2-bd71-64f2843a0461",
+      "type": "ROAD_CLOSED",
+      "subType": "",
+      "reliability": 10,
+      "street": "AliBalaei Expy - بزرگراه علی بالایی",
+      "city": "اصفهان",
+      "country": "IR",
+      "nearBy": "اصفهان",
+      "locationY": 32.599432,
+      "locationX": 51.768024,
+      "timestamp": 1759379657000,
+      "timestampUTC": "Thu, 02 Oct 2025 04:34:17 GMT",
+      "reportDescription": "",
+      "magvar": 73,
+      "nThumbsUp": 7,
+      "confidence": 3,
+      "roadType": 6,
+      "reportRating": 5,
+      "reportMood": 0,
+      "reportByMunicipalityUser": "false",
+      "reported_by": null
+    },
+    {
+      "id": "alert-1769823735/2cb297a7-24a6-4929-819f-8b82f2bb52c7",
+      "type": "ROAD_CLOSED",
+      "subType": "ROAD_CLOSED_EVENT",
+      "reliability": 10,
+      "street": "Hejazi Fwy",
+      "city": "باغ رضوان",
+      "country": "IR",
+      "nearBy": "باغ رضوان",
+      "locationY": 32.654045,
+      "locationX": 51.834699,
+      "timestamp": 1736151100000,
+      "timestampUTC": "Mon, 06 Jan 2025 08:11:40 GMT",
+      "reportDescription": null,
+      "magvar": 146,
+      "nThumbsUp": 14,
+      "confidence": 5,
+      "roadType": 3,
+      "reportRating": 5,
+      "reportMood": 0,
+      "reportByMunicipalityUser": "false",
+      "reported_by": null
+    },
+    {
+      "id": "alert-1687545237/8d49ed40-59e5-4820-8703-f0f67f845822",
+      "type": "ROAD_CLOSED",
+      "subType": "ROAD_CLOSED_EVENT",
+      "reliability": 10,
+      "street": "Malek Ashtar - مالک اشتر",
+      "city": "اصفهان",
+      "country": "IR",
+      "nearBy": null,
+      "locationY": 32.65257,
+      "locationX": 51.782037,
+      "timestamp": 1728287100000,
+      "timestampUTC": "Mon, 07 Oct 2024 07:45:00 GMT",
+      "reportDescription": "",
+      "magvar": 72,
+      "nThumbsUp": 6,
+      "confidence": 3,
+      "roadType": 2,
+      "reportRating": 5,
+      "reportMood": 0,
+      "reportByMunicipalityUser": "false",
+      "reported_by": null
+    }
+  ],
+  "jams": [
+    {
+      "id": 1691136314,
+      "street": "Malek Ashtar - مالک اشتر",
+      "city": "اصفهان",
+      "country": "IR",
+      "level": 5,
+      "length": 425,
+      "speed": 0,
+      "endNode": "Khatunabadi local lane - کنارگذر خاتون آبادی",
+      "line": [
+        {
+          "x": 51.782037,
+          "y": 32.652569
+        },
+        {
+          "x": 51.782785,
+          "y": 32.652945
+        },
+        {
+          "x": 51.783598,
+          "y": 32.653318
+        },
+        {
+          "x": 51.783984,
+          "y": 32.65344
+        },
+        {
+          "x": 51.786273,
+          "y": 32.65376
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 314842778,
+          "ID": 407457507,
+          "toNode": 314847621,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "اصفهان",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 3,
+        "reliability": 10,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 314842778,
+        "uuid": "8d49ed40-59e5-4820-8703-f0f67f845822",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 2,
+        "magvar": 72,
+        "subtype": "ROAD_CLOSED_EVENT",
+        "street": "Malek Ashtar - مالک اشتر",
+        "additionalInfo": "",
+        "wazeData": "world,51.78203799564057,32.652570124198256,8d49ed40-59e5-4820-8703-f0f67f845822",
+        "toNodeId": 314847621,
+        "reportDescription": "",
+        "location": {
+          "x": 51.782037,
+          "y": 32.65257
+        },
+        "id": "alert-1687545237/8d49ed40-59e5-4820-8703-f0f67f845822",
+        "pubMillis": 1728287100000
+      },
+      "locationY": 32.65257,
+      "locationX": 51.782037,
+      "updateMillis": 1786640566890,
+      "blockUpdate": 1728287100727
+    },
+    {
+      "id": 1790355372,
+      "street": "Chaharbagh Bala - چهارباغ بالا",
+      "city": "اصفهان",
+      "country": null,
+      "level": 3,
+      "length": 283,
+      "speed": 1.9277777777777778,
+      "endNode": "",
+      "line": [
+        {
+          "x": 51.666103,
+          "y": 32.633167
+        },
+        {
+          "x": 51.666298,
+          "y": 32.634625
+        },
+        {
+          "x": 51.666438,
+          "y": 32.6357
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 208217335,
+          "ID": 243807075,
+          "toNode": 181015324,
+          "isForward": true
+        },
+        {
+          "fromNode": 181015324,
+          "ID": 197039383,
+          "toNode": 181012418,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.633167,
+      "locationX": 51.666103,
+      "updateMillis": 1786640554491,
+      "blockUpdate": null
+    },
+    {
+      "id": 1789818860,
+      "street": "Khorram - خرم",
+      "city": "اصفهان",
+      "country": null,
+      "level": 2,
+      "length": 876,
+      "speed": 6.222222222222222,
+      "endNode": "Navab Safavi - نواب صفوی",
+      "line": [
+        {
+          "x": 51.649906,
+          "y": 32.674425
+        },
+        {
+          "x": 51.649732,
+          "y": 32.674202
+        },
+        {
+          "x": 51.648429,
+          "y": 32.672542
+        },
+        {
+          "x": 51.648177,
+          "y": 32.672221
+        },
+        {
+          "x": 51.647994,
+          "y": 32.671988
+        },
+        {
+          "x": 51.647857,
+          "y": 32.671813
+        },
+        {
+          "x": 51.647642,
+          "y": 32.67154
+        },
+        {
+          "x": 51.647045,
+          "y": 32.67078
+        },
+        {
+          "x": 51.646781,
+          "y": 32.670432
+        },
+        {
+          "x": 51.646182,
+          "y": 32.669642
+        },
+        {
+          "x": 51.64603,
+          "y": 32.669342
+        },
+        {
+          "x": 51.645877,
+          "y": 32.668984
+        },
+        {
+          "x": 51.645716,
+          "y": 32.668616
+        },
+        {
+          "x": 51.645626,
+          "y": 32.66841
+        },
+        {
+          "x": 51.645586,
+          "y": 32.66832
+        },
+        {
+          "x": 51.645422,
+          "y": 32.667946
+        },
+        {
+          "x": 51.645268,
+          "y": 32.667598
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 181323788,
+          "ID": 347569047,
+          "toNode": 275826548,
+          "isForward": false
+        },
+        {
+          "fromNode": 275826548,
+          "ID": 347569046,
+          "toNode": 231188791,
+          "isForward": false
+        },
+        {
+          "fromNode": 231188791,
+          "ID": 349916661,
+          "toNode": 277301201,
+          "isForward": false
+        },
+        {
+          "fromNode": 277301201,
+          "ID": 349916660,
+          "toNode": 277301198,
+          "isForward": false
+        },
+        {
+          "fromNode": 277301198,
+          "ID": 349916657,
+          "toNode": 275826627,
+          "isForward": false
+        },
+        {
+          "fromNode": 275826627,
+          "ID": 347569160,
+          "toNode": 272201220,
+          "isForward": false
+        },
+        {
+          "fromNode": 272201220,
+          "ID": 341826379,
+          "toNode": 259545066,
+          "isForward": false
+        },
+        {
+          "fromNode": 259545066,
+          "ID": 347783910,
+          "toNode": 275957837,
+          "isForward": false
+        },
+        {
+          "fromNode": 275957837,
+          "ID": 347783907,
+          "toNode": 259544761,
+          "isForward": false
+        },
+        {
+          "fromNode": 259544761,
+          "ID": 347569163,
+          "toNode": 275826629,
+          "isForward": false
+        },
+        {
+          "fromNode": 275826629,
+          "ID": 347569162,
+          "toNode": 259545178,
+          "isForward": false
+        },
+        {
+          "fromNode": 259545178,
+          "ID": 324189032,
+          "toNode": 261255948,
+          "isForward": false
+        },
+        {
+          "fromNode": 261255948,
+          "ID": 324189030,
+          "toNode": 259545176,
+          "isForward": false
+        },
+        {
+          "fromNode": 259545176,
+          "ID": 324188868,
+          "toNode": 261255868,
+          "isForward": true
+        },
+        {
+          "fromNode": 261255868,
+          "ID": 430274615,
+          "toNode": 329730224,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.674425,
+      "locationX": 51.649906,
+      "updateMillis": 1786640546151,
+      "blockUpdate": null
+    },
+    {
+      "id": 1790532998,
+      "street": "",
+      "city": "زازران",
+      "country": null,
+      "level": 4,
+      "length": 291,
+      "speed": 1.2277777777777779,
+      "endNode": "زازران",
+      "line": [
+        {
+          "x": 51.51321,
+          "y": 32.59969
+        },
+        {
+          "x": 51.516111,
+          "y": 32.598754
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 290454258,
+          "ID": 370277661,
+          "toNode": 290454259,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.59969,
+      "locationX": 51.51321,
+      "updateMillis": 1786640545888,
+      "blockUpdate": null
+    },
+    {
+      "id": 1691100156,
+      "street": "Hejazi Fwy",
+      "city": "باغ رضوان",
+      "country": "IR",
+      "level": 5,
+      "length": 113,
+      "speed": 0,
+      "endNode": "باغ رضوان",
+      "line": [
+        {
+          "x": 51.834699,
+          "y": 32.654045
+        },
+        {
+          "x": 51.835369,
+          "y": 32.653202
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 344274327,
+          "ID": 452667098,
+          "toNode": 344274218,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": true,
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 5,
+        "reliability": 10,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 344274327,
+        "uuid": "2cb297a7-24a6-4929-819f-8b82f2bb52c7",
+        "nearBy": "باغ رضوان",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 3,
+        "magvar": 146,
+        "subtype": "ROAD_CLOSED_EVENT",
+        "street": "Hejazi Fwy",
+        "additionalInfo": "",
+        "wazeData": "world,51.834699552852086,32.65404532966617,2cb297a7-24a6-4929-819f-8b82f2bb52c7",
+        "toNodeId": 344274218,
+        "location": {
+          "x": 51.834699,
+          "y": 32.654045
+        },
+        "id": "alert-1769823735/2cb297a7-24a6-4929-819f-8b82f2bb52c7",
+        "pubMillis": 1736151100000
+      },
+      "locationY": 32.654045,
+      "locationX": 51.834699,
+      "updateMillis": 1786640545628,
+      "blockUpdate": 1736151100405
+    },
+    {
+      "id": 1790710640,
+      "street": "Ferdowsi Bridge - پل فردوسی",
+      "city": "اصفهان",
+      "country": null,
+      "level": 4,
+      "length": 200,
+      "speed": 1.2416666666666667,
+      "endNode": "Ayneh Khaneh Blvd - بلوار آینه خانه",
+      "line": [
+        {
+          "x": 51.674772,
+          "y": 32.640813
+        },
+        {
+          "x": 51.674565,
+          "y": 32.640631
+        },
+        {
+          "x": 51.673344,
+          "y": 32.639481
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 278797012,
+          "ID": 352346756,
+          "toNode": 259939068,
+          "isForward": false
+        },
+        {
+          "fromNode": 259939068,
+          "ID": 322121709,
+          "toNode": 181127646,
+          "isForward": false
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.640813,
+      "locationX": 51.674772,
+      "updateMillis": 1786640544673,
+      "blockUpdate": null
+    },
+    {
+      "id": 1789542774,
+      "street": "Kakh-e Sa'adat Abad W - کاخ سعادت آباد غربی",
+      "city": "اصفهان",
+      "country": null,
+      "level": 3,
+      "length": 238,
+      "speed": 1.9111111111111112,
+      "endNode": "Chaharbagh Bala - چهارباغ بالا",
+      "line": [
+        {
+          "x": 51.668621,
+          "y": 32.632931
+        },
+        {
+          "x": 51.666103,
+          "y": 32.633167
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 262517089,
+          "ID": 326293625,
+          "toNode": 208217335,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.632931,
+      "locationX": 51.668621,
+      "updateMillis": 1786640544261,
+      "blockUpdate": null
+    },
+    {
+      "id": 1790587730,
+      "street": "Pasdaran - پاسداران",
+      "city": "اصفهان",
+      "country": null,
+      "level": 3,
+      "length": 689,
+      "speed": 2.1,
+      "endNode": "Bagh Goldasteh - باغ گلدسته",
+      "line": [
+        {
+          "x": 51.66986,
+          "y": 32.644917
+        },
+        {
+          "x": 51.670116,
+          "y": 32.645252
+        },
+        {
+          "x": 51.670948,
+          "y": 32.646296
+        },
+        {
+          "x": 51.671044,
+          "y": 32.646512
+        },
+        {
+          "x": 51.671106,
+          "y": 32.646717
+        },
+        {
+          "x": 51.6712,
+          "y": 32.647322
+        },
+        {
+          "x": 51.671222,
+          "y": 32.647467
+        },
+        {
+          "x": 51.671387,
+          "y": 32.648536
+        },
+        {
+          "x": 51.671439,
+          "y": 32.648829
+        },
+        {
+          "x": 51.671456,
+          "y": 32.648933
+        },
+        {
+          "x": 51.671652,
+          "y": 32.650354
+        },
+        {
+          "x": 51.671671,
+          "y": 32.650796
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 208079510,
+          "ID": 321410667,
+          "toNode": 208079814,
+          "isForward": true
+        },
+        {
+          "fromNode": 208079814,
+          "ID": 391144281,
+          "toNode": 285598759,
+          "isForward": true
+        },
+        {
+          "fromNode": 285598759,
+          "ID": 362816435,
+          "toNode": 285598781,
+          "isForward": true
+        },
+        {
+          "fromNode": 285598781,
+          "ID": 362816436,
+          "toNode": 208080121,
+          "isForward": true
+        },
+        {
+          "fromNode": 208080121,
+          "ID": 320536734,
+          "toNode": 258943542,
+          "isForward": true
+        },
+        {
+          "fromNode": 258943542,
+          "ID": 362627937,
+          "toNode": 285479003,
+          "isForward": true
+        },
+        {
+          "fromNode": 285479003,
+          "ID": 362627939,
+          "toNode": 181130826,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.644917,
+      "locationX": 51.66986,
+      "updateMillis": 1786640543687,
+      "blockUpdate": null
+    },
+    {
+      "id": 1789586150,
+      "street": "2nd Abshar - آبشار دوم",
+      "city": "اصفهان",
+      "country": null,
+      "level": 4,
+      "length": 373,
+      "speed": 1.3611111111111112,
+      "endNode": "Imam Sajjad - امام سجاد",
+      "line": [
+        {
+          "x": 51.697323,
+          "y": 32.635575
+        },
+        {
+          "x": 51.696754,
+          "y": 32.635728
+        },
+        {
+          "x": 51.695238,
+          "y": 32.636028
+        },
+        {
+          "x": 51.694648,
+          "y": 32.636134
+        },
+        {
+          "x": 51.693983,
+          "y": 32.636184
+        },
+        {
+          "x": 51.693445,
+          "y": 32.636225
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 208242761,
+          "ID": 321769251,
+          "toNode": 259713673,
+          "isForward": true
+        },
+        {
+          "fromNode": 259713673,
+          "ID": 370814037,
+          "toNode": 290796768,
+          "isForward": true
+        },
+        {
+          "fromNode": 290796768,
+          "ID": 370814038,
+          "toNode": 202692135,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.635575,
+      "locationX": 51.697323,
+      "updateMillis": 1786640543670,
+      "blockUpdate": null
+    },
+    {
+      "id": 1691084854,
+      "street": "Roshan Dasht Blvd - بلوار روشن دشت",
+      "city": "اصفهان",
+      "country": "IR",
+      "level": 5,
+      "length": 178,
+      "speed": 0,
+      "endNode": "اصفهان",
+      "line": [
+        {
+          "x": 51.768809,
+          "y": 32.602269
+        },
+        {
+          "x": 51.769345,
+          "y": 32.600921
+        },
+        {
+          "x": 51.769423,
+          "y": 32.600752
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 268635378,
+          "ID": 416946714,
+          "toNode": 206809858,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": true,
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 1,
+        "reliability": 9,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 268635378,
+        "uuid": "7b6bd3b3-4500-4161-8d84-b5c735a76771",
+        "nearBy": "اصفهان",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 6,
+        "magvar": 161,
+        "subtype": "",
+        "street": "Roshan Dasht Blvd - بلوار روشن دشت",
+        "additionalInfo": "",
+        "wazeData": "world,51.76880968186689,32.60227022767074,7b6bd3b3-4500-4161-8d84-b5c735a76771",
+        "toNodeId": 206809858,
+        "reportDescription": "",
+        "location": {
+          "x": 51.768809,
+          "y": 32.60227
+        },
+        "id": "alert-1296303079/7b6bd3b3-4500-4161-8d84-b5c735a76771",
+        "pubMillis": 1759379730000
+      },
+      "locationY": 32.60227,
+      "locationX": 51.768809,
+      "updateMillis": 1786640543116,
+      "blockUpdate": 1759379730446
+    },
+    {
+      "id": 1788188900,
+      "street": "Kamal Esmaeil - کمال اسماعیل",
+      "city": "اصفهان",
+      "country": null,
+      "level": 4,
+      "length": 180,
+      "speed": 0.8055555555555556,
+      "endNode": "Pasdaran - پاسداران",
+      "line": [
+        {
+          "x": 51.667845,
+          "y": 32.646229
+        },
+        {
+          "x": 51.668115,
+          "y": 32.646105
+        },
+        {
+          "x": 51.668435,
+          "y": 32.645918
+        },
+        {
+          "x": 51.668943,
+          "y": 32.645591
+        },
+        {
+          "x": 51.669386,
+          "y": 32.645265
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 181129429,
+          "ID": 324899414,
+          "toNode": 261698301,
+          "isForward": true
+        },
+        {
+          "fromNode": 261698301,
+          "ID": 367095784,
+          "toNode": 288030140,
+          "isForward": false
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.646229,
+      "locationX": 51.667845,
+      "updateMillis": 1786640542829,
+      "blockUpdate": null
+    },
+    {
+      "id": 1789869930,
+      "street": "Taleqani - طالقانی",
+      "city": "اصفهان",
+      "country": null,
+      "level": 4,
+      "length": 613,
+      "speed": 0.8527777777777777,
+      "endNode": "",
+      "line": [
+        {
+          "x": 51.662573,
+          "y": 32.657773
+        },
+        {
+          "x": 51.663613,
+          "y": 32.657701
+        },
+        {
+          "x": 51.663965,
+          "y": 32.657676
+        },
+        {
+          "x": 51.665159,
+          "y": 32.657593
+        },
+        {
+          "x": 51.665404,
+          "y": 32.657576
+        },
+        {
+          "x": 51.666143,
+          "y": 32.657525
+        },
+        {
+          "x": 51.666496,
+          "y": 32.657504
+        },
+        {
+          "x": 51.667501,
+          "y": 32.657466
+        },
+        {
+          "x": 51.668387,
+          "y": 32.657415
+        },
+        {
+          "x": 51.668897,
+          "y": 32.657384
+        },
+        {
+          "x": 51.669093,
+          "y": 32.657418
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 258480683,
+          "ID": 429357758,
+          "toNode": 275519940,
+          "isForward": true
+        },
+        {
+          "fromNode": 275519940,
+          "ID": 369050860,
+          "toNode": 289655907,
+          "isForward": true
+        },
+        {
+          "fromNode": 289655907,
+          "ID": 377475412,
+          "toNode": 295025422,
+          "isForward": true
+        },
+        {
+          "fromNode": 295025422,
+          "ID": 432054671,
+          "toNode": 330928195,
+          "isForward": true
+        },
+        {
+          "fromNode": 330928195,
+          "ID": 432054672,
+          "toNode": 268430580,
+          "isForward": true
+        },
+        {
+          "fromNode": 268430580,
+          "ID": 335810732,
+          "toNode": 181280303,
+          "isForward": true
+        },
+        {
+          "fromNode": 181280303,
+          "ID": 319800516,
+          "toNode": 258481266,
+          "isForward": true
+        },
+        {
+          "fromNode": 258481266,
+          "ID": 470461753,
+          "toNode": 355179780,
+          "isForward": false
+        },
+        {
+          "fromNode": 355179780,
+          "ID": 470461752,
+          "toNode": 259633261,
+          "isForward": false
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.657773,
+      "locationX": 51.662573,
+      "updateMillis": 1786640542643,
+      "blockUpdate": null
+    },
+    {
+      "id": 1775997586,
+      "street": "A682, Enqelab Blvd - بلوار انقلاب",
+      "city": "اشکاوند",
+      "country": null,
+      "level": 3,
+      "length": 832,
+      "speed": 2.7416666666666667,
+      "endNode": "اشکاوند",
+      "line": [
+        {
+          "x": 51.751958,
+          "y": 32.583162
+        },
+        {
+          "x": 51.752065,
+          "y": 32.582907
+        },
+        {
+          "x": 51.752214,
+          "y": 32.582552
+        },
+        {
+          "x": 51.752353,
+          "y": 32.582264
+        },
+        {
+          "x": 51.75254,
+          "y": 32.581877
+        },
+        {
+          "x": 51.752865,
+          "y": 32.581452
+        },
+        {
+          "x": 51.753104,
+          "y": 32.58101
+        },
+        {
+          "x": 51.753198,
+          "y": 32.580832
+        },
+        {
+          "x": 51.753279,
+          "y": 32.580679
+        },
+        {
+          "x": 51.753804,
+          "y": 32.579683
+        },
+        {
+          "x": 51.753865,
+          "y": 32.579566
+        },
+        {
+          "x": 51.754347,
+          "y": 32.578653
+        },
+        {
+          "x": 51.754435,
+          "y": 32.578493
+        },
+        {
+          "x": 51.754586,
+          "y": 32.578201
+        },
+        {
+          "x": 51.754742,
+          "y": 32.577905
+        },
+        {
+          "x": 51.755292,
+          "y": 32.576861
+        },
+        {
+          "x": 51.755576,
+          "y": 32.576324
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 206493840,
+          "ID": 431807371,
+          "toNode": 330748250,
+          "isForward": true
+        },
+        {
+          "fromNode": 330748250,
+          "ID": 431807372,
+          "toNode": 276798599,
+          "isForward": true
+        },
+        {
+          "fromNode": 276798599,
+          "ID": 349119055,
+          "toNode": 276798377,
+          "isForward": true
+        },
+        {
+          "fromNode": 276798377,
+          "ID": 349118698,
+          "toNode": 226607481,
+          "isForward": true
+        },
+        {
+          "fromNode": 226607481,
+          "ID": 349112191,
+          "toNode": 276794400,
+          "isForward": true
+        },
+        {
+          "fromNode": 276794400,
+          "ID": 349112194,
+          "toNode": 276794402,
+          "isForward": true
+        },
+        {
+          "fromNode": 276794402,
+          "ID": 349112247,
+          "toNode": 276794424,
+          "isForward": true
+        },
+        {
+          "fromNode": 276794424,
+          "ID": 349112249,
+          "toNode": 276793244,
+          "isForward": true
+        },
+        {
+          "fromNode": 276793244,
+          "ID": 349119907,
+          "toNode": 276799125,
+          "isForward": true
+        },
+        {
+          "fromNode": 276799125,
+          "ID": 349119908,
+          "toNode": 276794665,
+          "isForward": true
+        },
+        {
+          "fromNode": 276794665,
+          "ID": 349112601,
+          "toNode": 267971851,
+          "isForward": true
+        },
+        {
+          "fromNode": 267971851,
+          "ID": 349112769,
+          "toNode": 276794760,
+          "isForward": true
+        },
+        {
+          "fromNode": 276794760,
+          "ID": 349119904,
+          "toNode": 276799123,
+          "isForward": true
+        },
+        {
+          "fromNode": 276799123,
+          "ID": 349119905,
+          "toNode": 260664949,
+          "isForward": true
+        },
+        {
+          "fromNode": 260664949,
+          "ID": 349119438,
+          "toNode": 276798821,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.583162,
+      "locationX": 51.751958,
+      "updateMillis": 1786640542464,
+      "blockUpdate": null
+    },
+    {
+      "id": 1790347180,
+      "street": "Hasht Behesht W - هشت بهشت غربی",
+      "city": "اصفهان",
+      "country": null,
+      "level": 4,
+      "length": 390,
+      "speed": 1.6,
+      "endNode": "Neshat - نشاط",
+      "line": [
+        {
+          "x": 51.686387,
+          "y": 32.6524
+        },
+        {
+          "x": 51.684452,
+          "y": 32.652259
+        },
+        {
+          "x": 51.684091,
+          "y": 32.652233
+        },
+        {
+          "x": 51.683278,
+          "y": 32.6522
+        },
+        {
+          "x": 51.682397,
+          "y": 32.652175
+        },
+        {
+          "x": 51.682236,
+          "y": 32.652136
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 218834613,
+          "ID": 438346113,
+          "toNode": 335117850,
+          "isForward": true
+        },
+        {
+          "fromNode": 335117850,
+          "ID": 438346114,
+          "toNode": 288872496,
+          "isForward": true
+        },
+        {
+          "fromNode": 288872496,
+          "ID": 367891625,
+          "toNode": 288872492,
+          "isForward": true
+        },
+        {
+          "fromNode": 288872492,
+          "ID": 367891619,
+          "toNode": 181328599,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.6524,
+      "locationX": 51.686387,
+      "updateMillis": 1786640541971,
+      "blockUpdate": null
+    },
+    {
+      "id": 1790470094,
+      "street": "Neshat - نشاط",
+      "city": "اصفهان",
+      "country": null,
+      "level": 4,
+      "length": 168,
+      "speed": 0.9027777777777778,
+      "endNode": "Aqa Ali Baba - آقا علی بابا",
+      "line": [
+        {
+          "x": 51.684139,
+          "y": 32.660303
+        },
+        {
+          "x": 51.68396,
+          "y": 32.659526
+        },
+        {
+          "x": 51.683797,
+          "y": 32.65882
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 181328579,
+          "ID": 347606926,
+          "toNode": 275849288,
+          "isForward": true
+        },
+        {
+          "fromNode": 275849288,
+          "ID": 347606927,
+          "toNode": 258589531,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.660303,
+      "locationX": 51.684139,
+      "updateMillis": 1786640541851,
+      "blockUpdate": null
+    },
+    {
+      "id": 1790303970,
+      "street": "Sheikh Sadduq N - شیخ صدوق شمالی",
+      "city": "اصفهان",
+      "country": null,
+      "level": 4,
+      "length": 594,
+      "speed": 1.8527777777777779,
+      "endNode": "Azadegan - آزادگان",
+      "line": [
+        {
+          "x": 51.671501,
+          "y": 32.627539
+        },
+        {
+          "x": 51.671615,
+          "y": 32.62654
+        },
+        {
+          "x": 51.671603,
+          "y": 32.626291
+        },
+        {
+          "x": 51.671515,
+          "y": 32.625739
+        },
+        {
+          "x": 51.671412,
+          "y": 32.625112
+        },
+        {
+          "x": 51.671326,
+          "y": 32.624501
+        },
+        {
+          "x": 51.671285,
+          "y": 32.624249
+        },
+        {
+          "x": 51.671219,
+          "y": 32.623824
+        },
+        {
+          "x": 51.67119,
+          "y": 32.623631
+        },
+        {
+          "x": 51.671151,
+          "y": 32.623128
+        },
+        {
+          "x": 51.671099,
+          "y": 32.622208
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 259484887,
+          "ID": 321413288,
+          "toNode": 181012414,
+          "isForward": true
+        },
+        {
+          "fromNode": 181012414,
+          "ID": 197036832,
+          "toNode": 181014302,
+          "isForward": true
+        },
+        {
+          "fromNode": 181014302,
+          "ID": 320120515,
+          "toNode": 258687328,
+          "isForward": true
+        },
+        {
+          "fromNode": 258687328,
+          "ID": 320120516,
+          "toNode": 181014297,
+          "isForward": true
+        },
+        {
+          "fromNode": 181014297,
+          "ID": 320043465,
+          "toNode": 258637091,
+          "isForward": true
+        },
+        {
+          "fromNode": 258637091,
+          "ID": 320043466,
+          "toNode": 181014296,
+          "isForward": true
+        },
+        {
+          "fromNode": 181014296,
+          "ID": 320043313,
+          "toNode": 258636981,
+          "isForward": true
+        },
+        {
+          "fromNode": 258636981,
+          "ID": 321413387,
+          "toNode": 259485026,
+          "isForward": true
+        },
+        {
+          "fromNode": 259485026,
+          "ID": 433129804,
+          "toNode": 181001498,
+          "isForward": false
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.627539,
+      "locationX": 51.671501,
+      "updateMillis": 1786640541782,
+      "blockUpdate": null
+    },
+    {
+      "id": 1787544492,
+      "street": "Vahid - وحید",
+      "city": "اصفهان",
+      "country": null,
+      "level": 3,
+      "length": 1037,
+      "speed": 2.7555555555555555,
+      "endNode": "",
+      "line": [
+        {
+          "x": 51.639521,
+          "y": 32.638482
+        },
+        {
+          "x": 51.639507,
+          "y": 32.638346
+        },
+        {
+          "x": 51.639547,
+          "y": 32.63817
+        },
+        {
+          "x": 51.639604,
+          "y": 32.638032
+        },
+        {
+          "x": 51.63977,
+          "y": 32.637535
+        },
+        {
+          "x": 51.639543,
+          "y": 32.636893
+        },
+        {
+          "x": 51.639518,
+          "y": 32.636643
+        },
+        {
+          "x": 51.639424,
+          "y": 32.636074
+        },
+        {
+          "x": 51.639403,
+          "y": 32.635953
+        },
+        {
+          "x": 51.639291,
+          "y": 32.635311
+        },
+        {
+          "x": 51.639138,
+          "y": 32.634371
+        },
+        {
+          "x": 51.639072,
+          "y": 32.634039
+        },
+        {
+          "x": 51.638626,
+          "y": 32.632317
+        },
+        {
+          "x": 51.638191,
+          "y": 32.630674
+        },
+        {
+          "x": 51.638128,
+          "y": 32.630437
+        },
+        {
+          "x": 51.637915,
+          "y": 32.629635
+        },
+        {
+          "x": 51.637819,
+          "y": 32.629317
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 181169162,
+          "ID": 197403088,
+          "toNode": 181169163,
+          "isForward": true
+        },
+        {
+          "fromNode": 181169163,
+          "ID": 197403089,
+          "toNode": 181169152,
+          "isForward": true
+        },
+        {
+          "fromNode": 181169152,
+          "ID": 197826687,
+          "toNode": 181343968,
+          "isForward": true
+        },
+        {
+          "fromNode": 181343968,
+          "ID": 334476091,
+          "toNode": 258664528,
+          "isForward": true
+        },
+        {
+          "fromNode": 258664528,
+          "ID": 340562298,
+          "toNode": 271411471,
+          "isForward": true
+        },
+        {
+          "fromNode": 271411471,
+          "ID": 340562300,
+          "toNode": 258664517,
+          "isForward": true
+        },
+        {
+          "fromNode": 258664517,
+          "ID": 347050700,
+          "toNode": 275499345,
+          "isForward": false
+        },
+        {
+          "fromNode": 275499345,
+          "ID": 347050698,
+          "toNode": 207910901,
+          "isForward": false
+        },
+        {
+          "fromNode": 207910901,
+          "ID": 321447004,
+          "toNode": 258664549,
+          "isForward": true
+        },
+        {
+          "fromNode": 258664549,
+          "ID": 381253014,
+          "toNode": 297504663,
+          "isForward": true
+        },
+        {
+          "fromNode": 297504663,
+          "ID": 381253015,
+          "toNode": 268903111,
+          "isForward": true
+        },
+        {
+          "fromNode": 268903111,
+          "ID": 336567739,
+          "toNode": 207910966,
+          "isForward": true
+        },
+        {
+          "fromNode": 207910966,
+          "ID": 323602603,
+          "toNode": 181343843,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.638482,
+      "locationX": 51.639521,
+      "updateMillis": 1786640541777,
+      "blockUpdate": null
+    },
+    {
+      "id": 1790718130,
+      "street": "Hezar Jerib - هزار جریب",
+      "city": "اصفهان",
+      "country": null,
+      "level": 3,
+      "length": 585,
+      "speed": 2.933333333333333,
+      "endNode": "",
+      "line": [
+        {
+          "x": 51.663845,
+          "y": 32.616548
+        },
+        {
+          "x": 51.663937,
+          "y": 32.617281
+        },
+        {
+          "x": 51.664,
+          "y": 32.617783
+        },
+        {
+          "x": 51.664016,
+          "y": 32.617904
+        },
+        {
+          "x": 51.664148,
+          "y": 32.618834
+        },
+        {
+          "x": 51.664313,
+          "y": 32.620207
+        },
+        {
+          "x": 51.664372,
+          "y": 32.620634
+        },
+        {
+          "x": 51.664477,
+          "y": 32.621375
+        },
+        {
+          "x": 51.664633,
+          "y": 32.621609
+        },
+        {
+          "x": 51.664727,
+          "y": 32.621726
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 181002543,
+          "ID": 324423983,
+          "toNode": 261401435,
+          "isForward": true
+        },
+        {
+          "fromNode": 261401435,
+          "ID": 324423984,
+          "toNode": 181002541,
+          "isForward": true
+        },
+        {
+          "fromNode": 181002541,
+          "ID": 321497977,
+          "toNode": 259538925,
+          "isForward": true
+        },
+        {
+          "fromNode": 259538925,
+          "ID": 321497978,
+          "toNode": 181002545,
+          "isForward": true
+        },
+        {
+          "fromNode": 181002545,
+          "ID": 343777633,
+          "toNode": 258944657,
+          "isForward": true
+        },
+        {
+          "fromNode": 258944657,
+          "ID": 320538568,
+          "toNode": 181002551,
+          "isForward": true
+        },
+        {
+          "fromNode": 181002551,
+          "ID": 340562519,
+          "toNode": 248755882,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.616548,
+      "locationX": 51.663845,
+      "updateMillis": 1786640541713,
+      "blockUpdate": null
+    },
+    {
+      "id": 1790666594,
+      "street": "Kamal Esmaeil - کمال اسماعیل",
+      "city": "اصفهان",
+      "country": null,
+      "level": 4,
+      "length": 229,
+      "speed": 0.9333333333333333,
+      "line": [
+        {
+          "x": 51.674055,
+          "y": 32.641765
+        },
+        {
+          "x": 51.673699,
+          "y": 32.642029
+        },
+        {
+          "x": 51.673035,
+          "y": 32.642538
+        },
+        {
+          "x": 51.672239,
+          "y": 32.643147
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 261698139,
+          "ID": 324899082,
+          "toNode": 258590788,
+          "isForward": true
+        },
+        {
+          "fromNode": 258590788,
+          "ID": 361961246,
+          "toNode": 278731468,
+          "isForward": true
+        },
+        {
+          "fromNode": 278731468,
+          "ID": 361961247,
+          "toNode": 258593644,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.641765,
+      "locationX": 51.674055,
+      "updateMillis": 1786640541376,
+      "blockUpdate": null
+    },
+    {
+      "id": 1790319544,
+      "street": "Tohid - توحید",
+      "city": "اصفهان",
+      "country": null,
+      "level": 3,
+      "length": 874,
+      "speed": 5.066666666666666,
+      "endNode": "Qandi - قندی",
+      "line": [
+        {
+          "x": 51.65816,
+          "y": 32.626264
+        },
+        {
+          "x": 51.658242,
+          "y": 32.627511
+        },
+        {
+          "x": 51.65826,
+          "y": 32.627795
+        },
+        {
+          "x": 51.658329,
+          "y": 32.628929
+        },
+        {
+          "x": 51.658347,
+          "y": 32.629221
+        },
+        {
+          "x": 51.658369,
+          "y": 32.629588
+        },
+        {
+          "x": 51.658394,
+          "y": 32.630049
+        },
+        {
+          "x": 51.658414,
+          "y": 32.630388
+        },
+        {
+          "x": 51.658447,
+          "y": 32.630944
+        },
+        {
+          "x": 51.658479,
+          "y": 32.631469
+        },
+        {
+          "x": 51.658512,
+          "y": 32.632035
+        },
+        {
+          "x": 51.658591,
+          "y": 32.63364
+        },
+        {
+          "x": 51.65857,
+          "y": 32.634141
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 181011823,
+          "ID": 456616401,
+          "toNode": 179161820,
+          "isForward": true
+        },
+        {
+          "fromNode": 179161820,
+          "ID": 456616426,
+          "toNode": 290969409,
+          "isForward": true
+        },
+        {
+          "fromNode": 290969409,
+          "ID": 371084889,
+          "toNode": 208243812,
+          "isForward": true
+        },
+        {
+          "fromNode": 208243812,
+          "ID": 243850036,
+          "toNode": 181413752,
+          "isForward": true
+        },
+        {
+          "fromNode": 181413752,
+          "ID": 260462319,
+          "toNode": 218835520,
+          "isForward": true
+        },
+        {
+          "fromNode": 218835520,
+          "ID": 348414045,
+          "toNode": 276354871,
+          "isForward": true
+        },
+        {
+          "fromNode": 276354871,
+          "ID": 348457691,
+          "toNode": 276382209,
+          "isForward": true
+        },
+        {
+          "fromNode": 276382209,
+          "ID": 348457838,
+          "toNode": 276382289,
+          "isForward": true
+        },
+        {
+          "fromNode": 276382289,
+          "ID": 348457839,
+          "toNode": 262696999,
+          "isForward": true
+        },
+        {
+          "fromNode": 262696999,
+          "ID": 339530458,
+          "toNode": 270760454,
+          "isForward": true
+        },
+        {
+          "fromNode": 270760454,
+          "ID": 339530459,
+          "toNode": 181015595,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.626264,
+      "locationX": 51.65816,
+      "updateMillis": 1786640541356,
+      "blockUpdate": null
+    },
+    {
+      "id": 1788847490,
+      "street": "Bozorgmehr - بزرگمهر",
+      "city": "اصفهان",
+      "country": null,
+      "level": 3,
+      "length": 840,
+      "speed": 4.747222222222222,
+      "line": [
+        {
+          "x": 51.701598,
+          "y": 32.661803
+        },
+        {
+          "x": 51.701482,
+          "y": 32.661551
+        },
+        {
+          "x": 51.701319,
+          "y": 32.661085
+        },
+        {
+          "x": 51.701194,
+          "y": 32.66071
+        },
+        {
+          "x": 51.700964,
+          "y": 32.660018
+        },
+        {
+          "x": 51.700818,
+          "y": 32.659578
+        },
+        {
+          "x": 51.700691,
+          "y": 32.659197
+        },
+        {
+          "x": 51.700554,
+          "y": 32.658785
+        },
+        {
+          "x": 51.700345,
+          "y": 32.658157
+        },
+        {
+          "x": 51.700099,
+          "y": 32.657417
+        },
+        {
+          "x": 51.699984,
+          "y": 32.657072
+        },
+        {
+          "x": 51.699878,
+          "y": 32.656754
+        },
+        {
+          "x": 51.699779,
+          "y": 32.656438
+        },
+        {
+          "x": 51.699634,
+          "y": 32.655974
+        },
+        {
+          "x": 51.699336,
+          "y": 32.655009
+        },
+        {
+          "x": 51.699252,
+          "y": 32.654503
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 317158544,
+          "ID": 411058784,
+          "toNode": 317158543,
+          "isForward": false
+        },
+        {
+          "fromNode": 317158543,
+          "ID": 411058782,
+          "toNode": 205658163,
+          "isForward": false
+        },
+        {
+          "fromNode": 205658163,
+          "ID": 323193902,
+          "toNode": 260628285,
+          "isForward": true
+        },
+        {
+          "fromNode": 260628285,
+          "ID": 348062739,
+          "toNode": 276133959,
+          "isForward": true
+        },
+        {
+          "fromNode": 276133959,
+          "ID": 348062740,
+          "toNode": 260628269,
+          "isForward": true
+        },
+        {
+          "fromNode": 260628269,
+          "ID": 348062563,
+          "toNode": 276133832,
+          "isForward": true
+        },
+        {
+          "fromNode": 276133832,
+          "ID": 348062564,
+          "toNode": 260628349,
+          "isForward": true
+        },
+        {
+          "fromNode": 260628349,
+          "ID": 323193993,
+          "toNode": 260628272,
+          "isForward": true
+        },
+        {
+          "fromNode": 260628272,
+          "ID": 454641111,
+          "toNode": 345529173,
+          "isForward": true
+        },
+        {
+          "fromNode": 345529173,
+          "ID": 454641112,
+          "toNode": 260628352,
+          "isForward": true
+        },
+        {
+          "fromNode": 260628352,
+          "ID": 323194001,
+          "toNode": 231188557,
+          "isForward": true
+        },
+        {
+          "fromNode": 231188557,
+          "ID": 321612146,
+          "toNode": 259609925,
+          "isForward": true
+        },
+        {
+          "fromNode": 259609925,
+          "ID": 323194368,
+          "toNode": 260628578,
+          "isForward": true
+        },
+        {
+          "fromNode": 260628578,
+          "ID": 323194369,
+          "toNode": 205657875,
+          "isForward": true
+        },
+        {
+          "fromNode": 205657875,
+          "ID": 431023773,
+          "toNode": 330213659,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.661803,
+      "locationX": 51.701598,
+      "updateMillis": 1786640541233,
+      "blockUpdate": null
+    },
+    {
+      "id": 1767216780,
+      "street": "Kharrazi Expy - بزرگراه خرازی",
+      "city": "اصفهان",
+      "country": null,
+      "level": 3,
+      "length": 4393,
+      "speed": 6.919444444444444,
+      "endNode": "Mirza Kuchak Khan Expy - بزرگراه میرزا کوچک خان",
+      "line": [
+        {
+          "x": 51.64319,
+          "y": 32.681173
+        },
+        {
+          "x": 51.642965,
+          "y": 32.680853
+        },
+        {
+          "x": 51.642638,
+          "y": 32.680143
+        },
+        {
+          "x": 51.642563,
+          "y": 32.679859
+        },
+        {
+          "x": 51.64253,
+          "y": 32.679617
+        },
+        {
+          "x": 51.642509,
+          "y": 32.679249
+        },
+        {
+          "x": 51.642568,
+          "y": 32.678209
+        },
+        {
+          "x": 51.642744,
+          "y": 32.67586
+        },
+        {
+          "x": 51.642785,
+          "y": 32.675165
+        },
+        {
+          "x": 51.642889,
+          "y": 32.67383
+        },
+        {
+          "x": 51.643437,
+          "y": 32.665197
+        },
+        {
+          "x": 51.643439,
+          "y": 32.665045
+        },
+        {
+          "x": 51.643446,
+          "y": 32.664481
+        },
+        {
+          "x": 51.643413,
+          "y": 32.660303
+        },
+        {
+          "x": 51.643418,
+          "y": 32.659484
+        },
+        {
+          "x": 51.643438,
+          "y": 32.652363
+        },
+        {
+          "x": 51.643424,
+          "y": 32.65026
+        },
+        {
+          "x": 51.643445,
+          "y": 32.649341
+        },
+        {
+          "x": 51.643423,
+          "y": 32.647621
+        },
+        {
+          "x": 51.643401,
+          "y": 32.647339
+        },
+        {
+          "x": 51.643331,
+          "y": 32.647038
+        },
+        {
+          "x": 51.643208,
+          "y": 32.646735
+        },
+        {
+          "x": 51.643103,
+          "y": 32.646523
+        },
+        {
+          "x": 51.642923,
+          "y": 32.646268
+        },
+        {
+          "x": 51.642663,
+          "y": 32.645977
+        },
+        {
+          "x": 51.642365,
+          "y": 32.645713
+        },
+        {
+          "x": 51.642009,
+          "y": 32.645376
+        },
+        {
+          "x": 51.641722,
+          "y": 32.645028
+        },
+        {
+          "x": 51.641424,
+          "y": 32.644635
+        },
+        {
+          "x": 51.641228,
+          "y": 32.644319
+        },
+        {
+          "x": 51.640944,
+          "y": 32.643659
+        },
+        {
+          "x": 51.64047,
+          "y": 32.642372
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 181198068,
+          "ID": 197471374,
+          "toNode": 181198070,
+          "isForward": true
+        },
+        {
+          "fromNode": 181198070,
+          "ID": 197471375,
+          "toNode": 181197216,
+          "isForward": true
+        },
+        {
+          "fromNode": 181197216,
+          "ID": 197469258,
+          "toNode": 181197209,
+          "isForward": true
+        },
+        {
+          "fromNode": 181197209,
+          "ID": 347417251,
+          "toNode": 275732187,
+          "isForward": true
+        },
+        {
+          "fromNode": 275732187,
+          "ID": 353510009,
+          "toNode": 181197180,
+          "isForward": true
+        },
+        {
+          "fromNode": 181197180,
+          "ID": 197469177,
+          "toNode": 181195334,
+          "isForward": true
+        },
+        {
+          "fromNode": 181195334,
+          "ID": 339908453,
+          "toNode": 206832493,
+          "isForward": false
+        },
+        {
+          "fromNode": 206832493,
+          "ID": 241661790,
+          "toNode": 206876421,
+          "isForward": true
+        },
+        {
+          "fromNode": 206876421,
+          "ID": 241661791,
+          "toNode": 181170030,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.681173,
+      "locationX": 51.64319,
+      "updateMillis": 1786640541076,
+      "blockUpdate": null
+    },
+    {
+      "id": 1790378542,
+      "street": "Azar - آذر",
+      "city": "اصفهان",
+      "country": null,
+      "level": 2,
+      "length": 347,
+      "speed": 2,
+      "endNode": "",
+      "line": [
+        {
+          "x": 51.65984,
+          "y": 32.65432
+        },
+        {
+          "x": 51.659677,
+          "y": 32.652244
+        },
+        {
+          "x": 51.659645,
+          "y": 32.651792
+        },
+        {
+          "x": 51.659613,
+          "y": 32.651351
+        },
+        {
+          "x": 51.659598,
+          "y": 32.651203
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 181281290,
+          "ID": 378459685,
+          "toNode": 258480974,
+          "isForward": true
+        },
+        {
+          "fromNode": 258480974,
+          "ID": 353755051,
+          "toNode": 279689936,
+          "isForward": true
+        },
+        {
+          "fromNode": 279689936,
+          "ID": 353755052,
+          "toNode": 208149086,
+          "isForward": true
+        },
+        {
+          "fromNode": 208149086,
+          "ID": 319969957,
+          "toNode": 258590271,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.65432,
+      "locationX": 51.65984,
+      "updateMillis": 1786640541044,
+      "blockUpdate": null
+    },
+    {
+      "id": 1691042560,
+      "street": "AliBalaei Expy - بزرگراه علی بالایی",
+      "city": "اصفهان",
+      "country": "IR",
+      "level": 5,
+      "length": 151,
+      "speed": 0,
+      "endNode": "اصفهان",
+      "line": [
+        {
+          "x": 51.768024,
+          "y": 32.599432
+        },
+        {
+          "x": 51.768543,
+          "y": 32.599564
+        },
+        {
+          "x": 51.769143,
+          "y": 32.599767
+        },
+        {
+          "x": 51.769521,
+          "y": 32.599916
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 206809835,
+          "ID": 241558730,
+          "toNode": 206809856,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": true,
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 3,
+        "reliability": 10,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 206809835,
+        "uuid": "187873ed-28a7-42a2-bd71-64f2843a0461",
+        "nearBy": "اصفهان",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 6,
+        "magvar": 73,
+        "subtype": "",
+        "street": "AliBalaei Expy - بزرگراه علی بالایی",
+        "additionalInfo": "",
+        "wazeData": "world,51.768024049281664,32.5994324071383,187873ed-28a7-42a2-bd71-64f2843a0461",
+        "toNodeId": 206809856,
+        "reportDescription": "",
+        "location": {
+          "x": 51.768024,
+          "y": 32.599432
+        },
+        "id": "alert-1296196009/187873ed-28a7-42a2-bd71-64f2843a0461",
+        "pubMillis": 1759379657000
+      },
+      "locationY": 32.599432,
+      "locationX": 51.768024,
+      "updateMillis": 1786640541032,
+      "blockUpdate": 1759379657099
+    },
+    {
+      "id": 1797675286,
+      "street": "A680",
+      "city": "اصفهان",
+      "country": "IR",
+      "level": 5,
+      "length": 138,
+      "speed": 0,
+      "endNode": "اصفهان",
+      "line": [
+        {
+          "x": 51.770688,
+          "y": 32.598194
+        },
+        {
+          "x": 51.770142,
+          "y": 32.59935
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 206809838,
+          "ID": 241558725,
+          "toNode": 206809853,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": true,
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 1,
+        "reliability": 9,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 206809838,
+        "uuid": "84722c75-3c6a-4dd9-8be8-d36d3521edea",
+        "nearBy": "اصفهان",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 6,
+        "magvar": 338,
+        "subtype": "",
+        "street": "A680",
+        "additionalInfo": "",
+        "wazeData": "world,51.77068805899553,32.598194349449216,84722c75-3c6a-4dd9-8be8-d36d3521edea",
+        "toNodeId": 206809853,
+        "reportDescription": "",
+        "location": {
+          "x": 51.770688,
+          "y": 32.598194
+        },
+        "id": "alert-1296274019/84722c75-3c6a-4dd9-8be8-d36d3521edea",
+        "pubMillis": 1759379710000
+      },
+      "locationY": 32.598194,
+      "locationX": 51.770688,
+      "updateMillis": 1786640540955,
+      "blockUpdate": 1759379710972
+    },
+    {
+      "id": 1790501368,
+      "street": "Meysami local lane - کنارگذر میثمی",
+      "city": "اصفهان",
+      "country": null,
+      "level": 4,
+      "length": 271,
+      "speed": 1.625,
+      "endNode": "Keshavarz Blvd - بلوار کشاورز",
+      "line": [
+        {
+          "x": 51.617477,
+          "y": 32.621451
+        },
+        {
+          "x": 51.617499,
+          "y": 32.621888
+        },
+        {
+          "x": 51.617544,
+          "y": 32.62283
+        },
+        {
+          "x": 51.617574,
+          "y": 32.623452
+        },
+        {
+          "x": 51.617631,
+          "y": 32.623896
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 273233805,
+          "ID": 343465724,
+          "toNode": 273233749,
+          "isForward": true
+        },
+        {
+          "fromNode": 273233749,
+          "ID": 343465654,
+          "toNode": 259545716,
+          "isForward": true
+        },
+        {
+          "fromNode": 259545716,
+          "ID": 321508629,
+          "toNode": 181345818,
+          "isForward": true
+        },
+        {
+          "fromNode": 181345818,
+          "ID": 431114991,
+          "toNode": 261186545,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.621451,
+      "locationX": 51.617477,
+      "updateMillis": 1786640540941,
+      "blockUpdate": null
+    },
+    {
+      "id": 1790836518,
+      "street": "Modarres - مدرس",
+      "city": "اصفهان",
+      "country": null,
+      "level": 4,
+      "length": 418,
+      "speed": 1.5472222222222223,
+      "endNode": "Adib - ادیب",
+      "line": [
+        {
+          "x": 51.685953,
+          "y": 32.678313
+        },
+        {
+          "x": 51.684963,
+          "y": 32.678355
+        },
+        {
+          "x": 51.684336,
+          "y": 32.678404
+        },
+        {
+          "x": 51.683583,
+          "y": 32.678466
+        },
+        {
+          "x": 51.682353,
+          "y": 32.678552
+        },
+        {
+          "x": 51.681512,
+          "y": 32.67861
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 271531096,
+          "ID": 340750850,
+          "toNode": 271531098,
+          "isForward": true
+        },
+        {
+          "fromNode": 271531098,
+          "ID": 340750856,
+          "toNode": 271531103,
+          "isForward": true
+        },
+        {
+          "fromNode": 271531103,
+          "ID": 340750857,
+          "toNode": 205660919,
+          "isForward": true
+        },
+        {
+          "fromNode": 205660919,
+          "ID": 367221823,
+          "toNode": 288432059,
+          "isForward": true
+        },
+        {
+          "fromNode": 288432059,
+          "ID": 367221824,
+          "toNode": 260627475,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.678313,
+      "locationX": 51.685953,
+      "updateMillis": 1786640540933,
+      "blockUpdate": null
+    },
+    {
+      "id": 1776056714,
+      "street": "Soffeh Expy - بزرگراه صفه",
+      "city": "اصفهان",
+      "country": null,
+      "level": 3,
+      "length": 1043,
+      "speed": 5.830555555555556,
+      "endNode": "",
+      "line": [
+        {
+          "x": 51.666391,
+          "y": 32.590975
+        },
+        {
+          "x": 51.664105,
+          "y": 32.590929
+        },
+        {
+          "x": 51.66346,
+          "y": 32.590954
+        },
+        {
+          "x": 51.662629,
+          "y": 32.591061
+        },
+        {
+          "x": 51.661695,
+          "y": 32.591265
+        },
+        {
+          "x": 51.661151,
+          "y": 32.591473
+        },
+        {
+          "x": 51.660542,
+          "y": 32.591769
+        },
+        {
+          "x": 51.659969,
+          "y": 32.592092
+        },
+        {
+          "x": 51.659276,
+          "y": 32.592546
+        },
+        {
+          "x": 51.658949,
+          "y": 32.592823
+        },
+        {
+          "x": 51.658556,
+          "y": 32.593237
+        },
+        {
+          "x": 51.65808,
+          "y": 32.593792
+        },
+        {
+          "x": 51.657731,
+          "y": 32.594254
+        },
+        {
+          "x": 51.657247,
+          "y": 32.59496
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 181263655,
+          "ID": 197629231,
+          "toNode": 181040120,
+          "isForward": true
+        },
+        {
+          "fromNode": 181040120,
+          "ID": 197097525,
+          "toNode": 181039873,
+          "isForward": true
+        },
+        {
+          "fromNode": 181039873,
+          "ID": 197096989,
+          "toNode": 181039451,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.590975,
+      "locationX": 51.666391,
+      "updateMillis": 1786640540840,
+      "blockUpdate": null
+    },
+    {
+      "id": 1785331262,
+      "street": "Bozorgmehr Bridge - پل بزرگمهر",
+      "city": "اصفهان",
+      "country": null,
+      "level": 4,
+      "length": 399,
+      "speed": 1.3805555555555555,
+      "endNode": "Imam Sajjad - امام سجاد",
+      "line": [
+        {
+          "x": 51.694265,
+          "y": 32.639743
+        },
+        {
+          "x": 51.693782,
+          "y": 32.63834
+        },
+        {
+          "x": 51.693573,
+          "y": 32.637338
+        },
+        {
+          "x": 51.693504,
+          "y": 32.636735
+        },
+        {
+          "x": 51.693445,
+          "y": 32.636225
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 261198459,
+          "ID": 370814115,
+          "toNode": 290796827,
+          "isForward": false
+        },
+        {
+          "fromNode": 290796827,
+          "ID": 370814114,
+          "toNode": 202692135,
+          "isForward": false
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.639743,
+      "locationX": 51.694265,
+      "updateMillis": 1786640540825,
+      "blockUpdate": null
+    },
+    {
+      "id": 1788958984,
+      "street": "Chaharbagh Bala - چهارباغ بالا",
+      "city": "اصفهان",
+      "country": null,
+      "level": 3,
+      "length": 972,
+      "speed": 5.038888888888889,
+      "endNode": "Bahar-e Azadi - بهار آزادی",
+      "line": [
+        {
+          "x": 51.665783,
+          "y": 32.633201
+        },
+        {
+          "x": 51.665722,
+          "y": 32.632792
+        },
+        {
+          "x": 51.66547,
+          "y": 32.630927
+        },
+        {
+          "x": 51.665443,
+          "y": 32.630749
+        },
+        {
+          "x": 51.665344,
+          "y": 32.63002
+        },
+        {
+          "x": 51.665242,
+          "y": 32.629264
+        },
+        {
+          "x": 51.665081,
+          "y": 32.628073
+        },
+        {
+          "x": 51.665002,
+          "y": 32.627236
+        },
+        {
+          "x": 51.664866,
+          "y": 32.626381
+        },
+        {
+          "x": 51.664764,
+          "y": 32.625571
+        },
+        {
+          "x": 51.664668,
+          "y": 32.6248
+        },
+        {
+          "x": 51.664628,
+          "y": 32.624485
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 205627490,
+          "ID": 320537970,
+          "toNode": 258944306,
+          "isForward": true
+        },
+        {
+          "fromNode": 258944306,
+          "ID": 320537971,
+          "toNode": 181015320,
+          "isForward": true
+        },
+        {
+          "fromNode": 181015320,
+          "ID": 197039379,
+          "toNode": 181015323,
+          "isForward": true
+        },
+        {
+          "fromNode": 181015323,
+          "ID": 325173977,
+          "toNode": 261855386,
+          "isForward": false
+        },
+        {
+          "fromNode": 261855386,
+          "ID": 326293503,
+          "toNode": 262516989,
+          "isForward": false
+        },
+        {
+          "fromNode": 262516989,
+          "ID": 357726797,
+          "toNode": 282300047,
+          "isForward": false
+        },
+        {
+          "fromNode": 282300047,
+          "ID": 357726796,
+          "toNode": 322662611,
+          "isForward": false
+        },
+        {
+          "fromNode": 322662611,
+          "ID": 321629756,
+          "toNode": 181226642,
+          "isForward": false
+        },
+        {
+          "fromNode": 181226642,
+          "ID": 197540776,
+          "toNode": 181000620,
+          "isForward": true
+        },
+        {
+          "fromNode": 181000620,
+          "ID": 243850607,
+          "toNode": 208244149,
+          "isForward": true
+        },
+        {
+          "fromNode": 208244149,
+          "ID": 243850608,
+          "toNode": 181000617,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.633201,
+      "locationX": 51.665783,
+      "updateMillis": 1786640540802,
+      "blockUpdate": null
+    },
+    {
+      "id": 1691014758,
+      "street": "",
+      "city": "اصفهان",
+      "country": "IR",
+      "level": 5,
+      "length": 334,
+      "speed": 0,
+      "endNode": "A680",
+      "line": [
+        {
+          "x": 51.769481,
+          "y": 32.599998
+        },
+        {
+          "x": 51.768908,
+          "y": 32.59984
+        },
+        {
+          "x": 51.7687,
+          "y": 32.599795
+        },
+        {
+          "x": 51.768542,
+          "y": 32.599793
+        },
+        {
+          "x": 51.768401,
+          "y": 32.599846
+        },
+        {
+          "x": 51.768325,
+          "y": 32.599926
+        },
+        {
+          "x": 51.768276,
+          "y": 32.600062
+        },
+        {
+          "x": 51.768262,
+          "y": 32.600247
+        },
+        {
+          "x": 51.768283,
+          "y": 32.600436
+        },
+        {
+          "x": 51.768341,
+          "y": 32.600593
+        },
+        {
+          "x": 51.768444,
+          "y": 32.600749
+        },
+        {
+          "x": 51.768578,
+          "y": 32.600892
+        },
+        {
+          "x": 51.768718,
+          "y": 32.600991
+        },
+        {
+          "x": 51.768837,
+          "y": 32.60105
+        },
+        {
+          "x": 51.768941,
+          "y": 32.601065
+        },
+        {
+          "x": 51.769092,
+          "y": 32.601056
+        },
+        {
+          "x": 51.769237,
+          "y": 32.60098
+        },
+        {
+          "x": 51.769423,
+          "y": 32.600752
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 206809857,
+          "ID": 241558732,
+          "toNode": 206809858,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "اصفهان",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 6,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 206809857,
+        "uuid": "db015f9f-d4b5-4bfd-80bc-b2422c1659d6",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 4,
+        "magvar": 252,
+        "subtype": "",
+        "additionalInfo": "",
+        "wazeData": "world,51.769481051969,32.599999063757,db015f9f-d4b5-4bfd-80bc-b2422c1659d6",
+        "toNodeId": 206809858,
+        "reportDescription": "",
+        "location": {
+          "x": 51.769481,
+          "y": 32.599999
+        },
+        "id": "alert-1753169365/db015f9f-d4b5-4bfd-80bc-b2422c1659d6",
+        "pubMillis": 1786393340000
+      },
+      "locationY": 32.599999,
+      "locationX": 51.769481,
+      "updateMillis": 1786640540762,
+      "blockUpdate": 1786393340701
+    },
+    {
+      "id": 1775590554,
+      "street": "Soffeh Expy - بزرگراه صفه",
+      "city": "اصفهان",
+      "country": null,
+      "level": 3,
+      "length": 2445,
+      "speed": 5.894444444444445,
+      "endNode": "Keshvari Expy - بزرگراه کشوری",
+      "line": [
+        {
+          "x": 51.644724,
+          "y": 32.603848
+        },
+        {
+          "x": 51.647423,
+          "y": 32.603251
+        },
+        {
+          "x": 51.648485,
+          "y": 32.602978
+        },
+        {
+          "x": 51.648861,
+          "y": 32.602856
+        },
+        {
+          "x": 51.649311,
+          "y": 32.602672
+        },
+        {
+          "x": 51.649666,
+          "y": 32.60249
+        },
+        {
+          "x": 51.650406,
+          "y": 32.602097
+        },
+        {
+          "x": 51.651216,
+          "y": 32.601573
+        },
+        {
+          "x": 51.651873,
+          "y": 32.601055
+        },
+        {
+          "x": 51.652629,
+          "y": 32.600416
+        },
+        {
+          "x": 51.653506,
+          "y": 32.59959
+        },
+        {
+          "x": 51.65403,
+          "y": 32.599062
+        },
+        {
+          "x": 51.654227,
+          "y": 32.59881
+        },
+        {
+          "x": 51.654848,
+          "y": 32.598008
+        },
+        {
+          "x": 51.65738,
+          "y": 32.594569
+        },
+        {
+          "x": 51.65798,
+          "y": 32.593684
+        },
+        {
+          "x": 51.658823,
+          "y": 32.592762
+        },
+        {
+          "x": 51.659338,
+          "y": 32.592315
+        },
+        {
+          "x": 51.659972,
+          "y": 32.591909
+        },
+        {
+          "x": 51.660639,
+          "y": 32.591516
+        },
+        {
+          "x": 51.661399,
+          "y": 32.591194
+        },
+        {
+          "x": 51.661725,
+          "y": 32.591085
+        },
+        {
+          "x": 51.662079,
+          "y": 32.590987
+        },
+        {
+          "x": 51.662457,
+          "y": 32.590905
+        },
+        {
+          "x": 51.662849,
+          "y": 32.590842
+        },
+        {
+          "x": 51.663334,
+          "y": 32.590787
+        },
+        {
+          "x": 51.664121,
+          "y": 32.590795
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 181039455,
+          "ID": 197096108,
+          "toNode": 181039467,
+          "isForward": true
+        },
+        {
+          "fromNode": 181039467,
+          "ID": 197096976,
+          "toNode": 181039868,
+          "isForward": true
+        },
+        {
+          "fromNode": 181039868,
+          "ID": 197629970,
+          "toNode": 181263931,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.603848,
+      "locationX": 51.644724,
+      "updateMillis": 1786640540705,
+      "blockUpdate": null
+    },
+    {
+      "id": 1774110044,
+      "street": "Bagh Goldasteh - باغ گلدسته",
+      "city": "اصفهان",
+      "country": null,
+      "level": 4,
+      "length": 856,
+      "speed": 1.4694444444444446,
+      "endNode": "",
+      "line": [
+        {
+          "x": 51.671671,
+          "y": 32.650796
+        },
+        {
+          "x": 51.671992,
+          "y": 32.651902
+        },
+        {
+          "x": 51.671967,
+          "y": 32.653112
+        },
+        {
+          "x": 51.671984,
+          "y": 32.65337
+        },
+        {
+          "x": 51.672033,
+          "y": 32.653599
+        },
+        {
+          "x": 51.672081,
+          "y": 32.65372
+        },
+        {
+          "x": 51.672182,
+          "y": 32.654397
+        },
+        {
+          "x": 51.672245,
+          "y": 32.655087
+        },
+        {
+          "x": 51.672225,
+          "y": 32.655276
+        },
+        {
+          "x": 51.672177,
+          "y": 32.655397
+        },
+        {
+          "x": 51.672037,
+          "y": 32.655583
+        },
+        {
+          "x": 51.671232,
+          "y": 32.656219
+        },
+        {
+          "x": 51.670806,
+          "y": 32.656553
+        },
+        {
+          "x": 51.670161,
+          "y": 32.657058
+        },
+        {
+          "x": 51.669849,
+          "y": 32.657311
+        },
+        {
+          "x": 51.669587,
+          "y": 32.657524
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 181130826,
+          "ID": 321734471,
+          "toNode": 259689904,
+          "isForward": false
+        },
+        {
+          "fromNode": 259689904,
+          "ID": 321734470,
+          "toNode": 181226781,
+          "isForward": false
+        },
+        {
+          "fromNode": 181226781,
+          "ID": 197541139,
+          "toNode": 181226777,
+          "isForward": false
+        },
+        {
+          "fromNode": 181226777,
+          "ID": 197541132,
+          "toNode": 181226780,
+          "isForward": true
+        },
+        {
+          "fromNode": 181226780,
+          "ID": 333301191,
+          "toNode": 266870867,
+          "isForward": true
+        },
+        {
+          "fromNode": 266870867,
+          "ID": 333301192,
+          "toNode": 181226774,
+          "isForward": true
+        },
+        {
+          "fromNode": 181226774,
+          "ID": 197541120,
+          "toNode": 181226773,
+          "isForward": true
+        },
+        {
+          "fromNode": 181226773,
+          "ID": 320536587,
+          "toNode": 258943446,
+          "isForward": true
+        },
+        {
+          "fromNode": 258943446,
+          "ID": 466602769,
+          "toNode": 352891857,
+          "isForward": true
+        },
+        {
+          "fromNode": 352891857,
+          "ID": 466602770,
+          "toNode": 258943444,
+          "isForward": true
+        },
+        {
+          "fromNode": 258943444,
+          "ID": 465990515,
+          "toNode": 352519919,
+          "isForward": true
+        },
+        {
+          "fromNode": 352519919,
+          "ID": 465990516,
+          "toNode": 259631340,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.650796,
+      "locationX": 51.671671,
+      "updateMillis": 1786640540638,
+      "blockUpdate": null
+    },
+    {
+      "id": 1788974436,
+      "street": "Pasdaran - پاسداران",
+      "city": "اصفهان",
+      "country": null,
+      "level": 4,
+      "length": 679,
+      "speed": 1.325,
+      "endNode": "Kamal Esmaeil - کمال اسماعیل",
+      "line": [
+        {
+          "x": 51.671671,
+          "y": 32.650796
+        },
+        {
+          "x": 51.671339,
+          "y": 32.649453
+        },
+        {
+          "x": 51.671231,
+          "y": 32.648825
+        },
+        {
+          "x": 51.671178,
+          "y": 32.648547
+        },
+        {
+          "x": 51.670984,
+          "y": 32.647343
+        },
+        {
+          "x": 51.670888,
+          "y": 32.646744
+        },
+        {
+          "x": 51.670788,
+          "y": 32.646459
+        },
+        {
+          "x": 51.670535,
+          "y": 32.645998
+        },
+        {
+          "x": 51.670116,
+          "y": 32.645252
+        },
+        {
+          "x": 51.66986,
+          "y": 32.644917
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 181130826,
+          "ID": 358695765,
+          "toNode": 265852916,
+          "isForward": true
+        },
+        {
+          "fromNode": 265852916,
+          "ID": 331691882,
+          "toNode": 258943541,
+          "isForward": true
+        },
+        {
+          "fromNode": 258943541,
+          "ID": 320536733,
+          "toNode": 208079538,
+          "isForward": true
+        },
+        {
+          "fromNode": 208079538,
+          "ID": 362882805,
+          "toNode": 285641620,
+          "isForward": true
+        },
+        {
+          "fromNode": 285641620,
+          "ID": 366608209,
+          "toNode": 288030127,
+          "isForward": true
+        },
+        {
+          "fromNode": 288030127,
+          "ID": 366608210,
+          "toNode": 288030059,
+          "isForward": true
+        },
+        {
+          "fromNode": 288030059,
+          "ID": 366608075,
+          "toNode": 208079814,
+          "isForward": true
+        },
+        {
+          "fromNode": 208079814,
+          "ID": 321410667,
+          "toNode": 208079510,
+          "isForward": false
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.650796,
+      "locationX": 51.671671,
+      "updateMillis": 1786640540505,
+      "blockUpdate": null
+    },
+    {
+      "id": 1782907608,
+      "street": "Azadegan - آزادگان",
+      "city": "اصفهان",
+      "country": null,
+      "level": 3,
+      "length": 1110,
+      "speed": 2.341666666666667,
+      "endNode": "",
+      "line": [
+        {
+          "x": 51.676991,
+          "y": 32.622034
+        },
+        {
+          "x": 51.674971,
+          "y": 32.6221
+        },
+        {
+          "x": 51.67273,
+          "y": 32.622174
+        },
+        {
+          "x": 51.671099,
+          "y": 32.622208
+        },
+        {
+          "x": 51.669482,
+          "y": 32.622273
+        },
+        {
+          "x": 51.668248,
+          "y": 32.62231
+        },
+        {
+          "x": 51.665783,
+          "y": 32.622383
+        },
+        {
+          "x": 51.665654,
+          "y": 32.622391
+        },
+        {
+          "x": 51.665509,
+          "y": 32.62242
+        },
+        {
+          "x": 51.665405,
+          "y": 32.622439
+        },
+        {
+          "x": 51.665222,
+          "y": 32.622529
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 218835395,
+          "ID": 260462110,
+          "toNode": 181010043,
+          "isForward": true
+        },
+        {
+          "fromNode": 181010043,
+          "ID": 433129810,
+          "toNode": 181001498,
+          "isForward": false
+        },
+        {
+          "fromNode": 181001498,
+          "ID": 433129805,
+          "toNode": 258636979,
+          "isForward": true
+        },
+        {
+          "fromNode": 258636979,
+          "ID": 342817801,
+          "toNode": 272816200,
+          "isForward": true
+        },
+        {
+          "fromNode": 272816200,
+          "ID": 342817798,
+          "toNode": 248755875,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.622034,
+      "locationX": 51.676991,
+      "updateMillis": 1786640540452,
+      "blockUpdate": null
+    },
+    {
+      "id": 1788287254,
+      "street": "Khaqani - خاقانی",
+      "city": "اصفهان",
+      "country": null,
+      "level": 3,
+      "length": 873,
+      "speed": 1.6222222222222222,
+      "endNode": "Hakim Nezami - حکیم نظامی",
+      "line": [
+        {
+          "x": 51.639894,
+          "y": 32.634074
+        },
+        {
+          "x": 51.640025,
+          "y": 32.634082
+        },
+        {
+          "x": 51.640162,
+          "y": 32.634092
+        },
+        {
+          "x": 51.640341,
+          "y": 32.634103
+        },
+        {
+          "x": 51.640693,
+          "y": 32.634126
+        },
+        {
+          "x": 51.640932,
+          "y": 32.634141
+        },
+        {
+          "x": 51.642419,
+          "y": 32.634241
+        },
+        {
+          "x": 51.643893,
+          "y": 32.634338
+        },
+        {
+          "x": 51.644181,
+          "y": 32.634357
+        },
+        {
+          "x": 51.645287,
+          "y": 32.63443
+        },
+        {
+          "x": 51.64644,
+          "y": 32.634507
+        },
+        {
+          "x": 51.646763,
+          "y": 32.634514
+        },
+        {
+          "x": 51.646961,
+          "y": 32.634506
+        },
+        {
+          "x": 51.647786,
+          "y": 32.634439
+        },
+        {
+          "x": 51.64822,
+          "y": 32.634404
+        },
+        {
+          "x": 51.648891,
+          "y": 32.634349
+        },
+        {
+          "x": 51.649182,
+          "y": 32.634326
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 262661574,
+          "ID": 390920539,
+          "toNode": 303735747,
+          "isForward": true
+        },
+        {
+          "fromNode": 303735747,
+          "ID": 390920540,
+          "toNode": 303735745,
+          "isForward": true
+        },
+        {
+          "fromNode": 303735745,
+          "ID": 390920537,
+          "toNode": 303735741,
+          "isForward": true
+        },
+        {
+          "fromNode": 303735741,
+          "ID": 390920533,
+          "toNode": 303735743,
+          "isForward": true
+        },
+        {
+          "fromNode": 303735743,
+          "ID": 390920534,
+          "toNode": 258664166,
+          "isForward": true
+        },
+        {
+          "fromNode": 258664166,
+          "ID": 320084842,
+          "toNode": 258664163,
+          "isForward": true
+        },
+        {
+          "fromNode": 258664163,
+          "ID": 326544806,
+          "toNode": 262661566,
+          "isForward": true
+        },
+        {
+          "fromNode": 262661566,
+          "ID": 326544807,
+          "toNode": 262661523,
+          "isForward": true
+        },
+        {
+          "fromNode": 262661523,
+          "ID": 326544725,
+          "toNode": 208217989,
+          "isForward": true
+        },
+        {
+          "fromNode": 208217989,
+          "ID": 243808026,
+          "toNode": 181343917,
+          "isForward": true
+        },
+        {
+          "fromNode": 181343917,
+          "ID": 368351588,
+          "toNode": 289176889,
+          "isForward": true
+        },
+        {
+          "fromNode": 289176889,
+          "ID": 368351589,
+          "toNode": 258494068,
+          "isForward": true
+        },
+        {
+          "fromNode": 258494068,
+          "ID": 326545254,
+          "toNode": 262661798,
+          "isForward": true
+        },
+        {
+          "fromNode": 262661798,
+          "ID": 352959017,
+          "toNode": 279177696,
+          "isForward": true
+        },
+        {
+          "fromNode": 279177696,
+          "ID": 352959018,
+          "toNode": 262661465,
+          "isForward": true
+        },
+        {
+          "fromNode": 262661465,
+          "ID": 351238754,
+          "toNode": 278128481,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.634074,
+      "locationX": 51.639894,
+      "updateMillis": 1786640540389,
+      "blockUpdate": null
+    },
+    {
+      "id": 1790753374,
+      "street": "Nazar E - نظر شرقی",
+      "city": "اصفهان",
+      "country": null,
+      "level": 3,
+      "length": 323,
+      "speed": 2.2055555555555557,
+      "endNode": "Asiab - آسیاب",
+      "line": [
+        {
+          "x": 51.663945,
+          "y": 32.635961
+        },
+        {
+          "x": 51.662941,
+          "y": 32.636066
+        },
+        {
+          "x": 51.662468,
+          "y": 32.636117
+        },
+        {
+          "x": 51.661605,
+          "y": 32.636209
+        },
+        {
+          "x": 51.660538,
+          "y": 32.636324
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 181133148,
+          "ID": 367296003,
+          "toNode": 288479066,
+          "isForward": true
+        },
+        {
+          "fromNode": 288479066,
+          "ID": 367296004,
+          "toNode": 208243250,
+          "isForward": true
+        },
+        {
+          "fromNode": 208243250,
+          "ID": 367296034,
+          "toNode": 288479086,
+          "isForward": true
+        },
+        {
+          "fromNode": 288479086,
+          "ID": 367296035,
+          "toNode": 181133149,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.635961,
+      "locationX": 51.663945,
+      "updateMillis": 1786640540389,
+      "blockUpdate": null
+    },
+    {
+      "id": 1790335250,
+      "street": "Chaharbagh Khaju - چهارباغ خواجو",
+      "city": "اصفهان",
+      "country": null,
+      "level": 2,
+      "length": 552,
+      "speed": 3.1694444444444443,
+      "endNode": "",
+      "line": [
+        {
+          "x": 51.6838,
+          "y": 32.638731
+        },
+        {
+          "x": 51.682935,
+          "y": 32.641596
+        },
+        {
+          "x": 51.682895,
+          "y": 32.641731
+        },
+        {
+          "x": 51.682824,
+          "y": 32.641962
+        },
+        {
+          "x": 51.682756,
+          "y": 32.64219
+        },
+        {
+          "x": 51.682669,
+          "y": 32.64248
+        },
+        {
+          "x": 51.682466,
+          "y": 32.643157
+        },
+        {
+          "x": 51.682386,
+          "y": 32.643425
+        },
+        {
+          "x": 51.682347,
+          "y": 32.643557
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 181129439,
+          "ID": 322412343,
+          "toNode": 206652855,
+          "isForward": false
+        },
+        {
+          "fromNode": 206652855,
+          "ID": 322412320,
+          "toNode": 260120111,
+          "isForward": true
+        },
+        {
+          "fromNode": 260120111,
+          "ID": 322412342,
+          "toNode": 206652954,
+          "isForward": false
+        },
+        {
+          "fromNode": 206652954,
+          "ID": 362623540,
+          "toNode": 285476359,
+          "isForward": true
+        },
+        {
+          "fromNode": 285476359,
+          "ID": 362623549,
+          "toNode": 285476363,
+          "isForward": true
+        },
+        {
+          "fromNode": 285476363,
+          "ID": 362623550,
+          "toNode": 273970819,
+          "isForward": true
+        },
+        {
+          "fromNode": 273970819,
+          "ID": 344616236,
+          "toNode": 273970558,
+          "isForward": true
+        },
+        {
+          "fromNode": 273970558,
+          "ID": 353369541,
+          "toNode": 279439803,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.638731,
+      "locationX": 51.6838,
+      "updateMillis": 1786640540388,
+      "blockUpdate": null
+    },
+    {
+      "id": 1789542628,
+      "street": "Artesh - ارتش",
+      "city": "اصفهان",
+      "country": null,
+      "level": 2,
+      "length": 1175,
+      "speed": 8.563888888888888,
+      "endNode": "Daneshgah - دانشگاه",
+      "line": [
+        {
+          "x": 51.643115,
+          "y": 32.622853
+        },
+        {
+          "x": 51.644242,
+          "y": 32.622825
+        },
+        {
+          "x": 51.644935,
+          "y": 32.622804
+        },
+        {
+          "x": 51.645305,
+          "y": 32.622781
+        },
+        {
+          "x": 51.645594,
+          "y": 32.622766
+        },
+        {
+          "x": 51.646115,
+          "y": 32.622749
+        },
+        {
+          "x": 51.647235,
+          "y": 32.622737
+        },
+        {
+          "x": 51.648336,
+          "y": 32.622714
+        },
+        {
+          "x": 51.649128,
+          "y": 32.622712
+        },
+        {
+          "x": 51.655049,
+          "y": 32.622487
+        },
+        {
+          "x": 51.655627,
+          "y": 32.622422
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 259506255,
+          "ID": 321447461,
+          "toNode": 259506346,
+          "isForward": true
+        },
+        {
+          "fromNode": 259506346,
+          "ID": 321498824,
+          "toNode": 259539425,
+          "isForward": true
+        },
+        {
+          "fromNode": 259539425,
+          "ID": 321498861,
+          "toNode": 207911050,
+          "isForward": true
+        },
+        {
+          "fromNode": 207911050,
+          "ID": 321447444,
+          "toNode": 259506339,
+          "isForward": true
+        },
+        {
+          "fromNode": 259506339,
+          "ID": 321447451,
+          "toNode": 259506342,
+          "isForward": true
+        },
+        {
+          "fromNode": 259506342,
+          "ID": 321447452,
+          "toNode": 259506338,
+          "isForward": true
+        },
+        {
+          "fromNode": 259506338,
+          "ID": 321447442,
+          "toNode": 181022324,
+          "isForward": true
+        },
+        {
+          "fromNode": 181022324,
+          "ID": 363406922,
+          "toNode": 181013346,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.622853,
+      "locationX": 51.643115,
+      "updateMillis": 1786640540384,
+      "blockUpdate": null
+    },
+    {
+      "id": 1788338812,
+      "street": "Neshat - نشاط",
+      "city": "اصفهان",
+      "country": null,
+      "level": 4,
+      "length": 233,
+      "speed": 0.7111111111111111,
+      "line": [
+        {
+          "x": 51.682236,
+          "y": 32.652136
+        },
+        {
+          "x": 51.682359,
+          "y": 32.652656
+        },
+        {
+          "x": 51.682536,
+          "y": 32.653412
+        },
+        {
+          "x": 51.682642,
+          "y": 32.653866
+        },
+        {
+          "x": 51.682721,
+          "y": 32.654204
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 181328599,
+          "ID": 321776347,
+          "toNode": 218834461,
+          "isForward": false
+        },
+        {
+          "fromNode": 218834461,
+          "ID": 456317998,
+          "toNode": 346578646,
+          "isForward": true
+        },
+        {
+          "fromNode": 346578646,
+          "ID": 456317999,
+          "toNode": 260047324,
+          "isForward": true
+        },
+        {
+          "fromNode": 260047324,
+          "ID": 322297947,
+          "toNode": 260047326,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.652136,
+      "locationX": 51.682236,
+      "updateMillis": 1786640540320,
+      "blockUpdate": null
+    },
+    {
+      "id": 1787596002,
+      "street": "Kaveh Blvd - بلوار کاوه",
+      "city": "اصفهان",
+      "country": null,
+      "level": 3,
+      "length": 686,
+      "speed": 3.0277777777777777,
+      "endNode": "Adel Pur - عادل پور",
+      "line": [
+        {
+          "x": 51.67524,
+          "y": 32.715541
+        },
+        {
+          "x": 51.67534,
+          "y": 32.715249
+        },
+        {
+          "x": 51.675469,
+          "y": 32.714816
+        },
+        {
+          "x": 51.67566,
+          "y": 32.714148
+        },
+        {
+          "x": 51.675865,
+          "y": 32.713279
+        },
+        {
+          "x": 51.675885,
+          "y": 32.713147
+        },
+        {
+          "x": 51.675975,
+          "y": 32.712553
+        },
+        {
+          "x": 51.676012,
+          "y": 32.712229
+        },
+        {
+          "x": 51.676084,
+          "y": 32.711323
+        },
+        {
+          "x": 51.676098,
+          "y": 32.710611
+        },
+        {
+          "x": 51.676102,
+          "y": 32.710372
+        },
+        {
+          "x": 51.676086,
+          "y": 32.709902
+        },
+        {
+          "x": 51.676064,
+          "y": 32.709424
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 265859339,
+          "ID": 331701553,
+          "toNode": 265859340,
+          "isForward": true
+        },
+        {
+          "fromNode": 265859340,
+          "ID": 331701550,
+          "toNode": 205572890,
+          "isForward": true
+        },
+        {
+          "fromNode": 205572890,
+          "ID": 331701929,
+          "toNode": 265859680,
+          "isForward": false
+        },
+        {
+          "fromNode": 265859680,
+          "ID": 331701927,
+          "toNode": 205681953,
+          "isForward": false
+        },
+        {
+          "fromNode": 205681953,
+          "ID": 239822664,
+          "toNode": 205682057,
+          "isForward": true
+        },
+        {
+          "fromNode": 205682057,
+          "ID": 239822665,
+          "toNode": 188231412,
+          "isForward": true
+        },
+        {
+          "fromNode": 188231412,
+          "ID": 341240550,
+          "toNode": 271845081,
+          "isForward": true
+        },
+        {
+          "fromNode": 271845081,
+          "ID": 341240551,
+          "toNode": 260121682,
+          "isForward": true
+        },
+        {
+          "fromNode": 260121682,
+          "ID": 322414682,
+          "toNode": 205680547,
+          "isForward": true
+        },
+        {
+          "fromNode": 205680547,
+          "ID": 330691496,
+          "toNode": 265217449,
+          "isForward": false
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.715541,
+      "locationX": 51.67524,
+      "updateMillis": 1786640539856,
+      "blockUpdate": null
+    },
+    {
+      "id": 1773773812,
+      "street": "Sayad Shirazi Expy - بزرگراه صیاد شیرازی",
+      "city": "اصفهان",
+      "country": null,
+      "level": 2,
+      "length": 3508,
+      "speed": 9.688888888888888,
+      "endNode": "Hemmat Expy - بزرگراه همت",
+      "line": [
+        {
+          "x": 51.716809,
+          "y": 32.658915
+        },
+        {
+          "x": 51.716264,
+          "y": 32.658113
+        },
+        {
+          "x": 51.715083,
+          "y": 32.65597
+        },
+        {
+          "x": 51.714944,
+          "y": 32.655749
+        },
+        {
+          "x": 51.714731,
+          "y": 32.655217
+        },
+        {
+          "x": 51.714558,
+          "y": 32.654755
+        },
+        {
+          "x": 51.714211,
+          "y": 32.65359
+        },
+        {
+          "x": 51.713865,
+          "y": 32.652495
+        },
+        {
+          "x": 51.713665,
+          "y": 32.651691
+        },
+        {
+          "x": 51.71357,
+          "y": 32.651404
+        },
+        {
+          "x": 51.713002,
+          "y": 32.650067
+        },
+        {
+          "x": 51.7128,
+          "y": 32.649638
+        },
+        {
+          "x": 51.712224,
+          "y": 32.648583
+        },
+        {
+          "x": 51.712,
+          "y": 32.648198
+        },
+        {
+          "x": 51.709435,
+          "y": 32.644098
+        },
+        {
+          "x": 51.706551,
+          "y": 32.639422
+        },
+        {
+          "x": 51.706257,
+          "y": 32.638945
+        },
+        {
+          "x": 51.706001,
+          "y": 32.638531
+        },
+        {
+          "x": 51.705038,
+          "y": 32.637104
+        },
+        {
+          "x": 51.704855,
+          "y": 32.636812
+        },
+        {
+          "x": 51.70473,
+          "y": 32.636549
+        },
+        {
+          "x": 51.704612,
+          "y": 32.636242
+        },
+        {
+          "x": 51.704505,
+          "y": 32.635835
+        },
+        {
+          "x": 51.704461,
+          "y": 32.635557
+        },
+        {
+          "x": 51.704445,
+          "y": 32.635277
+        },
+        {
+          "x": 51.704515,
+          "y": 32.634054
+        },
+        {
+          "x": 51.704536,
+          "y": 32.633583
+        },
+        {
+          "x": 51.704518,
+          "y": 32.633228
+        },
+        {
+          "x": 51.70448,
+          "y": 32.63293
+        },
+        {
+          "x": 51.704402,
+          "y": 32.632624
+        },
+        {
+          "x": 51.704279,
+          "y": 32.632316
+        },
+        {
+          "x": 51.704137,
+          "y": 32.632002
+        },
+        {
+          "x": 51.703947,
+          "y": 32.631687
+        },
+        {
+          "x": 51.703321,
+          "y": 32.630699
+        },
+        {
+          "x": 51.702837,
+          "y": 32.629967
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 205729577,
+          "ID": 239895387,
+          "toNode": 205729458,
+          "isForward": true
+        },
+        {
+          "fromNode": 205729458,
+          "ID": 322298608,
+          "toNode": 258603928,
+          "isForward": true
+        },
+        {
+          "fromNode": 258603928,
+          "ID": 322298560,
+          "toNode": 206518174,
+          "isForward": true
+        },
+        {
+          "fromNode": 206518174,
+          "ID": 320026907,
+          "toNode": 206518249,
+          "isForward": true
+        },
+        {
+          "fromNode": 206518249,
+          "ID": 241200484,
+          "toNode": 206577270,
+          "isForward": true
+        },
+        {
+          "fromNode": 206577270,
+          "ID": 322269873,
+          "toNode": 260030743,
+          "isForward": true
+        },
+        {
+          "fromNode": 260030743,
+          "ID": 322269939,
+          "toNode": 260030744,
+          "isForward": false
+        },
+        {
+          "fromNode": 260030744,
+          "ID": 405387018,
+          "toNode": 181134704,
+          "isForward": true
+        },
+        {
+          "fromNode": 181134704,
+          "ID": 197329208,
+          "toNode": 181136584,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.658915,
+      "locationX": 51.716809,
+      "updateMillis": 1786640539838,
+      "blockUpdate": null
+    },
+    {
+      "id": 1788512304,
+      "street": "Ayneh Khaneh Blvd - بلوار آینه خانه",
+      "city": "اصفهان",
+      "country": null,
+      "level": 4,
+      "length": 1790,
+      "speed": 1.5,
+      "endNode": "Chaharbagh Bala - چهارباغ بالا",
+      "line": [
+        {
+          "x": 51.683437,
+          "y": 32.635748
+        },
+        {
+          "x": 51.682627,
+          "y": 32.635703
+        },
+        {
+          "x": 51.681656,
+          "y": 32.635675
+        },
+        {
+          "x": 51.680919,
+          "y": 32.635717
+        },
+        {
+          "x": 51.679612,
+          "y": 32.635823
+        },
+        {
+          "x": 51.678959,
+          "y": 32.636003
+        },
+        {
+          "x": 51.678633,
+          "y": 32.636136
+        },
+        {
+          "x": 51.678496,
+          "y": 32.636193
+        },
+        {
+          "x": 51.675458,
+          "y": 32.637928
+        },
+        {
+          "x": 51.674559,
+          "y": 32.638572
+        },
+        {
+          "x": 51.674158,
+          "y": 32.638818
+        },
+        {
+          "x": 51.673822,
+          "y": 32.63895
+        },
+        {
+          "x": 51.673591,
+          "y": 32.639001
+        },
+        {
+          "x": 51.673242,
+          "y": 32.639072
+        },
+        {
+          "x": 51.673062,
+          "y": 32.639128
+        },
+        {
+          "x": 51.672882,
+          "y": 32.63918
+        },
+        {
+          "x": 51.6724,
+          "y": 32.63936
+        },
+        {
+          "x": 51.671842,
+          "y": 32.639612
+        },
+        {
+          "x": 51.671555,
+          "y": 32.639781
+        },
+        {
+          "x": 51.671244,
+          "y": 32.639986
+        },
+        {
+          "x": 51.670952,
+          "y": 32.640225
+        },
+        {
+          "x": 51.669297,
+          "y": 32.642127
+        },
+        {
+          "x": 51.669155,
+          "y": 32.642242
+        },
+        {
+          "x": 51.668964,
+          "y": 32.642353
+        },
+        {
+          "x": 51.668771,
+          "y": 32.642439
+        },
+        {
+          "x": 51.668564,
+          "y": 32.642505
+        },
+        {
+          "x": 51.668307,
+          "y": 32.642549
+        },
+        {
+          "x": 51.667196,
+          "y": 32.642524
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 277086609,
+          "ID": 357564612,
+          "toNode": 282191865,
+          "isForward": true
+        },
+        {
+          "fromNode": 282191865,
+          "ID": 430301117,
+          "toNode": 329748957,
+          "isForward": true
+        },
+        {
+          "fromNode": 329748957,
+          "ID": 430301118,
+          "toNode": 259504029,
+          "isForward": true
+        },
+        {
+          "fromNode": 259504029,
+          "ID": 321443947,
+          "toNode": 181127642,
+          "isForward": true
+        },
+        {
+          "fromNode": 181127642,
+          "ID": 197309011,
+          "toNode": 268023378,
+          "isForward": true
+        },
+        {
+          "fromNode": 268023378,
+          "ID": 197309007,
+          "toNode": 268023397,
+          "isForward": true
+        },
+        {
+          "fromNode": 268023397,
+          "ID": 197309008,
+          "toNode": 268023380,
+          "isForward": false
+        },
+        {
+          "fromNode": 268023380,
+          "ID": 197309024,
+          "toNode": 181127647,
+          "isForward": true
+        },
+        {
+          "fromNode": 181127647,
+          "ID": 197309025,
+          "toNode": 181127481,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.635748,
+      "locationX": 51.683437,
+      "updateMillis": 1786640539817,
+      "blockUpdate": null
+    },
+    {
+      "id": 1788812104,
+      "street": "Ferdowsi Bridge - پل فردوسی",
+      "city": "اصفهان",
+      "country": null,
+      "level": 4,
+      "length": 231,
+      "speed": 1.3944444444444444,
+      "endNode": "Ferdowsi - فردوسی",
+      "line": [
+        {
+          "x": 51.673344,
+          "y": 32.639481
+        },
+        {
+          "x": 51.674565,
+          "y": 32.640631
+        },
+        {
+          "x": 51.674772,
+          "y": 32.640813
+        },
+        {
+          "x": 51.674984,
+          "y": 32.641032
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 181127646,
+          "ID": 322121709,
+          "toNode": 259939068,
+          "isForward": true
+        },
+        {
+          "fromNode": 259939068,
+          "ID": 352346756,
+          "toNode": 278797012,
+          "isForward": true
+        },
+        {
+          "fromNode": 278797012,
+          "ID": 352346757,
+          "toNode": 181130134,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.639481,
+      "locationX": 51.673344,
+      "updateMillis": 1786640539808,
+      "blockUpdate": null
+    },
+    {
+      "id": 1790630698,
+      "street": "Shams Abadi - شمس آبادی",
+      "city": "اصفهان",
+      "country": null,
+      "level": 3,
+      "length": 298,
+      "speed": 2.175,
+      "endNode": "Sheikh Bahaei - شیخ بهایی",
+      "line": [
+        {
+          "x": 51.666496,
+          "y": 32.657504
+        },
+        {
+          "x": 51.666415,
+          "y": 32.656715
+        },
+        {
+          "x": 51.66631,
+          "y": 32.656025
+        },
+        {
+          "x": 51.666189,
+          "y": 32.655143
+        },
+        {
+          "x": 51.66617,
+          "y": 32.654988
+        },
+        {
+          "x": 51.66615,
+          "y": 32.654829
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 181280303,
+          "ID": 378578673,
+          "toNode": 258480516,
+          "isForward": false
+        },
+        {
+          "fromNode": 258480516,
+          "ID": 378578671,
+          "toNode": 258481264,
+          "isForward": true
+        },
+        {
+          "fromNode": 258481264,
+          "ID": 378578672,
+          "toNode": 262573376,
+          "isForward": true
+        },
+        {
+          "fromNode": 262573376,
+          "ID": 382292557,
+          "toNode": 298195647,
+          "isForward": true
+        },
+        {
+          "fromNode": 298195647,
+          "ID": 382292558,
+          "toNode": 259634643,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.657504,
+      "locationX": 51.666496,
+      "updateMillis": 1786640539775,
+      "blockUpdate": null
+    },
+    {
+      "id": 1790378668,
+      "street": "Bustan Saadi - بوستان سعدی",
+      "city": "اصفهان",
+      "country": null,
+      "level": 4,
+      "length": 308,
+      "speed": 1.7805555555555554,
+      "endNode": "Hakim Nezami - حکیم نظامی",
+      "line": [
+        {
+          "x": 51.650237,
+          "y": 32.63982
+        },
+        {
+          "x": 51.650455,
+          "y": 32.639894
+        },
+        {
+          "x": 51.650895,
+          "y": 32.640095
+        },
+        {
+          "x": 51.651001,
+          "y": 32.640154
+        },
+        {
+          "x": 51.6522,
+          "y": 32.640957
+        },
+        {
+          "x": 51.652467,
+          "y": 32.641125
+        },
+        {
+          "x": 51.652609,
+          "y": 32.641188
+        },
+        {
+          "x": 51.652981,
+          "y": 32.641328
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 259504635,
+          "ID": 326543735,
+          "toNode": 258493861,
+          "isForward": true
+        },
+        {
+          "fromNode": 258493861,
+          "ID": 332809398,
+          "toNode": 266559719,
+          "isForward": true
+        },
+        {
+          "fromNode": 266559719,
+          "ID": 380688064,
+          "toNode": 297135792,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.63982,
+      "locationX": 51.650237,
+      "updateMillis": 1786640539757,
+      "blockUpdate": null
+    },
+    {
+      "id": 1788741676,
+      "street": "Tohid - توحید",
+      "city": "اصفهان",
+      "country": null,
+      "level": 3,
+      "length": 969,
+      "speed": 4.252777777777778,
+      "endNode": "",
+      "line": [
+        {
+          "x": 51.658759,
+          "y": 32.63651
+        },
+        {
+          "x": 51.658687,
+          "y": 32.636155
+        },
+        {
+          "x": 51.658527,
+          "y": 32.635364
+        },
+        {
+          "x": 51.658508,
+          "y": 32.635066
+        },
+        {
+          "x": 51.65857,
+          "y": 32.634141
+        },
+        {
+          "x": 51.658493,
+          "y": 32.633671
+        },
+        {
+          "x": 51.658454,
+          "y": 32.63292
+        },
+        {
+          "x": 51.658375,
+          "y": 32.632033
+        },
+        {
+          "x": 51.658244,
+          "y": 32.630792
+        },
+        {
+          "x": 51.658198,
+          "y": 32.62999
+        },
+        {
+          "x": 51.658177,
+          "y": 32.62961
+        },
+        {
+          "x": 51.658163,
+          "y": 32.629235
+        },
+        {
+          "x": 51.658149,
+          "y": 32.629043
+        },
+        {
+          "x": 51.658056,
+          "y": 32.627811
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 264978263,
+          "ID": 321531306,
+          "toNode": 181015591,
+          "isForward": false
+        },
+        {
+          "fromNode": 181015591,
+          "ID": 197040085,
+          "toNode": 181015593,
+          "isForward": true
+        },
+        {
+          "fromNode": 181015593,
+          "ID": 322485080,
+          "toNode": 260167884,
+          "isForward": true
+        },
+        {
+          "fromNode": 260167884,
+          "ID": 322485081,
+          "toNode": 181015595,
+          "isForward": true
+        },
+        {
+          "fromNode": 181015595,
+          "ID": 326602861,
+          "toNode": 262697149,
+          "isForward": true
+        },
+        {
+          "fromNode": 262697149,
+          "ID": 326602863,
+          "toNode": 235651998,
+          "isForward": true
+        },
+        {
+          "fromNode": 235651998,
+          "ID": 285594382,
+          "toNode": 235652386,
+          "isForward": true
+        },
+        {
+          "fromNode": 235652386,
+          "ID": 340536511,
+          "toNode": 271394432,
+          "isForward": true
+        },
+        {
+          "fromNode": 271394432,
+          "ID": 340536540,
+          "toNode": 271394450,
+          "isForward": true
+        },
+        {
+          "fromNode": 271394450,
+          "ID": 340536541,
+          "toNode": 256778608,
+          "isForward": true
+        },
+        {
+          "fromNode": 256778608,
+          "ID": 317124795,
+          "toNode": 208243811,
+          "isForward": true
+        },
+        {
+          "fromNode": 208243811,
+          "ID": 350108432,
+          "toNode": 277421022,
+          "isForward": true
+        },
+        {
+          "fromNode": 277421022,
+          "ID": 456616408,
+          "toNode": 179161822,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.63651,
+      "locationX": 51.658759,
+      "updateMillis": 1786640539717,
+      "blockUpdate": null
+    },
+    {
+      "id": 1788342378,
+      "street": "Motahari - مطهری",
+      "city": "اصفهان",
+      "country": null,
+      "level": 4,
+      "length": 2198,
+      "speed": 1.9527777777777777,
+      "endNode": "",
+      "line": [
+        {
+          "x": 51.64481,
+          "y": 32.645451
+        },
+        {
+          "x": 51.646272,
+          "y": 32.645352
+        },
+        {
+          "x": 51.646592,
+          "y": 32.645352
+        },
+        {
+          "x": 51.647508,
+          "y": 32.645401
+        },
+        {
+          "x": 51.647781,
+          "y": 32.645364
+        },
+        {
+          "x": 51.64802,
+          "y": 32.645305
+        },
+        {
+          "x": 51.648837,
+          "y": 32.645246
+        },
+        {
+          "x": 51.649534,
+          "y": 32.64521
+        },
+        {
+          "x": 51.649911,
+          "y": 32.645201
+        },
+        {
+          "x": 51.651417,
+          "y": 32.645066
+        },
+        {
+          "x": 51.652581,
+          "y": 32.644942
+        },
+        {
+          "x": 51.652966,
+          "y": 32.6449
+        },
+        {
+          "x": 51.653325,
+          "y": 32.644866
+        },
+        {
+          "x": 51.655147,
+          "y": 32.644692
+        },
+        {
+          "x": 51.658134,
+          "y": 32.644392
+        },
+        {
+          "x": 51.659199,
+          "y": 32.644284
+        },
+        {
+          "x": 51.659537,
+          "y": 32.644256
+        },
+        {
+          "x": 51.66109,
+          "y": 32.644122
+        },
+        {
+          "x": 51.661512,
+          "y": 32.644108
+        },
+        {
+          "x": 51.66177,
+          "y": 32.644119
+        },
+        {
+          "x": 51.662033,
+          "y": 32.644168
+        },
+        {
+          "x": 51.662347,
+          "y": 32.644257
+        },
+        {
+          "x": 51.66268,
+          "y": 32.644371
+        },
+        {
+          "x": 51.663094,
+          "y": 32.644545
+        },
+        {
+          "x": 51.664634,
+          "y": 32.645204
+        },
+        {
+          "x": 51.665361,
+          "y": 32.645521
+        },
+        {
+          "x": 51.666204,
+          "y": 32.645801
+        },
+        {
+          "x": 51.666677,
+          "y": 32.646
+        },
+        {
+          "x": 51.667231,
+          "y": 32.646206
+        },
+        {
+          "x": 51.667523,
+          "y": 32.646254
+        },
+        {
+          "x": 51.667575,
+          "y": 32.646254
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 181170157,
+          "ID": 323050993,
+          "toNode": 260535990,
+          "isForward": true
+        },
+        {
+          "fromNode": 260535990,
+          "ID": 323050994,
+          "toNode": 181170159,
+          "isForward": true
+        },
+        {
+          "fromNode": 181170159,
+          "ID": 197419397,
+          "toNode": 181176007,
+          "isForward": true
+        },
+        {
+          "fromNode": 181176007,
+          "ID": 323051214,
+          "toNode": 260536126,
+          "isForward": true
+        },
+        {
+          "fromNode": 260536126,
+          "ID": 323051215,
+          "toNode": 208240870,
+          "isForward": true
+        },
+        {
+          "fromNode": 208240870,
+          "ID": 323078814,
+          "toNode": 260553662,
+          "isForward": true
+        },
+        {
+          "fromNode": 260553662,
+          "ID": 323078817,
+          "toNode": 260553664,
+          "isForward": true
+        },
+        {
+          "fromNode": 260553664,
+          "ID": 323078818,
+          "toNode": 208241055,
+          "isForward": true
+        },
+        {
+          "fromNode": 208241055,
+          "ID": 420593362,
+          "toNode": 323306098,
+          "isForward": true
+        },
+        {
+          "fromNode": 323306098,
+          "ID": 420593363,
+          "toNode": 181170033,
+          "isForward": true
+        },
+        {
+          "fromNode": 181170033,
+          "ID": 420593354,
+          "toNode": 323306095,
+          "isForward": true
+        },
+        {
+          "fromNode": 323306095,
+          "ID": 420593355,
+          "toNode": 181131326,
+          "isForward": true
+        },
+        {
+          "fromNode": 181131326,
+          "ID": 451387161,
+          "toNode": 343464098,
+          "isForward": true
+        },
+        {
+          "fromNode": 343464098,
+          "ID": 451387162,
+          "toNode": 181131877,
+          "isForward": true
+        },
+        {
+          "fromNode": 181131877,
+          "ID": 324780052,
+          "toNode": 261622960,
+          "isForward": false
+        },
+        {
+          "fromNode": 261622960,
+          "ID": 324780049,
+          "toNode": 181133820,
+          "isForward": false
+        },
+        {
+          "fromNode": 181133820,
+          "ID": 197323294,
+          "toNode": 181133805,
+          "isForward": false
+        },
+        {
+          "fromNode": 181133805,
+          "ID": 197323280,
+          "toNode": 181133814,
+          "isForward": false
+        },
+        {
+          "fromNode": 181133814,
+          "ID": 324779832,
+          "toNode": 181130813,
+          "isForward": true
+        },
+        {
+          "fromNode": 181130813,
+          "ID": 324779833,
+          "toNode": 261621494,
+          "isForward": true
+        },
+        {
+          "fromNode": 261621494,
+          "ID": 197316395,
+          "toNode": 181130814,
+          "isForward": true
+        },
+        {
+          "fromNode": 181130814,
+          "ID": 197316396,
+          "toNode": 181129424,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.645451,
+      "locationX": 51.64481,
+      "updateMillis": 1786640539677,
+      "blockUpdate": null
+    },
+    {
+      "id": 1780716698,
+      "street": "Chaharbagh Paeen - چهارباغ پایین",
+      "city": "اصفهان",
+      "country": null,
+      "level": 4,
+      "length": 320,
+      "speed": 1.7222222222222223,
+      "endNode": "",
+      "line": [
+        {
+          "x": 51.66956,
+          "y": 32.661078
+        },
+        {
+          "x": 51.6693,
+          "y": 32.659048
+        },
+        {
+          "x": 51.669242,
+          "y": 32.658521
+        },
+        {
+          "x": 51.669226,
+          "y": 32.658319
+        },
+        {
+          "x": 51.669217,
+          "y": 32.658208
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 181141039,
+          "ID": 338566244,
+          "toNode": 270158634,
+          "isForward": false
+        },
+        {
+          "fromNode": 270158634,
+          "ID": 338566243,
+          "toNode": 259633689,
+          "isForward": false
+        },
+        {
+          "fromNode": 259633689,
+          "ID": 430843415,
+          "toNode": 330095905,
+          "isForward": false
+        },
+        {
+          "fromNode": 330095905,
+          "ID": 430843414,
+          "toNode": 259631334,
+          "isForward": false
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.661078,
+      "locationX": 51.66956,
+      "updateMillis": 1786640539627,
+      "blockUpdate": null
+    },
+    {
+      "id": 1789846254,
+      "street": "Qandi - قندی",
+      "city": "اصفهان",
+      "country": null,
+      "level": 4,
+      "length": 263,
+      "speed": 1.2222222222222223,
+      "endNode": "Bagh-e Gerdu - باغ گردو",
+      "line": [
+        {
+          "x": 51.65857,
+          "y": 32.634141
+        },
+        {
+          "x": 51.657958,
+          "y": 32.634144
+        },
+        {
+          "x": 51.657486,
+          "y": 32.63416
+        },
+        {
+          "x": 51.657129,
+          "y": 32.63414
+        },
+        {
+          "x": 51.657014,
+          "y": 32.634133
+        },
+        {
+          "x": 51.656225,
+          "y": 32.634023
+        },
+        {
+          "x": 51.655787,
+          "y": 32.633955
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 181015595,
+          "ID": 322485074,
+          "toNode": 260167879,
+          "isForward": true
+        },
+        {
+          "fromNode": 260167879,
+          "ID": 322485075,
+          "toNode": 181015599,
+          "isForward": true
+        },
+        {
+          "fromNode": 181015599,
+          "ID": 247654903,
+          "toNode": 210656906,
+          "isForward": true
+        },
+        {
+          "fromNode": 210656906,
+          "ID": 247654904,
+          "toNode": 210656902,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.634141,
+      "locationX": 51.65857,
+      "updateMillis": 1786640539624,
+      "blockUpdate": null
+    },
+    {
+      "id": 1790087048,
+      "street": "Abdorrazaq - عبدالرزاق",
+      "city": "اصفهان",
+      "country": null,
+      "level": 2,
+      "length": 1176,
+      "speed": 6.763888888888889,
+      "endNode": "",
+      "line": [
+        {
+          "x": 51.67028,
+          "y": 32.665312
+        },
+        {
+          "x": 51.670839,
+          "y": 32.665408
+        },
+        {
+          "x": 51.671518,
+          "y": 32.665484
+        },
+        {
+          "x": 51.673441,
+          "y": 32.665734
+        },
+        {
+          "x": 51.673876,
+          "y": 32.665788
+        },
+        {
+          "x": 51.674386,
+          "y": 32.665858
+        },
+        {
+          "x": 51.675276,
+          "y": 32.665971
+        },
+        {
+          "x": 51.675484,
+          "y": 32.665999
+        },
+        {
+          "x": 51.676666,
+          "y": 32.66612
+        },
+        {
+          "x": 51.677527,
+          "y": 32.666233
+        },
+        {
+          "x": 51.679196,
+          "y": 32.666448
+        },
+        {
+          "x": 51.680056,
+          "y": 32.666567
+        },
+        {
+          "x": 51.680453,
+          "y": 32.666657
+        },
+        {
+          "x": 51.682675,
+          "y": 32.666919
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 333065084,
+          "ID": 197832909,
+          "toNode": 181346872,
+          "isForward": true
+        },
+        {
+          "fromNode": 181346872,
+          "ID": 356783777,
+          "toNode": 281684296,
+          "isForward": true
+        },
+        {
+          "fromNode": 281684296,
+          "ID": 423111887,
+          "toNode": 314335697,
+          "isForward": true
+        },
+        {
+          "fromNode": 314335697,
+          "ID": 406679115,
+          "toNode": 326637964,
+          "isForward": false
+        },
+        {
+          "fromNode": 326637964,
+          "ID": 372971867,
+          "toNode": 292100587,
+          "isForward": false
+        },
+        {
+          "fromNode": 292100587,
+          "ID": 372971866,
+          "toNode": 333109721,
+          "isForward": false
+        },
+        {
+          "fromNode": 333109721,
+          "ID": 356784165,
+          "toNode": 281684544,
+          "isForward": true
+        },
+        {
+          "fromNode": 281684544,
+          "ID": 356784166,
+          "toNode": 264823140,
+          "isForward": true
+        },
+        {
+          "fromNode": 264823140,
+          "ID": 415687826,
+          "toNode": 320125309,
+          "isForward": true
+        },
+        {
+          "fromNode": 320125309,
+          "ID": 415687827,
+          "toNode": 207970016,
+          "isForward": true
+        },
+        {
+          "fromNode": 207970016,
+          "ID": 438558644,
+          "toNode": 335249795,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.665312,
+      "locationX": 51.67028,
+      "updateMillis": 1786640539618,
+      "blockUpdate": null
+    },
+    {
+      "id": 1790630692,
+      "street": "Keshavarz Blvd - بلوار کشاورز",
+      "city": "اصفهان",
+      "country": null,
+      "level": 3,
+      "length": 721,
+      "speed": 4.761111111111111,
+      "endNode": "",
+      "line": [
+        {
+          "x": 51.609682,
+          "y": 32.621723
+        },
+        {
+          "x": 51.610276,
+          "y": 32.622089
+        },
+        {
+          "x": 51.610658,
+          "y": 32.622324
+        },
+        {
+          "x": 51.612158,
+          "y": 32.623236
+        },
+        {
+          "x": 51.612492,
+          "y": 32.62343
+        },
+        {
+          "x": 51.612748,
+          "y": 32.623539
+        },
+        {
+          "x": 51.613025,
+          "y": 32.623638
+        },
+        {
+          "x": 51.61336,
+          "y": 32.623736
+        },
+        {
+          "x": 51.613502,
+          "y": 32.623773
+        },
+        {
+          "x": 51.614031,
+          "y": 32.623891
+        },
+        {
+          "x": 51.614417,
+          "y": 32.623942
+        },
+        {
+          "x": 51.614494,
+          "y": 32.62395
+        },
+        {
+          "x": 51.614774,
+          "y": 32.623973
+        },
+        {
+          "x": 51.615087,
+          "y": 32.623965
+        },
+        {
+          "x": 51.616086,
+          "y": 32.623941
+        },
+        {
+          "x": 51.616622,
+          "y": 32.623928
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 266103881,
+          "ID": 332154103,
+          "toNode": 266143991,
+          "isForward": false
+        },
+        {
+          "fromNode": 266143991,
+          "ID": 332154102,
+          "toNode": 249949040,
+          "isForward": false
+        },
+        {
+          "fromNode": 249949040,
+          "ID": 332767551,
+          "toNode": 266533592,
+          "isForward": true
+        },
+        {
+          "fromNode": 266533592,
+          "ID": 332767552,
+          "toNode": 266533589,
+          "isForward": true
+        },
+        {
+          "fromNode": 266533589,
+          "ID": 332767567,
+          "toNode": 266533598,
+          "isForward": true
+        },
+        {
+          "fromNode": 266533598,
+          "ID": 365595850,
+          "toNode": 287383538,
+          "isForward": true
+        },
+        {
+          "fromNode": 287383538,
+          "ID": 365595851,
+          "toNode": 266533600,
+          "isForward": true
+        },
+        {
+          "fromNode": 266533600,
+          "ID": 365596185,
+          "toNode": 287383748,
+          "isForward": true
+        },
+        {
+          "fromNode": 287383748,
+          "ID": 365596186,
+          "toNode": 231187747,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.621723,
+      "locationX": 51.609682,
+      "updateMillis": 1786640539595,
+      "blockUpdate": null
+    },
+    {
+      "id": 1790035582,
+      "street": "Chaharbagh Paeen - چهارباغ پایین",
+      "city": "اصفهان",
+      "country": null,
+      "level": 4,
+      "length": 614,
+      "speed": 1.6944444444444444,
+      "endNode": "Masjed Seyyed - مسجد سید",
+      "line": [
+        {
+          "x": 51.670971,
+          "y": 32.671647
+        },
+        {
+          "x": 51.670962,
+          "y": 32.671359
+        },
+        {
+          "x": 51.670955,
+          "y": 32.671231
+        },
+        {
+          "x": 51.670846,
+          "y": 32.670372
+        },
+        {
+          "x": 51.670788,
+          "y": 32.669956
+        },
+        {
+          "x": 51.670737,
+          "y": 32.669604
+        },
+        {
+          "x": 51.670694,
+          "y": 32.669322
+        },
+        {
+          "x": 51.670652,
+          "y": 32.668971
+        },
+        {
+          "x": 51.67064,
+          "y": 32.668886
+        },
+        {
+          "x": 51.670555,
+          "y": 32.668269
+        },
+        {
+          "x": 51.670411,
+          "y": 32.66722
+        },
+        {
+          "x": 51.670389,
+          "y": 32.66709
+        },
+        {
+          "x": 51.670306,
+          "y": 32.666147
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 219266524,
+          "ID": 420909028,
+          "toNode": 274951298,
+          "isForward": true
+        },
+        {
+          "fromNode": 274951298,
+          "ID": 346171940,
+          "toNode": 181346887,
+          "isForward": true
+        },
+        {
+          "fromNode": 181346887,
+          "ID": 335571810,
+          "toNode": 268280063,
+          "isForward": true
+        },
+        {
+          "fromNode": 268280063,
+          "ID": 346171220,
+          "toNode": 274950875,
+          "isForward": true
+        },
+        {
+          "fromNode": 274950875,
+          "ID": 346171221,
+          "toNode": 207971249,
+          "isForward": true
+        },
+        {
+          "fromNode": 207971249,
+          "ID": 345149139,
+          "toNode": 274303379,
+          "isForward": false
+        },
+        {
+          "fromNode": 274303379,
+          "ID": 346170926,
+          "toNode": 274950668,
+          "isForward": false
+        },
+        {
+          "fromNode": 274950668,
+          "ID": 346170979,
+          "toNode": 274950686,
+          "isForward": false
+        },
+        {
+          "fromNode": 274950686,
+          "ID": 346170978,
+          "toNode": 209775573,
+          "isForward": false
+        },
+        {
+          "fromNode": 209775573,
+          "ID": 246262530,
+          "toNode": 207971248,
+          "isForward": true
+        },
+        {
+          "fromNode": 207971248,
+          "ID": 243408949,
+          "toNode": 181346867,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.671647,
+      "locationX": 51.670971,
+      "updateMillis": 1786640539592,
+      "blockUpdate": null
+    },
+    {
+      "id": 1789329472,
+      "street": "Kamal Esmaeil - کمال اسماعیل",
+      "city": "اصفهان",
+      "country": null,
+      "level": 3,
+      "length": 867,
+      "speed": 2.1555555555555554,
+      "endNode": "Ferdowsi - فردوسی",
+      "line": [
+        {
+          "x": 51.683083,
+          "y": 32.638121
+        },
+        {
+          "x": 51.682617,
+          "y": 32.637912
+        },
+        {
+          "x": 51.68202,
+          "y": 32.63767
+        },
+        {
+          "x": 51.681745,
+          "y": 32.637701
+        },
+        {
+          "x": 51.681109,
+          "y": 32.637771
+        },
+        {
+          "x": 51.680643,
+          "y": 32.637819
+        },
+        {
+          "x": 51.680194,
+          "y": 32.637878
+        },
+        {
+          "x": 51.67985,
+          "y": 32.637922
+        },
+        {
+          "x": 51.6794,
+          "y": 32.63798
+        },
+        {
+          "x": 51.679057,
+          "y": 32.638078
+        },
+        {
+          "x": 51.6788,
+          "y": 32.638181
+        },
+        {
+          "x": 51.678152,
+          "y": 32.63866
+        },
+        {
+          "x": 51.676169,
+          "y": 32.640149
+        },
+        {
+          "x": 51.67583,
+          "y": 32.640402
+        },
+        {
+          "x": 51.675234,
+          "y": 32.640846
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 181129434,
+          "ID": 197313133,
+          "toNode": 181129435,
+          "isForward": true
+        },
+        {
+          "fromNode": 181129435,
+          "ID": 324898978,
+          "toNode": 261698087,
+          "isForward": true
+        },
+        {
+          "fromNode": 261698087,
+          "ID": 326349407,
+          "toNode": 262549221,
+          "isForward": true
+        },
+        {
+          "fromNode": 262549221,
+          "ID": 326349501,
+          "toNode": 262549277,
+          "isForward": true
+        },
+        {
+          "fromNode": 262549277,
+          "ID": 326349506,
+          "toNode": 262549279,
+          "isForward": true
+        },
+        {
+          "fromNode": 262549279,
+          "ID": 331378809,
+          "toNode": 265654764,
+          "isForward": false
+        },
+        {
+          "fromNode": 265654764,
+          "ID": 331378808,
+          "toNode": 265654762,
+          "isForward": false
+        },
+        {
+          "fromNode": 265654762,
+          "ID": 331378806,
+          "toNode": 262549392,
+          "isForward": false
+        },
+        {
+          "fromNode": 262549392,
+          "ID": 326349682,
+          "toNode": 258481478,
+          "isForward": true
+        },
+        {
+          "fromNode": 258481478,
+          "ID": 416801712,
+          "toNode": 320850042,
+          "isForward": true
+        },
+        {
+          "fromNode": 320850042,
+          "ID": 416801713,
+          "toNode": 261698130,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.638121,
+      "locationX": 51.683083,
+      "updateMillis": 1786640539576,
+      "blockUpdate": null
+    },
+    {
+      "id": 1790591472,
+      "street": "Hakim Nezami - حکیم نظامی",
+      "city": "اصفهان",
+      "country": null,
+      "level": 3,
+      "length": 267,
+      "speed": 2.2083333333333335,
+      "endNode": "22nd, Nabian - نبیان",
+      "line": [
+        {
+          "x": 51.652793,
+          "y": 32.628242
+        },
+        {
+          "x": 51.652814,
+          "y": 32.628419
+        },
+        {
+          "x": 51.652839,
+          "y": 32.628588
+        },
+        {
+          "x": 51.652934,
+          "y": 32.629233
+        },
+        {
+          "x": 51.65303,
+          "y": 32.629888
+        },
+        {
+          "x": 51.653053,
+          "y": 32.630046
+        },
+        {
+          "x": 51.653136,
+          "y": 32.630625
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 181018676,
+          "ID": 324719934,
+          "toNode": 261585377,
+          "isForward": true
+        },
+        {
+          "fromNode": 261585377,
+          "ID": 343190425,
+          "toNode": 273054720,
+          "isForward": true
+        },
+        {
+          "fromNode": 273054720,
+          "ID": 366064976,
+          "toNode": 287683711,
+          "isForward": true
+        },
+        {
+          "fromNode": 287683711,
+          "ID": 366064978,
+          "toNode": 262697088,
+          "isForward": true
+        },
+        {
+          "fromNode": 262697088,
+          "ID": 326602762,
+          "toNode": 261584935,
+          "isForward": true
+        },
+        {
+          "fromNode": 261584935,
+          "ID": 324719191,
+          "toNode": 256778705,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.628242,
+      "locationX": 51.652793,
+      "updateMillis": 1786640539537,
+      "blockUpdate": null
+    },
+    {
+      "id": 1773401476,
+      "street": "Ostandari - استانداری",
+      "city": "اصفهان",
+      "country": null,
+      "level": 4,
+      "length": 899,
+      "speed": 0.8333333333333334,
+      "endNode": "Hakim - حکیم",
+      "line": [
+        {
+          "x": 51.676588,
+          "y": 32.650142
+        },
+        {
+          "x": 51.676557,
+          "y": 32.650391
+        },
+        {
+          "x": 51.676539,
+          "y": 32.650456
+        },
+        {
+          "x": 51.676373,
+          "y": 32.651058
+        },
+        {
+          "x": 51.676335,
+          "y": 32.651198
+        },
+        {
+          "x": 51.676251,
+          "y": 32.651544
+        },
+        {
+          "x": 51.676205,
+          "y": 32.651685
+        },
+        {
+          "x": 51.676045,
+          "y": 32.65227
+        },
+        {
+          "x": 51.675752,
+          "y": 32.653331
+        },
+        {
+          "x": 51.675682,
+          "y": 32.653585
+        },
+        {
+          "x": 51.675607,
+          "y": 32.65385
+        },
+        {
+          "x": 51.675281,
+          "y": 32.655003
+        },
+        {
+          "x": 51.675251,
+          "y": 32.655107
+        },
+        {
+          "x": 51.675016,
+          "y": 32.655943
+        },
+        {
+          "x": 51.674975,
+          "y": 32.656084
+        },
+        {
+          "x": 51.674402,
+          "y": 32.65804
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 208877041,
+          "ID": 361578521,
+          "toNode": 284790102,
+          "isForward": true
+        },
+        {
+          "fromNode": 284790102,
+          "ID": 361578522,
+          "toNode": 258753819,
+          "isForward": true
+        },
+        {
+          "fromNode": 258753819,
+          "ID": 320227323,
+          "toNode": 231188504,
+          "isForward": true
+        },
+        {
+          "fromNode": 231188504,
+          "ID": 278450443,
+          "toNode": 181247375,
+          "isForward": true
+        },
+        {
+          "fromNode": 181247375,
+          "ID": 336308853,
+          "toNode": 268738221,
+          "isForward": true
+        },
+        {
+          "fromNode": 268738221,
+          "ID": 336308854,
+          "toNode": 181247386,
+          "isForward": true
+        },
+        {
+          "fromNode": 181247386,
+          "ID": 197590198,
+          "toNode": 181226776,
+          "isForward": true
+        },
+        {
+          "fromNode": 181226776,
+          "ID": 197541124,
+          "toNode": 181226775,
+          "isForward": true
+        },
+        {
+          "fromNode": 181226775,
+          "ID": 197590157,
+          "toNode": 181247372,
+          "isForward": true
+        },
+        {
+          "fromNode": 181247372,
+          "ID": 349681020,
+          "toNode": 277151452,
+          "isForward": true
+        },
+        {
+          "fromNode": 277151452,
+          "ID": 349681021,
+          "toNode": 181247370,
+          "isForward": true
+        },
+        {
+          "fromNode": 181247370,
+          "ID": 197590152,
+          "toNode": 181226770,
+          "isForward": true
+        },
+        {
+          "fromNode": 181226770,
+          "ID": 197541113,
+          "toNode": 181226771,
+          "isForward": true
+        },
+        {
+          "fromNode": 181226771,
+          "ID": 347274338,
+          "toNode": 275640649,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.650142,
+      "locationX": 51.676588,
+      "updateMillis": 1786640539503,
+      "blockUpdate": null
+    },
+    {
+      "id": 1788504276,
+      "street": "Kaveh Blvd - بلوار کاوه",
+      "city": "اصفهان",
+      "country": null,
+      "level": 3,
+      "length": 1244,
+      "speed": 5.330555555555556,
+      "endNode": "",
+      "line": [
+        {
+          "x": 51.673508,
+          "y": 32.690437
+        },
+        {
+          "x": 51.673364,
+          "y": 32.689359
+        },
+        {
+          "x": 51.67333,
+          "y": 32.689104
+        },
+        {
+          "x": 51.673303,
+          "y": 32.688906
+        },
+        {
+          "x": 51.673221,
+          "y": 32.688291
+        },
+        {
+          "x": 51.673161,
+          "y": 32.687845
+        },
+        {
+          "x": 51.673114,
+          "y": 32.687495
+        },
+        {
+          "x": 51.67307,
+          "y": 32.687154
+        },
+        {
+          "x": 51.672964,
+          "y": 32.686377
+        },
+        {
+          "x": 51.6729,
+          "y": 32.685895
+        },
+        {
+          "x": 51.672808,
+          "y": 32.685215
+        },
+        {
+          "x": 51.672708,
+          "y": 32.684463
+        },
+        {
+          "x": 51.672673,
+          "y": 32.684207
+        },
+        {
+          "x": 51.672576,
+          "y": 32.68347
+        },
+        {
+          "x": 51.672492,
+          "y": 32.682844
+        },
+        {
+          "x": 51.672423,
+          "y": 32.682319
+        },
+        {
+          "x": 51.672207,
+          "y": 32.680695
+        },
+        {
+          "x": 51.672124,
+          "y": 32.680075
+        },
+        {
+          "x": 51.672101,
+          "y": 32.679919
+        },
+        {
+          "x": 51.672004,
+          "y": 32.679285
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 181324382,
+          "ID": 321439485,
+          "toNode": 259501728,
+          "isForward": true
+        },
+        {
+          "fromNode": 259501728,
+          "ID": 434769020,
+          "toNode": 332750212,
+          "isForward": true
+        },
+        {
+          "fromNode": 332750212,
+          "ID": 434769021,
+          "toNode": 259501721,
+          "isForward": true
+        },
+        {
+          "fromNode": 259501721,
+          "ID": 434417266,
+          "toNode": 332547052,
+          "isForward": true
+        },
+        {
+          "fromNode": 332547052,
+          "ID": 434417267,
+          "toNode": 322119805,
+          "isForward": true
+        },
+        {
+          "fromNode": 322119805,
+          "ID": 418767803,
+          "toNode": 258058469,
+          "isForward": true
+        },
+        {
+          "fromNode": 258058469,
+          "ID": 321439477,
+          "toNode": 259501724,
+          "isForward": true
+        },
+        {
+          "fromNode": 259501724,
+          "ID": 433088197,
+          "toNode": 331638265,
+          "isForward": true
+        },
+        {
+          "fromNode": 331638265,
+          "ID": 433088198,
+          "toNode": 258058359,
+          "isForward": true
+        },
+        {
+          "fromNode": 258058359,
+          "ID": 330897033,
+          "toNode": 265346332,
+          "isForward": true
+        },
+        {
+          "fromNode": 265346332,
+          "ID": 330897034,
+          "toNode": 259502239,
+          "isForward": true
+        },
+        {
+          "fromNode": 259502239,
+          "ID": 327153420,
+          "toNode": 259502237,
+          "isForward": true
+        },
+        {
+          "fromNode": 259502237,
+          "ID": 321440777,
+          "toNode": 259502357,
+          "isForward": true
+        },
+        {
+          "fromNode": 259502357,
+          "ID": 433619110,
+          "toNode": 331997165,
+          "isForward": true
+        },
+        {
+          "fromNode": 331997165,
+          "ID": 433619111,
+          "toNode": 258058478,
+          "isForward": true
+        },
+        {
+          "fromNode": 258058478,
+          "ID": 346324327,
+          "toNode": 259501469,
+          "isForward": false
+        },
+        {
+          "fromNode": 259501469,
+          "ID": 321439036,
+          "toNode": 203712355,
+          "isForward": true
+        },
+        {
+          "fromNode": 203712355,
+          "ID": 321441931,
+          "toNode": 259502904,
+          "isForward": true
+        },
+        {
+          "fromNode": 259502904,
+          "ID": 321441932,
+          "toNode": 259502454,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.690437,
+      "locationX": 51.673508,
+      "updateMillis": 1786640539464,
+      "blockUpdate": null
+    },
+    {
+      "id": 1789865902,
+      "street": "Bustan Saadi - بوستان سعدی",
+      "city": "اصفهان",
+      "country": null,
+      "level": 2,
+      "length": 848,
+      "speed": 4.275,
+      "endNode": "Hakim Nezami - حکیم نظامی",
+      "line": [
+        {
+          "x": 51.641394,
+          "y": 32.637813
+        },
+        {
+          "x": 51.642948,
+          "y": 32.639193
+        },
+        {
+          "x": 51.643116,
+          "y": 32.639342
+        },
+        {
+          "x": 51.643648,
+          "y": 32.63968
+        },
+        {
+          "x": 51.644569,
+          "y": 32.639698
+        },
+        {
+          "x": 51.645713,
+          "y": 32.639699
+        },
+        {
+          "x": 51.648009,
+          "y": 32.639477
+        },
+        {
+          "x": 51.649503,
+          "y": 32.639628
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 181343955,
+          "ID": 197826663,
+          "toNode": 181343942,
+          "isForward": true
+        },
+        {
+          "fromNode": 181343942,
+          "ID": 197826629,
+          "toNode": 181343936,
+          "isForward": true
+        },
+        {
+          "fromNode": 181343936,
+          "ID": 326544405,
+          "toNode": 259504695,
+          "isForward": false
+        },
+        {
+          "fromNode": 259504695,
+          "ID": 340720384,
+          "toNode": 259504653,
+          "isForward": false
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.637813,
+      "locationX": 51.641394,
+      "updateMillis": 1786640539463,
+      "blockUpdate": null
+    },
+    {
+      "id": 1789376552,
+      "street": "Masjed Seyyed - مسجد سید",
+      "city": "اصفهان",
+      "country": null,
+      "level": 2,
+      "length": 1390,
+      "speed": 5.8,
+      "endNode": "Tayeb - طیب",
+      "line": [
+        {
+          "x": 51.651708,
+          "y": 32.665975
+        },
+        {
+          "x": 51.652933,
+          "y": 32.665937
+        },
+        {
+          "x": 51.653095,
+          "y": 32.665929
+        },
+        {
+          "x": 51.65363,
+          "y": 32.665902
+        },
+        {
+          "x": 51.654702,
+          "y": 32.66585
+        },
+        {
+          "x": 51.656584,
+          "y": 32.665799
+        },
+        {
+          "x": 51.657126,
+          "y": 32.665784
+        },
+        {
+          "x": 51.657471,
+          "y": 32.665773
+        },
+        {
+          "x": 51.658379,
+          "y": 32.665745
+        },
+        {
+          "x": 51.660585,
+          "y": 32.665675
+        },
+        {
+          "x": 51.660939,
+          "y": 32.665672
+        },
+        {
+          "x": 51.662293,
+          "y": 32.665609
+        },
+        {
+          "x": 51.662907,
+          "y": 32.665584
+        },
+        {
+          "x": 51.663326,
+          "y": 32.665568
+        },
+        {
+          "x": 51.665751,
+          "y": 32.665486
+        },
+        {
+          "x": 51.666518,
+          "y": 32.665436
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 341735629,
+          "ID": 448689851,
+          "toNode": 258807238,
+          "isForward": false
+        },
+        {
+          "fromNode": 258807238,
+          "ID": 430272813,
+          "toNode": 329729067,
+          "isForward": true
+        },
+        {
+          "fromNode": 329729067,
+          "ID": 430272814,
+          "toNode": 260140009,
+          "isForward": true
+        },
+        {
+          "fromNode": 260140009,
+          "ID": 322442843,
+          "toNode": 333062397,
+          "isForward": true
+        },
+        {
+          "fromNode": 333062397,
+          "ID": 422964006,
+          "toNode": 258487394,
+          "isForward": true
+        },
+        {
+          "fromNode": 258487394,
+          "ID": 323209647,
+          "toNode": 260638498,
+          "isForward": true
+        },
+        {
+          "fromNode": 260638498,
+          "ID": 430272792,
+          "toNode": 329729049,
+          "isForward": true
+        },
+        {
+          "fromNode": 329729049,
+          "ID": 430272793,
+          "toNode": 258487393,
+          "isForward": true
+        },
+        {
+          "fromNode": 258487393,
+          "ID": 422964123,
+          "toNode": 207971533,
+          "isForward": true
+        },
+        {
+          "fromNode": 207971533,
+          "ID": 327465217,
+          "toNode": 263228246,
+          "isForward": false
+        },
+        {
+          "fromNode": 263228246,
+          "ID": 327465216,
+          "toNode": 209527033,
+          "isForward": false
+        },
+        {
+          "fromNode": 209527033,
+          "ID": 373775486,
+          "toNode": 292647953,
+          "isForward": true
+        },
+        {
+          "fromNode": 292647953,
+          "ID": 424509542,
+          "toNode": 325905406,
+          "isForward": true
+        },
+        {
+          "fromNode": 325905406,
+          "ID": 424509543,
+          "toNode": 209475918,
+          "isForward": true
+        },
+        {
+          "fromNode": 209475918,
+          "ID": 327464458,
+          "toNode": 333062260,
+          "isForward": false
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.665975,
+      "locationX": 51.651708,
+      "updateMillis": 1786640539018,
+      "blockUpdate": null
+    },
+    {
+      "id": 1789570072,
+      "street": "",
+      "city": "اصفهان",
+      "country": null,
+      "level": 4,
+      "length": 480,
+      "speed": 2.0083333333333333,
+      "endNode": "اصفهان",
+      "line": [
+        {
+          "x": 51.674593,
+          "y": 32.591029
+        },
+        {
+          "x": 51.673812,
+          "y": 32.591107
+        },
+        {
+          "x": 51.672826,
+          "y": 32.591099
+        },
+        {
+          "x": 51.671762,
+          "y": 32.591137
+        },
+        {
+          "x": 51.670147,
+          "y": 32.591155
+        },
+        {
+          "x": 51.669486,
+          "y": 32.591172
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 276518083,
+          "ID": 197630647,
+          "toNode": 181264180,
+          "isForward": true
+        },
+        {
+          "fromNode": 181264180,
+          "ID": 377639310,
+          "toNode": 280016378,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.591029,
+      "locationX": 51.674593,
+      "updateMillis": 1786640539015,
+      "blockUpdate": null
+    },
+    {
+      "id": 1788784728,
+      "street": "Seyyed Razi - سید رضی",
+      "city": "اصفهان",
+      "country": null,
+      "level": 4,
+      "length": 289,
+      "speed": 2.202777777777778,
+      "endNode": "Razmandegan - رزمندگان",
+      "line": [
+        {
+          "x": 51.65944,
+          "y": 32.705655
+        },
+        {
+          "x": 51.659261,
+          "y": 32.704613
+        },
+        {
+          "x": 51.659122,
+          "y": 32.703997
+        },
+        {
+          "x": 51.659054,
+          "y": 32.703488
+        },
+        {
+          "x": 51.659018,
+          "y": 32.703083
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 277576286,
+          "ID": 350359692,
+          "toNode": 258358574,
+          "isForward": true
+        },
+        {
+          "fromNode": 258358574,
+          "ID": 335658939,
+          "toNode": 268334476,
+          "isForward": true
+        },
+        {
+          "fromNode": 268334476,
+          "ID": 335658940,
+          "toNode": 203717267,
+          "isForward": true
+        },
+        {
+          "fromNode": 203717267,
+          "ID": 236785444,
+          "toNode": 203716803,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.705655,
+      "locationX": 51.65944,
+      "updateMillis": 1786640539013,
+      "blockUpdate": null
+    },
+    {
+      "id": 1786912546,
+      "street": "Abdorrazaq - عبدالرزاق",
+      "city": "اصفهان",
+      "country": null,
+      "level": 3,
+      "length": 601,
+      "speed": 1.9833333333333334,
+      "endNode": "",
+      "line": [
+        {
+          "x": 51.676627,
+          "y": 32.666279
+        },
+        {
+          "x": 51.675248,
+          "y": 32.666116
+        },
+        {
+          "x": 51.674374,
+          "y": 32.665999
+        },
+        {
+          "x": 51.673853,
+          "y": 32.665934
+        },
+        {
+          "x": 51.673235,
+          "y": 32.665847
+        },
+        {
+          "x": 51.673033,
+          "y": 32.665819
+        },
+        {
+          "x": 51.671626,
+          "y": 32.665622
+        },
+        {
+          "x": 51.670712,
+          "y": 32.665495
+        },
+        {
+          "x": 51.670298,
+          "y": 32.665453
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 261625847,
+          "ID": 435361435,
+          "toNode": 207970870,
+          "isForward": true
+        },
+        {
+          "fromNode": 207970870,
+          "ID": 243408836,
+          "toNode": 207971165,
+          "isForward": true
+        },
+        {
+          "fromNode": 207971165,
+          "ID": 425555271,
+          "toNode": 333109623,
+          "isForward": true
+        },
+        {
+          "fromNode": 333109623,
+          "ID": 459412581,
+          "toNode": 348579204,
+          "isForward": true
+        },
+        {
+          "fromNode": 348579204,
+          "ID": 459412582,
+          "toNode": 290524396,
+          "isForward": true
+        },
+        {
+          "fromNode": 290524396,
+          "ID": 406008983,
+          "toNode": 290524388,
+          "isForward": true
+        },
+        {
+          "fromNode": 290524388,
+          "ID": 370388091,
+          "toNode": 181346869,
+          "isForward": true
+        },
+        {
+          "fromNode": 181346869,
+          "ID": 383360689,
+          "toNode": 263227802,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.666279,
+      "locationX": 51.676627,
+      "updateMillis": 1786640538990,
+      "blockUpdate": null
+    },
+    {
+      "id": 1788776762,
+      "street": "Hakim - حکیم",
+      "city": "اصفهان",
+      "country": null,
+      "level": 3,
+      "length": 577,
+      "speed": 1.6611111111111112,
+      "endNode": "Abdorrazaq - عبدالرزاق",
+      "line": [
+        {
+          "x": 51.673654,
+          "y": 32.660604
+        },
+        {
+          "x": 51.673537,
+          "y": 32.66126
+        },
+        {
+          "x": 51.67351,
+          "y": 32.661623
+        },
+        {
+          "x": 51.673645,
+          "y": 32.662413
+        },
+        {
+          "x": 51.67383,
+          "y": 32.66384
+        },
+        {
+          "x": 51.673897,
+          "y": 32.664842
+        },
+        {
+          "x": 51.673876,
+          "y": 32.665788
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 349697880,
+          "ID": 461381302,
+          "toNode": 258045883,
+          "isForward": true
+        },
+        {
+          "fromNode": 258045883,
+          "ID": 330066018,
+          "toNode": 264823143,
+          "isForward": true
+        },
+        {
+          "fromNode": 264823143,
+          "ID": 330066021,
+          "toNode": 258046003,
+          "isForward": true
+        },
+        {
+          "fromNode": 258046003,
+          "ID": 319116246,
+          "toNode": 231185633,
+          "isForward": true
+        },
+        {
+          "fromNode": 231185633,
+          "ID": 429357827,
+          "toNode": 326637964,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.660604,
+      "locationX": 51.673654,
+      "updateMillis": 1786640538974,
+      "blockUpdate": null
+    },
+    {
+      "id": 1788504390,
+      "street": "Moshtaq - مشتاق",
+      "city": "اصفهان",
+      "country": null,
+      "level": 3,
+      "length": 955,
+      "speed": 4.144444444444445,
+      "endNode": "",
+      "line": [
+        {
+          "x": 51.693774,
+          "y": 32.640658
+        },
+        {
+          "x": 51.693551,
+          "y": 32.640582
+        },
+        {
+          "x": 51.692935,
+          "y": 32.640341
+        },
+        {
+          "x": 51.692263,
+          "y": 32.640076
+        },
+        {
+          "x": 51.691698,
+          "y": 32.639853
+        },
+        {
+          "x": 51.691406,
+          "y": 32.639742
+        },
+        {
+          "x": 51.691244,
+          "y": 32.63968
+        },
+        {
+          "x": 51.691072,
+          "y": 32.639649
+        },
+        {
+          "x": 51.690201,
+          "y": 32.639511
+        },
+        {
+          "x": 51.689567,
+          "y": 32.63944
+        },
+        {
+          "x": 51.689177,
+          "y": 32.639418
+        },
+        {
+          "x": 51.687972,
+          "y": 32.639299
+        },
+        {
+          "x": 51.687433,
+          "y": 32.639196
+        },
+        {
+          "x": 51.686336,
+          "y": 32.638986
+        },
+        {
+          "x": 51.684567,
+          "y": 32.638648
+        },
+        {
+          "x": 51.683989,
+          "y": 32.638529
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 181137649,
+          "ID": 323194635,
+          "toNode": 260628731,
+          "isForward": true
+        },
+        {
+          "fromNode": 260628731,
+          "ID": 366239733,
+          "toNode": 287794549,
+          "isForward": true
+        },
+        {
+          "fromNode": 287794549,
+          "ID": 366239735,
+          "toNode": 261007625,
+          "isForward": true
+        },
+        {
+          "fromNode": 261007625,
+          "ID": 342816398,
+          "toNode": 272815253,
+          "isForward": true
+        },
+        {
+          "fromNode": 272815253,
+          "ID": 342816400,
+          "toNode": 272815254,
+          "isForward": true
+        },
+        {
+          "fromNode": 272815254,
+          "ID": 342816402,
+          "toNode": 206653091,
+          "isForward": false
+        },
+        {
+          "fromNode": 206653091,
+          "ID": 241317092,
+          "toNode": 206653092,
+          "isForward": true
+        },
+        {
+          "fromNode": 206653092,
+          "ID": 346323299,
+          "toNode": 275047779,
+          "isForward": true
+        },
+        {
+          "fromNode": 275047779,
+          "ID": 346323304,
+          "toNode": 275047781,
+          "isForward": true
+        },
+        {
+          "fromNode": 275047781,
+          "ID": 346323305,
+          "toNode": 258943849,
+          "isForward": true
+        },
+        {
+          "fromNode": 258943849,
+          "ID": 320537209,
+          "toNode": 181129179,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.640658,
+      "locationX": 51.693774,
+      "updateMillis": 1786640538971,
+      "blockUpdate": null
+    },
+    {
+      "id": 1788418006,
+      "street": "Chaharbagh Paeen - چهارباغ پایین",
+      "city": "اصفهان",
+      "country": null,
+      "level": 3,
+      "length": 797,
+      "speed": 3.6333333333333333,
+      "endNode": "Abdorrazaq - عبدالرزاق",
+      "line": [
+        {
+          "x": 51.669478,
+          "y": 32.658164
+        },
+        {
+          "x": 51.669501,
+          "y": 32.658312
+        },
+        {
+          "x": 51.669533,
+          "y": 32.65851
+        },
+        {
+          "x": 51.669611,
+          "y": 32.659045
+        },
+        {
+          "x": 51.66966,
+          "y": 32.659453
+        },
+        {
+          "x": 51.669896,
+          "y": 32.66131
+        },
+        {
+          "x": 51.670059,
+          "y": 32.662504
+        },
+        {
+          "x": 51.670141,
+          "y": 32.663154
+        },
+        {
+          "x": 51.670194,
+          "y": 32.663553
+        },
+        {
+          "x": 51.670262,
+          "y": 32.664124
+        },
+        {
+          "x": 51.670286,
+          "y": 32.664561
+        },
+        {
+          "x": 51.670272,
+          "y": 32.664887
+        },
+        {
+          "x": 51.67028,
+          "y": 32.665312
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 259631333,
+          "ID": 430843419,
+          "toNode": 330095906,
+          "isForward": false
+        },
+        {
+          "fromNode": 330095906,
+          "ID": 430843418,
+          "toNode": 270158705,
+          "isForward": false
+        },
+        {
+          "fromNode": 270158705,
+          "ID": 338566351,
+          "toNode": 270158635,
+          "isForward": false
+        },
+        {
+          "fromNode": 270158635,
+          "ID": 420471567,
+          "toNode": 323227420,
+          "isForward": false
+        },
+        {
+          "fromNode": 323227420,
+          "ID": 420471566,
+          "toNode": 258756142,
+          "isForward": false
+        },
+        {
+          "fromNode": 258756142,
+          "ID": 320231276,
+          "toNode": 258756144,
+          "isForward": false
+        },
+        {
+          "fromNode": 258756144,
+          "ID": 356783886,
+          "toNode": 281684362,
+          "isForward": false
+        },
+        {
+          "fromNode": 281684362,
+          "ID": 356783885,
+          "toNode": 270158830,
+          "isForward": false
+        },
+        {
+          "fromNode": 270158830,
+          "ID": 358572494,
+          "toNode": 282861800,
+          "isForward": false
+        },
+        {
+          "fromNode": 282861800,
+          "ID": 358572493,
+          "toNode": 258973228,
+          "isForward": false
+        },
+        {
+          "fromNode": 258973228,
+          "ID": 320583494,
+          "toNode": 181346871,
+          "isForward": false
+        },
+        {
+          "fromNode": 181346871,
+          "ID": 383360670,
+          "toNode": 333065084,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.658164,
+      "locationX": 51.669478,
+      "updateMillis": 1786639734385,
+      "blockUpdate": null
+    }
+  ],
+  "meta": {
+    "alerts_count": 10,
+    "jams_count": 65,
+    "key_used_suffix": "NMPn3a8W",
+    "alerts_response_type": "list"
+  }
 }

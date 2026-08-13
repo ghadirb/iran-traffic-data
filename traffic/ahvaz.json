@@ -1,7 +1,386 @@
 {
-  "province": "ahvaz",
-  "updated_at": "2026-08-13T16:07:52.207029Z",
-  "status": "placeholder",
-  "message": "کلید API تنظیم نشده است",
-  "routes": []
+  "region": "ahvaz",
+  "name": "اهواز",
+  "updated_at": "2026-08-13T17:04:13.374170Z",
+  "status": "ok",
+  "alerts": [
+    {
+      "id": "alert-1180168607/d8c299f9-86b4-4749-b956-36bdfe145b54",
+      "type": "ROAD_CLOSED",
+      "subType": "ROAD_CLOSED_EVENT",
+      "reliability": 10,
+      "street": "",
+      "city": "اهواز",
+      "country": "IR",
+      "nearBy": null,
+      "locationY": 31.334635,
+      "locationX": 48.678496,
+      "timestamp": 1707584858000,
+      "timestampUTC": "Sat, 10 Feb 2024 17:07:38 GMT",
+      "reportDescription": "",
+      "magvar": 98,
+      "nThumbsUp": 51,
+      "confidence": 5,
+      "roadType": 4,
+      "reportRating": 5,
+      "reportMood": 0,
+      "reportByMunicipalityUser": "false",
+      "reported_by": null
+    }
+  ],
+  "jams": [
+    {
+      "id": 1790824932,
+      "street": "",
+      "city": "اهواز",
+      "country": null,
+      "level": 4,
+      "length": 372,
+      "speed": 1.9805555555555556,
+      "line": [
+        {
+          "x": 48.766343,
+          "y": 31.369745
+        },
+        {
+          "x": 48.766803,
+          "y": 31.37001
+        },
+        {
+          "x": 48.767281,
+          "y": 31.370244
+        },
+        {
+          "x": 48.767508,
+          "y": 31.370425
+        },
+        {
+          "x": 48.767624,
+          "y": 31.370518
+        },
+        {
+          "x": 48.767933,
+          "y": 31.370858
+        },
+        {
+          "x": 48.768832,
+          "y": 31.370197
+        },
+        {
+          "x": 48.768417,
+          "y": 31.369774
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 275891443,
+          "ID": 347676963,
+          "toNode": 275891442,
+          "isForward": false
+        },
+        {
+          "fromNode": 275891442,
+          "ID": 347677451,
+          "toNode": 275891742,
+          "isForward": false
+        },
+        {
+          "fromNode": 275891742,
+          "ID": 347677450,
+          "toNode": 275891662,
+          "isForward": false
+        },
+        {
+          "fromNode": 275891662,
+          "ID": 347677307,
+          "toNode": 275891430,
+          "isForward": false
+        },
+        {
+          "fromNode": 275891430,
+          "ID": 347677516,
+          "toNode": 275891771,
+          "isForward": false
+        },
+        {
+          "fromNode": 275891771,
+          "ID": 347677514,
+          "toNode": 275891768,
+          "isForward": false
+        },
+        {
+          "fromNode": 275891768,
+          "ID": 347677511,
+          "toNode": 275891770,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 31.369745,
+      "locationX": 48.766343,
+      "updateMillis": 1786640545440,
+      "blockUpdate": null
+    },
+    {
+      "id": 1691128226,
+      "street": "",
+      "city": "اهواز",
+      "country": "IR",
+      "level": 5,
+      "length": 81,
+      "speed": 0,
+      "endNode": "Saheli W Blvd - بلوار ساحلی غربی",
+      "line": [
+        {
+          "x": 48.678496,
+          "y": 31.334635
+        },
+        {
+          "x": 48.678394,
+          "y": 31.334541
+        },
+        {
+          "x": 48.678491,
+          "y": 31.334483
+        },
+        {
+          "x": 48.678871,
+          "y": 31.334568
+        },
+        {
+          "x": 48.679065,
+          "y": 31.334567
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 281354638,
+          "ID": 356248263,
+          "toNode": 281354639,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "اهواز",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 5,
+        "reliability": 10,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 281354638,
+        "uuid": "d8c299f9-86b4-4749-b956-36bdfe145b54",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 4,
+        "magvar": 98,
+        "subtype": "ROAD_CLOSED_EVENT",
+        "additionalInfo": "",
+        "wazeData": "world,48.67849622073332,31.334635721178604,d8c299f9-86b4-4749-b956-36bdfe145b54",
+        "toNodeId": 281354639,
+        "reportDescription": "",
+        "location": {
+          "x": 48.678496,
+          "y": 31.334635
+        },
+        "id": "alert-1180168607/d8c299f9-86b4-4749-b956-36bdfe145b54",
+        "pubMillis": 1707584858000
+      },
+      "locationY": 31.334635,
+      "locationX": 48.678496,
+      "updateMillis": 1786640544969,
+      "blockUpdate": 1707584858106
+    },
+    {
+      "id": 1790398496,
+      "street": "39 local lane - کنارگذر",
+      "city": "شیبان",
+      "country": null,
+      "level": 3,
+      "length": 595,
+      "speed": 3.35,
+      "endNode": "شیبان",
+      "line": [
+        {
+          "x": 48.801532,
+          "y": 31.404346
+        },
+        {
+          "x": 48.802654,
+          "y": 31.405487
+        },
+        {
+          "x": 48.805805,
+          "y": 31.408265
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 282858621,
+          "ID": 358567334,
+          "toNode": 281715944,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 31.404346,
+      "locationX": 48.801532,
+      "updateMillis": 1786640543101,
+      "blockUpdate": null
+    },
+    {
+      "id": 1790532844,
+      "street": "Behbahani Hwy - بزرگراه بهبهانی",
+      "city": "اهواز",
+      "country": null,
+      "level": 2,
+      "length": 639,
+      "speed": 4.875,
+      "endNode": "Rastegari - رستگاری",
+      "line": [
+        {
+          "x": 48.690684,
+          "y": 31.315665
+        },
+        {
+          "x": 48.690875,
+          "y": 31.315947
+        },
+        {
+          "x": 48.691152,
+          "y": 31.31622
+        },
+        {
+          "x": 48.69162,
+          "y": 31.316747
+        },
+        {
+          "x": 48.69207,
+          "y": 31.317289
+        },
+        {
+          "x": 48.692912,
+          "y": 31.318082
+        },
+        {
+          "x": 48.693213,
+          "y": 31.318592
+        },
+        {
+          "x": 48.693218,
+          "y": 31.319565
+        },
+        {
+          "x": 48.693157,
+          "y": 31.320689
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 270109518,
+          "ID": 352499386,
+          "toNode": 278888897,
+          "isForward": false
+        },
+        {
+          "fromNode": 278888897,
+          "ID": 352499384,
+          "toNode": 221873033,
+          "isForward": false
+        },
+        {
+          "fromNode": 221873033,
+          "ID": 265174253,
+          "toNode": 221872875,
+          "isForward": false
+        },
+        {
+          "fromNode": 221872875,
+          "ID": 265174315,
+          "toNode": 221873061,
+          "isForward": false
+        },
+        {
+          "fromNode": 221873061,
+          "ID": 349102870,
+          "toNode": 276788743,
+          "isForward": false
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 31.315665,
+      "locationX": 48.690684,
+      "updateMillis": 1786640542348,
+      "blockUpdate": null
+    },
+    {
+      "id": 1790370688,
+      "street": "Imam Khomeini Blvd - بلوار امام خمینی",
+      "city": "اهواز",
+      "country": null,
+      "level": 4,
+      "length": 195,
+      "speed": 1.1472222222222221,
+      "line": [
+        {
+          "x": 48.703013,
+          "y": 31.309073
+        },
+        {
+          "x": 48.703143,
+          "y": 31.308803
+        },
+        {
+          "x": 48.703372,
+          "y": 31.308329
+        },
+        {
+          "x": 48.703586,
+          "y": 31.307875
+        },
+        {
+          "x": 48.703805,
+          "y": 31.307447
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 280224144,
+          "ID": 354560705,
+          "toNode": 280224148,
+          "isForward": true
+        },
+        {
+          "fromNode": 280224148,
+          "ID": 354560706,
+          "toNode": 218796780,
+          "isForward": true
+        },
+        {
+          "fromNode": 218796780,
+          "ID": 354567430,
+          "toNode": 218796778,
+          "isForward": false
+        },
+        {
+          "fromNode": 218796778,
+          "ID": 260402854,
+          "toNode": 218796777,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 31.309073,
+      "locationX": 48.703013,
+      "updateMillis": 1786640540556,
+      "blockUpdate": null
+    }
+  ],
+  "meta": {
+    "alerts_count": 1,
+    "jams_count": 5,
+    "key_used_suffix": "NMPn3a8W",
+    "alerts_response_type": "list"
+  }
 }

@@ -1,0 +1,14 @@
+{
+  "region": "bandar_abbas",
+  "name": "بندرعباس",
+  "updated_at": "2026-08-13T17:04:40.844323Z",
+  "status": "ok",
+  "alerts": [],
+  "jams": [],
+  "meta": {
+    "alerts_count": 0,
+    "jams_count": 0,
+    "key_used_suffix": "NMPn3a8W",
+    "alerts_response_type": "list"
+  }
+}
