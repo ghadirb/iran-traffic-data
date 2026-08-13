@@ -1,7 +1,7 @@
 {
   "region": "ahvaz",
   "name": "اهواز",
-  "updated_at": "2026-08-13T17:11:45.946633Z",
+  "updated_at": "2026-08-13T18:11:29.898950Z",
   "status": "ok",
   "alerts": [
     {
@@ -30,13 +30,13 @@
   ],
   "jams": [
     {
-      "id": 1791392460,
+      "id": 1799099144,
       "street": "Chamran - چمران",
       "city": "اهواز",
       "country": null,
-      "level": 2,
-      "length": 626,
-      "speed": 4.008333333333334,
+      "level": 3,
+      "length": 713,
+      "speed": 2.7444444444444445,
       "endNode": "9th E - نهم شرقی",
       "line": [
         {
@@ -74,6 +74,10 @@
         {
           "x": 48.685758,
           "y": 31.346671
+        },
+        {
+          "x": 48.685978,
+          "y": 31.34743
         }
       ],
       "segments": [
@@ -124,54 +128,18 @@
           "ID": 259913950,
           "toNode": 218489261,
           "isForward": true
+        },
+        {
+          "fromNode": 218489261,
+          "ID": 259913951,
+          "toNode": 218489260,
+          "isForward": true
         }
       ],
       "causeAlert": null,
       "locationY": 31.3413,
       "locationX": 48.683727,
-      "updateMillis": 1786641106687,
-      "blockUpdate": null
-    },
-    {
-      "id": 1790824932,
-      "street": "",
-      "city": "اهواز",
-      "country": null,
-      "level": 4,
-      "length": 174,
-      "speed": 1.4333333333333333,
-      "line": [
-        {
-          "x": 48.767933,
-          "y": 31.370858
-        },
-        {
-          "x": 48.768832,
-          "y": 31.370197
-        },
-        {
-          "x": 48.768417,
-          "y": 31.369774
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 275891771,
-          "ID": 347677514,
-          "toNode": 275891768,
-          "isForward": false
-        },
-        {
-          "fromNode": 275891768,
-          "ID": 347677511,
-          "toNode": 275891770,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 31.370858,
-      "locationX": 48.767933,
-      "updateMillis": 1786641105871,
+      "updateMillis": 1786644628158,
       "blockUpdate": null
     },
     {
@@ -242,237 +210,294 @@
       },
       "locationY": 31.334635,
       "locationX": 48.678496,
-      "updateMillis": 1786641105506,
+      "updateMillis": 1786644626829,
       "blockUpdate": 1707584858106
     },
     {
-      "id": 1790934978,
-      "street": "37, Hashemi Blvd - بلوار هاشمی",
+      "id": 1799474350,
+      "street": "Dariush Baqeri Blvd - بلوار داریوش باقری",
       "city": "اهواز",
       "country": null,
-      "level": 2,
-      "length": 965,
-      "speed": 7.036111111111111,
-      "endNode": "",
+      "level": 3,
+      "length": 358,
+      "speed": 2.058333333333333,
       "line": [
         {
-          "x": 48.627979,
-          "y": 31.325133
+          "x": 48.700009,
+          "y": 31.361943
         },
         {
-          "x": 48.628246,
-          "y": 31.325995
+          "x": 48.70158,
+          "y": 31.360789
         },
         {
-          "x": 48.628919,
-          "y": 31.328212
+          "x": 48.701674,
+          "y": 31.360689
         },
         {
-          "x": 48.629644,
-          "y": 31.330556
+          "x": 48.701919,
+          "y": 31.360426
         },
         {
-          "x": 48.630431,
-          "y": 31.333034
-        },
-        {
-          "x": 48.630751,
-          "y": 31.333484
+          "x": 48.702637,
+          "y": 31.359653
         }
       ],
       "segments": [
         {
-          "fromNode": 235636598,
-          "ID": 413651568,
-          "toNode": 248007799,
+          "fromNode": 283422350,
+          "ID": 415392576,
+          "toNode": 319933714,
           "isForward": true
         },
         {
-          "fromNode": 248007799,
-          "ID": 303546808,
-          "toNode": 248007919,
-          "isForward": true
-        },
-        {
-          "fromNode": 248007919,
-          "ID": 449923670,
-          "toNode": 248007917,
-          "isForward": true
-        },
-        {
-          "fromNode": 248007917,
-          "ID": 357782985,
-          "toNode": 282337877,
-          "isForward": true
-        },
-        {
-          "fromNode": 282337877,
-          "ID": 357782986,
-          "toNode": 235638610,
+          "fromNode": 319933714,
+          "ID": 415392578,
+          "toNode": 283422233,
           "isForward": true
         }
       ],
       "causeAlert": null,
-      "locationY": 31.325133,
-      "locationX": 48.627979,
-      "updateMillis": 1786641103235,
+      "locationY": 31.361943,
+      "locationX": 48.700009,
+      "updateMillis": 1786644626455,
       "blockUpdate": null
     },
     {
-      "id": 1792144536,
+      "id": 1799559884,
+      "street": "",
+      "city": "اهواز",
+      "country": null,
+      "level": 3,
+      "length": 687,
+      "speed": 3.8361111111111112,
+      "endNode": "2nd Molasarda - ملاصدرا دوم",
+      "line": [
+        {
+          "x": 48.653624,
+          "y": 31.27639
+        },
+        {
+          "x": 48.652688,
+          "y": 31.276773
+        },
+        {
+          "x": 48.652675,
+          "y": 31.277156
+        },
+        {
+          "x": 48.652662,
+          "y": 31.277495
+        },
+        {
+          "x": 48.65265,
+          "y": 31.277788
+        },
+        {
+          "x": 48.652636,
+          "y": 31.278078
+        },
+        {
+          "x": 48.652117,
+          "y": 31.278063
+        },
+        {
+          "x": 48.651851,
+          "y": 31.278118
+        },
+        {
+          "x": 48.651242,
+          "y": 31.278354
+        },
+        {
+          "x": 48.65111,
+          "y": 31.278438
+        },
+        {
+          "x": 48.649568,
+          "y": 31.278447
+        },
+        {
+          "x": 48.649134,
+          "y": 31.277714
+        },
+        {
+          "x": 48.649005,
+          "y": 31.277595
+        },
+        {
+          "x": 48.648807,
+          "y": 31.277561
+        },
+        {
+          "x": 48.64867,
+          "y": 31.277581
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 261906889,
+          "ID": 399084864,
+          "toNode": 309223225,
+          "isForward": false
+        },
+        {
+          "fromNode": 309223225,
+          "ID": 327243190,
+          "toNode": 263089025,
+          "isForward": false
+        },
+        {
+          "fromNode": 263089025,
+          "ID": 327243189,
+          "toNode": 263089023,
+          "isForward": false
+        },
+        {
+          "fromNode": 263089023,
+          "ID": 327243186,
+          "toNode": 263089020,
+          "isForward": false
+        },
+        {
+          "fromNode": 263089020,
+          "ID": 327243181,
+          "toNode": 263089021,
+          "isForward": false
+        },
+        {
+          "fromNode": 263089021,
+          "ID": 327243182,
+          "toNode": 261904643,
+          "isForward": false
+        },
+        {
+          "fromNode": 261904643,
+          "ID": 325256307,
+          "toNode": 222273921,
+          "isForward": false
+        },
+        {
+          "fromNode": 222273921,
+          "ID": 377042557,
+          "toNode": 222448209,
+          "isForward": true
+        },
+        {
+          "fromNode": 222448209,
+          "ID": 325256294,
+          "toNode": 261904630,
+          "isForward": false
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 31.27639,
+      "locationX": 48.653624,
+      "updateMillis": 1786644624312,
+      "blockUpdate": null
+    },
+    {
+      "id": 1797480358,
       "street": "Khordad - خرداد",
       "city": "اهواز",
       "country": null,
-      "level": 1,
-      "length": 715,
-      "speed": 3.816666666666667,
-      "endNode": "15th W - پانزدهم غربی",
+      "level": 4,
+      "length": 565,
+      "speed": 1.1055555555555556,
+      "endNode": "Pahlavan W - پهلوان غربی",
       "line": [
         {
-          "x": 48.680508,
-          "y": 31.345932
+          "x": 48.680017,
+          "y": 31.344541
         },
         {
-          "x": 48.680769,
-          "y": 31.346603
+          "x": 48.679761,
+          "y": 31.343839
         },
         {
-          "x": 48.681007,
-          "y": 31.347256
+          "x": 48.679505,
+          "y": 31.343136
         },
         {
-          "x": 48.681264,
-          "y": 31.347933
+          "x": 48.679246,
+          "y": 31.342425
         },
         {
-          "x": 48.681531,
-          "y": 31.348658
+          "x": 48.679015,
+          "y": 31.341775
         },
         {
-          "x": 48.6818,
-          "y": 31.349336
+          "x": 48.678746,
+          "y": 31.341052
         },
         {
-          "x": 48.682064,
-          "y": 31.350025
+          "x": 48.678488,
+          "y": 31.340344
         },
         {
-          "x": 48.682326,
-          "y": 31.350711
-        },
-        {
-          "x": 48.682582,
-          "y": 31.351407
-        },
-        {
-          "x": 48.682825,
-          "y": 31.352076
+          "x": 48.678247,
+          "y": 31.339684
         }
       ],
       "segments": [
         {
-          "fromNode": 217294743,
-          "ID": 258068106,
-          "toNode": 217294739,
-          "isForward": true
+          "fromNode": 217294747,
+          "ID": 258068126,
+          "toNode": 217294749,
+          "isForward": false
         },
         {
-          "fromNode": 217294739,
-          "ID": 258068097,
-          "toNode": 217294735,
-          "isForward": true
+          "fromNode": 217294749,
+          "ID": 258068132,
+          "toNode": 217294751,
+          "isForward": false
         },
         {
-          "fromNode": 217294735,
-          "ID": 258068087,
-          "toNode": 217294733,
-          "isForward": true
+          "fromNode": 217294751,
+          "ID": 258068138,
+          "toNode": 217294753,
+          "isForward": false
         },
         {
-          "fromNode": 217294733,
-          "ID": 258068079,
-          "toNode": 217294731,
-          "isForward": true
+          "fromNode": 217294753,
+          "ID": 258068147,
+          "toNode": 217294757,
+          "isForward": false
         },
         {
-          "fromNode": 217294731,
-          "ID": 258068072,
-          "toNode": 217294729,
-          "isForward": true
+          "fromNode": 217294757,
+          "ID": 258068157,
+          "toNode": 217294761,
+          "isForward": false
         },
         {
-          "fromNode": 217294729,
-          "ID": 258068066,
-          "toNode": 217294727,
-          "isForward": true
+          "fromNode": 217294761,
+          "ID": 258068167,
+          "toNode": 217294765,
+          "isForward": false
         },
         {
-          "fromNode": 217294727,
-          "ID": 258068060,
-          "toNode": 217294166,
-          "isForward": true
-        },
-        {
-          "fromNode": 217294166,
-          "ID": 258067149,
-          "toNode": 217294162,
-          "isForward": true
-        },
-        {
-          "fromNode": 217294162,
-          "ID": 258067139,
-          "toNode": 217294159,
-          "isForward": true
+          "fromNode": 217294765,
+          "ID": 258068176,
+          "toNode": 217294769,
+          "isForward": false
         }
       ],
       "causeAlert": null,
-      "locationY": 31.345932,
-      "locationX": 48.680508,
-      "updateMillis": 1786641102133,
-      "blockUpdate": null
-    },
-    {
-      "id": 1790398496,
-      "street": "39 local lane - کنارگذر",
-      "city": "شیبان",
-      "country": null,
-      "level": 3,
-      "length": 595,
-      "speed": 3.5027777777777778,
-      "endNode": "شیبان",
-      "line": [
-        {
-          "x": 48.801532,
-          "y": 31.404346
-        },
-        {
-          "x": 48.802654,
-          "y": 31.405487
-        },
-        {
-          "x": 48.805805,
-          "y": 31.408265
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 282858621,
-          "ID": 358567334,
-          "toNode": 281715944,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 31.404346,
-      "locationX": 48.801532,
-      "updateMillis": 1786640992047,
+      "locationY": 31.344541,
+      "locationX": 48.680017,
+      "updateMillis": 1786644623874,
       "blockUpdate": null
     }
   ],
   "meta": {
     "alerts_count": 1,
-    "jams_count": 6,
-    "key_used_suffix": "NMPn3a8W",
-    "alerts_response_type": "list"
+    "jams_count": 5,
+    "jams_interval_min": 360,
+    "alerts_interval_min": 1440
+  },
+  "schedule": {
+    "last_jams_update": "2026-08-13T18:11:28.766288Z",
+    "last_alerts_update": "2026-08-13T18:11:29.898926Z"
   }
 }

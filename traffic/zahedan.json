@@ -1,14 +1,18 @@
 {
   "region": "zahedan",
   "name": "زاهدان",
-  "updated_at": "2026-08-13T17:12:15.034988Z",
+  "updated_at": "2026-08-13T18:11:57.455313Z",
   "status": "ok",
   "alerts": [],
   "jams": [],
   "meta": {
     "alerts_count": 0,
     "jams_count": 0,
-    "key_used_suffix": "NMPn3a8W",
-    "alerts_response_type": "list"
+    "jams_interval_min": 360,
+    "alerts_interval_min": 1440
+  },
+  "schedule": {
+    "last_jams_update": "2026-08-13T18:11:56.276304Z",
+    "last_alerts_update": "2026-08-13T18:11:57.455290Z"
   }
 }

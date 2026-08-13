@@ -1,159 +1,18 @@
 {
   "region": "kerman",
   "name": "کرمان",
-  "updated_at": "2026-08-13T17:12:04.440239Z",
+  "updated_at": "2026-08-13T18:11:47.709741Z",
   "status": "ok",
   "alerts": [],
-  "jams": [
-    {
-      "id": 1791892388,
-      "street": "Moallem - معلم",
-      "city": "کرمان",
-      "country": null,
-      "level": 3,
-      "length": 473,
-      "speed": 2.3944444444444444,
-      "endNode": "Qarani - قرنی",
-      "line": [
-        {
-          "x": 57.074072,
-          "y": 30.290201
-        },
-        {
-          "x": 57.073346,
-          "y": 30.289848
-        },
-        {
-          "x": 57.072,
-          "y": 30.289098
-        },
-        {
-          "x": 57.070403,
-          "y": 30.288169
-        },
-        {
-          "x": 57.069935,
-          "y": 30.287897
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 222405233,
-          "ID": 342955468,
-          "toNode": 272903335,
-          "isForward": false
-        },
-        {
-          "fromNode": 272903335,
-          "ID": 342955467,
-          "toNode": 222405235,
-          "isForward": false
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 30.290201,
-      "locationX": 57.074072,
-      "updateMillis": 1786641102677,
-      "blockUpdate": null
-    },
-    {
-      "id": 1790737732,
-      "street": "Hezaroyek Shab - هزار و یک شب",
-      "city": "کرمان",
-      "country": null,
-      "level": 3,
-      "length": 281,
-      "speed": 1.6416666666666666,
-      "endNode": "Vila - ویلا",
-      "line": [
-        {
-          "x": 57.03056,
-          "y": 30.292008
-        },
-        {
-          "x": 57.03099,
-          "y": 30.291496
-        },
-        {
-          "x": 57.031303,
-          "y": 30.291124
-        },
-        {
-          "x": 57.031432,
-          "y": 30.290971
-        },
-        {
-          "x": 57.031653,
-          "y": 30.290708
-        },
-        {
-          "x": 57.031823,
-          "y": 30.290506
-        },
-        {
-          "x": 57.031923,
-          "y": 30.290388
-        },
-        {
-          "x": 57.032283,
-          "y": 30.289954
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 230531979,
-          "ID": 322849613,
-          "toNode": 260409287,
-          "isForward": true
-        },
-        {
-          "fromNode": 260409287,
-          "ID": 322849614,
-          "toNode": 230532208,
-          "isForward": true
-        },
-        {
-          "fromNode": 230532208,
-          "ID": 356973341,
-          "toNode": 281807317,
-          "isForward": true
-        },
-        {
-          "fromNode": 281807317,
-          "ID": 356973342,
-          "toNode": 230531974,
-          "isForward": true
-        },
-        {
-          "fromNode": 230531974,
-          "ID": 277406142,
-          "toNode": 230532210,
-          "isForward": true
-        },
-        {
-          "fromNode": 230532210,
-          "ID": 277406143,
-          "toNode": 230531971,
-          "isForward": true
-        },
-        {
-          "fromNode": 230531971,
-          "ID": 279916934,
-          "toNode": 232114390,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 30.292008,
-      "locationX": 57.03056,
-      "updateMillis": 1786640990212,
-      "blockUpdate": null
-    }
-  ],
+  "jams": [],
   "meta": {
     "alerts_count": 0,
-    "jams_count": 2,
-    "key_used_suffix": "NMPn3a8W",
-    "alerts_response_type": "list"
+    "jams_count": 0,
+    "jams_interval_min": 360,
+    "alerts_interval_min": 1440
+  },
+  "schedule": {
+    "last_jams_update": "2026-08-13T18:11:46.751205Z",
+    "last_alerts_update": "2026-08-13T18:11:47.709717Z"
   }
 }

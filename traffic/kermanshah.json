@@ -1,88 +1,82 @@
 {
   "region": "kermanshah",
   "name": "کرمانشاه",
-  "updated_at": "2026-08-13T17:11:57.367648Z",
+  "updated_at": "2026-08-13T18:11:41.142193Z",
   "status": "ok",
   "alerts": [],
   "jams": [
     {
-      "id": 1792085718,
-      "street": "Safa - صفا",
+      "id": 1798977560,
+      "street": "30 Metri Aval - سی متری اول",
       "city": "کرمانشاه",
       "country": null,
-      "level": 2,
-      "length": 438,
-      "speed": 2.613888888888889,
-      "endNode": "Ale Aqa Blvd - بلوار آل آقا",
+      "level": 3,
+      "length": 323,
+      "speed": 1.7472222222222222,
+      "endNode": "",
       "line": [
         {
-          "x": 47.087967,
-          "y": 34.348286
+          "x": 47.087617,
+          "y": 34.339935
         },
         {
-          "x": 47.088885,
-          "y": 34.34829
+          "x": 47.086149,
+          "y": 34.339942
         },
         {
-          "x": 47.089203,
-          "y": 34.348291
+          "x": 47.085742,
+          "y": 34.339936
         },
         {
-          "x": 47.091597,
-          "y": 34.348281
+          "x": 47.084355,
+          "y": 34.33996
         },
         {
-          "x": 47.091801,
-          "y": 34.348284
-        },
-        {
-          "x": 47.092722,
-          "y": 34.348266
+          "x": 47.084107,
+          "y": 34.339969
         }
       ],
       "segments": [
         {
-          "fromNode": 271226713,
-          "ID": 405191994,
-          "toNode": 313350934,
-          "isForward": true
+          "fromNode": 222896678,
+          "ID": 339336750,
+          "toNode": 270640292,
+          "isForward": false
         },
         {
-          "fromNode": 313350934,
-          "ID": 405191995,
-          "toNode": 270610689,
-          "isForward": true
+          "fromNode": 270640292,
+          "ID": 339336749,
+          "toNode": 242787010,
+          "isForward": false
         },
         {
-          "fromNode": 270610689,
-          "ID": 405192115,
-          "toNode": 313351000,
-          "isForward": true
+          "fromNode": 242787010,
+          "ID": 393974131,
+          "toNode": 305815098,
+          "isForward": false
         },
         {
-          "fromNode": 313351000,
-          "ID": 405192116,
-          "toNode": 270610750,
-          "isForward": true
-        },
-        {
-          "fromNode": 270610750,
-          "ID": 339289274,
-          "toNode": 270607339,
-          "isForward": true
+          "fromNode": 305815098,
+          "ID": 393974130,
+          "toNode": 272337810,
+          "isForward": false
         }
       ],
       "causeAlert": null,
-      "locationY": 34.348286,
-      "locationX": 47.087967,
-      "updateMillis": 1786641103451,
+      "locationY": 34.339935,
+      "locationX": 47.087617,
+      "updateMillis": 1786644624928,
       "blockUpdate": null
     }
   ],
   "meta": {
     "alerts_count": 0,
     "jams_count": 1,
-    "key_used_suffix": "NMPn3a8W",
-    "alerts_response_type": "list"
+    "jams_interval_min": 360,
+    "alerts_interval_min": 1440
+  },
+  "schedule": {
+    "last_jams_update": "2026-08-13T18:11:39.895595Z",
+    "last_alerts_update": "2026-08-13T18:11:41.142152Z"
   }
 }

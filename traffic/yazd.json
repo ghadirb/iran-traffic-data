@@ -1,7 +1,7 @@
 {
   "region": "yazd",
   "name": "یزد",
-  "updated_at": "2026-08-13T17:12:08.010403Z",
+  "updated_at": "2026-08-13T18:11:51.283769Z",
   "status": "ok",
   "alerts": [
     {
@@ -29,163 +29,6 @@
     }
   ],
   "jams": [
-    {
-      "id": 1791195138,
-      "street": "Abuzar - ابوذر",
-      "city": "یزد",
-      "country": null,
-      "level": 3,
-      "length": 264,
-      "speed": 1.511111111111111,
-      "endNode": "17th Shahrivar - هفده شهریور",
-      "line": [
-        {
-          "x": 54.339766,
-          "y": 31.894957
-        },
-        {
-          "x": 54.338113,
-          "y": 31.895913
-        },
-        {
-          "x": 54.337507,
-          "y": 31.896345
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 273484618,
-          "ID": 343855710,
-          "toNode": 273484753,
-          "isForward": true
-        },
-        {
-          "fromNode": 273484753,
-          "ID": 343855711,
-          "toNode": 273484685,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 31.894957,
-      "locationX": 54.339766,
-      "updateMillis": 1786641105606,
-      "blockUpdate": null
-    },
-    {
-      "id": 1791415648,
-      "street": "Khavidak Rd - جاده خویدک",
-      "city": "یزد",
-      "country": null,
-      "level": 2,
-      "length": 1279,
-      "speed": 8.858333333333333,
-      "endNode": "دهنو {فهرج}",
-      "line": [
-        {
-          "x": 54.439763,
-          "y": 31.838732
-        },
-        {
-          "x": 54.441394,
-          "y": 31.837886
-        },
-        {
-          "x": 54.444484,
-          "y": 31.835225
-        },
-        {
-          "x": 54.447059,
-          "y": 31.83424
-        },
-        {
-          "x": 54.450943,
-          "y": 31.832509
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 282072664,
-          "ID": 357390303,
-          "toNode": 224199923,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 31.838732,
-      "locationX": 54.439763,
-      "updateMillis": 1786641104614,
-      "blockUpdate": null
-    },
-    {
-      "id": 1790856262,
-      "street": "Professor Hesabi - پروفسور حسابی",
-      "city": "یزد",
-      "country": null,
-      "level": 3,
-      "length": 596,
-      "speed": 3.65,
-      "endNode": "Felestin Blvd - بلوار فلسطین",
-      "line": [
-        {
-          "x": 54.353112,
-          "y": 31.842562
-        },
-        {
-          "x": 54.353318,
-          "y": 31.842649
-        },
-        {
-          "x": 54.35354,
-          "y": 31.84269
-        },
-        {
-          "x": 54.357189,
-          "y": 31.843102
-        },
-        {
-          "x": 54.357489,
-          "y": 31.843152
-        },
-        {
-          "x": 54.357791,
-          "y": 31.843227
-        },
-        {
-          "x": 54.357912,
-          "y": 31.843265
-        },
-        {
-          "x": 54.358118,
-          "y": 31.843352
-        },
-        {
-          "x": 54.35825,
-          "y": 31.843429
-        },
-        {
-          "x": 54.358599,
-          "y": 31.843753
-        },
-        {
-          "x": 54.358905,
-          "y": 31.844091
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 273490320,
-          "ID": 373576917,
-          "toNode": 278117466,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 31.842562,
-      "locationX": 54.353112,
-      "updateMillis": 1786641104172,
-      "blockUpdate": null
-    },
     {
       "id": 1691103718,
       "street": "",
@@ -322,86 +165,18 @@
       },
       "locationY": 31.97659,
       "locationX": 54.273328,
-      "updateMillis": 1786641104115,
+      "updateMillis": 1786644623296,
       "blockUpdate": 1723460417433
-    },
-    {
-      "id": 1791120380,
-      "street": "Imamzadeh Jafar - امامزاده جعفر",
-      "city": "یزد",
-      "country": null,
-      "level": 4,
-      "length": 190,
-      "speed": 1.2222222222222223,
-      "line": [
-        {
-          "x": 54.359104,
-          "y": 31.89696
-        },
-        {
-          "x": 54.359191,
-          "y": 31.897033
-        },
-        {
-          "x": 54.359433,
-          "y": 31.897276
-        },
-        {
-          "x": 54.35953,
-          "y": 31.897383
-        },
-        {
-          "x": 54.359943,
-          "y": 31.897845
-        },
-        {
-          "x": 54.360346,
-          "y": 31.898314
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 273807750,
-          "ID": 344355081,
-          "toNode": 273794645,
-          "isForward": true
-        },
-        {
-          "fromNode": 273794645,
-          "ID": 344334885,
-          "toNode": 273794499,
-          "isForward": true
-        },
-        {
-          "fromNode": 273794499,
-          "ID": 403510469,
-          "toNode": 312206648,
-          "isForward": true
-        },
-        {
-          "fromNode": 312206648,
-          "ID": 403510490,
-          "toNode": 256766025,
-          "isForward": true
-        },
-        {
-          "fromNode": 256766025,
-          "ID": 344345964,
-          "toNode": 273801735,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 31.89696,
-      "locationX": 54.359104,
-      "updateMillis": 1786641102513,
-      "blockUpdate": null
     }
   ],
   "meta": {
     "alerts_count": 1,
-    "jams_count": 5,
-    "key_used_suffix": "NMPn3a8W",
-    "alerts_response_type": "list"
+    "jams_count": 1,
+    "jams_interval_min": 360,
+    "alerts_interval_min": 1440
+  },
+  "schedule": {
+    "last_jams_update": "2026-08-13T18:11:50.145547Z",
+    "last_alerts_update": "2026-08-13T18:11:51.283746Z"
   }
 }
