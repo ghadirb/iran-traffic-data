@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-08-13T18:11:58.455634Z",
+  "updated_at": "2026-08-13T20:18:03.861366Z",
   "regions": {
     "tehran": {
       "name": "تهران",
       "status": "ok",
       "alerts": 200,
       "jams": 200,
-      "updated_at": "2026-08-13T18:11:05.274499Z",
+      "updated_at": "2026-08-13T20:17:49.509861Z",
       "last_alerts_update": "2026-08-13T18:11:05.274475Z",
-      "last_jams_update": "2026-08-13T18:11:02.726380Z"
+      "last_jams_update": "2026-08-13T20:17:49.509832Z"
     },
     "mashhad": {
       "name": "مشهد",
       "status": "ok",
       "alerts": 15,
-      "jams": 56,
-      "updated_at": "2026-08-13T18:11:09.500192Z",
+      "jams": 39,
+      "updated_at": "2026-08-13T20:17:52.011783Z",
       "last_alerts_update": "2026-08-13T18:11:09.500155Z",
-      "last_jams_update": "2026-08-13T18:11:08.081649Z"
+      "last_jams_update": "2026-08-13T20:17:52.011757Z"
     },
     "karaj": {
       "name": "کرج",
       "status": "ok",
       "alerts": 44,
-      "jams": 78,
-      "updated_at": "2026-08-13T18:11:14.058242Z",
+      "jams": 50,
+      "updated_at": "2026-08-13T20:17:55.011203Z",
       "last_alerts_update": "2026-08-13T18:11:14.058215Z",
-      "last_jams_update": "2026-08-13T18:11:12.242899Z"
+      "last_jams_update": "2026-08-13T20:17:55.011176Z"
     },
     "isfahan": {
       "name": "اصفهان",
       "status": "ok",
       "alerts": 12,
-      "jams": 44,
-      "updated_at": "2026-08-13T18:11:18.195841Z",
+      "jams": 25,
+      "updated_at": "2026-08-13T20:17:57.730976Z",
       "last_alerts_update": "2026-08-13T18:11:18.195817Z",
-      "last_jams_update": "2026-08-13T18:11:16.713333Z"
+      "last_jams_update": "2026-08-13T20:17:57.730930Z"
     },
     "shiraz": {
       "name": "شیراز",
       "status": "ok",
       "alerts": 47,
-      "jams": 92,
-      "updated_at": "2026-08-13T18:11:23.190345Z",
+      "jams": 62,
+      "updated_at": "2026-08-13T20:18:00.474139Z",
       "last_alerts_update": "2026-08-13T18:11:23.190317Z",
-      "last_jams_update": "2026-08-13T18:11:21.226092Z"
+      "last_jams_update": "2026-08-13T20:18:00.474110Z"
     },
     "tabriz": {
       "name": "تبریز",
       "status": "ok",
       "alerts": 8,
-      "jams": 9,
-      "updated_at": "2026-08-13T18:11:26.758085Z",
+      "jams": 8,
+      "updated_at": "2026-08-13T20:18:02.858546Z",
       "last_alerts_update": "2026-08-13T18:11:26.758061Z",
-      "last_jams_update": "2026-08-13T18:11:25.375326Z"
+      "last_jams_update": "2026-08-13T20:18:02.858523Z"
     },
     "ahvaz": {
       "name": "اهواز",
@@ -138,5 +138,5 @@
     }
   },
   "total_alerts": 347,
-  "total_jams": 547
+  "total_jams": 452
 }
