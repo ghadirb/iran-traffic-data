@@ -1,7 +1,7 @@
 {
   "region": "shiraz",
   "name": "شیراز",
-  "updated_at": "2026-08-13T20:18:00.474139Z",
+  "updated_at": "2026-08-13T22:59:16.830384Z",
   "status": "ok",
   "alerts": [
     {
@@ -1151,7 +1151,7 @@
       },
       "locationY": 29.584312,
       "locationX": 52.614417,
-      "updateMillis": 1786652236516,
+      "updateMillis": 1786661846590,
       "blockUpdate": 1761195933179
     },
     {
@@ -1211,7 +1211,7 @@
       },
       "locationY": 29.661654,
       "locationX": 52.565288,
-      "updateMillis": 1786652236377,
+      "updateMillis": 1786661846471,
       "blockUpdate": 1736701777867
     },
     {
@@ -1270,7 +1270,7 @@
       },
       "locationY": 29.705375,
       "locationX": 52.478554,
-      "updateMillis": 1786652236316,
+      "updateMillis": 1786661846452,
       "blockUpdate": 1748892135658
     },
     {
@@ -1341,7 +1341,7 @@
       },
       "locationY": 29.596009,
       "locationX": 52.494632,
-      "updateMillis": 1786652236211,
+      "updateMillis": 1786661846352,
       "blockUpdate": 1698038373117
     },
     {
@@ -1420,8 +1420,140 @@
       },
       "locationY": 29.595892,
       "locationX": 52.494324,
-      "updateMillis": 1786652236209,
+      "updateMillis": 1786661846350,
       "blockUpdate": 1782360343001
+    },
+    {
+      "id": 1691085578,
+      "street": "Abasaleh Blvd - بلوار اباصالح",
+      "city": "کیان آباد {قره باغ}",
+      "country": "IR",
+      "level": 5,
+      "length": 347,
+      "speed": 0,
+      "endNode": "Mouod - موعود",
+      "line": [
+        {
+          "x": 52.463028,
+          "y": 29.551002
+        },
+        {
+          "x": 52.464457,
+          "y": 29.550115
+        },
+        {
+          "x": 52.46593,
+          "y": 29.549167
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 282991983,
+          "ID": 478920319,
+          "toNode": 283007079,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "کیان آباد {قره باغ}",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 6,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 282991983,
+        "uuid": "9d9b126a-b55a-421e-9afe-cf1b997bca06",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 2,
+        "magvar": 126,
+        "subtype": "",
+        "street": "Abasaleh Blvd - بلوار اباصالح",
+        "additionalInfo": "",
+        "wazeData": "world,52.46302812022418,29.55100295755162,9d9b126a-b55a-421e-9afe-cf1b997bca06",
+        "toNodeId": 283007079,
+        "reportDescription": "",
+        "location": {
+          "x": 52.463028,
+          "y": 29.551002
+        },
+        "id": "alert-1618122468/9d9b126a-b55a-421e-9afe-cf1b997bca06",
+        "pubMillis": 1782730957000
+      },
+      "locationY": 29.551002,
+      "locationX": 52.463028,
+      "updateMillis": 1786661846343,
+      "blockUpdate": 1782730957666
+    },
+    {
+      "id": 1691136050,
+      "street": "2nd Vahdat - وحدت دوم",
+      "city": "شیراز",
+      "country": "IR",
+      "level": 5,
+      "length": 161,
+      "speed": 0,
+      "endNode": "1st - یکم",
+      "line": [
+        {
+          "x": 52.442953,
+          "y": 29.726013
+        },
+        {
+          "x": 52.443035,
+          "y": 29.725542
+        },
+        {
+          "x": 52.442849,
+          "y": 29.725165
+        },
+        {
+          "x": 52.442303,
+          "y": 29.724857
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 297700619,
+          "ID": 381546192,
+          "toNode": 281757553,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "شیراز",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 1,
+        "reliability": 9,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 297700619,
+        "uuid": "daeb76df-1e91-4bb1-948e-b27b6e3c0c9e",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 2,
+        "magvar": 171,
+        "subtype": "",
+        "street": "2nd Vahdat - وحدت دوم",
+        "additionalInfo": "",
+        "wazeData": "world,52.442953428935354,29.72601322344251,daeb76df-1e91-4bb1-948e-b27b6e3c0c9e",
+        "toNodeId": 281757553,
+        "reportDescription": "",
+        "location": {
+          "x": 52.442953,
+          "y": 29.726013
+        },
+        "id": "alert-165405505/daeb76df-1e91-4bb1-948e-b27b6e3c0c9e",
+        "pubMillis": 1769966965000
+      },
+      "locationY": 29.726013,
+      "locationX": 52.442953,
+      "updateMillis": 1786661846250,
+      "blockUpdate": 1769966965233
     },
     {
       "id": 1642648954,
@@ -1499,7 +1631,7 @@
       },
       "locationY": 29.702211,
       "locationX": 52.488199,
-      "updateMillis": 1786652236153,
+      "updateMillis": 1786661846249,
       "blockUpdate": 1714198157750
     },
     {
@@ -1582,72 +1714,80 @@
       },
       "locationY": 29.584286,
       "locationX": 52.614948,
-      "updateMillis": 1786652236014,
+      "updateMillis": 1786661846242,
       "blockUpdate": 1761195970944
     },
     {
-      "id": 1691085578,
-      "street": "Abasaleh Blvd - بلوار اباصالح",
-      "city": "کیان آباد {قره باغ}",
+      "id": 1691159614,
+      "street": "Hafez - حافظ",
+      "city": "شیراز",
       "country": "IR",
       "level": 5,
-      "length": 347,
+      "length": 42,
       "speed": 0,
-      "endNode": "Mouod - موعود",
+      "endNode": "",
       "line": [
         {
-          "x": 52.463028,
-          "y": 29.551002
+          "x": 52.560322,
+          "y": 29.634011
         },
         {
-          "x": 52.464457,
-          "y": 29.550115
+          "x": 52.560453,
+          "y": 29.633984
         },
         {
-          "x": 52.46593,
-          "y": 29.549167
+          "x": 52.560549,
+          "y": 29.633929
+        },
+        {
+          "x": 52.560584,
+          "y": 29.633838
+        },
+        {
+          "x": 52.560596,
+          "y": 29.633773
         }
       ],
       "segments": [
         {
-          "fromNode": 282991983,
-          "ID": 478920319,
-          "toNode": 283007079,
-          "isForward": true
+          "fromNode": 220572599,
+          "ID": 263145791,
+          "toNode": 220572600,
+          "isForward": false
         }
       ],
       "causeAlert": {
         "country": "IR",
         "inscale": false,
-        "city": "کیان آباد {قره باغ}",
+        "city": "شیراز",
         "reportRating": 5,
         "reportByMunicipalityUser": "false",
-        "confidence": 0,
-        "reliability": 6,
+        "confidence": 1,
+        "reliability": 8,
         "type": "ROAD_CLOSED",
-        "fromNodeId": 282991983,
-        "uuid": "9d9b126a-b55a-421e-9afe-cf1b997bca06",
+        "fromNodeId": 220572599,
+        "uuid": "e6614163-3663-43b6-94fd-967482aae88c",
         "speed": 0,
         "reportMood": 0,
         "roadType": 2,
-        "magvar": 126,
+        "magvar": 103,
         "subtype": "",
-        "street": "Abasaleh Blvd - بلوار اباصالح",
+        "street": "Hafez - حافظ",
         "additionalInfo": "",
-        "wazeData": "world,52.46302812022418,29.55100295755162,9d9b126a-b55a-421e-9afe-cf1b997bca06",
-        "toNodeId": 283007079,
+        "wazeData": "world,52.56032235848721,29.634011201725585,e6614163-3663-43b6-94fd-967482aae88c",
+        "toNodeId": 220572600,
         "reportDescription": "",
         "location": {
-          "x": 52.463028,
-          "y": 29.551002
+          "x": 52.560322,
+          "y": 29.634011
         },
-        "id": "alert-1618122468/9d9b126a-b55a-421e-9afe-cf1b997bca06",
-        "pubMillis": 1782730957000
+        "id": "alert-1308958550/e6614163-3663-43b6-94fd-967482aae88c",
+        "pubMillis": 1762421630000
       },
-      "locationY": 29.551002,
-      "locationX": 52.463028,
-      "updateMillis": 1786652235962,
-      "blockUpdate": 1782730957666
+      "locationY": 29.634011,
+      "locationX": 52.560322,
+      "updateMillis": 1786661846101,
+      "blockUpdate": 1762421630676
     },
     {
       "id": 1691089008,
@@ -1721,34 +1861,34 @@
       },
       "locationY": 29.609423,
       "locationX": 52.557972,
-      "updateMillis": 1786652235753,
+      "updateMillis": 1786661846008,
       "blockUpdate": 1761418884317
     },
     {
-      "id": 1797585786,
-      "street": "",
+      "id": 1691054246,
+      "street": "Shimi Giyah - شیمی گیاه",
       "city": "شیراز",
       "country": "IR",
       "level": 5,
-      "length": 61,
+      "length": 164,
       "speed": 0,
-      "endNode": "Hoseinial Hashemi Local Lane - کنارگذر حسینی الهاشمی",
+      "endNode": "1st Shimi Giyah - شیمی گیاه یکم",
       "line": [
         {
-          "x": 52.434036,
-          "y": 29.71492
+          "x": 52.450339,
+          "y": 29.715651
         },
         {
-          "x": 52.434482,
-          "y": 29.715312
+          "x": 52.449064,
+          "y": 29.71468
         }
       ],
       "segments": [
         {
-          "fromNode": 219618284,
-          "ID": 263539487,
-          "toNode": 220832522,
-          "isForward": false
+          "fromNode": 220580953,
+          "ID": 354183281,
+          "toNode": 279978989,
+          "isForward": true
         }
       ],
       "causeAlert": {
@@ -1758,30 +1898,31 @@
         "reportRating": 5,
         "reportByMunicipalityUser": "false",
         "confidence": 0,
-        "reliability": 7,
+        "reliability": 6,
         "type": "ROAD_CLOSED",
-        "fromNodeId": 219618284,
-        "uuid": "188461e3-79cc-4b4d-a066-f4680f9f751a",
+        "fromNodeId": 220580953,
+        "uuid": "b7b7f87f-42f2-4871-bf85-71875c8210f5",
         "speed": 0,
         "reportMood": 0,
-        "roadType": 4,
-        "magvar": 45,
+        "roadType": 2,
+        "magvar": 229,
         "subtype": "",
+        "street": "Shimi Giyah - شیمی گیاه",
         "additionalInfo": "",
-        "wazeData": "world,52.43403666539657,29.714920075672747,188461e3-79cc-4b4d-a066-f4680f9f751a",
-        "toNodeId": 220832522,
+        "wazeData": "world,52.45033967635017,29.71565115616194,b7b7f87f-42f2-4871-bf85-71875c8210f5",
+        "toNodeId": 279978989,
         "reportDescription": "",
         "location": {
-          "x": 52.434036,
-          "y": 29.71492
+          "x": 52.450339,
+          "y": 29.715651
         },
-        "id": "alert-1318579201/188461e3-79cc-4b4d-a066-f4680f9f751a",
-        "pubMillis": 1782386059000
+        "id": "alert-138597070/b7b7f87f-42f2-4871-bf85-71875c8210f5",
+        "pubMillis": 1771788630000
       },
-      "locationY": 29.71492,
-      "locationX": 52.434036,
-      "updateMillis": 1786652235700,
-      "blockUpdate": 1782386059605
+      "locationY": 29.715651,
+      "locationX": 52.450339,
+      "updateMillis": 1786661846000,
+      "blockUpdate": 1771788630371
     },
     {
       "id": 1797589772,
@@ -1840,45 +1981,33 @@
       },
       "locationY": 29.622381,
       "locationX": 52.543886,
-      "updateMillis": 1786652235686,
+      "updateMillis": 1786661845974,
       "blockUpdate": 1767769225685
     },
     {
-      "id": 1691159614,
-      "street": "Hafez - حافظ",
+      "id": 1797585786,
+      "street": "",
       "city": "شیراز",
       "country": "IR",
       "level": 5,
-      "length": 42,
+      "length": 61,
       "speed": 0,
-      "endNode": "",
+      "endNode": "Hoseinial Hashemi Local Lane - کنارگذر حسینی الهاشمی",
       "line": [
         {
-          "x": 52.560322,
-          "y": 29.634011
+          "x": 52.434036,
+          "y": 29.71492
         },
         {
-          "x": 52.560453,
-          "y": 29.633984
-        },
-        {
-          "x": 52.560549,
-          "y": 29.633929
-        },
-        {
-          "x": 52.560584,
-          "y": 29.633838
-        },
-        {
-          "x": 52.560596,
-          "y": 29.633773
+          "x": 52.434482,
+          "y": 29.715312
         }
       ],
       "segments": [
         {
-          "fromNode": 220572599,
-          "ID": 263145791,
-          "toNode": 220572600,
+          "fromNode": 219618284,
+          "ID": 263539487,
+          "toNode": 220832522,
           "isForward": false
         }
       ],
@@ -1888,32 +2017,91 @@
         "city": "شیراز",
         "reportRating": 5,
         "reportByMunicipalityUser": "false",
-        "confidence": 1,
-        "reliability": 8,
+        "confidence": 0,
+        "reliability": 7,
         "type": "ROAD_CLOSED",
-        "fromNodeId": 220572599,
-        "uuid": "e6614163-3663-43b6-94fd-967482aae88c",
+        "fromNodeId": 219618284,
+        "uuid": "188461e3-79cc-4b4d-a066-f4680f9f751a",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 4,
+        "magvar": 45,
+        "subtype": "",
+        "additionalInfo": "",
+        "wazeData": "world,52.43403666539657,29.714920075672747,188461e3-79cc-4b4d-a066-f4680f9f751a",
+        "toNodeId": 220832522,
+        "reportDescription": "",
+        "location": {
+          "x": 52.434036,
+          "y": 29.71492
+        },
+        "id": "alert-1318579201/188461e3-79cc-4b4d-a066-f4680f9f751a",
+        "pubMillis": 1782386059000
+      },
+      "locationY": 29.71492,
+      "locationX": 52.434036,
+      "updateMillis": 1786661845968,
+      "blockUpdate": 1782386059605
+    },
+    {
+      "id": 1691243394,
+      "street": "Dr. Hesabi Local Lane - کنارگذر دکتر حسابی",
+      "city": "شیراز",
+      "country": "IR",
+      "level": 5,
+      "length": 46,
+      "speed": 0,
+      "endNode": "",
+      "line": [
+        {
+          "x": 52.434741,
+          "y": 29.740196
+        },
+        {
+          "x": 52.434898,
+          "y": 29.739806
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 334535798,
+          "ID": 437437028,
+          "toNode": 283215194,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "شیراز",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 7,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 334535798,
+        "uuid": "96073cdb-71b1-4905-a2f8-db9ce76fa913",
         "speed": 0,
         "reportMood": 0,
         "roadType": 2,
-        "magvar": 103,
+        "magvar": 161,
         "subtype": "",
-        "street": "Hafez - حافظ",
+        "street": "Dr. Hesabi Local Lane - کنارگذر دکتر حسابی",
         "additionalInfo": "",
-        "wazeData": "world,52.56032235848721,29.634011201725585,e6614163-3663-43b6-94fd-967482aae88c",
-        "toNodeId": 220572600,
+        "wazeData": "world,52.434741950464144,29.74019690040838,96073cdb-71b1-4905-a2f8-db9ce76fa913",
+        "toNodeId": 283215194,
         "reportDescription": "",
         "location": {
-          "x": 52.560322,
-          "y": 29.634011
+          "x": 52.434741,
+          "y": 29.740196
         },
-        "id": "alert-1308958550/e6614163-3663-43b6-94fd-967482aae88c",
-        "pubMillis": 1762421630000
+        "id": "alert-1638776125/96073cdb-71b1-4905-a2f8-db9ce76fa913",
+        "pubMillis": 1782976590000
       },
-      "locationY": 29.634011,
-      "locationX": 52.560322,
-      "updateMillis": 1786652235661,
-      "blockUpdate": 1762421630676
+      "locationY": 29.740196,
+      "locationX": 52.434741,
+      "updateMillis": 1786661845931,
+      "blockUpdate": 1782976590170
     },
     {
       "id": 1691159500,
@@ -1975,196 +2163,8 @@
       },
       "locationY": 29.740028,
       "locationX": 52.434181,
-      "updateMillis": 1786652235619,
+      "updateMillis": 1786661845893,
       "blockUpdate": 1782976630317
-    },
-    {
-      "id": 1691243394,
-      "street": "Dr. Hesabi Local Lane - کنارگذر دکتر حسابی",
-      "city": "شیراز",
-      "country": "IR",
-      "level": 5,
-      "length": 46,
-      "speed": 0,
-      "endNode": "",
-      "line": [
-        {
-          "x": 52.434741,
-          "y": 29.740196
-        },
-        {
-          "x": 52.434898,
-          "y": 29.739806
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 334535798,
-          "ID": 437437028,
-          "toNode": 283215194,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "شیراز",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 0,
-        "reliability": 7,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 334535798,
-        "uuid": "96073cdb-71b1-4905-a2f8-db9ce76fa913",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 2,
-        "magvar": 161,
-        "subtype": "",
-        "street": "Dr. Hesabi Local Lane - کنارگذر دکتر حسابی",
-        "additionalInfo": "",
-        "wazeData": "world,52.434741950464144,29.74019690040838,96073cdb-71b1-4905-a2f8-db9ce76fa913",
-        "toNodeId": 283215194,
-        "reportDescription": "",
-        "location": {
-          "x": 52.434741,
-          "y": 29.740196
-        },
-        "id": "alert-1638776125/96073cdb-71b1-4905-a2f8-db9ce76fa913",
-        "pubMillis": 1782976590000
-      },
-      "locationY": 29.740196,
-      "locationX": 52.434741,
-      "updateMillis": 1786652235613,
-      "blockUpdate": 1782976590170
-    },
-    {
-      "id": 1691136050,
-      "street": "2nd Vahdat - وحدت دوم",
-      "city": "شیراز",
-      "country": "IR",
-      "level": 5,
-      "length": 161,
-      "speed": 0,
-      "endNode": "1st - یکم",
-      "line": [
-        {
-          "x": 52.442953,
-          "y": 29.726013
-        },
-        {
-          "x": 52.443035,
-          "y": 29.725542
-        },
-        {
-          "x": 52.442849,
-          "y": 29.725165
-        },
-        {
-          "x": 52.442303,
-          "y": 29.724857
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 297700619,
-          "ID": 381546192,
-          "toNode": 281757553,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "شیراز",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 1,
-        "reliability": 9,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 297700619,
-        "uuid": "daeb76df-1e91-4bb1-948e-b27b6e3c0c9e",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 2,
-        "magvar": 171,
-        "subtype": "",
-        "street": "2nd Vahdat - وحدت دوم",
-        "additionalInfo": "",
-        "wazeData": "world,52.442953428935354,29.72601322344251,daeb76df-1e91-4bb1-948e-b27b6e3c0c9e",
-        "toNodeId": 281757553,
-        "reportDescription": "",
-        "location": {
-          "x": 52.442953,
-          "y": 29.726013
-        },
-        "id": "alert-165405505/daeb76df-1e91-4bb1-948e-b27b6e3c0c9e",
-        "pubMillis": 1769966965000
-      },
-      "locationY": 29.726013,
-      "locationX": 52.442953,
-      "updateMillis": 1786652235597,
-      "blockUpdate": 1769966965233
-    },
-    {
-      "id": 1691054246,
-      "street": "Shimi Giyah - شیمی گیاه",
-      "city": "شیراز",
-      "country": "IR",
-      "level": 5,
-      "length": 164,
-      "speed": 0,
-      "endNode": "1st Shimi Giyah - شیمی گیاه یکم",
-      "line": [
-        {
-          "x": 52.450339,
-          "y": 29.715651
-        },
-        {
-          "x": 52.449064,
-          "y": 29.71468
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 220580953,
-          "ID": 354183281,
-          "toNode": 279978989,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "شیراز",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 0,
-        "reliability": 6,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 220580953,
-        "uuid": "b7b7f87f-42f2-4871-bf85-71875c8210f5",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 2,
-        "magvar": 229,
-        "subtype": "",
-        "street": "Shimi Giyah - شیمی گیاه",
-        "additionalInfo": "",
-        "wazeData": "world,52.45033967635017,29.71565115616194,b7b7f87f-42f2-4871-bf85-71875c8210f5",
-        "toNodeId": 279978989,
-        "reportDescription": "",
-        "location": {
-          "x": 52.450339,
-          "y": 29.715651
-        },
-        "id": "alert-138597070/b7b7f87f-42f2-4871-bf85-71875c8210f5",
-        "pubMillis": 1771788630000
-      },
-      "locationY": 29.715651,
-      "locationX": 52.450339,
-      "updateMillis": 1786652235544,
-      "blockUpdate": 1771788630371
     },
     {
       "id": 590010976,
@@ -2234,7 +2234,7 @@
       },
       "locationY": 29.611698,
       "locationX": 52.55912,
-      "updateMillis": 1786652235470,
+      "updateMillis": 1786661845718,
       "blockUpdate": 1782620611049
     },
     {
@@ -2296,8 +2296,128 @@
       },
       "locationY": 29.626555,
       "locationX": 52.555464,
-      "updateMillis": 1786652235246,
+      "updateMillis": 1786661845602,
       "blockUpdate": 1759435986104
+    },
+    {
+      "id": 1691155470,
+      "street": "Shimi Giyah - شیمی گیاه",
+      "city": "شیراز",
+      "country": "IR",
+      "level": 5,
+      "length": 164,
+      "speed": 0,
+      "endNode": "67, بلوار دکتر حسابی",
+      "line": [
+        {
+          "x": 52.449064,
+          "y": 29.71468
+        },
+        {
+          "x": 52.450339,
+          "y": 29.715651
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 279978989,
+          "ID": 354183281,
+          "toNode": 220580953,
+          "isForward": false
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "شیراز",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 6,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 279978989,
+        "uuid": "537e58f6-9f67-420c-ac41-da389c6b9af2",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 2,
+        "magvar": 49,
+        "subtype": "",
+        "street": "Shimi Giyah - شیمی گیاه",
+        "additionalInfo": "",
+        "wazeData": "world,52.44906455653582,29.714680460544717,537e58f6-9f67-420c-ac41-da389c6b9af2",
+        "toNodeId": 220580953,
+        "reportDescription": "",
+        "location": {
+          "x": 52.449064,
+          "y": 29.71468
+        },
+        "id": "alert-138597069/537e58f6-9f67-420c-ac41-da389c6b9af2",
+        "pubMillis": 1771788630000
+      },
+      "locationY": 29.71468,
+      "locationX": 52.449064,
+      "updateMillis": 1786661845590,
+      "blockUpdate": 1771788630371
+    },
+    {
+      "id": 1691042754,
+      "street": "Jahad Sazandegi - جهاد سازندگی",
+      "city": "شیراز",
+      "country": "IR",
+      "level": 5,
+      "length": 48,
+      "speed": 0,
+      "endNode": "Jomhuri Eslami Blvd - بلوار جمهوری اسلامی",
+      "line": [
+        {
+          "x": 52.529928,
+          "y": 29.63949
+        },
+        {
+          "x": 52.529595,
+          "y": 29.639809
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 283270963,
+          "ID": 359198981,
+          "toNode": 292802603,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "شیراز",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 7,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 283270963,
+        "uuid": "f0dade27-b18c-4e23-b915-c7a69bb3f1cd",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 2,
+        "magvar": 318,
+        "subtype": "",
+        "street": "Jahad Sazandegi - جهاد سازندگی",
+        "additionalInfo": "",
+        "wazeData": "world,52.529928724288474,29.63949018825564,f0dade27-b18c-4e23-b915-c7a69bb3f1cd",
+        "toNodeId": 292802603,
+        "reportDescription": "",
+        "location": {
+          "x": 52.529928,
+          "y": 29.63949
+        },
+        "id": "alert-1320715914/f0dade27-b18c-4e23-b915-c7a69bb3f1cd",
+        "pubMillis": 1782402886000
+      },
+      "locationY": 29.63949,
+      "locationX": 52.529928,
+      "updateMillis": 1786661845505,
+      "blockUpdate": 1782402886640
     },
     {
       "id": 1691030758,
@@ -2359,128 +2479,8 @@
       },
       "locationY": 29.58203,
       "locationX": 52.521359,
-      "updateMillis": 1786652235074,
+      "updateMillis": 1786661845479,
       "blockUpdate": 1771788018155
-    },
-    {
-      "id": 1691042754,
-      "street": "Jahad Sazandegi - جهاد سازندگی",
-      "city": "شیراز",
-      "country": "IR",
-      "level": 5,
-      "length": 48,
-      "speed": 0,
-      "endNode": "Jomhuri Eslami Blvd - بلوار جمهوری اسلامی",
-      "line": [
-        {
-          "x": 52.529928,
-          "y": 29.63949
-        },
-        {
-          "x": 52.529595,
-          "y": 29.639809
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 283270963,
-          "ID": 359198981,
-          "toNode": 292802603,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "شیراز",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 0,
-        "reliability": 7,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 283270963,
-        "uuid": "f0dade27-b18c-4e23-b915-c7a69bb3f1cd",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 2,
-        "magvar": 318,
-        "subtype": "",
-        "street": "Jahad Sazandegi - جهاد سازندگی",
-        "additionalInfo": "",
-        "wazeData": "world,52.529928724288474,29.63949018825564,f0dade27-b18c-4e23-b915-c7a69bb3f1cd",
-        "toNodeId": 292802603,
-        "reportDescription": "",
-        "location": {
-          "x": 52.529928,
-          "y": 29.63949
-        },
-        "id": "alert-1320715914/f0dade27-b18c-4e23-b915-c7a69bb3f1cd",
-        "pubMillis": 1782402886000
-      },
-      "locationY": 29.63949,
-      "locationX": 52.529928,
-      "updateMillis": 1786652235071,
-      "blockUpdate": 1782402886640
-    },
-    {
-      "id": 1691155470,
-      "street": "Shimi Giyah - شیمی گیاه",
-      "city": "شیراز",
-      "country": "IR",
-      "level": 5,
-      "length": 164,
-      "speed": 0,
-      "endNode": "67, بلوار دکتر حسابی",
-      "line": [
-        {
-          "x": 52.449064,
-          "y": 29.71468
-        },
-        {
-          "x": 52.450339,
-          "y": 29.715651
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 279978989,
-          "ID": 354183281,
-          "toNode": 220580953,
-          "isForward": false
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "شیراز",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 0,
-        "reliability": 6,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 279978989,
-        "uuid": "537e58f6-9f67-420c-ac41-da389c6b9af2",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 2,
-        "magvar": 49,
-        "subtype": "",
-        "street": "Shimi Giyah - شیمی گیاه",
-        "additionalInfo": "",
-        "wazeData": "world,52.44906455653582,29.714680460544717,537e58f6-9f67-420c-ac41-da389c6b9af2",
-        "toNodeId": 220580953,
-        "reportDescription": "",
-        "location": {
-          "x": 52.449064,
-          "y": 29.71468
-        },
-        "id": "alert-138597069/537e58f6-9f67-420c-ac41-da389c6b9af2",
-        "pubMillis": 1771788630000
-      },
-      "locationY": 29.71468,
-      "locationX": 52.449064,
-      "updateMillis": 1786652235048,
-      "blockUpdate": 1771788630371
     },
     {
       "id": 1691046148,
@@ -2539,7 +2539,7 @@
       },
       "locationY": 29.743551,
       "locationX": 52.433361,
-      "updateMillis": 1786652234805,
+      "updateMillis": 1786661845343,
       "blockUpdate": 1782389277930
     },
     {
@@ -2602,7 +2602,7 @@
       },
       "locationY": 29.550324,
       "locationX": 52.619673,
-      "updateMillis": 1786652234782,
+      "updateMillis": 1786661845239,
       "blockUpdate": 1771788104235
     },
     {
@@ -2661,7 +2661,7 @@
       },
       "locationY": 29.626801,
       "locationX": 52.555659,
-      "updateMillis": 1786652234519,
+      "updateMillis": 1786661845136,
       "blockUpdate": 1757657184144
     },
     {
@@ -2720,7 +2720,7 @@
       },
       "locationY": 29.653161,
       "locationX": 52.493986,
-      "updateMillis": 1786652234465,
+      "updateMillis": 1786661844971,
       "blockUpdate": 1771818362016
     },
     {
@@ -2779,8 +2779,75 @@
       },
       "locationY": 29.653273,
       "locationX": 52.494189,
-      "updateMillis": 1786652234463,
+      "updateMillis": 1786661844969,
       "blockUpdate": 1771818362017
+    },
+    {
+      "id": 1691096422,
+      "street": "Farashbandi Local Lane - کنارگذر فراشبندی",
+      "city": "شیراز",
+      "country": "IR",
+      "level": 5,
+      "length": 552,
+      "speed": 0,
+      "line": [
+        {
+          "x": 52.475884,
+          "y": 29.609576
+        },
+        {
+          "x": 52.47554,
+          "y": 29.609734
+        },
+        {
+          "x": 52.473076,
+          "y": 29.610395
+        },
+        {
+          "x": 52.470479,
+          "y": 29.611131
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 220340846,
+          "ID": 458144946,
+          "toNode": 289988769,
+          "isForward": false
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "شیراز",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 6,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 220340846,
+        "uuid": "42baea34-9a31-44df-805d-9df12e4eaa3e",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 2,
+        "magvar": 298,
+        "subtype": "",
+        "street": "Farashbandi Local Lane - کنارگذر فراشبندی",
+        "additionalInfo": "",
+        "wazeData": "world,52.475884900288,29.609576020223,42baea34-9a31-44df-805d-9df12e4eaa3e",
+        "toNodeId": 289988769,
+        "reportDescription": "",
+        "location": {
+          "x": 52.475884,
+          "y": 29.609576
+        },
+        "id": "alert-1745378644/42baea34-9a31-44df-805d-9df12e4eaa3e",
+        "pubMillis": 1786294876000
+      },
+      "locationY": 29.609576,
+      "locationX": 52.475884,
+      "updateMillis": 1786661844946,
+      "blockUpdate": 1786294876198
     },
     {
       "id": 1691046040,
@@ -2853,789 +2920,18 @@
       },
       "locationY": 29.61448,
       "locationX": 52.569819,
-      "updateMillis": 1786652234350,
+      "updateMillis": 1786661844886,
       "blockUpdate": 1697305083830
     },
     {
-      "id": 1813193012,
-      "street": "Imam Reza Blvd - بلوار امام رضا",
-      "city": "شیراز",
-      "country": null,
-      "level": 3,
-      "length": 777,
-      "speed": 4.008333333333334,
-      "endNode": "Sadeqi - صادقی",
-      "line": [
-        {
-          "x": 52.561034,
-          "y": 29.632863
-        },
-        {
-          "x": 52.562167,
-          "y": 29.635058
-        },
-        {
-          "x": 52.562982,
-          "y": 29.636871
-        },
-        {
-          "x": 52.563268,
-          "y": 29.637474
-        },
-        {
-          "x": 52.563774,
-          "y": 29.638422
-        },
-        {
-          "x": 52.5644,
-          "y": 29.639202
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 348314790,
-          "ID": 458997811,
-          "toNode": 314197310,
-          "isForward": true
-        },
-        {
-          "fromNode": 314197310,
-          "ID": 414722674,
-          "toNode": 220572627,
-          "isForward": false
-        },
-        {
-          "fromNode": 220572627,
-          "ID": 348969887,
-          "toNode": 276705693,
-          "isForward": false
-        },
-        {
-          "fromNode": 276705693,
-          "ID": 348969886,
-          "toNode": 276705656,
-          "isForward": false
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 29.632863,
-      "locationX": 52.561034,
-      "updateMillis": 1786652234317,
-      "blockUpdate": null
-    },
-    {
-      "id": 1691096422,
-      "street": "Farashbandi Local Lane - کنارگذر فراشبندی",
-      "city": "شیراز",
-      "country": "IR",
-      "level": 5,
-      "length": 552,
-      "speed": 0,
-      "line": [
-        {
-          "x": 52.475884,
-          "y": 29.609576
-        },
-        {
-          "x": 52.47554,
-          "y": 29.609734
-        },
-        {
-          "x": 52.473076,
-          "y": 29.610395
-        },
-        {
-          "x": 52.470479,
-          "y": 29.611131
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 220340846,
-          "ID": 458144946,
-          "toNode": 289988769,
-          "isForward": false
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "شیراز",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 0,
-        "reliability": 6,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 220340846,
-        "uuid": "42baea34-9a31-44df-805d-9df12e4eaa3e",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 2,
-        "magvar": 298,
-        "subtype": "",
-        "street": "Farashbandi Local Lane - کنارگذر فراشبندی",
-        "additionalInfo": "",
-        "wazeData": "world,52.475884900288,29.609576020223,42baea34-9a31-44df-805d-9df12e4eaa3e",
-        "toNodeId": 289988769,
-        "reportDescription": "",
-        "location": {
-          "x": 52.475884,
-          "y": 29.609576
-        },
-        "id": "alert-1745378644/42baea34-9a31-44df-805d-9df12e4eaa3e",
-        "pubMillis": 1786294876000
-      },
-      "locationY": 29.609576,
-      "locationX": 52.475884,
-      "updateMillis": 1786652234170,
-      "blockUpdate": 1786294876198
-    },
-    {
-      "id": 1691139500,
-      "street": "",
-      "city": "شیراز",
-      "country": "IR",
-      "level": 5,
-      "length": 53,
-      "speed": 0,
-      "endNode": "AhmadEbn Musa Blvd - بلوار احمد ابن موسی",
-      "line": [
-        {
-          "x": 52.538674,
-          "y": 29.563943
-        },
-        {
-          "x": 52.539211,
-          "y": 29.563877
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 220355656,
-          "ID": 262807473,
-          "toNode": 220355678,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "شیراز",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 0,
-        "reliability": 7,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 220355656,
-        "uuid": "54e2846e-e41d-450b-b772-12c78e6f62d2",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 2,
-        "magvar": 98,
-        "subtype": "",
-        "additionalInfo": "",
-        "wazeData": "world,52.538674472301786,29.563943708450452,54e2846e-e41d-450b-b772-12c78e6f62d2",
-        "toNodeId": 220355678,
-        "reportDescription": "",
-        "location": {
-          "x": 52.538674,
-          "y": 29.563943
-        },
-        "id": "alert-1185849083/54e2846e-e41d-450b-b772-12c78e6f62d2",
-        "pubMillis": 1761195404000
-      },
-      "locationY": 29.563943,
-      "locationX": 52.538674,
-      "updateMillis": 1786652234128,
-      "blockUpdate": 1761195404196
-    },
-    {
-      "id": 1691167152,
-      "street": "Abasaleh Blvd - بلوار اباصالح",
-      "city": "کیان آباد {قره باغ}",
-      "country": "IR",
-      "level": 5,
-      "length": 150,
-      "speed": 0,
-      "endNode": "5th Abasaleh - اباصالح پنجم",
-      "line": [
-        {
-          "x": 52.467949,
-          "y": 29.547356
-        },
-        {
-          "x": 52.467255,
-          "y": 29.547976
-        },
-        {
-          "x": 52.466892,
-          "y": 29.548343
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 283007080,
-          "ID": 358795443,
-          "toNode": 283007089,
-          "isForward": false
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "کیان آباد {قره باغ}",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 0,
-        "reliability": 6,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 283007080,
-        "uuid": "69221396-7e18-45d6-ae6f-33ef081d9f7a",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 2,
-        "magvar": 316,
-        "subtype": "",
-        "street": "Abasaleh Blvd - بلوار اباصالح",
-        "additionalInfo": "",
-        "wazeData": "world,52.467949800083474,29.547356005411395,69221396-7e18-45d6-ae6f-33ef081d9f7a",
-        "toNodeId": 283007089,
-        "reportDescription": "",
-        "location": {
-          "x": 52.467949,
-          "y": 29.547356
-        },
-        "id": "alert-1618137392/69221396-7e18-45d6-ae6f-33ef081d9f7a",
-        "pubMillis": 1782730957000
-      },
-      "locationY": 29.547356,
-      "locationX": 52.467949,
-      "updateMillis": 1786652234080,
-      "blockUpdate": 1782730957724
-    },
-    {
-      "id": 1691092632,
-      "street": "Abasaleh Blvd - بلوار اباصالح",
-      "city": "کیان آباد {قره باغ}",
-      "country": "IR",
-      "level": 5,
-      "length": 150,
-      "speed": 0,
-      "line": [
-        {
-          "x": 52.466892,
-          "y": 29.548343
-        },
-        {
-          "x": 52.467255,
-          "y": 29.547976
-        },
-        {
-          "x": 52.467949,
-          "y": 29.547356
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 283007089,
-          "ID": 358795443,
-          "toNode": 283007080,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "کیان آباد {قره باغ}",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 0,
-        "reliability": 6,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 283007089,
-        "uuid": "2de1caa8-b1ca-4bfa-b35c-db2bcb1510e7",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 2,
-        "magvar": 139,
-        "subtype": "",
-        "street": "Abasaleh Blvd - بلوار اباصالح",
-        "additionalInfo": "",
-        "wazeData": "world,52.46689201533567,29.548343317540784,2de1caa8-b1ca-4bfa-b35c-db2bcb1510e7",
-        "toNodeId": 283007080,
-        "reportDescription": "",
-        "location": {
-          "x": 52.466892,
-          "y": 29.548343
-        },
-        "id": "alert-1618157083/2de1caa8-b1ca-4bfa-b35c-db2bcb1510e7",
-        "pubMillis": 1782730957000
-      },
-      "locationY": 29.548343,
-      "locationX": 52.466892,
-      "updateMillis": 1786652234079,
-      "blockUpdate": 1782730957637
-    },
-    {
-      "id": 1691112024,
-      "street": "Adel - عادل",
-      "city": "شیراز",
-      "country": "IR",
-      "level": 5,
-      "length": 46,
-      "speed": 0,
-      "endNode": "1st Adel - عادل یکم",
-      "line": [
-        {
-          "x": 52.505542,
-          "y": 29.58923
-        },
-        {
-          "x": 52.505464,
-          "y": 29.589312
-        },
-        {
-          "x": 52.505368,
-          "y": 29.589608
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 319349096,
-          "ID": 262864856,
-          "toNode": 220392952,
-          "isForward": false
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "شیراز",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 2,
-        "reliability": 10,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 319349096,
-        "uuid": "d51cb0a0-8284-452c-ac70-f2f96c2b3bf1",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 2,
-        "magvar": 338,
-        "subtype": "",
-        "street": "Adel - عادل",
-        "additionalInfo": "",
-        "wazeData": "world,52.50554230260752,29.58923066547112,d51cb0a0-8284-452c-ac70-f2f96c2b3bf1",
-        "toNodeId": 220392952,
-        "reportDescription": "",
-        "location": {
-          "x": 52.505542,
-          "y": 29.58923
-        },
-        "id": "alert-769151162/d51cb0a0-8284-452c-ac70-f2f96c2b3bf1",
-        "pubMillis": 1740569689000
-      },
-      "locationY": 29.58923,
-      "locationX": 52.505542,
-      "updateMillis": 1786652233942,
-      "blockUpdate": 1740569689465
-    },
-    {
-      "id": 1691099830,
-      "street": "Dr. Hesabi Local Lane - کنارگذر دکتر حسابی",
-      "city": "شیراز",
-      "country": "IR",
-      "level": 5,
-      "length": 93,
-      "speed": 0,
-      "endNode": "",
-      "line": [
-        {
-          "x": 52.434898,
-          "y": 29.739806
-        },
-        {
-          "x": 52.435229,
-          "y": 29.73902
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 283215194,
-          "ID": 479316208,
-          "toNode": 287323451,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "شیراز",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 0,
-        "reliability": 6,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 283215194,
-        "uuid": "3c137d0f-21a4-4c86-9da5-60529bfdf89b",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 2,
-        "magvar": 160,
-        "subtype": "",
-        "street": "Dr. Hesabi Local Lane - کنارگذر دکتر حسابی",
-        "additionalInfo": "",
-        "wazeData": "world,52.43489842581451,29.73980675770907,3c137d0f-21a4-4c86-9da5-60529bfdf89b",
-        "toNodeId": 287323451,
-        "reportDescription": "",
-        "location": {
-          "x": 52.434898,
-          "y": 29.739806
-        },
-        "id": "alert-1638751671/3c137d0f-21a4-4c86-9da5-60529bfdf89b",
-        "pubMillis": 1782976590000
-      },
-      "locationY": 29.739806,
-      "locationX": 52.434898,
-      "updateMillis": 1786652233766,
-      "blockUpdate": 1782976590131
-    },
-    {
-      "id": 1691111980,
-      "street": "",
-      "city": "شیراز",
-      "country": "IR",
-      "level": 5,
-      "length": 53,
-      "speed": 0,
-      "line": [
-        {
-          "x": 52.569298,
-          "y": 29.614856
-        },
-        {
-          "x": 52.568921,
-          "y": 29.615201
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 319789478,
-          "ID": 261370422,
-          "toNode": 277837990,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "شیراز",
-        "reportRating": 0,
-        "reportByMunicipalityUser": "false",
-        "confidence": 5,
-        "reliability": 10,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 319789478,
-        "uuid": "90b68727-326c-488f-8875-ab00c43e540e",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 4,
-        "magvar": 316,
-        "subtype": "ROAD_CLOSED_EVENT",
-        "additionalInfo": "",
-        "wazeData": "world,52.569298653036114,29.614856505834812,90b68727-326c-488f-8875-ab00c43e540e",
-        "toNodeId": 277837990,
-        "reportDescription": "",
-        "location": {
-          "x": 52.569298,
-          "y": 29.614856
-        },
-        "id": "alert-1871228108/90b68727-326c-488f-8875-ab00c43e540e",
-        "pubMillis": 1697305083000
-      },
-      "locationY": 29.614856,
-      "locationX": 52.569298,
-      "updateMillis": 1786652233758,
-      "blockUpdate": 1697305083669
-    },
-    {
-      "id": 1810913482,
-      "street": "Soleymani Hwy - بزرگراه سردار سلیمانی",
-      "city": "Bājgāh - باجگاه",
-      "country": null,
-      "level": 1,
-      "length": 4954,
-      "speed": 16.094444444444445,
-      "endNode": "صدرا (فارس)",
-      "line": [
-        {
-          "x": 52.597086,
-          "y": 29.739677
-        },
-        {
-          "x": 52.595557,
-          "y": 29.739943
-        },
-        {
-          "x": 52.594911,
-          "y": 29.740122
-        },
-        {
-          "x": 52.59434,
-          "y": 29.740395
-        },
-        {
-          "x": 52.593487,
-          "y": 29.740884
-        },
-        {
-          "x": 52.59294,
-          "y": 29.74141
-        },
-        {
-          "x": 52.592271,
-          "y": 29.742171
-        },
-        {
-          "x": 52.587502,
-          "y": 29.747471
-        },
-        {
-          "x": 52.583784,
-          "y": 29.751668
-        },
-        {
-          "x": 52.582368,
-          "y": 29.752948
-        },
-        {
-          "x": 52.581204,
-          "y": 29.753707
-        },
-        {
-          "x": 52.580008,
-          "y": 29.754276
-        },
-        {
-          "x": 52.578297,
-          "y": 29.755123
-        },
-        {
-          "x": 52.577629,
-          "y": 29.755608
-        },
-        {
-          "x": 52.576993,
-          "y": 29.756157
-        },
-        {
-          "x": 52.575486,
-          "y": 29.758071
-        },
-        {
-          "x": 52.574984,
-          "y": 29.758509
-        },
-        {
-          "x": 52.574386,
-          "y": 29.758909
-        },
-        {
-          "x": 52.573817,
-          "y": 29.759198
-        },
-        {
-          "x": 52.573174,
-          "y": 29.759459
-        },
-        {
-          "x": 52.570733,
-          "y": 29.76012
-        },
-        {
-          "x": 52.569225,
-          "y": 29.760688
-        },
-        {
-          "x": 52.567997,
-          "y": 29.761289
-        },
-        {
-          "x": 52.557761,
-          "y": 29.766603
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 304640624,
-          "ID": 432110410,
-          "toNode": 330967745,
-          "isForward": false
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 29.739677,
-      "locationX": 52.597086,
-      "updateMillis": 1786652233689,
-      "blockUpdate": null
-    },
-    {
-      "id": 1813125632,
-      "street": "Rajaei Blvd - بلوار رجایی",
-      "city": "شیراز",
-      "country": null,
-      "level": 3,
-      "length": 510,
-      "speed": 4.1194444444444445,
-      "endNode": "",
-      "line": [
-        {
-          "x": 52.456116,
-          "y": 29.66249
-        },
-        {
-          "x": 52.455952,
-          "y": 29.663817
-        },
-        {
-          "x": 52.455896,
-          "y": 29.664639
-        },
-        {
-          "x": 52.455902,
-          "y": 29.665568
-        },
-        {
-          "x": 52.455834,
-          "y": 29.666436
-        },
-        {
-          "x": 52.455746,
-          "y": 29.667073
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 281725787,
-          "ID": 356848781,
-          "toNode": 219277355,
-          "isForward": false
-        },
-        {
-          "fromNode": 219277355,
-          "ID": 330410349,
-          "toNode": 265035095,
-          "isForward": false
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 29.66249,
-      "locationX": 52.456116,
-      "updateMillis": 1786652233645,
-      "blockUpdate": null
-    },
-    {
-      "id": 1808082702,
-      "street": "Chamran Blvd - بلوار چمران",
-      "city": "شیراز",
-      "country": null,
-      "level": 4,
-      "length": 344,
-      "speed": 2.3694444444444445,
-      "endNode": "Shariati Blvd - بلوار شریعتی",
-      "line": [
-        {
-          "x": 52.477549,
-          "y": 29.686674
-        },
-        {
-          "x": 52.477478,
-          "y": 29.686744
-        },
-        {
-          "x": 52.477304,
-          "y": 29.686889
-        },
-        {
-          "x": 52.477152,
-          "y": 29.686981
-        },
-        {
-          "x": 52.476973,
-          "y": 29.687085
-        },
-        {
-          "x": 52.476826,
-          "y": 29.687151
-        },
-        {
-          "x": 52.476687,
-          "y": 29.687209
-        },
-        {
-          "x": 52.476503,
-          "y": 29.687262
-        },
-        {
-          "x": 52.476312,
-          "y": 29.687298
-        },
-        {
-          "x": 52.476112,
-          "y": 29.687321
-        },
-        {
-          "x": 52.475767,
-          "y": 29.687324
-        },
-        {
-          "x": 52.475496,
-          "y": 29.687289
-        },
-        {
-          "x": 52.474752,
-          "y": 29.687084
-        },
-        {
-          "x": 52.474284,
-          "y": 29.686892
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 275083273,
-          "ID": 346378826,
-          "toNode": 220509477,
-          "isForward": true
-        },
-        {
-          "fromNode": 220509477,
-          "ID": 263046807,
-          "toNode": 219278840,
-          "isForward": true
-        },
-        {
-          "fromNode": 219278840,
-          "ID": 359013946,
-          "toNode": 283151394,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 29.686674,
-      "locationX": 52.477549,
-      "updateMillis": 1786652233640,
-      "blockUpdate": null
-    },
-    {
-      "id": 1810865914,
+      "id": 1834236984,
       "street": "Shariati Blvd - بلوار شریعتی",
       "city": "شیراز",
       "country": null,
-      "level": 4,
-      "length": 1587,
-      "speed": 1.225,
-      "endNode": "Chamran Blvd - بلوار چمران",
+      "level": 3,
+      "length": 817,
+      "speed": 1.4305555555555556,
+      "endNode": "Dustan W Blvd - بلوار دوستان غربی",
       "line": [
         {
           "x": 52.454074,
@@ -3684,66 +2980,6 @@
         {
           "x": 52.46161,
           "y": 29.681114
-        },
-        {
-          "x": 52.461998,
-          "y": 29.68128
-        },
-        {
-          "x": 52.462668,
-          "y": 29.68159
-        },
-        {
-          "x": 52.462927,
-          "y": 29.681707
-        },
-        {
-          "x": 52.463322,
-          "y": 29.681881
-        },
-        {
-          "x": 52.463559,
-          "y": 29.681982
-        },
-        {
-          "x": 52.464071,
-          "y": 29.682205
-        },
-        {
-          "x": 52.464455,
-          "y": 29.682366
-        },
-        {
-          "x": 52.464958,
-          "y": 29.682582
-        },
-        {
-          "x": 52.465537,
-          "y": 29.682844
-        },
-        {
-          "x": 52.465806,
-          "y": 29.682969
-        },
-        {
-          "x": 52.466349,
-          "y": 29.683209
-        },
-        {
-          "x": 52.467253,
-          "y": 29.683609
-        },
-        {
-          "x": 52.468095,
-          "y": 29.683978
-        },
-        {
-          "x": 52.468562,
-          "y": 29.684186
-        },
-        {
-          "x": 52.468714,
-          "y": 29.684255
         }
       ],
       "segments": [
@@ -3812,103 +3048,381 @@
           "ID": 359012839,
           "toNode": 277102161,
           "isForward": false
-        },
-        {
-          "fromNode": 277102161,
-          "ID": 359012812,
-          "toNode": 220507759,
-          "isForward": false
-        },
-        {
-          "fromNode": 220507759,
-          "ID": 359012858,
-          "toNode": 265480500,
-          "isForward": true
-        },
-        {
-          "fromNode": 265480500,
-          "ID": 390862861,
-          "toNode": 303699407,
-          "isForward": true
-        },
-        {
-          "fromNode": 303699407,
-          "ID": 390862838,
-          "toNode": 220521466,
-          "isForward": true
-        },
-        {
-          "fromNode": 220521466,
-          "ID": 331107449,
-          "toNode": 265480382,
-          "isForward": true
-        },
-        {
-          "fromNode": 265480382,
-          "ID": 331107450,
-          "toNode": 220521470,
-          "isForward": true
-        },
-        {
-          "fromNode": 220521470,
-          "ID": 331048322,
-          "toNode": 265442935,
-          "isForward": true
-        },
-        {
-          "fromNode": 265442935,
-          "ID": 331048323,
-          "toNode": 220521472,
-          "isForward": true
-        },
-        {
-          "fromNode": 220521472,
-          "ID": 331049232,
-          "toNode": 265443506,
-          "isForward": true
-        },
-        {
-          "fromNode": 265443506,
-          "ID": 331049233,
-          "toNode": 265442398,
-          "isForward": true
-        },
-        {
-          "fromNode": 265442398,
-          "ID": 359013062,
-          "toNode": 220507761,
-          "isForward": true
-        },
-        {
-          "fromNode": 220507761,
-          "ID": 331047434,
-          "toNode": 265442432,
-          "isForward": true
-        },
-        {
-          "fromNode": 265442432,
-          "ID": 359013177,
-          "toNode": 220507763,
-          "isForward": true
-        },
-        {
-          "fromNode": 220507763,
-          "ID": 359013415,
-          "toNode": 283151003,
-          "isForward": true
-        },
-        {
-          "fromNode": 283151003,
-          "ID": 359013416,
-          "toNode": 266004898,
-          "isForward": true
         }
       ],
       "causeAlert": null,
       "locationY": 29.677805,
       "locationX": 52.454074,
-      "updateMillis": 1786652233627,
+      "updateMillis": 1786661844798,
       "blockUpdate": null
+    },
+    {
+      "id": 1691167152,
+      "street": "Abasaleh Blvd - بلوار اباصالح",
+      "city": "کیان آباد {قره باغ}",
+      "country": "IR",
+      "level": 5,
+      "length": 150,
+      "speed": 0,
+      "endNode": "5th Abasaleh - اباصالح پنجم",
+      "line": [
+        {
+          "x": 52.467949,
+          "y": 29.547356
+        },
+        {
+          "x": 52.467255,
+          "y": 29.547976
+        },
+        {
+          "x": 52.466892,
+          "y": 29.548343
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 283007080,
+          "ID": 358795443,
+          "toNode": 283007089,
+          "isForward": false
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "کیان آباد {قره باغ}",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 6,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 283007080,
+        "uuid": "69221396-7e18-45d6-ae6f-33ef081d9f7a",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 2,
+        "magvar": 316,
+        "subtype": "",
+        "street": "Abasaleh Blvd - بلوار اباصالح",
+        "additionalInfo": "",
+        "wazeData": "world,52.467949800083474,29.547356005411395,69221396-7e18-45d6-ae6f-33ef081d9f7a",
+        "toNodeId": 283007089,
+        "reportDescription": "",
+        "location": {
+          "x": 52.467949,
+          "y": 29.547356
+        },
+        "id": "alert-1618137392/69221396-7e18-45d6-ae6f-33ef081d9f7a",
+        "pubMillis": 1782730957000
+      },
+      "locationY": 29.547356,
+      "locationX": 52.467949,
+      "updateMillis": 1786661844793,
+      "blockUpdate": 1782730957724
+    },
+    {
+      "id": 1691092632,
+      "street": "Abasaleh Blvd - بلوار اباصالح",
+      "city": "کیان آباد {قره باغ}",
+      "country": "IR",
+      "level": 5,
+      "length": 150,
+      "speed": 0,
+      "line": [
+        {
+          "x": 52.466892,
+          "y": 29.548343
+        },
+        {
+          "x": 52.467255,
+          "y": 29.547976
+        },
+        {
+          "x": 52.467949,
+          "y": 29.547356
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 283007089,
+          "ID": 358795443,
+          "toNode": 283007080,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "کیان آباد {قره باغ}",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 6,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 283007089,
+        "uuid": "2de1caa8-b1ca-4bfa-b35c-db2bcb1510e7",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 2,
+        "magvar": 139,
+        "subtype": "",
+        "street": "Abasaleh Blvd - بلوار اباصالح",
+        "additionalInfo": "",
+        "wazeData": "world,52.46689201533567,29.548343317540784,2de1caa8-b1ca-4bfa-b35c-db2bcb1510e7",
+        "toNodeId": 283007080,
+        "reportDescription": "",
+        "location": {
+          "x": 52.466892,
+          "y": 29.548343
+        },
+        "id": "alert-1618157083/2de1caa8-b1ca-4bfa-b35c-db2bcb1510e7",
+        "pubMillis": 1782730957000
+      },
+      "locationY": 29.548343,
+      "locationX": 52.466892,
+      "updateMillis": 1786661844792,
+      "blockUpdate": 1782730957637
+    },
+    {
+      "id": 1691139500,
+      "street": "",
+      "city": "شیراز",
+      "country": "IR",
+      "level": 5,
+      "length": 53,
+      "speed": 0,
+      "endNode": "AhmadEbn Musa Blvd - بلوار احمد ابن موسی",
+      "line": [
+        {
+          "x": 52.538674,
+          "y": 29.563943
+        },
+        {
+          "x": 52.539211,
+          "y": 29.563877
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 220355656,
+          "ID": 262807473,
+          "toNode": 220355678,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "شیراز",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 7,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 220355656,
+        "uuid": "54e2846e-e41d-450b-b772-12c78e6f62d2",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 2,
+        "magvar": 98,
+        "subtype": "",
+        "additionalInfo": "",
+        "wazeData": "world,52.538674472301786,29.563943708450452,54e2846e-e41d-450b-b772-12c78e6f62d2",
+        "toNodeId": 220355678,
+        "reportDescription": "",
+        "location": {
+          "x": 52.538674,
+          "y": 29.563943
+        },
+        "id": "alert-1185849083/54e2846e-e41d-450b-b772-12c78e6f62d2",
+        "pubMillis": 1761195404000
+      },
+      "locationY": 29.563943,
+      "locationX": 52.538674,
+      "updateMillis": 1786661844714,
+      "blockUpdate": 1761195404196
+    },
+    {
+      "id": 1691112024,
+      "street": "Adel - عادل",
+      "city": "شیراز",
+      "country": "IR",
+      "level": 5,
+      "length": 46,
+      "speed": 0,
+      "endNode": "1st Adel - عادل یکم",
+      "line": [
+        {
+          "x": 52.505542,
+          "y": 29.58923
+        },
+        {
+          "x": 52.505464,
+          "y": 29.589312
+        },
+        {
+          "x": 52.505368,
+          "y": 29.589608
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 319349096,
+          "ID": 262864856,
+          "toNode": 220392952,
+          "isForward": false
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "شیراز",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 2,
+        "reliability": 10,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 319349096,
+        "uuid": "d51cb0a0-8284-452c-ac70-f2f96c2b3bf1",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 2,
+        "magvar": 338,
+        "subtype": "",
+        "street": "Adel - عادل",
+        "additionalInfo": "",
+        "wazeData": "world,52.50554230260752,29.58923066547112,d51cb0a0-8284-452c-ac70-f2f96c2b3bf1",
+        "toNodeId": 220392952,
+        "reportDescription": "",
+        "location": {
+          "x": 52.505542,
+          "y": 29.58923
+        },
+        "id": "alert-769151162/d51cb0a0-8284-452c-ac70-f2f96c2b3bf1",
+        "pubMillis": 1740569689000
+      },
+      "locationY": 29.58923,
+      "locationX": 52.505542,
+      "updateMillis": 1786661844616,
+      "blockUpdate": 1740569689465
+    },
+    {
+      "id": 1691099830,
+      "street": "Dr. Hesabi Local Lane - کنارگذر دکتر حسابی",
+      "city": "شیراز",
+      "country": "IR",
+      "level": 5,
+      "length": 93,
+      "speed": 0,
+      "endNode": "",
+      "line": [
+        {
+          "x": 52.434898,
+          "y": 29.739806
+        },
+        {
+          "x": 52.435229,
+          "y": 29.73902
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 283215194,
+          "ID": 479316208,
+          "toNode": 287323451,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "شیراز",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 6,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 283215194,
+        "uuid": "3c137d0f-21a4-4c86-9da5-60529bfdf89b",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 2,
+        "magvar": 160,
+        "subtype": "",
+        "street": "Dr. Hesabi Local Lane - کنارگذر دکتر حسابی",
+        "additionalInfo": "",
+        "wazeData": "world,52.43489842581451,29.73980675770907,3c137d0f-21a4-4c86-9da5-60529bfdf89b",
+        "toNodeId": 287323451,
+        "reportDescription": "",
+        "location": {
+          "x": 52.434898,
+          "y": 29.739806
+        },
+        "id": "alert-1638751671/3c137d0f-21a4-4c86-9da5-60529bfdf89b",
+        "pubMillis": 1782976590000
+      },
+      "locationY": 29.739806,
+      "locationX": 52.434898,
+      "updateMillis": 1786661844532,
+      "blockUpdate": 1782976590131
+    },
+    {
+      "id": 1691111980,
+      "street": "",
+      "city": "شیراز",
+      "country": "IR",
+      "level": 5,
+      "length": 53,
+      "speed": 0,
+      "line": [
+        {
+          "x": 52.569298,
+          "y": 29.614856
+        },
+        {
+          "x": 52.568921,
+          "y": 29.615201
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 319789478,
+          "ID": 261370422,
+          "toNode": 277837990,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "شیراز",
+        "reportRating": 0,
+        "reportByMunicipalityUser": "false",
+        "confidence": 5,
+        "reliability": 10,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 319789478,
+        "uuid": "90b68727-326c-488f-8875-ab00c43e540e",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 4,
+        "magvar": 316,
+        "subtype": "ROAD_CLOSED_EVENT",
+        "additionalInfo": "",
+        "wazeData": "world,52.569298653036114,29.614856505834812,90b68727-326c-488f-8875-ab00c43e540e",
+        "toNodeId": 277837990,
+        "reportDescription": "",
+        "location": {
+          "x": 52.569298,
+          "y": 29.614856
+        },
+        "id": "alert-1871228108/90b68727-326c-488f-8875-ab00c43e540e",
+        "pubMillis": 1697305083000
+      },
+      "locationY": 29.614856,
+      "locationX": 52.569298,
+      "updateMillis": 1786661844395,
+      "blockUpdate": 1697305083669
     },
     {
       "id": 1691085006,
@@ -3966,7 +3480,7 @@
       },
       "locationY": 29.546829,
       "locationX": 52.468546,
-      "updateMillis": 1786652233575,
+      "updateMillis": 1786661844358,
       "blockUpdate": 1782730957870
     },
     {
@@ -4025,81 +3539,8 @@
       },
       "locationY": 29.716325,
       "locationX": 52.431703,
-      "updateMillis": 1786652233560,
+      "updateMillis": 1786661844252,
       "blockUpdate": 1782387860308
-    },
-    {
-      "id": 1813058996,
-      "street": "86, بلوار امیر کبیر",
-      "city": "شیراز",
-      "country": null,
-      "level": 2,
-      "length": 1064,
-      "speed": 8.177777777777777,
-      "endNode": "",
-      "line": [
-        {
-          "x": 52.453479,
-          "y": 29.618081
-        },
-        {
-          "x": 52.451908,
-          "y": 29.618046
-        },
-        {
-          "x": 52.448799,
-          "y": 29.617968
-        },
-        {
-          "x": 52.44758,
-          "y": 29.617919
-        },
-        {
-          "x": 52.445491,
-          "y": 29.617842
-        },
-        {
-          "x": 52.442497,
-          "y": 29.61776
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 220481546,
-          "ID": 349976732,
-          "toNode": 277339139,
-          "isForward": false
-        },
-        {
-          "fromNode": 277339139,
-          "ID": 349976729,
-          "toNode": 276519906,
-          "isForward": false
-        },
-        {
-          "fromNode": 276519906,
-          "ID": 349680078,
-          "toNode": 220163515,
-          "isForward": false
-        },
-        {
-          "fromNode": 220163515,
-          "ID": 349680155,
-          "toNode": 220164365,
-          "isForward": false
-        },
-        {
-          "fromNode": 220164365,
-          "ID": 349680875,
-          "toNode": 277151379,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 29.618081,
-      "locationX": 52.453479,
-      "updateMillis": 1786652233545,
-      "blockUpdate": null
     },
     {
       "id": 1691034282,
@@ -4162,7 +3603,7 @@
       },
       "locationY": 29.615393,
       "locationX": 52.55687,
-      "updateMillis": 1786652233300,
+      "updateMillis": 1786661844141,
       "blockUpdate": 1782620511924
     },
     {
@@ -4226,7 +3667,7 @@
       },
       "locationY": 29.549167,
       "locationX": 52.46593,
-      "updateMillis": 1786652233103,
+      "updateMillis": 1786661843840,
       "blockUpdate": 1782730957781
     },
     {
@@ -4285,104 +3726,120 @@
       },
       "locationY": 29.73902,
       "locationX": 52.435229,
-      "updateMillis": 1786652233062,
+      "updateMillis": 1786661843751,
       "blockUpdate": 1782976590102
     },
     {
-      "id": 1790761068,
-      "street": "67, بلوار دکتر حسابی",
+      "id": 1832504290,
+      "street": "Shariati Blvd - بلوار شریعتی",
       "city": "شیراز",
       "country": null,
       "level": 4,
-      "length": 1005,
-      "speed": 2.488888888888889,
-      "endNode": "Dr. Hesabi Local Lane - کنارگذر دکتر حسابی",
+      "length": 965,
+      "speed": 1.275,
+      "endNode": "Parastar Local Lane - کنارگذر پرستار",
       "line": [
         {
-          "x": 52.442548,
-          "y": 29.727239
+          "x": 52.46746,
+          "y": 29.683888
         },
         {
-          "x": 52.442173,
-          "y": 29.727799
+          "x": 52.466179,
+          "y": 29.683323
         },
         {
-          "x": 52.44119,
-          "y": 29.729407
+          "x": 52.465523,
+          "y": 29.683045
         },
         {
-          "x": 52.440684,
-          "y": 29.730235
+          "x": 52.46498,
+          "y": 29.682799
         },
         {
-          "x": 52.439365,
-          "y": 29.732419
+          "x": 52.462834,
+          "y": 29.681868
         },
         {
-          "x": 52.439051,
-          "y": 29.732948
+          "x": 52.462205,
+          "y": 29.681584
         },
         {
-          "x": 52.438972,
-          "y": 29.73308
+          "x": 52.461637,
+          "y": 29.681345
         },
         {
-          "x": 52.43872,
-          "y": 29.733487
+          "x": 52.461082,
+          "y": 29.681088
         },
         {
-          "x": 52.437657,
-          "y": 29.735228
+          "x": 52.459131,
+          "y": 29.680241
+        },
+        {
+          "x": 52.45856,
+          "y": 29.67999
         }
       ],
       "segments": [
         {
-          "fromNode": 331933514,
-          "ID": 433525122,
-          "toNode": 284538633,
+          "fromNode": 283150923,
+          "ID": 359013265,
+          "toNode": 283150821,
           "isForward": true
         },
         {
-          "fromNode": 284538633,
-          "ID": 361194029,
-          "toNode": 220831524,
+          "fromNode": 283150821,
+          "ID": 359013128,
+          "toNode": 283150839,
           "isForward": true
         },
         {
-          "fromNode": 220831524,
-          "ID": 263537840,
-          "toNode": 220831517,
+          "fromNode": 283150839,
+          "ID": 359013139,
+          "toNode": 283150846,
           "isForward": true
         },
         {
-          "fromNode": 220831517,
-          "ID": 471669497,
-          "toNode": 355905459,
+          "fromNode": 283150846,
+          "ID": 390862839,
+          "toNode": 303699408,
           "isForward": true
         },
         {
-          "fromNode": 355905459,
-          "ID": 471669498,
-          "toNode": 284067212,
+          "fromNode": 303699408,
+          "ID": 390862862,
+          "toNode": 283150772,
           "isForward": true
         },
         {
-          "fromNode": 284067212,
-          "ID": 363072837,
-          "toNode": 285659524,
+          "fromNode": 283150772,
+          "ID": 359013013,
+          "toNode": 283150726,
           "isForward": true
         },
         {
-          "fromNode": 285659524,
-          "ID": 418908439,
-          "toNode": 322212990,
+          "fromNode": 283150726,
+          "ID": 359012965,
+          "toNode": 283150742,
+          "isForward": true
+        },
+        {
+          "fromNode": 283150742,
+          "ID": 359012966,
+          "toNode": 283150605,
+          "isForward": true
+        },
+        {
+          "fromNode": 283150605,
+          "ID": 359012752,
+          "toNode": 283150562,
           "isForward": true
         }
       ],
       "causeAlert": null,
-      "locationY": 29.727239,
-      "locationX": 52.442548,
-      "updateMillis": 1786652233019,
+      "locationY": 29.683888,
+      "locationX": 52.46746,
+      "updateMillis": 1786661843665,
       "blockUpdate": null
     },
     {
@@ -4449,492 +3906,8 @@
       },
       "locationY": 29.70228,
       "locationX": 52.458243,
-      "updateMillis": 1786652232966,
+      "updateMillis": 1786661843665,
       "blockUpdate": 1784257914961
-    },
-    {
-      "id": 1813133318,
-      "street": "Rajaei Blvd - بلوار رجایی",
-      "city": "شیراز",
-      "country": null,
-      "level": 2,
-      "length": 918,
-      "speed": 6.9222222222222225,
-      "endNode": "Andisheh Blvd - بلوار اندیشه",
-      "line": [
-        {
-          "x": 52.455354,
-          "y": 29.668735
-        },
-        {
-          "x": 52.455541,
-          "y": 29.667058
-        },
-        {
-          "x": 52.45569,
-          "y": 29.665883
-        },
-        {
-          "x": 52.45571,
-          "y": 29.66481
-        },
-        {
-          "x": 52.455722,
-          "y": 29.664652
-        },
-        {
-          "x": 52.455778,
-          "y": 29.664063
-        },
-        {
-          "x": 52.455798,
-          "y": 29.663811
-        },
-        {
-          "x": 52.455821,
-          "y": 29.663535
-        },
-        {
-          "x": 52.456183,
-          "y": 29.660506
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 283128213,
-          "ID": 358977799,
-          "toNode": 265035094,
-          "isForward": true
-        },
-        {
-          "fromNode": 265035094,
-          "ID": 358977715,
-          "toNode": 265241212,
-          "isForward": true
-        },
-        {
-          "fromNode": 265241212,
-          "ID": 330729301,
-          "toNode": 265038488,
-          "isForward": true
-        },
-        {
-          "fromNode": 265038488,
-          "ID": 344925590,
-          "toNode": 274161891,
-          "isForward": true
-        },
-        {
-          "fromNode": 274161891,
-          "ID": 434221770,
-          "toNode": 332413093,
-          "isForward": true
-        },
-        {
-          "fromNode": 332413093,
-          "ID": 434221771,
-          "toNode": 265038648,
-          "isForward": true
-        },
-        {
-          "fromNode": 265038648,
-          "ID": 330416177,
-          "toNode": 265038693,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 29.668735,
-      "locationX": 52.455354,
-      "updateMillis": 1786652232955,
-      "blockUpdate": null
-    },
-    {
-      "id": 1811599676,
-      "street": "Vokala - وکلا",
-      "city": "شیراز",
-      "country": null,
-      "level": 2,
-      "length": 1258,
-      "speed": 4.236111111111111,
-      "endNode": "24th Vokala - وکلا بیست و چهارم",
-      "line": [
-        {
-          "x": 52.465623,
-          "y": 29.641473
-        },
-        {
-          "x": 52.465923,
-          "y": 29.64178
-        },
-        {
-          "x": 52.46634,
-          "y": 29.642238
-        },
-        {
-          "x": 52.467328,
-          "y": 29.643369
-        },
-        {
-          "x": 52.46764,
-          "y": 29.643722
-        },
-        {
-          "x": 52.467992,
-          "y": 29.644104
-        },
-        {
-          "x": 52.468494,
-          "y": 29.644596
-        },
-        {
-          "x": 52.469047,
-          "y": 29.645003
-        },
-        {
-          "x": 52.469239,
-          "y": 29.645128
-        },
-        {
-          "x": 52.469604,
-          "y": 29.645326
-        },
-        {
-          "x": 52.469963,
-          "y": 29.645475
-        },
-        {
-          "x": 52.47199,
-          "y": 29.64648
-        },
-        {
-          "x": 52.472381,
-          "y": 29.646721
-        },
-        {
-          "x": 52.474293,
-          "y": 29.648445
-        },
-        {
-          "x": 52.474553,
-          "y": 29.64867
-        },
-        {
-          "x": 52.475092,
-          "y": 29.649064
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 279755260,
-          "ID": 359020239,
-          "toNode": 275559613,
-          "isForward": true
-        },
-        {
-          "fromNode": 275559613,
-          "ID": 359020290,
-          "toNode": 220137521,
-          "isForward": true
-        },
-        {
-          "fromNode": 220137521,
-          "ID": 359020432,
-          "toNode": 220137928,
-          "isForward": true
-        },
-        {
-          "fromNode": 220137928,
-          "ID": 262483840,
-          "toNode": 220137930,
-          "isForward": true
-        },
-        {
-          "fromNode": 220137930,
-          "ID": 262483841,
-          "toNode": 219279529,
-          "isForward": true
-        },
-        {
-          "fromNode": 219279529,
-          "ID": 345148055,
-          "toNode": 220147323,
-          "isForward": true
-        },
-        {
-          "fromNode": 220147323,
-          "ID": 345466231,
-          "toNode": 274503038,
-          "isForward": true
-        },
-        {
-          "fromNode": 274503038,
-          "ID": 345466233,
-          "toNode": 219279414,
-          "isForward": true
-        },
-        {
-          "fromNode": 219279414,
-          "ID": 389466453,
-          "toNode": 302826379,
-          "isForward": true
-        },
-        {
-          "fromNode": 302826379,
-          "ID": 261147368,
-          "toNode": 219279379,
-          "isForward": true
-        },
-        {
-          "fromNode": 219279379,
-          "ID": 262497521,
-          "toNode": 220147284,
-          "isForward": true
-        },
-        {
-          "fromNode": 220147284,
-          "ID": 365109806,
-          "toNode": 287069882,
-          "isForward": true
-        },
-        {
-          "fromNode": 287069882,
-          "ID": 365109807,
-          "toNode": 219962847,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 29.641473,
-      "locationX": 52.465623,
-      "updateMillis": 1786652232834,
-      "blockUpdate": null
-    },
-    {
-      "id": 1805084698,
-      "street": "Kasaei Blvd - بلوار کسایی",
-      "city": "شیراز",
-      "country": null,
-      "level": 4,
-      "length": 788,
-      "speed": 1.4527777777777777,
-      "endNode": "16th Kasaei - کسایی شانزدهم",
-      "line": [
-        {
-          "x": 52.456907,
-          "y": 29.66258
-        },
-        {
-          "x": 52.456965,
-          "y": 29.662707
-        },
-        {
-          "x": 52.457389,
-          "y": 29.663602
-        },
-        {
-          "x": 52.457713,
-          "y": 29.664303
-        },
-        {
-          "x": 52.458201,
-          "y": 29.665375
-        },
-        {
-          "x": 52.458783,
-          "y": 29.666617
-        },
-        {
-          "x": 52.459616,
-          "y": 29.668431
-        },
-        {
-          "x": 52.459676,
-          "y": 29.668558
-        },
-        {
-          "x": 52.459955,
-          "y": 29.669168
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 272264183,
-          "ID": 353384303,
-          "toNode": 279449095,
-          "isForward": true
-        },
-        {
-          "fromNode": 279449095,
-          "ID": 358777845,
-          "toNode": 282994924,
-          "isForward": true
-        },
-        {
-          "fromNode": 282994924,
-          "ID": 358777846,
-          "toNode": 220507151,
-          "isForward": true
-        },
-        {
-          "fromNode": 220507151,
-          "ID": 263043203,
-          "toNode": 220507153,
-          "isForward": false
-        },
-        {
-          "fromNode": 220507153,
-          "ID": 332707976,
-          "toNode": 266495240,
-          "isForward": false
-        },
-        {
-          "fromNode": 266495240,
-          "ID": 336815881,
-          "toNode": 269056618,
-          "isForward": false
-        },
-        {
-          "fromNode": 269056618,
-          "ID": 358672568,
-          "toNode": 282928267,
-          "isForward": true
-        },
-        {
-          "fromNode": 282928267,
-          "ID": 358672569,
-          "toNode": 282928254,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 29.66258,
-      "locationX": 52.456907,
-      "updateMillis": 1786652232803,
-      "blockUpdate": null
-    },
-    {
-      "id": 1801995916,
-      "street": "Shariati Blvd - بلوار شریعتی",
-      "city": "شیراز",
-      "country": null,
-      "level": 4,
-      "length": 1133,
-      "speed": 1.725,
-      "endNode": "",
-      "line": [
-        {
-          "x": 52.473308,
-          "y": 29.686409
-        },
-        {
-          "x": 52.472904,
-          "y": 29.686283
-        },
-        {
-          "x": 52.472194,
-          "y": 29.685999
-        },
-        {
-          "x": 52.46966,
-          "y": 29.684867
-        },
-        {
-          "x": 52.468621,
-          "y": 29.684409
-        },
-        {
-          "x": 52.467914,
-          "y": 29.6841
-        },
-        {
-          "x": 52.46746,
-          "y": 29.683888
-        },
-        {
-          "x": 52.466179,
-          "y": 29.683323
-        },
-        {
-          "x": 52.465523,
-          "y": 29.683045
-        },
-        {
-          "x": 52.46498,
-          "y": 29.682799
-        },
-        {
-          "x": 52.462834,
-          "y": 29.681868
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 283151195,
-          "ID": 365685503,
-          "toNode": 287441033,
-          "isForward": true
-        },
-        {
-          "fromNode": 287441033,
-          "ID": 365685504,
-          "toNode": 283151120,
-          "isForward": true
-        },
-        {
-          "fromNode": 283151120,
-          "ID": 367851167,
-          "toNode": 288846742,
-          "isForward": true
-        },
-        {
-          "fromNode": 288846742,
-          "ID": 367851168,
-          "toNode": 283150966,
-          "isForward": true
-        },
-        {
-          "fromNode": 283150966,
-          "ID": 359013337,
-          "toNode": 283150926,
-          "isForward": true
-        },
-        {
-          "fromNode": 283150926,
-          "ID": 359013270,
-          "toNode": 283150923,
-          "isForward": true
-        },
-        {
-          "fromNode": 283150923,
-          "ID": 359013265,
-          "toNode": 283150821,
-          "isForward": true
-        },
-        {
-          "fromNode": 283150821,
-          "ID": 359013128,
-          "toNode": 283150839,
-          "isForward": true
-        },
-        {
-          "fromNode": 283150839,
-          "ID": 359013139,
-          "toNode": 283150846,
-          "isForward": true
-        },
-        {
-          "fromNode": 283150846,
-          "ID": 390862839,
-          "toNode": 303699408,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 29.686409,
-      "locationX": 52.473308,
-      "updateMillis": 1786652232757,
-      "blockUpdate": null
     },
     {
       "id": 1691103758,
@@ -5000,7 +3973,7 @@
       },
       "locationY": 29.703282,
       "locationX": 52.457885,
-      "updateMillis": 1786652232750,
+      "updateMillis": 1786661843576,
       "blockUpdate": 1784257883930
     },
     {
@@ -5067,8 +4040,68 @@
       },
       "locationY": 29.703508,
       "locationX": 52.457504,
-      "updateMillis": 1786652232747,
+      "updateMillis": 1786661843561,
       "blockUpdate": 1784257859054
+    },
+    {
+      "id": 1691084658,
+      "street": "Abasaleh Blvd - بلوار اباصالح",
+      "city": "کیان آباد {قره باغ}",
+      "country": "IR",
+      "level": 5,
+      "length": 82,
+      "speed": 0,
+      "endNode": "Qaem - قائم",
+      "line": [
+        {
+          "x": 52.467949,
+          "y": 29.547356
+        },
+        {
+          "x": 52.468546,
+          "y": 29.546829
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 283007080,
+          "ID": 479443782,
+          "toNode": 360562402,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "کیان آباد {قره باغ}",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 6,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 283007080,
+        "uuid": "06760f1a-1363-475b-8405-43248eace54f",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 2,
+        "magvar": 135,
+        "subtype": "",
+        "street": "Abasaleh Blvd - بلوار اباصالح",
+        "additionalInfo": "",
+        "wazeData": "world,52.467949800083474,29.547356005411395,06760f1a-1363-475b-8405-43248eace54f",
+        "toNodeId": 360562402,
+        "reportDescription": "",
+        "location": {
+          "x": 52.467949,
+          "y": 29.547356
+        },
+        "id": "alert-1618132422/06760f1a-1363-475b-8405-43248eace54f",
+        "pubMillis": 1782730957000
+      },
+      "locationY": 29.547356,
+      "locationX": 52.467949,
+      "updateMillis": 1786661843533,
+      "blockUpdate": 1782730957781
     },
     {
       "id": 1859483104,
@@ -5131,261 +4164,8 @@
       },
       "locationY": 29.589608,
       "locationX": 52.505368,
-      "updateMillis": 1786652232738,
+      "updateMillis": 1786661843521,
       "blockUpdate": 1773752421130
-    },
-    {
-      "id": 1691084658,
-      "street": "Abasaleh Blvd - بلوار اباصالح",
-      "city": "کیان آباد {قره باغ}",
-      "country": "IR",
-      "level": 5,
-      "length": 82,
-      "speed": 0,
-      "endNode": "Qaem - قائم",
-      "line": [
-        {
-          "x": 52.467949,
-          "y": 29.547356
-        },
-        {
-          "x": 52.468546,
-          "y": 29.546829
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 283007080,
-          "ID": 479443782,
-          "toNode": 360562402,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "کیان آباد {قره باغ}",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 0,
-        "reliability": 6,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 283007080,
-        "uuid": "06760f1a-1363-475b-8405-43248eace54f",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 2,
-        "magvar": 135,
-        "subtype": "",
-        "street": "Abasaleh Blvd - بلوار اباصالح",
-        "additionalInfo": "",
-        "wazeData": "world,52.467949800083474,29.547356005411395,06760f1a-1363-475b-8405-43248eace54f",
-        "toNodeId": 360562402,
-        "reportDescription": "",
-        "location": {
-          "x": 52.467949,
-          "y": 29.547356
-        },
-        "id": "alert-1618132422/06760f1a-1363-475b-8405-43248eace54f",
-        "pubMillis": 1782730957000
-      },
-      "locationY": 29.547356,
-      "locationX": 52.467949,
-      "updateMillis": 1786652232726,
-      "blockUpdate": 1782730957781
-    },
-    {
-      "id": 1813027622,
-      "street": "Afif Abad - عفیف آباد",
-      "city": "شیراز",
-      "country": null,
-      "level": 3,
-      "length": 761,
-      "speed": 3.216666666666667,
-      "endNode": "SatarKhan Blvd - بلوار ستارخان",
-      "line": [
-        {
-          "x": 52.508676,
-          "y": 29.628528
-        },
-        {
-          "x": 52.508116,
-          "y": 29.628237
-        },
-        {
-          "x": 52.507592,
-          "y": 29.627962
-        },
-        {
-          "x": 52.507479,
-          "y": 29.627906
-        },
-        {
-          "x": 52.507171,
-          "y": 29.627749
-        },
-        {
-          "x": 52.507043,
-          "y": 29.62768
-        },
-        {
-          "x": 52.506715,
-          "y": 29.627515
-        },
-        {
-          "x": 52.506465,
-          "y": 29.627391
-        },
-        {
-          "x": 52.50606,
-          "y": 29.627191
-        },
-        {
-          "x": 52.505816,
-          "y": 29.627062
-        },
-        {
-          "x": 52.505041,
-          "y": 29.626653
-        },
-        {
-          "x": 52.504835,
-          "y": 29.626552
-        },
-        {
-          "x": 52.504643,
-          "y": 29.626453
-        },
-        {
-          "x": 52.504244,
-          "y": 29.626246
-        },
-        {
-          "x": 52.504134,
-          "y": 29.626186
-        },
-        {
-          "x": 52.503866,
-          "y": 29.626042
-        },
-        {
-          "x": 52.503581,
-          "y": 29.625895
-        },
-        {
-          "x": 52.501926,
-          "y": 29.625036
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 219952853,
-          "ID": 262193188,
-          "toNode": 219952851,
-          "isForward": false
-        },
-        {
-          "fromNode": 219952851,
-          "ID": 262193185,
-          "toNode": 219952849,
-          "isForward": false
-        },
-        {
-          "fromNode": 219952849,
-          "ID": 344021954,
-          "toNode": 273592723,
-          "isForward": false
-        },
-        {
-          "fromNode": 273592723,
-          "ID": 344823175,
-          "toNode": 274098397,
-          "isForward": true
-        },
-        {
-          "fromNode": 274098397,
-          "ID": 344823177,
-          "toNode": 219952845,
-          "isForward": false
-        },
-        {
-          "fromNode": 219952845,
-          "ID": 262193172,
-          "toNode": 219952835,
-          "isForward": false
-        },
-        {
-          "fromNode": 219952835,
-          "ID": 344747105,
-          "toNode": 274051477,
-          "isForward": false
-        },
-        {
-          "fromNode": 274051477,
-          "ID": 344747104,
-          "toNode": 219952834,
-          "isForward": false
-        },
-        {
-          "fromNode": 219952834,
-          "ID": 262193150,
-          "toNode": 219951517,
-          "isForward": false
-        },
-        {
-          "fromNode": 219951517,
-          "ID": 262193148,
-          "toNode": 219952832,
-          "isForward": false
-        },
-        {
-          "fromNode": 219952832,
-          "ID": 262193147,
-          "toNode": 219951519,
-          "isForward": false
-        },
-        {
-          "fromNode": 219951519,
-          "ID": 344756676,
-          "toNode": 274057337,
-          "isForward": false
-        },
-        {
-          "fromNode": 274057337,
-          "ID": 344756675,
-          "toNode": 219951579,
-          "isForward": false
-        },
-        {
-          "fromNode": 219951579,
-          "ID": 336817943,
-          "toNode": 219951547,
-          "isForward": false
-        },
-        {
-          "fromNode": 219951547,
-          "ID": 336817942,
-          "toNode": 219951548,
-          "isForward": false
-        },
-        {
-          "fromNode": 219951548,
-          "ID": 336817940,
-          "toNode": 219951561,
-          "isForward": false
-        },
-        {
-          "fromNode": 219951561,
-          "ID": 262191116,
-          "toNode": 219951545,
-          "isForward": false
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 29.628528,
-      "locationX": 52.508676,
-      "updateMillis": 1786652232648,
-      "blockUpdate": null
     },
     {
       "id": 1691119538,
@@ -5462,7 +4242,7 @@
       },
       "locationY": 29.614075,
       "locationX": 52.570179,
-      "updateMillis": 1786652232620,
+      "updateMillis": 1786661843428,
       "blockUpdate": 1697305083769
     },
     {
@@ -5522,460 +4302,18 @@
       },
       "locationY": 29.613421,
       "locationX": 52.558632,
-      "updateMillis": 1786652232615,
+      "updateMillis": 1786661843245,
       "blockUpdate": 1782620549169
-    },
-    {
-      "id": 1812996552,
-      "street": "Rabani Shirazi Blvd - بلوار ربانی شیرازی",
-      "city": "شیراز",
-      "country": null,
-      "level": 3,
-      "length": 590,
-      "speed": 3.7527777777777778,
-      "endNode": "",
-      "line": [
-        {
-          "x": 52.561291,
-          "y": 29.634704
-        },
-        {
-          "x": 52.561046,
-          "y": 29.634541
-        },
-        {
-          "x": 52.560528,
-          "y": 29.634277
-        },
-        {
-          "x": 52.559709,
-          "y": 29.634005
-        },
-        {
-          "x": 52.556086,
-          "y": 29.632987
-        },
-        {
-          "x": 52.5556,
-          "y": 29.632912
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 219351972,
-          "ID": 261258009,
-          "toNode": 207171507,
-          "isForward": true
-        },
-        {
-          "fromNode": 207171507,
-          "ID": 242127935,
-          "toNode": 283267764,
-          "isForward": true
-        },
-        {
-          "fromNode": 283267764,
-          "ID": 365558699,
-          "toNode": 287359365,
-          "isForward": true
-        },
-        {
-          "fromNode": 287359365,
-          "ID": 365558700,
-          "toNode": 284219175,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 29.634704,
-      "locationX": 52.561291,
-      "updateMillis": 1786652118589,
-      "blockUpdate": null
-    },
-    {
-      "id": 1813039274,
-      "street": "Pasdaran Blvd - بلوار پاسداران",
-      "city": "شیراز",
-      "country": null,
-      "level": 2,
-      "length": 1370,
-      "speed": 7.480555555555555,
-      "endNode": "Mahalati S Blvd - بلوار محلاتی جنوبی",
-      "line": [
-        {
-          "x": 52.484365,
-          "y": 29.621737
-        },
-        {
-          "x": 52.483399,
-          "y": 29.62258
-        },
-        {
-          "x": 52.482442,
-          "y": 29.623393
-        },
-        {
-          "x": 52.480742,
-          "y": 29.624869
-        },
-        {
-          "x": 52.478866,
-          "y": 29.626537
-        },
-        {
-          "x": 52.478082,
-          "y": 29.627276
-        },
-        {
-          "x": 52.476759,
-          "y": 29.628435
-        },
-        {
-          "x": 52.475919,
-          "y": 29.629168
-        },
-        {
-          "x": 52.475045,
-          "y": 29.62994
-        },
-        {
-          "x": 52.474391,
-          "y": 29.630522
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 220111026,
-          "ID": 262440494,
-          "toNode": 220111079,
-          "isForward": false
-        },
-        {
-          "fromNode": 220111079,
-          "ID": 358985525,
-          "toNode": 220108670,
-          "isForward": false
-        },
-        {
-          "fromNode": 220108670,
-          "ID": 358985451,
-          "toNode": 220108668,
-          "isForward": false
-        },
-        {
-          "fromNode": 220108668,
-          "ID": 358985386,
-          "toNode": 219271281,
-          "isForward": false
-        },
-        {
-          "fromNode": 219271281,
-          "ID": 262436937,
-          "toNode": 220108750,
-          "isForward": false
-        },
-        {
-          "fromNode": 220108750,
-          "ID": 358985283,
-          "toNode": 219271976,
-          "isForward": false
-        },
-        {
-          "fromNode": 219271976,
-          "ID": 358985046,
-          "toNode": 219276619,
-          "isForward": true
-        },
-        {
-          "fromNode": 219276619,
-          "ID": 358984794,
-          "toNode": 219271911,
-          "isForward": false
-        },
-        {
-          "fromNode": 219271911,
-          "ID": 330417346,
-          "toNode": 265039386,
-          "isForward": false
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 29.621737,
-      "locationX": 52.484365,
-      "updateMillis": 1786652118107,
-      "blockUpdate": null
-    },
-    {
-      "id": 1812752404,
-      "street": "Parastar Blvd - بلوار پرستار",
-      "city": "شیراز",
-      "country": null,
-      "level": 2,
-      "length": 998,
-      "speed": 6.477777777777778,
-      "endNode": "Hoseinial Hashemi Hwy - بزرگراه حسینی الهاشمی",
-      "line": [
-        {
-          "x": 52.452268,
-          "y": 29.680289
-        },
-        {
-          "x": 52.452196,
-          "y": 29.680455
-        },
-        {
-          "x": 52.451013,
-          "y": 29.682685
-        },
-        {
-          "x": 52.45073,
-          "y": 29.68317
-        },
-        {
-          "x": 52.450543,
-          "y": 29.683445
-        },
-        {
-          "x": 52.449784,
-          "y": 29.68434
-        },
-        {
-          "x": 52.448621,
-          "y": 29.68567
-        },
-        {
-          "x": 52.448286,
-          "y": 29.68605
-        },
-        {
-          "x": 52.447171,
-          "y": 29.687313
-        },
-        {
-          "x": 52.446964,
-          "y": 29.687572
-        },
-        {
-          "x": 52.446788,
-          "y": 29.687879
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 283805462,
-          "ID": 360044502,
-          "toNode": 219277546,
-          "isForward": false
-        },
-        {
-          "fromNode": 219277546,
-          "ID": 330411376,
-          "toNode": 265035829,
-          "isForward": true
-        },
-        {
-          "fromNode": 265035829,
-          "ID": 330411377,
-          "toNode": 219278314,
-          "isForward": true
-        },
-        {
-          "fromNode": 219278314,
-          "ID": 331866026,
-          "toNode": 265960573,
-          "isForward": true
-        },
-        {
-          "fromNode": 265960573,
-          "ID": 331866027,
-          "toNode": 220521619,
-          "isForward": true
-        },
-        {
-          "fromNode": 220521619,
-          "ID": 263064289,
-          "toNode": 220521625,
-          "isForward": true
-        },
-        {
-          "fromNode": 220521625,
-          "ID": 263064370,
-          "toNode": 220521671,
-          "isForward": true
-        },
-        {
-          "fromNode": 220521671,
-          "ID": 263064371,
-          "toNode": 219278000,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 29.680289,
-      "locationX": 52.452268,
-      "updateMillis": 1786652117368,
-      "blockUpdate": null
-    },
-    {
-      "id": 1812760418,
-      "street": "67, بلوار دکتر حسابی",
-      "city": "شیراز",
-      "country": null,
-      "level": 3,
-      "length": 1216,
-      "speed": 4.522222222222222,
-      "endNode": "22nd Dr. Hesabi - دکتر حسابی بیست و دوم",
-      "line": [
-        {
-          "x": 52.458504,
-          "y": 29.702422
-        },
-        {
-          "x": 52.458379,
-          "y": 29.702561
-        },
-        {
-          "x": 52.458078,
-          "y": 29.702971
-        },
-        {
-          "x": 52.457885,
-          "y": 29.703282
-        },
-        {
-          "x": 52.457759,
-          "y": 29.703503
-        },
-        {
-          "x": 52.457706,
-          "y": 29.703591
-        },
-        {
-          "x": 52.45742,
-          "y": 29.704069
-        },
-        {
-          "x": 52.457328,
-          "y": 29.704221
-        },
-        {
-          "x": 52.456655,
-          "y": 29.705278
-        },
-        {
-          "x": 52.455739,
-          "y": 29.706698
-        },
-        {
-          "x": 52.45522,
-          "y": 29.707594
-        },
-        {
-          "x": 52.454336,
-          "y": 29.709117
-        },
-        {
-          "x": 52.453598,
-          "y": 29.710389
-        },
-        {
-          "x": 52.45309,
-          "y": 29.711264
-        },
-        {
-          "x": 52.452604,
-          "y": 29.712101
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 220522382,
-          "ID": 263065344,
-          "toNode": 220522342,
-          "isForward": true
-        },
-        {
-          "fromNode": 220522342,
-          "ID": 263067490,
-          "toNode": 220523782,
-          "isForward": true
-        },
-        {
-          "fromNode": 220523782,
-          "ID": 263067491,
-          "toNode": 220522361,
-          "isForward": true
-        },
-        {
-          "fromNode": 220522361,
-          "ID": 263067495,
-          "toNode": 220523784,
-          "isForward": true
-        },
-        {
-          "fromNode": 220523784,
-          "ID": 458828064,
-          "toNode": 348211699,
-          "isForward": true
-        },
-        {
-          "fromNode": 348211699,
-          "ID": 458828065,
-          "toNode": 220522377,
-          "isForward": true
-        },
-        {
-          "fromNode": 220522377,
-          "ID": 263065346,
-          "toNode": 220522384,
-          "isForward": true
-        },
-        {
-          "fromNode": 220522384,
-          "ID": 263065347,
-          "toNode": 219710620,
-          "isForward": true
-        },
-        {
-          "fromNode": 219710620,
-          "ID": 261813808,
-          "toNode": 219710628,
-          "isForward": true
-        },
-        {
-          "fromNode": 219710628,
-          "ID": 263065741,
-          "toNode": 220522623,
-          "isForward": true
-        },
-        {
-          "fromNode": 220522623,
-          "ID": 263065750,
-          "toNode": 220522629,
-          "isForward": true
-        },
-        {
-          "fromNode": 220522629,
-          "ID": 263065760,
-          "toNode": 220522635,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 29.702422,
-      "locationX": 52.458504,
-      "updateMillis": 1786652117080,
-      "blockUpdate": null
     }
   ],
   "meta": {
     "alerts_count": 47,
-    "jams_count": 62,
+    "jams_count": 48,
     "jams_interval_min": 120,
     "alerts_interval_min": 720
   },
   "schedule": {
-    "last_jams_update": "2026-08-13T20:18:00.474110Z",
+    "last_jams_update": "2026-08-13T22:59:16.830362Z",
     "last_alerts_update": "2026-08-13T18:11:23.190317Z"
   }
 }

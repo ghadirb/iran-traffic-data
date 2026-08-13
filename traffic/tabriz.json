@@ -1,7 +1,7 @@
 {
   "region": "tabriz",
   "name": "تبریز",
-  "updated_at": "2026-08-13T20:18:02.858546Z",
+  "updated_at": "2026-08-13T22:59:18.862819Z",
   "status": "ok",
   "alerts": [
     {
@@ -247,8 +247,68 @@
       },
       "locationY": 38.080258,
       "locationX": 46.281775,
-      "updateMillis": 1786652216471,
+      "updateMillis": 1786661903630,
       "blockUpdate": 1755926202833
+    },
+    {
+      "id": 1688298254,
+      "street": "Akhoni - آخونی",
+      "city": "تبریز",
+      "country": "IR",
+      "level": 5,
+      "length": 30,
+      "speed": 0,
+      "endNode": "",
+      "line": [
+        {
+          "x": 46.256777,
+          "y": 38.081648
+        },
+        {
+          "x": 46.257112,
+          "y": 38.081595
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 297284305,
+          "ID": 380918516,
+          "toNode": 270154748,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "تبریز",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 5,
+        "reliability": 10,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 297284305,
+        "uuid": "bee863af-f34f-4875-9381-b88f3a2cf421",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 2,
+        "magvar": 101,
+        "subtype": "",
+        "street": "Akhoni - آخونی",
+        "additionalInfo": "",
+        "wazeData": "world,46.25677791241305,38.081648431346345,bee863af-f34f-4875-9381-b88f3a2cf421",
+        "toNodeId": 270154748,
+        "reportDescription": "",
+        "location": {
+          "x": 46.256777,
+          "y": 38.081648
+        },
+        "id": "alert-1839561950/bee863af-f34f-4875-9381-b88f3a2cf421",
+        "pubMillis": 1727773325000
+      },
+      "locationY": 38.081648,
+      "locationX": 46.256777,
+      "updateMillis": 1786661903448,
+      "blockUpdate": 1727773325278
     },
     {
       "id": 1642603036,
@@ -322,128 +382,8 @@
       },
       "locationY": 38.029604,
       "locationX": 46.450085,
-      "updateMillis": 1786652216222,
+      "updateMillis": 1786661903426,
       "blockUpdate": 1779816238161
-    },
-    {
-      "id": 1688298254,
-      "street": "Akhoni - آخونی",
-      "city": "تبریز",
-      "country": "IR",
-      "level": 5,
-      "length": 30,
-      "speed": 0,
-      "endNode": "",
-      "line": [
-        {
-          "x": 46.256777,
-          "y": 38.081648
-        },
-        {
-          "x": 46.257112,
-          "y": 38.081595
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 297284305,
-          "ID": 380918516,
-          "toNode": 270154748,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "تبریز",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 5,
-        "reliability": 10,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 297284305,
-        "uuid": "bee863af-f34f-4875-9381-b88f3a2cf421",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 2,
-        "magvar": 101,
-        "subtype": "",
-        "street": "Akhoni - آخونی",
-        "additionalInfo": "",
-        "wazeData": "world,46.25677791241305,38.081648431346345,bee863af-f34f-4875-9381-b88f3a2cf421",
-        "toNodeId": 270154748,
-        "reportDescription": "",
-        "location": {
-          "x": 46.256777,
-          "y": 38.081648
-        },
-        "id": "alert-1839561950/bee863af-f34f-4875-9381-b88f3a2cf421",
-        "pubMillis": 1727773325000
-      },
-      "locationY": 38.081648,
-      "locationX": 46.256777,
-      "updateMillis": 1786652216133,
-      "blockUpdate": 1727773325278
-    },
-    {
-      "id": 1642504972,
-      "street": "Akhoni - آخونی",
-      "city": "تبریز",
-      "country": "IR",
-      "level": 5,
-      "length": 30,
-      "speed": 0,
-      "endNode": "1st Khaneh Kargar - خانه کارگر یکم",
-      "line": [
-        {
-          "x": 46.257112,
-          "y": 38.081595
-        },
-        {
-          "x": 46.256777,
-          "y": 38.081648
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 270154748,
-          "ID": 380918516,
-          "toNode": 297284305,
-          "isForward": false
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "تبریز",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 5,
-        "reliability": 10,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 270154748,
-        "uuid": "83783913-3a22-486e-b6ca-300880c90d66",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 2,
-        "magvar": 281,
-        "subtype": "",
-        "street": "Akhoni - آخونی",
-        "additionalInfo": "",
-        "wazeData": "world,46.25711250215345,38.08159544437568,83783913-3a22-486e-b6ca-300880c90d66",
-        "toNodeId": 297284305,
-        "reportDescription": "",
-        "location": {
-          "x": 46.257112,
-          "y": 38.081595
-        },
-        "id": "alert-1839453634/83783913-3a22-486e-b6ca-300880c90d66",
-        "pubMillis": 1727773325000
-      },
-      "locationY": 38.081595,
-      "locationX": 46.257112,
-      "updateMillis": 1786652215578,
-      "blockUpdate": 1727773325339
     },
     {
       "id": 1642548238,
@@ -521,124 +461,68 @@
       },
       "locationY": 38.04783,
       "locationX": 46.267145,
-      "updateMillis": 1786652214732,
+      "updateMillis": 1786661903302,
       "blockUpdate": 1759287390887
     },
     {
-      "id": 1813176392,
-      "street": "Razi - رازی",
+      "id": 1642504972,
+      "street": "Akhoni - آخونی",
       "city": "تبریز",
-      "country": null,
-      "level": 2,
-      "length": 171,
-      "speed": 1.4027777777777777,
-      "endNode": "Forughi - فروغی",
+      "country": "IR",
+      "level": 5,
+      "length": 30,
+      "speed": 0,
+      "endNode": "1st Khaneh Kargar - خانه کارگر یکم",
       "line": [
         {
-          "x": 46.35864,
-          "y": 38.060492
+          "x": 46.257112,
+          "y": 38.081595
         },
         {
-          "x": 46.357742,
-          "y": 38.060516
-        },
-        {
-          "x": 46.356694,
-          "y": 38.060539
+          "x": 46.256777,
+          "y": 38.081648
         }
       ],
       "segments": [
         {
-          "fromNode": 188152899,
-          "ID": 270597514,
-          "toNode": 226327454,
-          "isForward": true
-        },
-        {
-          "fromNode": 226327454,
-          "ID": 270597515,
-          "toNode": 271225224,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 38.060492,
-      "locationX": 46.35864,
-      "updateMillis": 1786652214699,
-      "blockUpdate": null
-    },
-    {
-      "id": 1811420684,
-      "street": "Mokhaberat - مخابرات",
-      "city": "تبریز",
-      "country": null,
-      "level": 3,
-      "length": 411,
-      "speed": 2.388888888888889,
-      "endNode": "Saadi S - سعدی جنوبی",
-      "line": [
-        {
-          "x": 46.358712,
-          "y": 38.05663
-        },
-        {
-          "x": 46.359809,
-          "y": 38.05657
-        },
-        {
-          "x": 46.360038,
-          "y": 38.056558
-        },
-        {
-          "x": 46.360855,
-          "y": 38.056504
-        },
-        {
-          "x": 46.3629,
-          "y": 38.056371
-        },
-        {
-          "x": 46.363372,
-          "y": 38.05634
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 272555708,
-          "ID": 342404960,
-          "toNode": 226326990,
-          "isForward": false
-        },
-        {
-          "fromNode": 226326990,
-          "ID": 342404959,
-          "toNode": 226327399,
-          "isForward": false
-        },
-        {
-          "fromNode": 226327399,
-          "ID": 326013002,
-          "toNode": 262354226,
-          "isForward": false
-        },
-        {
-          "fromNode": 262354226,
-          "ID": 342405057,
-          "toNode": 226326997,
-          "isForward": false
-        },
-        {
-          "fromNode": 226326997,
-          "ID": 342405056,
-          "toNode": 188150748,
+          "fromNode": 270154748,
+          "ID": 380918516,
+          "toNode": 297284305,
           "isForward": false
         }
       ],
-      "causeAlert": null,
-      "locationY": 38.05663,
-      "locationX": 46.358712,
-      "updateMillis": 1786652214426,
-      "blockUpdate": null
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "تبریز",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 5,
+        "reliability": 10,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 270154748,
+        "uuid": "83783913-3a22-486e-b6ca-300880c90d66",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 2,
+        "magvar": 281,
+        "subtype": "",
+        "street": "Akhoni - آخونی",
+        "additionalInfo": "",
+        "wazeData": "world,46.25711250215345,38.08159544437568,83783913-3a22-486e-b6ca-300880c90d66",
+        "toNodeId": 297284305,
+        "reportDescription": "",
+        "location": {
+          "x": 46.257112,
+          "y": 38.081595
+        },
+        "id": "alert-1839453634/83783913-3a22-486e-b6ca-300880c90d66",
+        "pubMillis": 1727773325000
+      },
+      "locationY": 38.081595,
+      "locationX": 46.257112,
+      "updateMillis": 1786661902785,
+      "blockUpdate": 1727773325339
     },
     {
       "id": 1767841454,
@@ -705,18 +589,18 @@
       },
       "locationY": 38.048345,
       "locationX": 46.273856,
-      "updateMillis": 1786652213939,
+      "updateMillis": 1786661902590,
       "blockUpdate": 1769396844132
     }
   ],
   "meta": {
     "alerts_count": 8,
-    "jams_count": 8,
+    "jams_count": 6,
     "jams_interval_min": 120,
     "alerts_interval_min": 720
   },
   "schedule": {
-    "last_jams_update": "2026-08-13T20:18:02.858523Z",
+    "last_jams_update": "2026-08-13T22:59:18.862798Z",
     "last_alerts_update": "2026-08-13T18:11:26.758061Z"
   }
 }
