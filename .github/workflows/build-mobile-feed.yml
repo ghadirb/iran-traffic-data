@@ -1,0 +1,36 @@
+name: Build Android Traffic Feed
+
+on:
+  schedule:
+    # Five minutes after the Waze snapshot workflow, every 10 minutes.
+    - cron: '5-59/10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Build compact Android feed
+        run: python scripts/build_mobile_feed.py
+      - name: Commit mobile feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add mobile/*.json
+          if git diff --staged --quiet; then
+            echo "No mobile feed changes"
+          else
+            git commit -m "chore: refresh compact Android traffic feed"
+            git pull --rebase origin main || git pull --rebase --autostash origin main
+            git push origin main
+          fi
