@@ -1,18 +1,130 @@
 {
   "region": "urmia",
   "name": "ارومیه",
-  "updated_at": "2026-08-14T02:08:16.407426Z",
+  "updated_at": "2026-08-14T08:46:34.859765Z",
   "status": "ok",
   "alerts": [],
-  "jams": [],
+  "jams": [
+    {
+      "id": 1870025840,
+      "street": "Darya Rd - جاده دریا",
+      "city": "کردلر {بکشلو چای}",
+      "country": null,
+      "level": 2,
+      "length": 2534,
+      "speed": 8.058333333333334,
+      "endNode": "کردلر {بکشلو چای}",
+      "line": [
+        {
+          "x": 45.226797,
+          "y": 37.571062
+        },
+        {
+          "x": 45.221744,
+          "y": 37.570694
+        },
+        {
+          "x": 45.215788,
+          "y": 37.570183
+        },
+        {
+          "x": 45.212067,
+          "y": 37.569927
+        },
+        {
+          "x": 45.211503,
+          "y": 37.569888
+        },
+        {
+          "x": 45.211106,
+          "y": 37.569861
+        },
+        {
+          "x": 45.21017,
+          "y": 37.569797
+        },
+        {
+          "x": 45.209626,
+          "y": 37.569759
+        },
+        {
+          "x": 45.208523,
+          "y": 37.56957
+        },
+        {
+          "x": 45.205475,
+          "y": 37.568279
+        },
+        {
+          "x": 45.199313,
+          "y": 37.565878
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 297209197,
+          "ID": 380801142,
+          "toNode": 273288330,
+          "isForward": false
+        },
+        {
+          "fromNode": 273288330,
+          "ID": 343549113,
+          "toNode": 273286608,
+          "isForward": true
+        },
+        {
+          "fromNode": 273286608,
+          "ID": 405890104,
+          "toNode": 313808657,
+          "isForward": true
+        },
+        {
+          "fromNode": 313808657,
+          "ID": 405890105,
+          "toNode": 313808649,
+          "isForward": true
+        },
+        {
+          "fromNode": 313808649,
+          "ID": 405890093,
+          "toNode": 313808639,
+          "isForward": true
+        },
+        {
+          "fromNode": 313808639,
+          "ID": 405890082,
+          "toNode": 313808641,
+          "isForward": true
+        },
+        {
+          "fromNode": 313808641,
+          "ID": 405890083,
+          "toNode": 312786303,
+          "isForward": true
+        },
+        {
+          "fromNode": 312786303,
+          "ID": 404361654,
+          "toNode": 285061657,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 37.571062,
+      "locationX": 45.226797,
+      "updateMillis": 1786697090872,
+      "blockUpdate": null
+    }
+  ],
   "meta": {
     "alerts_count": 0,
-    "jams_count": 0,
+    "jams_count": 1,
     "jams_interval_min": 360,
     "alerts_interval_min": 1440
   },
   "schedule": {
-    "last_jams_update": "2026-08-14T02:08:16.407403Z",
+    "last_jams_update": "2026-08-14T08:46:34.859742Z",
     "last_alerts_update": "2026-08-13T18:11:44.591018Z"
   }
 }

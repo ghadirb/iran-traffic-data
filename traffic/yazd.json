@@ -1,7 +1,7 @@
 {
   "region": "yazd",
   "name": "یزد",
-  "updated_at": "2026-08-14T02:08:20.309880Z",
+  "updated_at": "2026-08-14T08:46:39.154610Z",
   "status": "ok",
   "alerts": [
     {
@@ -29,39 +29,6 @@
     }
   ],
   "jams": [
-    {
-      "id": 1851954946,
-      "street": "7th Kowsar - کوثر هفتم",
-      "city": "شحنه",
-      "country": null,
-      "level": 4,
-      "length": 253,
-      "speed": 1.9388888888888889,
-      "endNode": "شحنه",
-      "line": [
-        {
-          "x": 54.243764,
-          "y": 31.84146
-        },
-        {
-          "x": 54.246144,
-          "y": 31.840437
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 285907450,
-          "ID": 363299959,
-          "toNode": 285907463,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 31.84146,
-      "locationX": 54.243764,
-      "updateMillis": 1786673267223,
-      "blockUpdate": null
-    },
     {
       "id": 1691103718,
       "street": "",
@@ -198,8 +165,95 @@
       },
       "locationY": 31.97659,
       "locationX": 54.273328,
-      "updateMillis": 1786673264616,
+      "updateMillis": 1786697179296,
       "blockUpdate": 1723460417433
+    },
+    {
+      "id": 1869645968,
+      "street": "71",
+      "city": "زارچ",
+      "country": null,
+      "level": 3,
+      "length": 1036,
+      "speed": 6.2972222222222225,
+      "endNode": "شهرک صنعتی زارچ",
+      "line": [
+        {
+          "x": 54.25069,
+          "y": 31.995487
+        },
+        {
+          "x": 54.252365,
+          "y": 31.994362
+        },
+        {
+          "x": 54.253264,
+          "y": 31.993876
+        },
+        {
+          "x": 54.25681,
+          "y": 31.991549
+        },
+        {
+          "x": 54.257236,
+          "y": 31.991269
+        },
+        {
+          "x": 54.257954,
+          "y": 31.990757
+        },
+        {
+          "x": 54.258755,
+          "y": 31.990186
+        },
+        {
+          "x": 54.259327,
+          "y": 31.989744
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 276610510,
+          "ID": 348820204,
+          "toNode": 276610666,
+          "isForward": false
+        },
+        {
+          "fromNode": 276610666,
+          "ID": 348820203,
+          "toNode": 224733706,
+          "isForward": false
+        },
+        {
+          "fromNode": 224733706,
+          "ID": 370750435,
+          "toNode": 290671643,
+          "isForward": true
+        },
+        {
+          "fromNode": 290671643,
+          "ID": 373787809,
+          "toNode": 292630262,
+          "isForward": true
+        },
+        {
+          "fromNode": 292630262,
+          "ID": 373787812,
+          "toNode": 276664201,
+          "isForward": true
+        },
+        {
+          "fromNode": 276664201,
+          "ID": 373787816,
+          "toNode": 292630264,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 31.995487,
+      "locationX": 54.25069,
+      "updateMillis": 1786697034041,
+      "blockUpdate": null
     }
   ],
   "meta": {
@@ -209,7 +263,7 @@
     "alerts_interval_min": 1440
   },
   "schedule": {
-    "last_jams_update": "2026-08-14T02:08:20.309858Z",
+    "last_jams_update": "2026-08-14T08:46:39.154588Z",
     "last_alerts_update": "2026-08-13T18:11:51.283746Z"
   }
 }

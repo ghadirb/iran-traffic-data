@@ -1,7 +1,7 @@
 {
   "region": "ahvaz",
   "name": "اهواز",
-  "updated_at": "2026-08-14T02:08:08.527317Z",
+  "updated_at": "2026-08-14T08:46:25.265270Z",
   "status": "ok",
   "alerts": [
     {
@@ -97,61 +97,18 @@
       },
       "locationY": 31.334635,
       "locationX": 48.678496,
-      "updateMillis": 1786673266622,
+      "updateMillis": 1786697181767,
       "blockUpdate": 1707584858106
-    },
-    {
-      "id": 1852383438,
-      "street": "Jomhuri Eslami - جمهوری اسلامی",
-      "city": "اهواز",
-      "country": null,
-      "level": 3,
-      "length": 279,
-      "speed": 1.8611111111111112,
-      "endNode": "Behbahani local lane - کنارگذر بهبهانی",
-      "line": [
-        {
-          "x": 48.680559,
-          "y": 31.304016
-        },
-        {
-          "x": 48.68234,
-          "y": 31.303496
-        },
-        {
-          "x": 48.683332,
-          "y": 31.303194
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 279133516,
-          "ID": 352888604,
-          "toNode": 218775778,
-          "isForward": true
-        },
-        {
-          "fromNode": 218775778,
-          "ID": 352938716,
-          "toNode": 218775785,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 31.304016,
-      "locationX": 48.680559,
-      "updateMillis": 1786673264815,
-      "blockUpdate": null
     }
   ],
   "meta": {
     "alerts_count": 1,
-    "jams_count": 2,
+    "jams_count": 1,
     "jams_interval_min": 360,
     "alerts_interval_min": 1440
   },
   "schedule": {
-    "last_jams_update": "2026-08-14T02:08:08.527294Z",
+    "last_jams_update": "2026-08-14T08:46:25.265244Z",
     "last_alerts_update": "2026-08-13T18:11:29.898926Z"
   }
 }

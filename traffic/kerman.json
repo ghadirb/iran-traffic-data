@@ -1,7 +1,7 @@
 {
   "region": "kerman",
   "name": "کرمان",
-  "updated_at": "2026-08-14T02:08:18.364396Z",
+  "updated_at": "2026-08-14T08:46:37.100629Z",
   "status": "ok",
   "alerts": [],
   "jams": [],
@@ -12,7 +12,7 @@
     "alerts_interval_min": 1440
   },
   "schedule": {
-    "last_jams_update": "2026-08-14T02:08:18.364372Z",
+    "last_jams_update": "2026-08-14T08:46:37.100592Z",
     "last_alerts_update": "2026-08-13T18:11:47.709717Z"
   }
 }

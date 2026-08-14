@@ -1,7 +1,7 @@
 {
   "region": "qom",
   "name": "قم",
-  "updated_at": "2026-08-14T02:08:10.524430Z",
+  "updated_at": "2026-08-14T08:46:27.986712Z",
   "status": "ok",
   "alerts": [
     {
@@ -237,73 +237,6 @@
   ],
   "jams": [
     {
-      "id": 1691038688,
-      "street": "",
-      "city": "قم",
-      "country": "IR",
-      "level": 5,
-      "length": 55,
-      "speed": 0,
-      "endNode": "Kabiri Blvd - بلوار کبیری",
-      "line": [
-        {
-          "x": 50.890337,
-          "y": 34.597858
-        },
-        {
-          "x": 50.890282,
-          "y": 34.597732
-        },
-        {
-          "x": 50.890368,
-          "y": 34.597595
-        },
-        {
-          "x": 50.890619,
-          "y": 34.597615
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 279760322,
-          "ID": 353858340,
-          "toNode": 279760323,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "قم",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 0,
-        "reliability": 6,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 279760322,
-        "uuid": "128ceb8a-8d77-4d21-8f58-b2c0db82c3ec",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 4,
-        "magvar": 200,
-        "subtype": "",
-        "additionalInfo": "",
-        "wazeData": "world,50.89033766679131,34.59785859399191,128ceb8a-8d77-4d21-8f58-b2c0db82c3ec",
-        "toNodeId": 279760323,
-        "reportDescription": "",
-        "location": {
-          "x": 50.890337,
-          "y": 34.597858
-        },
-        "id": "alert-1755462142/128ceb8a-8d77-4d21-8f58-b2c0db82c3ec",
-        "pubMillis": 1786432447000
-      },
-      "locationY": 34.597858,
-      "locationX": 50.890337,
-      "updateMillis": 1786673267213,
-      "blockUpdate": 1786432447645
-    },
-    {
       "id": 1691151564,
       "street": "",
       "city": "قم",
@@ -367,7 +300,7 @@
       },
       "locationY": 34.62804,
       "locationX": 50.866563,
-      "updateMillis": 1786673266935,
+      "updateMillis": 1786697181865,
       "blockUpdate": 1735654665553
     },
     {
@@ -462,8 +395,297 @@
       },
       "locationY": 34.627491,
       "locationX": 50.866916,
-      "updateMillis": 1786673266639,
+      "updateMillis": 1786697181411,
       "blockUpdate": 1725350296785
+    },
+    {
+      "id": 1691006944,
+      "street": "",
+      "city": "قم",
+      "country": "IR",
+      "level": 5,
+      "length": 19,
+      "speed": 0,
+      "endNode": "Hazrat Masumeh Blvd - بلوار حضرت معصومه",
+      "line": [
+        {
+          "x": 50.833735,
+          "y": 34.664638
+        },
+        {
+          "x": 50.833829,
+          "y": 34.664788
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 317468932,
+          "ID": 411540723,
+          "toNode": 317468933,
+          "isForward": false
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "قم",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 1,
+        "reliability": 9,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 317468932,
+        "uuid": "31a642ea-0f59-4ccb-bacf-ec4bcc248429",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 4,
+        "magvar": 27,
+        "subtype": "",
+        "additionalInfo": "",
+        "wazeData": "world,50.833735597389484,34.66463824353047,31a642ea-0f59-4ccb-bacf-ec4bcc248429",
+        "toNodeId": 317468933,
+        "reportDescription": "",
+        "location": {
+          "x": 50.833735,
+          "y": 34.664638
+        },
+        "id": "alert-1722215335/31a642ea-0f59-4ccb-bacf-ec4bcc248429",
+        "pubMillis": 1786034783000
+      },
+      "locationY": 34.664638,
+      "locationX": 50.833735,
+      "updateMillis": 1786697180152,
+      "blockUpdate": 1786034783166
+    },
+    {
+      "id": 1691092442,
+      "street": "",
+      "city": "قم",
+      "country": "IR",
+      "level": 5,
+      "length": 19,
+      "speed": 0,
+      "endNode": "Hazrat Masumeh Blvd - بلوار حضرت معصومه",
+      "line": [
+        {
+          "x": 50.833829,
+          "y": 34.664788
+        },
+        {
+          "x": 50.833735,
+          "y": 34.664638
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 317468933,
+          "ID": 411540723,
+          "toNode": 317468932,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "قم",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 1,
+        "reliability": 8,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 317468933,
+        "uuid": "77ab0f47-e6c6-4e82-80eb-7cca53cd2102",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 4,
+        "magvar": 207,
+        "subtype": "",
+        "additionalInfo": "",
+        "wazeData": "world,50.8338294747055,34.664788258475134,77ab0f47-e6c6-4e82-80eb-7cca53cd2102",
+        "toNodeId": 317468932,
+        "reportDescription": "",
+        "location": {
+          "x": 50.833829,
+          "y": 34.664788
+        },
+        "id": "alert-1722215336/77ab0f47-e6c6-4e82-80eb-7cca53cd2102",
+        "pubMillis": 1786034783000
+      },
+      "locationY": 34.664788,
+      "locationX": 50.833829,
+      "updateMillis": 1786697180151,
+      "blockUpdate": 1786034783166
+    },
+    {
+      "id": 1691038002,
+      "street": "",
+      "city": "قم",
+      "country": "IR",
+      "level": 5,
+      "length": 322,
+      "speed": 0,
+      "endNode": "قم",
+      "line": [
+        {
+          "x": 50.870323,
+          "y": 34.717469
+        },
+        {
+          "x": 50.869168,
+          "y": 34.720212
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 351972527,
+          "ID": 452655886,
+          "toNode": 277270157,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 6,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 351972527,
+        "uuid": "22b8dff4-691d-43c4-b664-12eb9398c4ca",
+        "nearBy": "قم",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 4,
+        "magvar": 341,
+        "subtype": "",
+        "additionalInfo": "",
+        "wazeData": "world,50.87032300173997,34.71746953898063,22b8dff4-691d-43c4-b664-12eb9398c4ca",
+        "toNodeId": 277270157,
+        "reportDescription": "",
+        "location": {
+          "x": 50.870323,
+          "y": 34.717469
+        },
+        "id": "alert-1812622149/22b8dff4-691d-43c4-b664-12eb9398c4ca",
+        "pubMillis": 1784392054000
+      },
+      "locationY": 34.717469,
+      "locationX": 50.870323,
+      "updateMillis": 1786697179700,
+      "blockUpdate": 1784392054420
+    },
+    {
+      "id": 1870764446,
+      "street": "Soleimani Blvd - بلوار سردار سلیمانی",
+      "city": "قم",
+      "country": null,
+      "level": 3,
+      "length": 950,
+      "speed": 3.672222222222222,
+      "endNode": "",
+      "line": [
+        {
+          "x": 50.867339,
+          "y": 34.636567
+        },
+        {
+          "x": 50.868288,
+          "y": 34.63736
+        },
+        {
+          "x": 50.8686,
+          "y": 34.637585
+        },
+        {
+          "x": 50.871577,
+          "y": 34.639259
+        },
+        {
+          "x": 50.875661,
+          "y": 34.641642
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 263230712,
+          "ID": 353615335,
+          "toNode": 268331445,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 34.636567,
+      "locationX": 50.867339,
+      "updateMillis": 1786697179468,
+      "blockUpdate": null
+    },
+    {
+      "id": 1691038688,
+      "street": "",
+      "city": "قم",
+      "country": "IR",
+      "level": 5,
+      "length": 55,
+      "speed": 0,
+      "endNode": "Kabiri Blvd - بلوار کبیری",
+      "line": [
+        {
+          "x": 50.890337,
+          "y": 34.597858
+        },
+        {
+          "x": 50.890282,
+          "y": 34.597732
+        },
+        {
+          "x": 50.890368,
+          "y": 34.597595
+        },
+        {
+          "x": 50.890619,
+          "y": 34.597615
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 279760322,
+          "ID": 353858340,
+          "toNode": 279760323,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "قم",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 6,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 279760322,
+        "uuid": "128ceb8a-8d77-4d21-8f58-b2c0db82c3ec",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 4,
+        "magvar": 200,
+        "subtype": "",
+        "additionalInfo": "",
+        "wazeData": "world,50.89033766679131,34.59785859399191,128ceb8a-8d77-4d21-8f58-b2c0db82c3ec",
+        "toNodeId": 279760323,
+        "reportDescription": "",
+        "location": {
+          "x": 50.890337,
+          "y": 34.597858
+        },
+        "id": "alert-1755462142/128ceb8a-8d77-4d21-8f58-b2c0db82c3ec",
+        "pubMillis": 1786432447000
+      },
+      "locationY": 34.597858,
+      "locationX": 50.890337,
+      "updateMillis": 1786697179146,
+      "blockUpdate": 1786432447645
     },
     {
       "id": 1691026800,
@@ -533,7 +755,7 @@
       },
       "locationY": 34.614918,
       "locationX": 50.84459,
-      "updateMillis": 1786673266265,
+      "updateMillis": 1786697177960,
       "blockUpdate": 1696068136858
     },
     {
@@ -604,185 +826,8 @@
       },
       "locationY": 34.615572,
       "locationX": 50.841148,
-      "updateMillis": 1786673265767,
+      "updateMillis": 1786697177227,
       "blockUpdate": 1696068136770
-    },
-    {
-      "id": 1691006944,
-      "street": "",
-      "city": "قم",
-      "country": "IR",
-      "level": 5,
-      "length": 19,
-      "speed": 0,
-      "endNode": "Hazrat Masumeh Blvd - بلوار حضرت معصومه",
-      "line": [
-        {
-          "x": 50.833735,
-          "y": 34.664638
-        },
-        {
-          "x": 50.833829,
-          "y": 34.664788
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 317468932,
-          "ID": 411540723,
-          "toNode": 317468933,
-          "isForward": false
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "قم",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 1,
-        "reliability": 9,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 317468932,
-        "uuid": "31a642ea-0f59-4ccb-bacf-ec4bcc248429",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 4,
-        "magvar": 27,
-        "subtype": "",
-        "additionalInfo": "",
-        "wazeData": "world,50.833735597389484,34.66463824353047,31a642ea-0f59-4ccb-bacf-ec4bcc248429",
-        "toNodeId": 317468933,
-        "reportDescription": "",
-        "location": {
-          "x": 50.833735,
-          "y": 34.664638
-        },
-        "id": "alert-1722215335/31a642ea-0f59-4ccb-bacf-ec4bcc248429",
-        "pubMillis": 1786034783000
-      },
-      "locationY": 34.664638,
-      "locationX": 50.833735,
-      "updateMillis": 1786673265650,
-      "blockUpdate": 1786034783166
-    },
-    {
-      "id": 1691092442,
-      "street": "",
-      "city": "قم",
-      "country": "IR",
-      "level": 5,
-      "length": 19,
-      "speed": 0,
-      "endNode": "Hazrat Masumeh Blvd - بلوار حضرت معصومه",
-      "line": [
-        {
-          "x": 50.833829,
-          "y": 34.664788
-        },
-        {
-          "x": 50.833735,
-          "y": 34.664638
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 317468933,
-          "ID": 411540723,
-          "toNode": 317468932,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "قم",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 1,
-        "reliability": 8,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 317468933,
-        "uuid": "77ab0f47-e6c6-4e82-80eb-7cca53cd2102",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 4,
-        "magvar": 207,
-        "subtype": "",
-        "additionalInfo": "",
-        "wazeData": "world,50.8338294747055,34.664788258475134,77ab0f47-e6c6-4e82-80eb-7cca53cd2102",
-        "toNodeId": 317468932,
-        "reportDescription": "",
-        "location": {
-          "x": 50.833829,
-          "y": 34.664788
-        },
-        "id": "alert-1722215336/77ab0f47-e6c6-4e82-80eb-7cca53cd2102",
-        "pubMillis": 1786034783000
-      },
-      "locationY": 34.664788,
-      "locationX": 50.833829,
-      "updateMillis": 1786673265648,
-      "blockUpdate": 1786034783166
-    },
-    {
-      "id": 1691038002,
-      "street": "",
-      "city": "قم",
-      "country": "IR",
-      "level": 5,
-      "length": 322,
-      "speed": 0,
-      "endNode": "قم",
-      "line": [
-        {
-          "x": 50.870323,
-          "y": 34.717469
-        },
-        {
-          "x": 50.869168,
-          "y": 34.720212
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 351972527,
-          "ID": 452655886,
-          "toNode": 277270157,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 0,
-        "reliability": 6,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 351972527,
-        "uuid": "22b8dff4-691d-43c4-b664-12eb9398c4ca",
-        "nearBy": "قم",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 4,
-        "magvar": 341,
-        "subtype": "",
-        "additionalInfo": "",
-        "wazeData": "world,50.87032300173997,34.71746953898063,22b8dff4-691d-43c4-b664-12eb9398c4ca",
-        "toNodeId": 277270157,
-        "reportDescription": "",
-        "location": {
-          "x": 50.870323,
-          "y": 34.717469
-        },
-        "id": "alert-1812622149/22b8dff4-691d-43c4-b664-12eb9398c4ca",
-        "pubMillis": 1784392054000
-      },
-      "locationY": 34.717469,
-      "locationX": 50.870323,
-      "updateMillis": 1786673265228,
-      "blockUpdate": 1784392054420
     },
     {
       "id": 1691088396,
@@ -856,7 +901,7 @@
       },
       "locationY": 34.597303,
       "locationX": 50.890085,
-      "updateMillis": 1786673264972,
+      "updateMillis": 1786697176099,
       "blockUpdate": 1786432447619
     },
     {
@@ -963,18 +1008,18 @@
       },
       "locationY": 34.6047,
       "locationX": 50.905431,
-      "updateMillis": 1786673264822,
+      "updateMillis": 1786697175765,
       "blockUpdate": 1786432535035
     }
   ],
   "meta": {
     "alerts_count": 10,
-    "jams_count": 10,
+    "jams_count": 11,
     "jams_interval_min": 360,
     "alerts_interval_min": 1440
   },
   "schedule": {
-    "last_jams_update": "2026-08-14T02:08:10.524407Z",
+    "last_jams_update": "2026-08-14T08:46:27.986679Z",
     "last_alerts_update": "2026-08-13T18:11:33.712299Z"
   }
 }

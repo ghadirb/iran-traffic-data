@@ -1,7 +1,7 @@
 {
   "region": "kermanshah",
   "name": "کرمانشاه",
-  "updated_at": "2026-08-14T02:08:14.467469Z",
+  "updated_at": "2026-08-14T08:46:32.797134Z",
   "status": "ok",
   "alerts": [],
   "jams": [],
@@ -12,7 +12,7 @@
     "alerts_interval_min": 1440
   },
   "schedule": {
-    "last_jams_update": "2026-08-14T02:08:14.467445Z",
+    "last_jams_update": "2026-08-14T08:46:32.797110Z",
     "last_alerts_update": "2026-08-13T18:11:41.142152Z"
   }
 }

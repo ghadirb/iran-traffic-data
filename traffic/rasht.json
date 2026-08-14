@@ -1,7 +1,7 @@
 {
   "region": "rasht",
   "name": "رشت",
-  "updated_at": "2026-08-14T02:08:12.517028Z",
+  "updated_at": "2026-08-14T08:46:30.335158Z",
   "status": "ok",
   "alerts": [
     {
@@ -214,6 +214,190 @@
   ],
   "jams": [
     {
+      "id": 1870733324,
+      "street": "A35",
+      "city": "شهرک صنعتی رشت",
+      "country": null,
+      "level": 3,
+      "length": 737,
+      "speed": 5.805555555555555,
+      "endNode": "شهرک صنعتی رشت",
+      "line": [
+        {
+          "x": 49.585226,
+          "y": 37.165994
+        },
+        {
+          "x": 49.586,
+          "y": 37.165058
+        },
+        {
+          "x": 49.586962,
+          "y": 37.163968
+        },
+        {
+          "x": 49.587873,
+          "y": 37.163083
+        },
+        {
+          "x": 49.588383,
+          "y": 37.162595
+        },
+        {
+          "x": 49.589421,
+          "y": 37.161776
+        },
+        {
+          "x": 49.590576,
+          "y": 37.16096
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 276755696,
+          "ID": 349050758,
+          "toNode": 276755748,
+          "isForward": false
+        },
+        {
+          "fromNode": 276755748,
+          "ID": 349050774,
+          "toNode": 276755763,
+          "isForward": false
+        },
+        {
+          "fromNode": 276755763,
+          "ID": 349050983,
+          "toNode": 276755890,
+          "isForward": false
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 37.165994,
+      "locationX": 49.585226,
+      "updateMillis": 1786697180670,
+      "blockUpdate": null
+    },
+    {
+      "id": 1100225350,
+      "street": "",
+      "city": "رشت",
+      "country": "IR",
+      "level": 5,
+      "length": 19,
+      "speed": 0,
+      "endNode": "رشت",
+      "line": [
+        {
+          "x": 49.615482,
+          "y": 37.312978
+        },
+        {
+          "x": 49.615651,
+          "y": 37.31287
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 265680775,
+          "ID": 331418791,
+          "toNode": 265680778,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 1,
+        "reliability": 9,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 265680775,
+        "uuid": "11b3255d-1b80-4ea2-b263-db7fcc5658c9",
+        "nearBy": "رشت",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 4,
+        "magvar": 129,
+        "subtype": "",
+        "additionalInfo": "",
+        "wazeData": "world,49.6154826508651,37.31297882095214,11b3255d-1b80-4ea2-b263-db7fcc5658c9",
+        "toNodeId": 265680778,
+        "reportDescription": "",
+        "location": {
+          "x": 49.615482,
+          "y": 37.312978
+        },
+        "id": "alert-1824701957/11b3255d-1b80-4ea2-b263-db7fcc5658c9",
+        "pubMillis": 1767865079000
+      },
+      "locationY": 37.312978,
+      "locationX": 49.615482,
+      "updateMillis": 1786697180253,
+      "blockUpdate": 1767865079861
+    },
+    {
+      "id": 1668081652,
+      "street": "Alizadeh Blvd - بلوار علیزاده",
+      "city": "رشت",
+      "country": "IR",
+      "level": 5,
+      "length": 17,
+      "speed": 0,
+      "endNode": "",
+      "line": [
+        {
+          "x": 49.608566,
+          "y": 37.306464
+        },
+        {
+          "x": 49.608719,
+          "y": 37.306372
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 332255677,
+          "ID": 433993580,
+          "toNode": 332255671,
+          "isForward": false
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "رشت",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 5,
+        "reliability": 10,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 332255677,
+        "uuid": "4f4d2074-29ff-489c-a78d-cbd4ce35ecf9",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 2,
+        "magvar": 127,
+        "subtype": "ROAD_CLOSED_EVENT",
+        "street": "Alizadeh Blvd - بلوار علیزاده",
+        "additionalInfo": "",
+        "wazeData": "world,49.60856620772458,37.30646457966439,4f4d2074-29ff-489c-a78d-cbd4ce35ecf9",
+        "toNodeId": 332255671,
+        "reportDescription": "",
+        "location": {
+          "x": 49.608566,
+          "y": 37.306464
+        },
+        "id": "alert-617688945/4f4d2074-29ff-489c-a78d-cbd4ce35ecf9",
+        "pubMillis": 1731490825000
+      },
+      "locationY": 37.306464,
+      "locationX": 49.608566,
+      "updateMillis": 1786697180182,
+      "blockUpdate": 1731490825422
+    },
+    {
       "id": 1100198008,
       "street": "",
       "city": "Salkisar - سلکی سر",
@@ -321,8 +505,95 @@
       },
       "locationY": 37.178815,
       "locationX": 49.578201,
-      "updateMillis": 1786673266400,
+      "updateMillis": 1786697177925,
       "blockUpdate": 1757491458659
+    },
+    {
+      "id": 1868513760,
+      "street": "A35",
+      "city": "Āqāseyyed Sharif - آقا سید شریف",
+      "country": null,
+      "level": 1,
+      "length": 2228,
+      "speed": 10.791666666666666,
+      "endNode": "Āqāseyyed Sharif - آقا سید شریف",
+      "line": [
+        {
+          "x": 49.473929,
+          "y": 37.198297
+        },
+        {
+          "x": 49.471835,
+          "y": 37.199022
+        },
+        {
+          "x": 49.467876,
+          "y": 37.200419
+        },
+        {
+          "x": 49.467511,
+          "y": 37.200542
+        },
+        {
+          "x": 49.466828,
+          "y": 37.200774
+        },
+        {
+          "x": 49.45363,
+          "y": 37.205321
+        },
+        {
+          "x": 49.45132,
+          "y": 37.206114
+        },
+        {
+          "x": 49.450897,
+          "y": 37.206259
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 275911848,
+          "ID": 347709316,
+          "toNode": 275911736,
+          "isForward": true
+        },
+        {
+          "fromNode": 275911736,
+          "ID": 347709151,
+          "toNode": 275911663,
+          "isForward": true
+        },
+        {
+          "fromNode": 275911663,
+          "ID": 347709056,
+          "toNode": 275911662,
+          "isForward": true
+        },
+        {
+          "fromNode": 275911662,
+          "ID": 347709054,
+          "toNode": 275911597,
+          "isForward": true
+        },
+        {
+          "fromNode": 275911597,
+          "ID": 347708939,
+          "toNode": 275911531,
+          "isForward": true
+        },
+        {
+          "fromNode": 275911531,
+          "ID": 347708834,
+          "toNode": 275911532,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 37.198297,
+      "locationX": 49.473929,
+      "updateMillis": 1786697177635,
+      "blockUpdate": null
     },
     {
       "id": 1691139548,
@@ -432,137 +703,18 @@
       },
       "locationY": 37.182811,
       "locationX": 49.567026,
-      "updateMillis": 1786673265835,
+      "updateMillis": 1786697177103,
       "blockUpdate": 1757491458701
-    },
-    {
-      "id": 1100225350,
-      "street": "",
-      "city": "رشت",
-      "country": "IR",
-      "level": 5,
-      "length": 19,
-      "speed": 0,
-      "endNode": "رشت",
-      "line": [
-        {
-          "x": 49.615482,
-          "y": 37.312978
-        },
-        {
-          "x": 49.615651,
-          "y": 37.31287
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 265680775,
-          "ID": 331418791,
-          "toNode": 265680778,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 1,
-        "reliability": 9,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 265680775,
-        "uuid": "11b3255d-1b80-4ea2-b263-db7fcc5658c9",
-        "nearBy": "رشت",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 4,
-        "magvar": 129,
-        "subtype": "",
-        "additionalInfo": "",
-        "wazeData": "world,49.6154826508651,37.31297882095214,11b3255d-1b80-4ea2-b263-db7fcc5658c9",
-        "toNodeId": 265680778,
-        "reportDescription": "",
-        "location": {
-          "x": 49.615482,
-          "y": 37.312978
-        },
-        "id": "alert-1824701957/11b3255d-1b80-4ea2-b263-db7fcc5658c9",
-        "pubMillis": 1767865079000
-      },
-      "locationY": 37.312978,
-      "locationX": 49.615482,
-      "updateMillis": 1786673265723,
-      "blockUpdate": 1767865079861
-    },
-    {
-      "id": 1668081652,
-      "street": "Alizadeh Blvd - بلوار علیزاده",
-      "city": "رشت",
-      "country": "IR",
-      "level": 5,
-      "length": 17,
-      "speed": 0,
-      "endNode": "",
-      "line": [
-        {
-          "x": 49.608566,
-          "y": 37.306464
-        },
-        {
-          "x": 49.608719,
-          "y": 37.306372
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 332255677,
-          "ID": 433993580,
-          "toNode": 332255671,
-          "isForward": false
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "رشت",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 5,
-        "reliability": 10,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 332255677,
-        "uuid": "4f4d2074-29ff-489c-a78d-cbd4ce35ecf9",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 2,
-        "magvar": 127,
-        "subtype": "ROAD_CLOSED_EVENT",
-        "street": "Alizadeh Blvd - بلوار علیزاده",
-        "additionalInfo": "",
-        "wazeData": "world,49.60856620772458,37.30646457966439,4f4d2074-29ff-489c-a78d-cbd4ce35ecf9",
-        "toNodeId": 332255671,
-        "reportDescription": "",
-        "location": {
-          "x": 49.608566,
-          "y": 37.306464
-        },
-        "id": "alert-617688945/4f4d2074-29ff-489c-a78d-cbd4ce35ecf9",
-        "pubMillis": 1731490825000
-      },
-      "locationY": 37.306464,
-      "locationX": 49.608566,
-      "updateMillis": 1786673265547,
-      "blockUpdate": 1731490825422
     }
   ],
   "meta": {
     "alerts_count": 9,
-    "jams_count": 4,
+    "jams_count": 6,
     "jams_interval_min": 360,
     "alerts_interval_min": 1440
   },
   "schedule": {
-    "last_jams_update": "2026-08-14T02:08:12.517000Z",
+    "last_jams_update": "2026-08-14T08:46:30.335133Z",
     "last_alerts_update": "2026-08-13T18:11:37.679241Z"
   }
 }

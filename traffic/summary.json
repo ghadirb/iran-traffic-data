@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T07:28:24.035477Z",
+  "updated_at": "2026-08-14T08:46:44.151939Z",
   "regions": {
     "tehran": {
       "name": "تهران",
@@ -59,84 +59,84 @@
       "name": "اهواز",
       "status": "ok",
       "alerts": 1,
-      "jams": 2,
-      "updated_at": "2026-08-14T02:08:08.527317Z",
+      "jams": 1,
+      "updated_at": "2026-08-14T08:46:25.265270Z",
       "last_alerts_update": "2026-08-13T18:11:29.898926Z",
-      "last_jams_update": "2026-08-14T02:08:08.527294Z"
+      "last_jams_update": "2026-08-14T08:46:25.265244Z"
     },
     "qom": {
       "name": "قم",
       "status": "ok",
       "alerts": 10,
-      "jams": 10,
-      "updated_at": "2026-08-14T02:08:10.524430Z",
+      "jams": 11,
+      "updated_at": "2026-08-14T08:46:27.986712Z",
       "last_alerts_update": "2026-08-13T18:11:33.712299Z",
-      "last_jams_update": "2026-08-14T02:08:10.524407Z"
+      "last_jams_update": "2026-08-14T08:46:27.986679Z"
     },
     "rasht": {
       "name": "رشت",
       "status": "ok",
       "alerts": 9,
-      "jams": 4,
-      "updated_at": "2026-08-14T02:08:12.517028Z",
+      "jams": 6,
+      "updated_at": "2026-08-14T08:46:30.335158Z",
       "last_alerts_update": "2026-08-13T18:11:37.679241Z",
-      "last_jams_update": "2026-08-14T02:08:12.517000Z"
+      "last_jams_update": "2026-08-14T08:46:30.335133Z"
     },
     "kermanshah": {
       "name": "کرمانشاه",
       "status": "ok",
       "alerts": 0,
       "jams": 0,
-      "updated_at": "2026-08-14T02:08:14.467469Z",
+      "updated_at": "2026-08-14T08:46:32.797134Z",
       "last_alerts_update": "2026-08-13T18:11:41.142152Z",
-      "last_jams_update": "2026-08-14T02:08:14.467445Z"
+      "last_jams_update": "2026-08-14T08:46:32.797110Z"
     },
     "urmia": {
       "name": "ارومیه",
       "status": "ok",
       "alerts": 0,
-      "jams": 0,
-      "updated_at": "2026-08-14T02:08:16.407426Z",
+      "jams": 1,
+      "updated_at": "2026-08-14T08:46:34.859765Z",
       "last_alerts_update": "2026-08-13T18:11:44.591018Z",
-      "last_jams_update": "2026-08-14T02:08:16.407403Z"
+      "last_jams_update": "2026-08-14T08:46:34.859742Z"
     },
     "kerman": {
       "name": "کرمان",
       "status": "ok",
       "alerts": 0,
       "jams": 0,
-      "updated_at": "2026-08-14T02:08:18.364396Z",
+      "updated_at": "2026-08-14T08:46:37.100629Z",
       "last_alerts_update": "2026-08-13T18:11:47.709717Z",
-      "last_jams_update": "2026-08-14T02:08:18.364372Z"
+      "last_jams_update": "2026-08-14T08:46:37.100592Z"
     },
     "yazd": {
       "name": "یزد",
       "status": "ok",
       "alerts": 1,
       "jams": 2,
-      "updated_at": "2026-08-14T02:08:20.309880Z",
+      "updated_at": "2026-08-14T08:46:39.154610Z",
       "last_alerts_update": "2026-08-13T18:11:51.283746Z",
-      "last_jams_update": "2026-08-14T02:08:20.309858Z"
+      "last_jams_update": "2026-08-14T08:46:39.154588Z"
     },
     "bandar_abbas": {
       "name": "بندرعباس",
       "status": "ok",
       "alerts": 0,
       "jams": 0,
-      "updated_at": "2026-08-14T02:08:22.264554Z",
+      "updated_at": "2026-08-14T08:46:41.155013Z",
       "last_alerts_update": "2026-08-13T18:11:54.265039Z",
-      "last_jams_update": "2026-08-14T02:08:22.264530Z"
+      "last_jams_update": "2026-08-14T08:46:41.154988Z"
     },
     "zahedan": {
       "name": "زاهدان",
       "status": "ok",
       "alerts": 0,
       "jams": 0,
-      "updated_at": "2026-08-14T02:08:24.200590Z",
+      "updated_at": "2026-08-14T08:46:43.151606Z",
       "last_alerts_update": "2026-08-13T18:11:57.455290Z",
-      "last_jams_update": "2026-08-14T02:08:24.200566Z"
+      "last_jams_update": "2026-08-14T08:46:43.151583Z"
     }
   },
   "total_alerts": 337,
-  "total_jams": 347
+  "total_jams": 350
 }
