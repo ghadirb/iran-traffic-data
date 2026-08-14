@@ -1,7 +1,7 @@
 {
   "region": "isfahan",
   "name": "اصفهان",
-  "updated_at": "2026-08-14T02:08:01.581261Z",
+  "updated_at": "2026-08-14T04:17:49.942564Z",
   "status": "ok",
   "alerts": [
     {
@@ -351,7 +351,7 @@
       },
       "locationY": 32.65257,
       "locationX": 51.782037,
-      "updateMillis": 1786673280461,
+      "updateMillis": 1786681056803,
       "blockUpdate": 1728287100727
     },
     {
@@ -410,7 +410,7 @@
       },
       "locationY": 32.654045,
       "locationX": 51.834699,
-      "updateMillis": 1786673266502,
+      "updateMillis": 1786681026594,
       "blockUpdate": 1736151100405
     },
     {
@@ -478,8 +478,68 @@
       },
       "locationY": 32.599432,
       "locationX": 51.768024,
-      "updateMillis": 1786673266136,
+      "updateMillis": 1786681026042,
       "blockUpdate": 1759379657099
+    },
+    {
+      "id": 1797675286,
+      "street": "A680",
+      "city": "اصفهان",
+      "country": "IR",
+      "level": 5,
+      "length": 138,
+      "speed": 0,
+      "endNode": "اصفهان",
+      "line": [
+        {
+          "x": 51.770688,
+          "y": 32.598194
+        },
+        {
+          "x": 51.770142,
+          "y": 32.59935
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 206809838,
+          "ID": 241558725,
+          "toNode": 206809853,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": true,
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 1,
+        "reliability": 9,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 206809838,
+        "uuid": "84722c75-3c6a-4dd9-8be8-d36d3521edea",
+        "nearBy": "اصفهان",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 6,
+        "magvar": 338,
+        "subtype": "",
+        "street": "A680",
+        "additionalInfo": "",
+        "wazeData": "world,51.77068805899553,32.598194349449216,84722c75-3c6a-4dd9-8be8-d36d3521edea",
+        "toNodeId": 206809853,
+        "reportDescription": "",
+        "location": {
+          "x": 51.770688,
+          "y": 32.598194
+        },
+        "id": "alert-1296274019/84722c75-3c6a-4dd9-8be8-d36d3521edea",
+        "pubMillis": 1759379710000
+      },
+      "locationY": 32.598194,
+      "locationX": 51.770688,
+      "updateMillis": 1786681025811,
+      "blockUpdate": 1759379710972
     },
     {
       "id": 1691014758,
@@ -601,68 +661,8 @@
       },
       "locationY": 32.599999,
       "locationX": 51.769481,
-      "updateMillis": 1786673266014,
+      "updateMillis": 1786681025785,
       "blockUpdate": 1786393340701
-    },
-    {
-      "id": 1797675286,
-      "street": "A680",
-      "city": "اصفهان",
-      "country": "IR",
-      "level": 5,
-      "length": 138,
-      "speed": 0,
-      "endNode": "اصفهان",
-      "line": [
-        {
-          "x": 51.770688,
-          "y": 32.598194
-        },
-        {
-          "x": 51.770142,
-          "y": 32.59935
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 206809838,
-          "ID": 241558725,
-          "toNode": 206809853,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": true,
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 1,
-        "reliability": 9,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 206809838,
-        "uuid": "84722c75-3c6a-4dd9-8be8-d36d3521edea",
-        "nearBy": "اصفهان",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 6,
-        "magvar": 338,
-        "subtype": "",
-        "street": "A680",
-        "additionalInfo": "",
-        "wazeData": "world,51.77068805899553,32.598194349449216,84722c75-3c6a-4dd9-8be8-d36d3521edea",
-        "toNodeId": 206809853,
-        "reportDescription": "",
-        "location": {
-          "x": 51.770688,
-          "y": 32.598194
-        },
-        "id": "alert-1296274019/84722c75-3c6a-4dd9-8be8-d36d3521edea",
-        "pubMillis": 1759379710000
-      },
-      "locationY": 32.598194,
-      "locationX": 51.770688,
-      "updateMillis": 1786673265865,
-      "blockUpdate": 1759379710972
     },
     {
       "id": 1691084854,
@@ -725,7 +725,7 @@
       },
       "locationY": 32.60227,
       "locationX": 51.768809,
-      "updateMillis": 1786673265278,
+      "updateMillis": 1786681024811,
       "blockUpdate": 1759379730446
     }
   ],
@@ -736,7 +736,7 @@
     "alerts_interval_min": 720
   },
   "schedule": {
-    "last_jams_update": "2026-08-14T02:08:01.581235Z",
+    "last_jams_update": "2026-08-14T04:17:49.942541Z",
     "last_alerts_update": "2026-08-13T18:11:18.195817Z"
   }
 }
