@@ -1,76 +1,30 @@
 {
   "region": "isfahan",
   "name": "اصفهان",
-  "updated_at": "2026-08-14T04:17:49.942564Z",
+  "updated_at": "2026-08-14T07:28:14.684736Z",
   "status": "ok",
   "alerts": [
     {
-      "id": "alert-1785224218/65d51835-26fe-4e14-9f33-cfb5f74c0609",
-      "type": "JAM",
+      "id": "alert-1788360334/9692215c-8438-4caf-9ae2-0e39df5c5430",
+      "type": "ROAD_CLOSED",
       "subType": "",
-      "reliability": null,
-      "street": "Shams Abadi - شمس آبادی",
-      "city": null,
-      "country": null,
+      "reliability": 6,
+      "street": "",
+      "city": "اصفهان",
+      "country": "IR",
       "nearBy": null,
-      "locationY": 32.656027,
-      "locationX": 51.666311,
-      "timestamp": 1786644333000,
-      "timestampUTC": "Thu, 13 Aug 2026 18:05:33 GMT",
-      "reportDescription": null,
-      "magvar": null,
+      "locationY": 32.70949,
+      "locationX": 51.759489,
+      "timestamp": 1786682384000,
+      "timestampUTC": "Fri, 14 Aug 2026 04:39:44 GMT",
+      "reportDescription": "",
+      "magvar": 84,
       "nThumbsUp": null,
-      "confidence": null,
-      "roadType": null,
-      "reportRating": null,
-      "reportMood": null,
-      "reportByMunicipalityUser": null,
-      "reported_by": null
-    },
-    {
-      "id": "alert-1785099264/c85d4d67-22be-419a-b6ca-fcf548c909dc",
-      "type": "HAZARD",
-      "subType": "HAZARD_ON_ROAD",
-      "reliability": null,
-      "street": null,
-      "city": null,
-      "country": null,
-      "nearBy": null,
-      "locationY": 32.630054,
-      "locationX": 51.630732,
-      "timestamp": 1786643564000,
-      "timestampUTC": "Thu, 13 Aug 2026 17:52:44 GMT",
-      "reportDescription": null,
-      "magvar": null,
-      "nThumbsUp": null,
-      "confidence": null,
-      "roadType": null,
-      "reportRating": null,
-      "reportMood": null,
-      "reportByMunicipalityUser": null,
-      "reported_by": null
-    },
-    {
-      "id": "alert-1785034427/91a58b9c-a062-47b9-9ba4-43119f031e09",
-      "type": "JAM",
-      "subType": "",
-      "reliability": null,
-      "street": null,
-      "city": null,
-      "country": null,
-      "nearBy": null,
-      "locationY": 32.627963,
-      "locationX": 51.723288,
-      "timestamp": 1786643269000,
-      "timestampUTC": "Thu, 13 Aug 2026 17:47:49 GMT",
-      "reportDescription": null,
-      "magvar": null,
-      "nThumbsUp": null,
-      "confidence": null,
-      "roadType": null,
-      "reportRating": null,
-      "reportMood": null,
-      "reportByMunicipalityUser": null,
+      "confidence": 0,
+      "roadType": 4,
+      "reportRating": 5,
+      "reportMood": 0,
+      "reportByMunicipalityUser": "false",
       "reported_by": null
     },
     {
@@ -351,7 +305,7 @@
       },
       "locationY": 32.65257,
       "locationX": 51.782037,
-      "updateMillis": 1786681056803,
+      "updateMillis": 1786692474660,
       "blockUpdate": 1728287100727
     },
     {
@@ -410,8 +364,173 @@
       },
       "locationY": 32.654045,
       "locationX": 51.834699,
-      "updateMillis": 1786681026594,
+      "updateMillis": 1786692437309,
       "blockUpdate": 1736151100405
+    },
+    {
+      "id": 1691084854,
+      "street": "Roshan Dasht Blvd - بلوار روشن دشت",
+      "city": "اصفهان",
+      "country": "IR",
+      "level": 5,
+      "length": 178,
+      "speed": 0,
+      "endNode": "اصفهان",
+      "line": [
+        {
+          "x": 51.768809,
+          "y": 32.602269
+        },
+        {
+          "x": 51.769345,
+          "y": 32.600921
+        },
+        {
+          "x": 51.769423,
+          "y": 32.600752
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 268635378,
+          "ID": 416946714,
+          "toNode": 206809858,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": true,
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 1,
+        "reliability": 9,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 268635378,
+        "uuid": "7b6bd3b3-4500-4161-8d84-b5c735a76771",
+        "nearBy": "اصفهان",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 6,
+        "magvar": 161,
+        "subtype": "",
+        "street": "Roshan Dasht Blvd - بلوار روشن دشت",
+        "additionalInfo": "",
+        "wazeData": "world,51.76880968186689,32.60227022767074,7b6bd3b3-4500-4161-8d84-b5c735a76771",
+        "toNodeId": 206809858,
+        "reportDescription": "",
+        "location": {
+          "x": 51.768809,
+          "y": 32.60227
+        },
+        "id": "alert-1296303079/7b6bd3b3-4500-4161-8d84-b5c735a76771",
+        "pubMillis": 1759379730000
+      },
+      "locationY": 32.60227,
+      "locationX": 51.768809,
+      "updateMillis": 1786692434890,
+      "blockUpdate": 1759379730446
+    },
+    {
+      "id": 1864927920,
+      "street": "Imam Khomeini Expy - بزرگراه امام خمینی",
+      "city": "اصفهان",
+      "country": null,
+      "level": 1,
+      "length": 2520,
+      "speed": 11.925,
+      "endNode": "",
+      "line": [
+        {
+          "x": 51.639448,
+          "y": 32.6832
+        },
+        {
+          "x": 51.622538,
+          "y": 32.696105
+        },
+        {
+          "x": 51.619494,
+          "y": 32.698427
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 203720813,
+          "ID": 449515750,
+          "toNode": 342256448,
+          "isForward": true
+        },
+        {
+          "fromNode": 342256448,
+          "ID": 449515751,
+          "toNode": 295208910,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 32.6832,
+      "locationX": 51.639448,
+      "updateMillis": 1786692434040,
+      "blockUpdate": null
+    },
+    {
+      "id": 1858071536,
+      "street": "",
+      "city": "اصفهان",
+      "country": "IR",
+      "level": 5,
+      "length": 51,
+      "speed": 0,
+      "line": [
+        {
+          "x": 51.759489,
+          "y": 32.70949
+        },
+        {
+          "x": 51.760032,
+          "y": 32.709533
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 350243484,
+          "ID": 462308447,
+          "toNode": 350243485,
+          "isForward": false
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "اصفهان",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 6,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 350243484,
+        "uuid": "9692215c-8438-4caf-9ae2-0e39df5c5430",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 4,
+        "magvar": 84,
+        "subtype": "",
+        "additionalInfo": "",
+        "wazeData": "world,51.75948913980348,32.70949030294251,9692215c-8438-4caf-9ae2-0e39df5c5430",
+        "toNodeId": 350243485,
+        "reportDescription": "",
+        "location": {
+          "x": 51.759489,
+          "y": 32.70949
+        },
+        "id": "alert-1788360334/9692215c-8438-4caf-9ae2-0e39df5c5430",
+        "pubMillis": 1786682384000
+      },
+      "locationY": 32.70949,
+      "locationX": 51.759489,
+      "updateMillis": 1786692433497,
+      "blockUpdate": 1786682384254
     },
     {
       "id": 1691042560,
@@ -478,7 +597,7 @@
       },
       "locationY": 32.599432,
       "locationX": 51.768024,
-      "updateMillis": 1786681026042,
+      "updateMillis": 1786692432927,
       "blockUpdate": 1759379657099
     },
     {
@@ -538,7 +657,7 @@
       },
       "locationY": 32.598194,
       "locationX": 51.770688,
-      "updateMillis": 1786681025811,
+      "updateMillis": 1786692432864,
       "blockUpdate": 1759379710972
     },
     {
@@ -661,82 +780,18 @@
       },
       "locationY": 32.599999,
       "locationX": 51.769481,
-      "updateMillis": 1786681025785,
+      "updateMillis": 1786692432851,
       "blockUpdate": 1786393340701
-    },
-    {
-      "id": 1691084854,
-      "street": "Roshan Dasht Blvd - بلوار روشن دشت",
-      "city": "اصفهان",
-      "country": "IR",
-      "level": 5,
-      "length": 178,
-      "speed": 0,
-      "endNode": "اصفهان",
-      "line": [
-        {
-          "x": 51.768809,
-          "y": 32.602269
-        },
-        {
-          "x": 51.769345,
-          "y": 32.600921
-        },
-        {
-          "x": 51.769423,
-          "y": 32.600752
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 268635378,
-          "ID": 416946714,
-          "toNode": 206809858,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": true,
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 1,
-        "reliability": 9,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 268635378,
-        "uuid": "7b6bd3b3-4500-4161-8d84-b5c735a76771",
-        "nearBy": "اصفهان",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 6,
-        "magvar": 161,
-        "subtype": "",
-        "street": "Roshan Dasht Blvd - بلوار روشن دشت",
-        "additionalInfo": "",
-        "wazeData": "world,51.76880968186689,32.60227022767074,7b6bd3b3-4500-4161-8d84-b5c735a76771",
-        "toNodeId": 206809858,
-        "reportDescription": "",
-        "location": {
-          "x": 51.768809,
-          "y": 32.60227
-        },
-        "id": "alert-1296303079/7b6bd3b3-4500-4161-8d84-b5c735a76771",
-        "pubMillis": 1759379730000
-      },
-      "locationY": 32.60227,
-      "locationX": 51.768809,
-      "updateMillis": 1786681024811,
-      "blockUpdate": 1759379730446
     }
   ],
   "meta": {
-    "alerts_count": 12,
-    "jams_count": 6,
+    "alerts_count": 10,
+    "jams_count": 8,
     "jams_interval_min": 120,
     "alerts_interval_min": 720
   },
   "schedule": {
-    "last_jams_update": "2026-08-14T04:17:49.942541Z",
-    "last_alerts_update": "2026-08-13T18:11:18.195817Z"
+    "last_jams_update": "2026-08-14T07:28:13.599892Z",
+    "last_alerts_update": "2026-08-14T07:28:14.684716Z"
   }
 }

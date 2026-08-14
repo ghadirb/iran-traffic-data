@@ -1,91 +1,22 @@
 {
   "region": "karaj",
   "name": "کرج",
-  "updated_at": "2026-08-14T04:17:47.824961Z",
+  "updated_at": "2026-08-14T07:28:11.471301Z",
   "status": "ok",
   "alerts": [
     {
-      "id": "alert-1785108565/96a7d1a8-103e-4bd1-b027-a5d9f3a4e9d8",
-      "type": "JAM",
-      "subType": "JAM_HEAVY_TRAFFIC",
-      "reliability": null,
-      "street": null,
-      "city": null,
-      "country": null,
-      "nearBy": null,
-      "locationY": 35.852681,
-      "locationX": 50.908596,
-      "timestamp": 1786644464000,
-      "timestampUTC": "Thu, 13 Aug 2026 18:07:44 GMT",
-      "reportDescription": null,
-      "magvar": null,
-      "nThumbsUp": null,
-      "confidence": null,
-      "roadType": null,
-      "reportRating": null,
-      "reportMood": null,
-      "reportByMunicipalityUser": null,
-      "reported_by": null
-    },
-    {
-      "id": "alert-1785219289/5420346a-d94a-4d11-a493-ed7a4922fe0d",
-      "type": "JAM",
-      "subType": "JAM_STAND_STILL_TRAFFIC",
-      "reliability": null,
-      "street": "2, Fahmideh Fwy",
-      "city": null,
-      "country": null,
-      "nearBy": null,
-      "locationY": 35.790557,
-      "locationX": 51.004011,
-      "timestamp": 1786644329000,
-      "timestampUTC": "Thu, 13 Aug 2026 18:05:29 GMT",
-      "reportDescription": null,
-      "magvar": null,
-      "nThumbsUp": null,
-      "confidence": null,
-      "roadType": null,
-      "reportRating": null,
-      "reportMood": null,
-      "reportByMunicipalityUser": null,
-      "reported_by": null
-    },
-    {
-      "id": "alert-1785169593/9010629d-04c2-4eff-93d4-ea4baa707de1",
-      "type": "JAM",
-      "subType": "JAM_STAND_STILL_TRAFFIC",
-      "reliability": null,
-      "street": "2, آزادراه فلاحی",
-      "city": null,
-      "country": null,
-      "nearBy": null,
-      "locationY": 35.835612,
-      "locationX": 50.909912,
-      "timestamp": 1786644249000,
-      "timestampUTC": "Thu, 13 Aug 2026 18:04:09 GMT",
-      "reportDescription": null,
-      "magvar": null,
-      "nThumbsUp": null,
-      "confidence": null,
-      "roadType": null,
-      "reportRating": null,
-      "reportMood": null,
-      "reportByMunicipalityUser": null,
-      "reported_by": null
-    },
-    {
-      "id": "alert-1785030220/f490b1ef-5fef-4ada-a7ce-bf1e00f79f6b",
+      "id": "alert-1788948923/37946db6-307e-4130-b30a-d8ef398d2927",
       "type": "JAM",
       "subType": "",
       "reliability": null,
-      "street": "Mahan Blvd - بلوار ماهان",
+      "street": "Jomhuri Eslami Blvd - بلوار جمهوری اسلامی",
       "city": null,
       "country": null,
       "nearBy": null,
-      "locationY": 35.826392,
-      "locationX": 50.990134,
-      "timestamp": 1786643638000,
-      "timestampUTC": "Thu, 13 Aug 2026 17:53:58 GMT",
+      "locationY": 35.829214,
+      "locationX": 50.979025,
+      "timestamp": 1786692463000,
+      "timestampUTC": "Fri, 14 Aug 2026 07:27:43 GMT",
       "reportDescription": null,
       "magvar": null,
       "nThumbsUp": null,
@@ -97,18 +28,41 @@
       "reported_by": null
     },
     {
-      "id": "alert-1785005126/73f0798b-0c5d-4e6f-a657-197bce3e16f3",
-      "type": "ACCIDENT",
-      "subType": "",
+      "id": "alert-1789002611/51c8cd16-932b-4169-be15-fc77c2bceb12",
+      "type": "POLICE",
+      "subType": "POLICE_WITH_MOBILE_CAMERA",
       "reliability": null,
-      "street": "32, بلوار بهشتی",
+      "street": "Garusi Blvd - بلوار گروسی",
       "city": null,
       "country": null,
       "nearBy": null,
-      "locationY": 35.862755,
-      "locationX": 50.87868,
-      "timestamp": 1786643507000,
-      "timestampUTC": "Thu, 13 Aug 2026 17:51:47 GMT",
+      "locationY": 35.710017,
+      "locationX": 51.150762,
+      "timestamp": 1786691895000,
+      "timestampUTC": "Fri, 14 Aug 2026 07:18:15 GMT",
+      "reportDescription": null,
+      "magvar": null,
+      "nThumbsUp": 2,
+      "confidence": null,
+      "roadType": null,
+      "reportRating": null,
+      "reportMood": null,
+      "reportByMunicipalityUser": null,
+      "reported_by": null
+    },
+    {
+      "id": "alert-1789000874/30dcb581-3d93-4caa-9094-7d6aa2d70a07",
+      "type": "POLICE",
+      "subType": "POLICE_HIDING",
+      "reliability": null,
+      "street": "24 E, Hamedani Expy",
+      "city": null,
+      "country": null,
+      "nearBy": null,
+      "locationY": 35.750856,
+      "locationX": 51.161624,
+      "timestamp": 1786691026000,
+      "timestampUTC": "Fri, 14 Aug 2026 07:03:46 GMT",
       "reportDescription": null,
       "magvar": null,
       "nThumbsUp": 1,
@@ -120,21 +74,21 @@
       "reported_by": null
     },
     {
-      "id": "alert-1784960295/5333c0fc-4395-484a-82e1-caf712bb56d9",
-      "type": "HAZARD",
-      "subType": "HAZARD_ON_SHOULDER_CAR_STOPPED",
+      "id": "alert-1789019157/b8cbd545-e2f7-4c7e-a9bc-d5594499a86e",
+      "type": "POLICE",
+      "subType": "POLICE_HIDING",
       "reliability": null,
       "street": "2, Fahmideh Fwy",
       "city": null,
       "country": null,
       "nearBy": null,
-      "locationY": 35.744494,
-      "locationX": 51.143197,
-      "timestamp": 1786643303000,
-      "timestampUTC": "Thu, 13 Aug 2026 17:48:23 GMT",
+      "locationY": 35.73117,
+      "locationX": 51.180693,
+      "timestamp": 1786690237000,
+      "timestampUTC": "Fri, 14 Aug 2026 06:50:37 GMT",
       "reportDescription": null,
       "magvar": null,
-      "nThumbsUp": 1,
+      "nThumbsUp": 10,
       "confidence": null,
       "roadType": null,
       "reportRating": null,
@@ -143,115 +97,23 @@
       "reported_by": null
     },
     {
-      "id": "alert-1784888343/7a681cfe-075f-4124-aa0e-188823155c91",
-      "type": "JAM",
-      "subType": "JAM_STAND_STILL_TRAFFIC",
-      "reliability": null,
-      "street": "2, آزادراه فلاحی",
-      "city": null,
-      "country": null,
-      "nearBy": null,
-      "locationY": 35.799716,
-      "locationX": 50.97154,
-      "timestamp": 1786643133000,
-      "timestampUTC": "Thu, 13 Aug 2026 17:45:33 GMT",
-      "reportDescription": null,
-      "magvar": null,
-      "nThumbsUp": null,
-      "confidence": null,
-      "roadType": null,
-      "reportRating": null,
-      "reportMood": null,
-      "reportByMunicipalityUser": null,
-      "reported_by": null
-    },
-    {
-      "id": "alert-1784823465/ff9381f8-7b47-4e4a-9deb-d00b3ab6cfe5",
-      "type": "HAZARD",
-      "subType": "HAZARD_ON_ROAD",
-      "reliability": null,
-      "street": "Soleimani - سردار سلیمانی",
-      "city": null,
-      "country": null,
-      "nearBy": null,
-      "locationY": 35.763427,
-      "locationX": 50.948579,
-      "timestamp": 1786642901000,
-      "timestampUTC": "Thu, 13 Aug 2026 17:41:41 GMT",
-      "reportDescription": null,
-      "magvar": null,
-      "nThumbsUp": null,
-      "confidence": null,
-      "roadType": null,
-      "reportRating": null,
-      "reportMood": null,
-      "reportByMunicipalityUser": null,
-      "reported_by": null
-    },
-    {
-      "id": "alert-1784944577/c40313da-df26-4ab1-91f7-7a5ab962a5ed",
-      "type": "JAM",
-      "subType": "JAM_HEAVY_TRAFFIC",
-      "reliability": null,
-      "street": "59",
-      "city": null,
-      "country": null,
-      "nearBy": null,
-      "locationY": 35.849764,
-      "locationX": 51.05929,
-      "timestamp": 1786642705000,
-      "timestampUTC": "Thu, 13 Aug 2026 17:38:25 GMT",
-      "reportDescription": null,
-      "magvar": null,
-      "nThumbsUp": null,
-      "confidence": null,
-      "roadType": null,
-      "reportRating": null,
-      "reportMood": null,
-      "reportByMunicipalityUser": null,
-      "reported_by": null
-    },
-    {
-      "id": "alert-1781423857/5657b3fc-2516-4bdb-a16d-80b23674fc8a",
+      "id": "alert-1788801557/3388391a-b62c-486f-b62c-83fba778936d",
       "type": "ROAD_CLOSED",
       "subType": "",
-      "reliability": 7,
+      "reliability": 6,
       "street": "59",
       "city": "کرج",
       "country": "IR",
       "nearBy": "کرج",
       "locationY": 35.835595,
       "locationX": 51.04735,
-      "timestamp": 1786619362000,
-      "timestampUTC": "Thu, 13 Aug 2026 11:09:22 GMT",
+      "timestamp": 1786688250000,
+      "timestampUTC": "Fri, 14 Aug 2026 06:17:30 GMT",
       "reportDescription": "",
       "magvar": 66,
-      "nThumbsUp": 1,
-      "confidence": 0,
-      "roadType": 6,
-      "reportRating": 5,
-      "reportMood": 0,
-      "reportByMunicipalityUser": "false",
-      "reported_by": null
-    },
-    {
-      "id": "alert-1748895425/e8bde2bb-d79d-4ed3-8fbe-cc91d32b300b",
-      "type": "ROAD_CLOSED",
-      "subType": "",
-      "reliability": 6,
-      "street": "",
-      "city": "اندیشه",
-      "country": "IR",
-      "nearBy": null,
-      "locationY": 35.711984,
-      "locationX": 51.029789,
-      "timestamp": 1786345628000,
-      "timestampUTC": "Mon, 10 Aug 2026 07:07:08 GMT",
-      "reportDescription": "",
-      "magvar": 237,
       "nThumbsUp": null,
       "confidence": 0,
-      "roadType": 2,
+      "roadType": 6,
       "reportRating": 5,
       "reportMood": 0,
       "reportByMunicipalityUser": "false",
@@ -281,6 +143,29 @@
       "reported_by": null
     },
     {
+      "id": "alert-1748895425/e8bde2bb-d79d-4ed3-8fbe-cc91d32b300b",
+      "type": "ROAD_CLOSED",
+      "subType": "",
+      "reliability": 7,
+      "street": "",
+      "city": "اندیشه",
+      "country": "IR",
+      "nearBy": null,
+      "locationY": 35.711984,
+      "locationX": 51.029789,
+      "timestamp": 1786345628000,
+      "timestampUTC": "Mon, 10 Aug 2026 07:07:08 GMT",
+      "reportDescription": "",
+      "magvar": 237,
+      "nThumbsUp": 1,
+      "confidence": 0,
+      "roadType": 2,
+      "reportRating": 5,
+      "reportMood": 0,
+      "reportByMunicipalityUser": "false",
+      "reported_by": null
+    },
+    {
       "id": "alert-1748679955/8c517028-37e0-4b9b-9247-bd5a83089511",
       "type": "HAZARD",
       "subType": "HAZARD_ON_ROAD_POT_HOLE",
@@ -295,7 +180,7 @@
       "timestampUTC": "Mon, 10 Aug 2026 06:10:04 GMT",
       "reportDescription": null,
       "magvar": null,
-      "nThumbsUp": 4,
+      "nThumbsUp": 5,
       "confidence": null,
       "roadType": null,
       "reportRating": null,
@@ -1019,66 +904,6 @@
   ],
   "jams": [
     {
-      "id": 1691155734,
-      "street": "Zob Ahan - ذوب آهن",
-      "city": "کرج",
-      "country": "IR",
-      "level": 5,
-      "length": 37,
-      "speed": 0,
-      "endNode": "Namaz Blvd - بلوار نماز",
-      "line": [
-        {
-          "x": 50.970386,
-          "y": 35.789493
-        },
-        {
-          "x": 50.970391,
-          "y": 35.78916
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 224071543,
-          "ID": 268625208,
-          "toNode": 224071004,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": true,
-        "city": "کرج",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 0,
-        "reliability": 6,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 224071543,
-        "uuid": "82282833-ffe6-4ecc-b024-552813efaf3c",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 7,
-        "magvar": 179,
-        "subtype": "",
-        "street": "Zob Ahan - ذوب آهن",
-        "additionalInfo": "",
-        "wazeData": "world,50.970386237506865,35.789493434333586,82282833-ffe6-4ecc-b024-552813efaf3c",
-        "toNodeId": 224071004,
-        "reportDescription": "",
-        "location": {
-          "x": 50.970386,
-          "y": 35.789493
-        },
-        "id": "alert-1666069114/82282833-ffe6-4ecc-b024-552813efaf3c",
-        "pubMillis": 1765941722000
-      },
-      "locationY": 35.789493,
-      "locationX": 50.970386,
-      "updateMillis": 1786681028376,
-      "blockUpdate": 1765941722925
-    },
-    {
       "id": 1691077542,
       "street": "Zob Ahan - ذوب آهن",
       "city": "کرج",
@@ -1135,8 +960,150 @@
       },
       "locationY": 35.790191,
       "locationX": 50.970351,
-      "updateMillis": 1786681028110,
+      "updateMillis": 1786692438190,
       "blockUpdate": 1765379574359
+    },
+    {
+      "id": 1691096800,
+      "street": "",
+      "city": "کرج",
+      "country": "IR",
+      "level": 5,
+      "length": 322,
+      "speed": 0,
+      "endNode": "Soleimani Fwy - آزادراه سلیمانی",
+      "line": [
+        {
+          "x": 51.000352,
+          "y": 35.876768
+        },
+        {
+          "x": 51.000082,
+          "y": 35.876756
+        },
+        {
+          "x": 50.999707,
+          "y": 35.876756
+        },
+        {
+          "x": 50.999267,
+          "y": 35.876901
+        },
+        {
+          "x": 50.999044,
+          "y": 35.877027
+        },
+        {
+          "x": 50.998736,
+          "y": 35.877236
+        },
+        {
+          "x": 50.998248,
+          "y": 35.877473
+        },
+        {
+          "x": 50.997187,
+          "y": 35.877932
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 334198866,
+          "ID": 436949599,
+          "toNode": 334198867,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "کرج",
+        "reportRating": 0,
+        "reportByMunicipalityUser": "false",
+        "confidence": 5,
+        "reliability": 10,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 334198866,
+        "uuid": "86a83497-e2ba-4714-8b38-4999fe584bb2",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 4,
+        "magvar": 294,
+        "subtype": "ROAD_CLOSED_EVENT",
+        "additionalInfo": "",
+        "wazeData": "world,51.000352693722654,35.87676800683346,86a83497-e2ba-4714-8b38-4999fe584bb2",
+        "toNodeId": 334198867,
+        "reportDescription": "",
+        "location": {
+          "x": 51.000352,
+          "y": 35.876768
+        },
+        "id": "alert-767627871/86a83497-e2ba-4714-8b38-4999fe584bb2",
+        "pubMillis": 1702913053000
+      },
+      "locationY": 35.876768,
+      "locationX": 51.000352,
+      "updateMillis": 1786692437968,
+      "blockUpdate": 1702913053396
+    },
+    {
+      "id": 1688289272,
+      "street": "Modarres Blvd - بلوار مدرس",
+      "city": "کرج",
+      "country": "IR",
+      "level": 5,
+      "length": 162,
+      "speed": 0,
+      "line": [
+        {
+          "x": 50.971183,
+          "y": 35.791076
+        },
+        {
+          "x": 50.972514,
+          "y": 35.792056
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 272335180,
+          "ID": 342046162,
+          "toNode": 272335736,
+          "isForward": false
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": true,
+        "city": "کرج",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 7,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 272335180,
+        "uuid": "4f590414-d857-450c-ace7-91fbaa0f548d",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 7,
+        "magvar": 48,
+        "subtype": "",
+        "street": "Modarres Blvd - بلوار مدرس",
+        "additionalInfo": "",
+        "wazeData": "world,50.971183404903506,35.791076901146376,4f590414-d857-450c-ace7-91fbaa0f548d",
+        "toNodeId": 272335736,
+        "reportDescription": "",
+        "location": {
+          "x": 50.971183,
+          "y": 35.791076
+        },
+        "id": "alert-1709340039/4f590414-d857-450c-ace7-91fbaa0f548d",
+        "pubMillis": 1783521671000
+      },
+      "locationY": 35.791076,
+      "locationX": 50.971183,
+      "updateMillis": 1786692437914,
+      "blockUpdate": 1783521671164
     },
     {
       "id": 1797652248,
@@ -1223,225 +1190,8 @@
       },
       "locationY": 35.806129,
       "locationX": 50.944152,
-      "updateMillis": 1786681027768,
+      "updateMillis": 1786692437873,
       "blockUpdate": 1699185939544
-    },
-    {
-      "id": 1691096800,
-      "street": "",
-      "city": "کرج",
-      "country": "IR",
-      "level": 5,
-      "length": 322,
-      "speed": 0,
-      "endNode": "Soleimani Fwy - آزادراه سلیمانی",
-      "line": [
-        {
-          "x": 51.000352,
-          "y": 35.876768
-        },
-        {
-          "x": 51.000082,
-          "y": 35.876756
-        },
-        {
-          "x": 50.999707,
-          "y": 35.876756
-        },
-        {
-          "x": 50.999267,
-          "y": 35.876901
-        },
-        {
-          "x": 50.999044,
-          "y": 35.877027
-        },
-        {
-          "x": 50.998736,
-          "y": 35.877236
-        },
-        {
-          "x": 50.998248,
-          "y": 35.877473
-        },
-        {
-          "x": 50.997187,
-          "y": 35.877932
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 334198866,
-          "ID": 436949599,
-          "toNode": 334198867,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "کرج",
-        "reportRating": 0,
-        "reportByMunicipalityUser": "false",
-        "confidence": 5,
-        "reliability": 10,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 334198866,
-        "uuid": "86a83497-e2ba-4714-8b38-4999fe584bb2",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 4,
-        "magvar": 294,
-        "subtype": "ROAD_CLOSED_EVENT",
-        "additionalInfo": "",
-        "wazeData": "world,51.000352693722654,35.87676800683346,86a83497-e2ba-4714-8b38-4999fe584bb2",
-        "toNodeId": 334198867,
-        "reportDescription": "",
-        "location": {
-          "x": 51.000352,
-          "y": 35.876768
-        },
-        "id": "alert-767627871/86a83497-e2ba-4714-8b38-4999fe584bb2",
-        "pubMillis": 1702913053000
-      },
-      "locationY": 35.876768,
-      "locationX": 51.000352,
-      "updateMillis": 1786681027575,
-      "blockUpdate": 1702913053396
-    },
-    {
-      "id": 1691108472,
-      "street": "Zob Ahan - ذوب آهن",
-      "city": "کرج",
-      "country": "IR",
-      "level": 5,
-      "length": 26,
-      "speed": 0,
-      "endNode": "Panahi - پناهی",
-      "line": [
-        {
-          "x": 50.970381,
-          "y": 35.789729
-        },
-        {
-          "x": 50.970386,
-          "y": 35.789493
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 224071051,
-          "ID": 268625207,
-          "toNode": 224071543,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": true,
-        "city": "کرج",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 0,
-        "reliability": 6,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 224071051,
-        "uuid": "554b314e-5e68-48db-b16d-2efd00a0056f",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 7,
-        "magvar": 179,
-        "subtype": "",
-        "street": "Zob Ahan - ذوب آهن",
-        "additionalInfo": "",
-        "wazeData": "world,50.970381955702756,35.789729303831834,554b314e-5e68-48db-b16d-2efd00a0056f",
-        "toNodeId": 224071543,
-        "reportDescription": "",
-        "location": {
-          "x": 50.970381,
-          "y": 35.789729
-        },
-        "id": "alert-1877025087/554b314e-5e68-48db-b16d-2efd00a0056f",
-        "pubMillis": 1765379605000
-      },
-      "locationY": 35.789729,
-      "locationX": 50.970381,
-      "updateMillis": 1786681027569,
-      "blockUpdate": 1765379605031
-    },
-    {
-      "id": 1691159672,
-      "street": "",
-      "city": "تهران",
-      "country": "IR",
-      "level": 5,
-      "length": 147,
-      "speed": 0,
-      "line": [
-        {
-          "x": 51.159125,
-          "y": 35.76084
-        },
-        {
-          "x": 51.15916,
-          "y": 35.761086
-        },
-        {
-          "x": 51.159101,
-          "y": 35.761156
-        },
-        {
-          "x": 51.158326,
-          "y": 35.761101
-        },
-        {
-          "x": 51.158237,
-          "y": 35.76098
-        },
-        {
-          "x": 51.158324,
-          "y": 35.760776
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 321702216,
-          "ID": 418126363,
-          "toNode": 321702205,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "تهران",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 1,
-        "reliability": 9,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 321702216,
-        "uuid": "be3df547-cff7-4631-92eb-063c468c218a",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 4,
-        "magvar": 7,
-        "subtype": "",
-        "additionalInfo": "",
-        "wazeData": "world,51.15912507241428,35.760840015114304,be3df547-cff7-4631-92eb-063c468c218a",
-        "toNodeId": 321702205,
-        "reportDescription": "",
-        "location": {
-          "x": 51.159125,
-          "y": 35.76084
-        },
-        "id": "alert-637559313/be3df547-cff7-4631-92eb-063c468c218a",
-        "pubMillis": 1773752421000
-      },
-      "locationY": 35.76084,
-      "locationX": 51.159125,
-      "updateMillis": 1786681027513,
-      "blockUpdate": 1773752421559
     },
     {
       "id": 1691030956,
@@ -1503,301 +1253,8 @@
       },
       "locationY": 35.790468,
       "locationX": 50.970425,
-      "updateMillis": 1786681027508,
+      "updateMillis": 1786692437840,
       "blockUpdate": 1765379328601
-    },
-    {
-      "id": 1797652150,
-      "street": "",
-      "city": "اندیشه",
-      "country": "IR",
-      "level": 5,
-      "length": 16,
-      "speed": 0,
-      "endNode": "Azadi Blvd - بلوار آزادی",
-      "line": [
-        {
-          "x": 51.029789,
-          "y": 35.711984
-        },
-        {
-          "x": 51.029641,
-          "y": 35.711906
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 267938909,
-          "ID": 335031326,
-          "toNode": 267938908,
-          "isForward": false
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "اندیشه",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 0,
-        "reliability": 7,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 267938909,
-        "uuid": "e8bde2bb-d79d-4ed3-8fbe-cc91d32b300b",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 2,
-        "magvar": 237,
-        "subtype": "",
-        "additionalInfo": "",
-        "wazeData": "world,51.0297893702449,35.711984957575396,e8bde2bb-d79d-4ed3-8fbe-cc91d32b300b",
-        "toNodeId": 267938908,
-        "reportDescription": "",
-        "location": {
-          "x": 51.029789,
-          "y": 35.711984
-        },
-        "id": "alert-1748895425/e8bde2bb-d79d-4ed3-8fbe-cc91d32b300b",
-        "pubMillis": 1786345628000
-      },
-      "locationY": 35.711984,
-      "locationX": 51.029789,
-      "updateMillis": 1786681027448,
-      "blockUpdate": 1786345628563
-    },
-    {
-      "id": 1797691474,
-      "street": "",
-      "city": "اندیشه",
-      "country": "IR",
-      "level": 5,
-      "length": 16,
-      "speed": 0,
-      "endNode": "Azadi Blvd - بلوار آزادی",
-      "line": [
-        {
-          "x": 51.029641,
-          "y": 35.711906
-        },
-        {
-          "x": 51.029789,
-          "y": 35.711984
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 267938908,
-          "ID": 335031326,
-          "toNode": 267938909,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "اندیشه",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 0,
-        "reliability": 6,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 267938908,
-        "uuid": "e4da4614-7e7f-4060-bbf4-ab4f1b1695bc",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 2,
-        "magvar": 57,
-        "subtype": "",
-        "additionalInfo": "",
-        "wazeData": "world,51.02964109526668,35.711906250817265,e4da4614-7e7f-4060-bbf4-ab4f1b1695bc",
-        "toNodeId": 267938909,
-        "reportDescription": "",
-        "location": {
-          "x": 51.029641,
-          "y": 35.711906
-        },
-        "id": "alert-1748812007/e4da4614-7e7f-4060-bbf4-ab4f1b1695bc",
-        "pubMillis": 1786345628000
-      },
-      "locationY": 35.711906,
-      "locationX": 51.029641,
-      "updateMillis": 1786681027445,
-      "blockUpdate": 1786345628528
-    },
-    {
-      "id": 1691062134,
-      "street": "",
-      "city": "محمد شهر",
-      "country": "IR",
-      "level": 5,
-      "length": 15,
-      "speed": 0,
-      "line": [
-        {
-          "x": 50.89686,
-          "y": 35.74636
-        },
-        {
-          "x": 50.89678,
-          "y": 35.746245
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 223747864,
-          "ID": 268162187,
-          "toNode": 223747767,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "محمد شهر",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 1,
-        "reliability": 8,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 223747864,
-        "uuid": "7acaead1-9583-4c19-95c5-30752c52b02f",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 1,
-        "magvar": 209,
-        "subtype": "",
-        "additionalInfo": "",
-        "wazeData": "world,50.89686018411425,35.746360538246975,7acaead1-9583-4c19-95c5-30752c52b02f",
-        "toNodeId": 223747767,
-        "reportDescription": "",
-        "location": {
-          "x": 50.89686,
-          "y": 35.74636
-        },
-        "id": "alert-1731691753/7acaead1-9583-4c19-95c5-30752c52b02f",
-        "pubMillis": 1764066816000
-      },
-      "locationY": 35.74636,
-      "locationX": 50.89686,
-      "updateMillis": 1786681027398,
-      "blockUpdate": 1764066816207
-    },
-    {
-      "id": 1691062122,
-      "street": "",
-      "city": "محمد شهر",
-      "country": "IR",
-      "level": 5,
-      "length": 15,
-      "speed": 0,
-      "line": [
-        {
-          "x": 50.89678,
-          "y": 35.746245
-        },
-        {
-          "x": 50.89686,
-          "y": 35.74636
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 223747767,
-          "ID": 268162187,
-          "toNode": 223747864,
-          "isForward": false
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "محمد شهر",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 0,
-        "reliability": 6,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 223747767,
-        "uuid": "9adfddf2-a619-4715-9538-8cd54165a1b8",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 1,
-        "magvar": 29,
-        "subtype": "",
-        "additionalInfo": "",
-        "wazeData": "world,50.89678073507555,35.746245228060175,9adfddf2-a619-4715-9538-8cd54165a1b8",
-        "toNodeId": 223747864,
-        "reportDescription": "",
-        "location": {
-          "x": 50.89678,
-          "y": 35.746245
-        },
-        "id": "alert-1731562867/9adfddf2-a619-4715-9538-8cd54165a1b8",
-        "pubMillis": 1764066816000
-      },
-      "locationY": 35.746245,
-      "locationX": 50.89678,
-      "updateMillis": 1786681027392,
-      "blockUpdate": 1764066816254
-    },
-    {
-      "id": 1688289272,
-      "street": "Modarres Blvd - بلوار مدرس",
-      "city": "کرج",
-      "country": "IR",
-      "level": 5,
-      "length": 162,
-      "speed": 0,
-      "line": [
-        {
-          "x": 50.971183,
-          "y": 35.791076
-        },
-        {
-          "x": 50.972514,
-          "y": 35.792056
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 272335180,
-          "ID": 342046162,
-          "toNode": 272335736,
-          "isForward": false
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": true,
-        "city": "کرج",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 0,
-        "reliability": 7,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 272335180,
-        "uuid": "4f590414-d857-450c-ace7-91fbaa0f548d",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 7,
-        "magvar": 48,
-        "subtype": "",
-        "street": "Modarres Blvd - بلوار مدرس",
-        "additionalInfo": "",
-        "wazeData": "world,50.971183404903506,35.791076901146376,4f590414-d857-450c-ace7-91fbaa0f548d",
-        "toNodeId": 272335736,
-        "reportDescription": "",
-        "location": {
-          "x": 50.971183,
-          "y": 35.791076
-        },
-        "id": "alert-1709340039/4f590414-d857-450c-ace7-91fbaa0f548d",
-        "pubMillis": 1783521671000
-      },
-      "locationY": 35.791076,
-      "locationX": 50.971183,
-      "updateMillis": 1786681027335,
-      "blockUpdate": 1783521671164
     },
     {
       "id": 1691124262,
@@ -1856,278 +1313,8 @@
       },
       "locationY": 35.790609,
       "locationX": 50.970526,
-      "updateMillis": 1786681027335,
+      "updateMillis": 1786692437574,
       "blockUpdate": 1765378549033
-    },
-    {
-      "id": 1691054352,
-      "street": "",
-      "city": "تهران",
-      "country": "IR",
-      "level": 5,
-      "length": 21,
-      "speed": 0,
-      "line": [
-        {
-          "x": 51.190915,
-          "y": 35.756319
-        },
-        {
-          "x": 51.19086,
-          "y": 35.756501
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 310290780,
-          "ID": 400628423,
-          "toNode": 310290781,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "تهران",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 1,
-        "reliability": 9,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 310290780,
-        "uuid": "d42510d6-ce96-4987-a5f5-e5af71caff45",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 2,
-        "magvar": 346,
-        "subtype": "",
-        "additionalInfo": "",
-        "wazeData": "world,51.190915136182376,35.756319692613324,d42510d6-ce96-4987-a5f5-e5af71caff45",
-        "toNodeId": 310290781,
-        "reportDescription": "",
-        "location": {
-          "x": 51.190915,
-          "y": 35.756319
-        },
-        "id": "alert-150864192/d42510d6-ce96-4987-a5f5-e5af71caff45",
-        "pubMillis": 1771913281000
-      },
-      "locationY": 35.756319,
-      "locationX": 51.190915,
-      "updateMillis": 1786681027248,
-      "blockUpdate": 1771913281346
-    },
-    {
-      "id": 1691073916,
-      "street": "",
-      "city": "تهران",
-      "country": "IR",
-      "level": 5,
-      "length": 21,
-      "speed": 0,
-      "line": [
-        {
-          "x": 51.19086,
-          "y": 35.756501
-        },
-        {
-          "x": 51.190915,
-          "y": 35.756319
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 310290781,
-          "ID": 400628423,
-          "toNode": 310290780,
-          "isForward": false
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "تهران",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 1,
-        "reliability": 9,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 310290781,
-        "uuid": "37f51337-c4b6-4a0f-8e92-7f772f254794",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 2,
-        "magvar": 166,
-        "subtype": "",
-        "additionalInfo": "",
-        "wazeData": "world,51.19086055395931,35.756501925161345,37f51337-c4b6-4a0f-8e92-7f772f254794",
-        "toNodeId": 310290780,
-        "reportDescription": "",
-        "location": {
-          "x": 51.19086,
-          "y": 35.756501
-        },
-        "id": "alert-150864193/37f51337-c4b6-4a0f-8e92-7f772f254794",
-        "pubMillis": 1771913281000
-      },
-      "locationY": 35.756501,
-      "locationX": 51.19086,
-      "updateMillis": 1786681027248,
-      "blockUpdate": 1771913281347
-    },
-    {
-      "id": 1691159568,
-      "street": "",
-      "city": "کرج",
-      "country": "IR",
-      "level": 5,
-      "length": 43,
-      "speed": 0,
-      "endNode": "کرج",
-      "line": [
-        {
-          "x": 51.032399,
-          "y": 35.830661
-        },
-        {
-          "x": 51.032325,
-          "y": 35.830584
-        },
-        {
-          "x": 51.032298,
-          "y": 35.83054
-        },
-        {
-          "x": 51.032296,
-          "y": 35.830493
-        },
-        {
-          "x": 51.032347,
-          "y": 35.830426
-        },
-        {
-          "x": 51.032474,
-          "y": 35.83038
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 261414161,
-          "ID": 324443289,
-          "toNode": 261414164,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 0,
-        "reliability": 6,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 261414161,
-        "uuid": "a65f5f25-dca9-4d3d-a6b3-b11143f62d16",
-        "nearBy": "کرج",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 4,
-        "magvar": 218,
-        "subtype": "",
-        "additionalInfo": "",
-        "wazeData": "world,51.032399400846565,35.83066131665501,a65f5f25-dca9-4d3d-a6b3-b11143f62d16",
-        "toNodeId": 261414164,
-        "reportDescription": "",
-        "location": {
-          "x": 51.032399,
-          "y": 35.830661
-        },
-        "id": "alert-1673259915/a65f5f25-dca9-4d3d-a6b3-b11143f62d16",
-        "pubMillis": 1785591854000
-      },
-      "locationY": 35.830661,
-      "locationX": 51.032399,
-      "updateMillis": 1786681027236,
-      "blockUpdate": 1785591854670
-    },
-    {
-      "id": 1691104540,
-      "street": "",
-      "city": "کرج",
-      "country": "IR",
-      "level": 5,
-      "length": 42,
-      "speed": 0,
-      "endNode": "کرج",
-      "line": [
-        {
-          "x": 51.032077,
-          "y": 35.830314
-        },
-        {
-          "x": 51.032151,
-          "y": 35.830387
-        },
-        {
-          "x": 51.032167,
-          "y": 35.830429
-        },
-        {
-          "x": 51.032157,
-          "y": 35.830475
-        },
-        {
-          "x": 51.032133,
-          "y": 35.830526
-        },
-        {
-          "x": 51.032089,
-          "y": 35.83056
-        },
-        {
-          "x": 51.031986,
-          "y": 35.830587
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 261414120,
-          "ID": 324443235,
-          "toNode": 261414119,
-          "isForward": false
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 0,
-        "reliability": 6,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 261414120,
-        "uuid": "1f014e71-14dc-4293-ad6b-70c134766776",
-        "nearBy": "کرج",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 4,
-        "magvar": 40,
-        "subtype": "",
-        "additionalInfo": "",
-        "wazeData": "world,51.03207702471977,35.830314095031596,1f014e71-14dc-4293-ad6b-70c134766776",
-        "toNodeId": 261414119,
-        "reportDescription": "",
-        "location": {
-          "x": 51.032077,
-          "y": 35.830314
-        },
-        "id": "alert-1673259914/1f014e71-14dc-4293-ad6b-70c134766776",
-        "pubMillis": 1785591854000
-      },
-      "locationY": 35.830314,
-      "locationX": 51.032077,
-      "updateMillis": 1786681027233,
-      "blockUpdate": 1785591854670
     },
     {
       "id": 623905666,
@@ -2185,7 +1372,7 @@
       },
       "locationY": 35.817391,
       "locationX": 50.932115,
-      "updateMillis": 1786681027103,
+      "updateMillis": 1786692437503,
       "blockUpdate": 1761672725373
     },
     {
@@ -2245,8 +1432,160 @@
       },
       "locationY": 35.773437,
       "locationX": 50.9917,
-      "updateMillis": 1786681027083,
+      "updateMillis": 1786692437435,
       "blockUpdate": 1759436169998
+    },
+    {
+      "id": 1691062134,
+      "street": "",
+      "city": "محمد شهر",
+      "country": "IR",
+      "level": 5,
+      "length": 15,
+      "speed": 0,
+      "line": [
+        {
+          "x": 50.89686,
+          "y": 35.74636
+        },
+        {
+          "x": 50.89678,
+          "y": 35.746245
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 223747864,
+          "ID": 268162187,
+          "toNode": 223747767,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "محمد شهر",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 1,
+        "reliability": 8,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 223747864,
+        "uuid": "7acaead1-9583-4c19-95c5-30752c52b02f",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 1,
+        "magvar": 209,
+        "subtype": "",
+        "additionalInfo": "",
+        "wazeData": "world,50.89686018411425,35.746360538246975,7acaead1-9583-4c19-95c5-30752c52b02f",
+        "toNodeId": 223747767,
+        "reportDescription": "",
+        "location": {
+          "x": 50.89686,
+          "y": 35.74636
+        },
+        "id": "alert-1731691753/7acaead1-9583-4c19-95c5-30752c52b02f",
+        "pubMillis": 1764066816000
+      },
+      "locationY": 35.74636,
+      "locationX": 50.89686,
+      "updateMillis": 1786692437425,
+      "blockUpdate": 1764066816207
+    },
+    {
+      "id": 1691062122,
+      "street": "",
+      "city": "محمد شهر",
+      "country": "IR",
+      "level": 5,
+      "length": 15,
+      "speed": 0,
+      "line": [
+        {
+          "x": 50.89678,
+          "y": 35.746245
+        },
+        {
+          "x": 50.89686,
+          "y": 35.74636
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 223747767,
+          "ID": 268162187,
+          "toNode": 223747864,
+          "isForward": false
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "محمد شهر",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 6,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 223747767,
+        "uuid": "9adfddf2-a619-4715-9538-8cd54165a1b8",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 1,
+        "magvar": 29,
+        "subtype": "",
+        "additionalInfo": "",
+        "wazeData": "world,50.89678073507555,35.746245228060175,9adfddf2-a619-4715-9538-8cd54165a1b8",
+        "toNodeId": 223747864,
+        "reportDescription": "",
+        "location": {
+          "x": 50.89678,
+          "y": 35.746245
+        },
+        "id": "alert-1731562867/9adfddf2-a619-4715-9538-8cd54165a1b8",
+        "pubMillis": 1764066816000
+      },
+      "locationY": 35.746245,
+      "locationX": 50.89678,
+      "updateMillis": 1786692437420,
+      "blockUpdate": 1764066816254
+    },
+    {
+      "id": 1865121692,
+      "street": "Maaleki - مالکی",
+      "city": "گرمدره",
+      "country": null,
+      "level": 2,
+      "length": 551,
+      "speed": 3.6972222222222224,
+      "line": [
+        {
+          "x": 51.047656,
+          "y": 35.752476
+        },
+        {
+          "x": 51.046874,
+          "y": 35.750762
+        },
+        {
+          "x": 51.043298,
+          "y": 35.751907
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 268006197,
+          "ID": 335137054,
+          "toNode": 277550760,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 35.752476,
+      "locationX": 51.047656,
+      "updateMillis": 1786692436884,
+      "blockUpdate": null
     },
     {
       "id": 1691151470,
@@ -2305,211 +1644,221 @@
       },
       "locationY": 35.759619,
       "locationX": 50.990106,
-      "updateMillis": 1786681026776,
+      "updateMillis": 1786692436731,
       "blockUpdate": 1770440161993
     },
     {
-      "id": 1691096730,
+      "id": 1691131720,
       "street": "",
-      "city": "تهران",
+      "city": "فردیس",
       "country": "IR",
       "level": 5,
-      "length": 613,
+      "length": 34,
       "speed": 0,
+      "endNode": "فردیس",
       "line": [
         {
-          "x": 51.188564,
-          "y": 35.750022
+          "x": 50.993682,
+          "y": 35.720401
         },
         {
-          "x": 51.187196,
-          "y": 35.752998
+          "x": 50.99371,
+          "y": 35.720314
         },
         {
-          "x": 51.186836,
-          "y": 35.754241
+          "x": 50.993755,
+          "y": 35.720294
         },
         {
-          "x": 51.186802,
-          "y": 35.754521
+          "x": 50.9938,
+          "y": 35.720306
         },
         {
-          "x": 51.186831,
-          "y": 35.754804
-        },
-        {
-          "x": 51.186938,
-          "y": 35.755079
-        },
-        {
-          "x": 51.187064,
-          "y": 35.755271
+          "x": 50.993888,
+          "y": 35.720421
         }
       ],
       "segments": [
         {
-          "fromNode": 263772002,
-          "ID": 406268001,
-          "toNode": 261315854,
+          "fromNode": 264522279,
+          "ID": 329563662,
+          "toNode": 264522283,
           "isForward": true
         }
       ],
       "causeAlert": {
         "country": "IR",
-        "inscale": true,
-        "city": "تهران",
+        "inscale": false,
         "reportRating": 5,
         "reportByMunicipalityUser": "false",
         "confidence": 5,
         "reliability": 10,
         "type": "ROAD_CLOSED",
-        "fromNodeId": 263772002,
-        "uuid": "b32d8e37-8645-4462-b007-adb26c30e4f6",
+        "fromNodeId": 264522279,
+        "uuid": "bdf90783-0fdd-492f-8b9d-17b56e899752",
+        "nearBy": "فردیس",
         "speed": 0,
         "reportMood": 0,
-        "roadType": 7,
-        "magvar": 340,
+        "roadType": 4,
+        "magvar": 165,
         "subtype": "",
         "additionalInfo": "",
-        "wazeData": "world,51.18856495516908,35.750022579503224,b32d8e37-8645-4462-b007-adb26c30e4f6",
-        "toNodeId": 261315854,
+        "wazeData": "world,50.993682430124984,35.72040186891647,bdf90783-0fdd-492f-8b9d-17b56e899752",
+        "toNodeId": 264522283,
         "reportDescription": "",
         "location": {
-          "x": 51.188564,
-          "y": 35.750022
+          "x": 50.993682,
+          "y": 35.720401
         },
-        "id": "alert-1278068131/b32d8e37-8645-4462-b007-adb26c30e4f6",
-        "pubMillis": 1762197605000
+        "id": "alert-740378349/bdf90783-0fdd-492f-8b9d-17b56e899752",
+        "pubMillis": 1756494211000
       },
-      "locationY": 35.750022,
-      "locationX": 51.188564,
-      "updateMillis": 1786681026703,
-      "blockUpdate": 1762197605619
+      "locationY": 35.720401,
+      "locationX": 50.993682,
+      "updateMillis": 1786692436571,
+      "blockUpdate": 1756494211655
     },
     {
-      "id": 1691143538,
+      "id": 1797585524,
       "street": "",
-      "city": "قدس",
+      "city": "فردیس",
       "country": "IR",
       "level": 5,
-      "length": 60,
+      "length": 39,
       "speed": 0,
+      "endNode": "فردیس",
       "line": [
         {
-          "x": 51.119076,
-          "y": 35.733763
+          "x": 50.993859,
+          "y": 35.719935
         },
         {
-          "x": 51.118798,
-          "y": 35.733274
+          "x": 50.993778,
+          "y": 35.720096
+        },
+        {
+          "x": 50.99374,
+          "y": 35.720113
+        },
+        {
+          "x": 50.993699,
+          "y": 35.720098
+        },
+        {
+          "x": 50.99364,
+          "y": 35.720003
         }
       ],
       "segments": [
         {
-          "fromNode": 268008803,
-          "ID": 362030519,
-          "toNode": 285090952,
-          "isForward": false
+          "fromNode": 264522384,
+          "ID": 329563797,
+          "toNode": 264522385,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 4,
+        "reliability": 10,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 264522384,
+        "uuid": "19099534-c57e-4ec6-8aa0-19e48cc76f30",
+        "nearBy": "فردیس",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 4,
+        "magvar": 338,
+        "subtype": "",
+        "additionalInfo": "",
+        "wazeData": "world,50.99385908761971,35.71993578284294,19099534-c57e-4ec6-8aa0-19e48cc76f30",
+        "toNodeId": 264522385,
+        "reportDescription": "",
+        "location": {
+          "x": 50.993859,
+          "y": 35.719935
+        },
+        "id": "alert-740410334/19099534-c57e-4ec6-8aa0-19e48cc76f30",
+        "pubMillis": 1756494243000
+      },
+      "locationY": 35.719935,
+      "locationX": 50.993859,
+      "updateMillis": 1786692436565,
+      "blockUpdate": 1756494243708
+    },
+    {
+      "id": 1691077128,
+      "street": "",
+      "city": "قدس",
+      "country": "IR",
+      "level": 5,
+      "length": 36,
+      "speed": 0,
+      "endNode": "Enqelab Blvd - بلوار انقلاب",
+      "line": [
+        {
+          "x": 51.119553,
+          "y": 35.713659
+        },
+        {
+          "x": 51.119578,
+          "y": 35.713763
+        },
+        {
+          "x": 51.11955,
+          "y": 35.713808
+        },
+        {
+          "x": 51.119477,
+          "y": 35.713817
+        },
+        {
+          "x": 51.119378,
+          "y": 35.713743
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 266737265,
+          "ID": 333086376,
+          "toNode": 266737269,
+          "isForward": true
         }
       ],
       "causeAlert": {
         "country": "IR",
         "inscale": false,
         "city": "قدس",
-        "reportRating": 0,
+        "reportRating": 5,
         "reportByMunicipalityUser": "false",
-        "confidence": 5,
-        "reliability": 10,
+        "confidence": 1,
+        "reliability": 9,
         "type": "ROAD_CLOSED",
-        "fromNodeId": 268008803,
-        "uuid": "b78fe497-98ef-44ef-9fb2-d36b4172d540",
+        "fromNodeId": 266737265,
+        "uuid": "df8c8915-118b-48b8-867a-3a51f5530c18",
         "speed": 0,
         "reportMood": 0,
-        "roadType": 17,
-        "magvar": 204,
-        "subtype": "ROAD_CLOSED_EVENT",
+        "roadType": 4,
+        "magvar": 11,
+        "subtype": "",
         "additionalInfo": "",
-        "wazeData": "world,51.119076267532705,35.73376317472462,b78fe497-98ef-44ef-9fb2-d36b4172d540",
-        "toNodeId": 285090952,
-        "location": {
-          "x": 51.119076,
-          "y": 35.733763
-        },
-        "id": "alert-1839760825/b78fe497-98ef-44ef-9fb2-d36b4172d540",
-        "pubMillis": 1697038889000
-      },
-      "locationY": 35.733763,
-      "locationX": 51.119076,
-      "updateMillis": 1786681026605,
-      "blockUpdate": 1697038889222
-    },
-    {
-      "id": 1691049876,
-      "street": "Soleimani Hwy - بزرگراه سلیمانی",
-      "city": "کرج",
-      "country": "IR",
-      "level": 5,
-      "length": 233,
-      "speed": 0,
-      "endNode": "Soleimani Fwy - آزادراه سلیمانی",
-      "line": [
-        {
-          "x": 51.011087,
-          "y": 35.845824
-        },
-        {
-          "x": 51.010296,
-          "y": 35.84635
-        },
-        {
-          "x": 51.009765,
-          "y": 35.846889
-        },
-        {
-          "x": 51.009479,
-          "y": 35.847418
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 312939185,
-          "ID": 436794915,
-          "toNode": 334092768,
-          "isForward": false
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": true,
-        "city": "کرج",
-        "reportRating": 0,
-        "reportByMunicipalityUser": "false",
-        "confidence": 5,
-        "reliability": 10,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 312939185,
-        "uuid": "84365da7-dca2-4650-b0cf-83dee8b0f36a",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 6,
-        "magvar": 320,
-        "subtype": "ROAD_CLOSED_EVENT",
-        "street": "Soleimani Hwy - بزرگراه سلیمانی",
-        "additionalInfo": "",
-        "wazeData": "world,51.01108798886,35.845824803365,84365da7-dca2-4650-b0cf-83dee8b0f36a",
-        "toNodeId": 334092768,
+        "wazeData": "world,51.119553581595014,35.71365901341022,df8c8915-118b-48b8-867a-3a51f5530c18",
+        "toNodeId": 266737269,
         "reportDescription": "",
         "location": {
-          "x": 51.011087,
-          "y": 35.845824
+          "x": 51.119553,
+          "y": 35.713659
         },
-        "id": "alert-767674054/84365da7-dca2-4650-b0cf-83dee8b0f36a",
-        "pubMillis": 1702913237000
+        "id": "alert-1632449887/df8c8915-118b-48b8-867a-3a51f5530c18",
+        "pubMillis": 1782899829000
       },
-      "locationY": 35.845824,
-      "locationX": 51.011087,
-      "updateMillis": 1786681026586,
-      "blockUpdate": 1702913237585
+      "locationY": 35.713659,
+      "locationX": 51.119553,
+      "updateMillis": 1786692436502,
+      "blockUpdate": 1782899829212
     },
     {
       "id": 1691147696,
@@ -2591,413 +1940,8 @@
       },
       "locationY": 35.707981,
       "locationX": 51.163961,
-      "updateMillis": 1786681026475,
+      "updateMillis": 1786692436395,
       "blockUpdate": 1723460411170
-    },
-    {
-      "id": 1691077128,
-      "street": "",
-      "city": "قدس",
-      "country": "IR",
-      "level": 5,
-      "length": 36,
-      "speed": 0,
-      "endNode": "Enqelab Blvd - بلوار انقلاب",
-      "line": [
-        {
-          "x": 51.119553,
-          "y": 35.713659
-        },
-        {
-          "x": 51.119578,
-          "y": 35.713763
-        },
-        {
-          "x": 51.11955,
-          "y": 35.713808
-        },
-        {
-          "x": 51.119477,
-          "y": 35.713817
-        },
-        {
-          "x": 51.119378,
-          "y": 35.713743
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 266737265,
-          "ID": 333086376,
-          "toNode": 266737269,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "قدس",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 1,
-        "reliability": 9,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 266737265,
-        "uuid": "df8c8915-118b-48b8-867a-3a51f5530c18",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 4,
-        "magvar": 11,
-        "subtype": "",
-        "additionalInfo": "",
-        "wazeData": "world,51.119553581595014,35.71365901341022,df8c8915-118b-48b8-867a-3a51f5530c18",
-        "toNodeId": 266737269,
-        "reportDescription": "",
-        "location": {
-          "x": 51.119553,
-          "y": 35.713659
-        },
-        "id": "alert-1632449887/df8c8915-118b-48b8-867a-3a51f5530c18",
-        "pubMillis": 1782899829000
-      },
-      "locationY": 35.713659,
-      "locationX": 51.119553,
-      "updateMillis": 1786681026374,
-      "blockUpdate": 1782899829212
-    },
-    {
-      "id": 1691120090,
-      "street": "",
-      "city": "قدس",
-      "country": "IR",
-      "level": 5,
-      "length": 60,
-      "speed": 0,
-      "endNode": "Piruzi - پیروزی",
-      "line": [
-        {
-          "x": 51.118798,
-          "y": 35.733274
-        },
-        {
-          "x": 51.119076,
-          "y": 35.733763
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 285090952,
-          "ID": 362030519,
-          "toNode": 268008803,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "قدس",
-        "reportRating": 0,
-        "reportByMunicipalityUser": "false",
-        "confidence": 5,
-        "reliability": 10,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 285090952,
-        "uuid": "1d4fb8c8-bfe7-485d-9738-b985e87bb6c4",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 17,
-        "magvar": 24,
-        "subtype": "ROAD_CLOSED_EVENT",
-        "additionalInfo": "",
-        "wazeData": "world,51.118798032937,35.7332740808073,1d4fb8c8-bfe7-485d-9738-b985e87bb6c4",
-        "toNodeId": 268008803,
-        "location": {
-          "x": 51.118798,
-          "y": 35.733274
-        },
-        "id": "alert-1839758659/1d4fb8c8-bfe7-485d-9738-b985e87bb6c4",
-        "pubMillis": 1697038889000
-      },
-      "locationY": 35.733274,
-      "locationX": 51.118798,
-      "updateMillis": 1786681026326,
-      "blockUpdate": 1697038889274
-    },
-    {
-      "id": 1691131720,
-      "street": "",
-      "city": "فردیس",
-      "country": "IR",
-      "level": 5,
-      "length": 34,
-      "speed": 0,
-      "endNode": "فردیس",
-      "line": [
-        {
-          "x": 50.993682,
-          "y": 35.720401
-        },
-        {
-          "x": 50.99371,
-          "y": 35.720314
-        },
-        {
-          "x": 50.993755,
-          "y": 35.720294
-        },
-        {
-          "x": 50.9938,
-          "y": 35.720306
-        },
-        {
-          "x": 50.993888,
-          "y": 35.720421
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 264522279,
-          "ID": 329563662,
-          "toNode": 264522283,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 5,
-        "reliability": 10,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 264522279,
-        "uuid": "bdf90783-0fdd-492f-8b9d-17b56e899752",
-        "nearBy": "فردیس",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 4,
-        "magvar": 165,
-        "subtype": "",
-        "additionalInfo": "",
-        "wazeData": "world,50.993682430124984,35.72040186891647,bdf90783-0fdd-492f-8b9d-17b56e899752",
-        "toNodeId": 264522283,
-        "reportDescription": "",
-        "location": {
-          "x": 50.993682,
-          "y": 35.720401
-        },
-        "id": "alert-740378349/bdf90783-0fdd-492f-8b9d-17b56e899752",
-        "pubMillis": 1756494211000
-      },
-      "locationY": 35.720401,
-      "locationX": 50.993682,
-      "updateMillis": 1786681026216,
-      "blockUpdate": 1756494211655
-    },
-    {
-      "id": 1797585524,
-      "street": "",
-      "city": "فردیس",
-      "country": "IR",
-      "level": 5,
-      "length": 39,
-      "speed": 0,
-      "endNode": "فردیس",
-      "line": [
-        {
-          "x": 50.993859,
-          "y": 35.719935
-        },
-        {
-          "x": 50.993778,
-          "y": 35.720096
-        },
-        {
-          "x": 50.99374,
-          "y": 35.720113
-        },
-        {
-          "x": 50.993699,
-          "y": 35.720098
-        },
-        {
-          "x": 50.99364,
-          "y": 35.720003
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 264522384,
-          "ID": 329563797,
-          "toNode": 264522385,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 4,
-        "reliability": 10,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 264522384,
-        "uuid": "19099534-c57e-4ec6-8aa0-19e48cc76f30",
-        "nearBy": "فردیس",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 4,
-        "magvar": 338,
-        "subtype": "",
-        "additionalInfo": "",
-        "wazeData": "world,50.99385908761971,35.71993578284294,19099534-c57e-4ec6-8aa0-19e48cc76f30",
-        "toNodeId": 264522385,
-        "reportDescription": "",
-        "location": {
-          "x": 50.993859,
-          "y": 35.719935
-        },
-        "id": "alert-740410334/19099534-c57e-4ec6-8aa0-19e48cc76f30",
-        "pubMillis": 1756494243000
-      },
-      "locationY": 35.719935,
-      "locationX": 50.993859,
-      "updateMillis": 1786681026207,
-      "blockUpdate": 1756494243708
-    },
-    {
-      "id": 1691042604,
-      "street": "",
-      "city": "تهران",
-      "country": "IR",
-      "level": 5,
-      "length": 45,
-      "speed": 0,
-      "endNode": "14 E, Kharrazi Expy",
-      "line": [
-        {
-          "x": 51.200183,
-          "y": 35.75774
-        },
-        {
-          "x": 51.200626,
-          "y": 35.757915
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 356563492,
-          "ID": 472805057,
-          "toNode": 219108273,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "تهران",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 0,
-        "reliability": 6,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 356563492,
-        "uuid": "9ed50325-1fd5-42da-9de6-ffdd6bcaa636",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 4,
-        "magvar": 64,
-        "subtype": "",
-        "additionalInfo": "",
-        "wazeData": "world,51.200183180078376,35.75774048012876,9ed50325-1fd5-42da-9de6-ffdd6bcaa636",
-        "toNodeId": 219108273,
-        "reportDescription": "",
-        "location": {
-          "x": 51.200183,
-          "y": 35.75774
-        },
-        "id": "alert-166214007/9ed50325-1fd5-42da-9de6-ffdd6bcaa636",
-        "pubMillis": 1771989583000
-      },
-      "locationY": 35.75774,
-      "locationX": 51.200183,
-      "updateMillis": 1786681025874,
-      "blockUpdate": 1771989583898
-    },
-    {
-      "id": 1691053798,
-      "street": "",
-      "city": "کرج",
-      "country": "IR",
-      "level": 5,
-      "length": 27,
-      "speed": 0,
-      "endNode": "Kachuei - کچویی",
-      "line": [
-        {
-          "x": 50.992518,
-          "y": 35.774308
-        },
-        {
-          "x": 50.992524,
-          "y": 35.774369
-        },
-        {
-          "x": 50.992506,
-          "y": 35.774404
-        },
-        {
-          "x": 50.992469,
-          "y": 35.77442
-        },
-        {
-          "x": 50.992412,
-          "y": 35.774423
-        },
-        {
-          "x": 50.992338,
-          "y": 35.774397
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 263380638,
-          "ID": 327709887,
-          "toNode": 263380639,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "کرج",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 4,
-        "reliability": 10,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 263380638,
-        "uuid": "b6f1768e-263c-448e-bd8f-457d81d4218b",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 4,
-        "magvar": 4,
-        "subtype": "",
-        "additionalInfo": "",
-        "wazeData": "world,50.99251895517133,35.774308173427045,b6f1768e-263c-448e-bd8f-457d81d4218b",
-        "toNodeId": 263380639,
-        "reportDescription": "",
-        "location": {
-          "x": 50.992518,
-          "y": 35.774308
-        },
-        "id": "alert-1301969419/b6f1768e-263c-448e-bd8f-457d81d4218b",
-        "pubMillis": 1759436169000
-      },
-      "locationY": 35.774308,
-      "locationX": 50.992518,
-      "updateMillis": 1786681025654,
-      "blockUpdate": 1759436169964
     },
     {
       "id": 1797663340,
@@ -3060,34 +2004,93 @@
       },
       "locationY": 35.844758,
       "locationX": 50.913772,
-      "updateMillis": 1786681025370,
+      "updateMillis": 1786692435929,
       "blockUpdate": 1785849864091
     },
     {
-      "id": 1100217698,
-      "street": "Modarres Blvd - بلوار مدرس",
-      "city": "کرج",
+      "id": 1691042604,
+      "street": "",
+      "city": "تهران",
       "country": "IR",
       "level": 5,
-      "length": 32,
+      "length": 45,
       "speed": 0,
-      "endNode": "",
+      "endNode": "14 E, Kharrazi Expy",
       "line": [
         {
-          "x": 50.972514,
-          "y": 35.792056
+          "x": 51.200183,
+          "y": 35.75774
         },
         {
-          "x": 50.972774,
-          "y": 35.792247
+          "x": 51.200626,
+          "y": 35.757915
         }
       ],
       "segments": [
         {
-          "fromNode": 272335736,
-          "ID": 342046161,
-          "toNode": 264526254,
-          "isForward": false
+          "fromNode": 356563492,
+          "ID": 472805057,
+          "toNode": 219108273,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "تهران",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 6,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 356563492,
+        "uuid": "9ed50325-1fd5-42da-9de6-ffdd6bcaa636",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 4,
+        "magvar": 64,
+        "subtype": "",
+        "additionalInfo": "",
+        "wazeData": "world,51.200183180078376,35.75774048012876,9ed50325-1fd5-42da-9de6-ffdd6bcaa636",
+        "toNodeId": 219108273,
+        "reportDescription": "",
+        "location": {
+          "x": 51.200183,
+          "y": 35.75774
+        },
+        "id": "alert-166214007/9ed50325-1fd5-42da-9de6-ffdd6bcaa636",
+        "pubMillis": 1771989583000
+      },
+      "locationY": 35.75774,
+      "locationX": 51.200183,
+      "updateMillis": 1786692435831,
+      "blockUpdate": 1771989583898
+    },
+    {
+      "id": 1691155734,
+      "street": "Zob Ahan - ذوب آهن",
+      "city": "کرج",
+      "country": "IR",
+      "level": 5,
+      "length": 37,
+      "speed": 0,
+      "endNode": "Namaz Blvd - بلوار نماز",
+      "line": [
+        {
+          "x": 50.970386,
+          "y": 35.789493
+        },
+        {
+          "x": 50.970391,
+          "y": 35.78916
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 224071543,
+          "ID": 268625208,
+          "toNode": 224071004,
+          "isForward": true
         }
       ],
       "causeAlert": {
@@ -3099,29 +2102,101 @@
         "confidence": 0,
         "reliability": 6,
         "type": "ROAD_CLOSED",
-        "fromNodeId": 272335736,
-        "uuid": "2afb9779-8b22-407f-b977-91b17057fef3",
+        "fromNodeId": 224071543,
+        "uuid": "82282833-ffe6-4ecc-b024-552813efaf3c",
         "speed": 0,
         "reportMood": 0,
         "roadType": 7,
-        "magvar": 48,
+        "magvar": 179,
         "subtype": "",
-        "street": "Modarres Blvd - بلوار مدرس",
+        "street": "Zob Ahan - ذوب آهن",
         "additionalInfo": "",
-        "wazeData": "world,50.97251430343918,35.792056086712044,2afb9779-8b22-407f-b977-91b17057fef3",
-        "toNodeId": 264526254,
+        "wazeData": "world,50.970386237506865,35.789493434333586,82282833-ffe6-4ecc-b024-552813efaf3c",
+        "toNodeId": 224071004,
         "reportDescription": "",
         "location": {
-          "x": 50.972514,
-          "y": 35.792056
+          "x": 50.970386,
+          "y": 35.789493
         },
-        "id": "alert-1709345005/2afb9779-8b22-407f-b977-91b17057fef3",
-        "pubMillis": 1783521645000
+        "id": "alert-1666069114/82282833-ffe6-4ecc-b024-552813efaf3c",
+        "pubMillis": 1765941722000
       },
-      "locationY": 35.792056,
-      "locationX": 50.972514,
-      "updateMillis": 1786681025230,
-      "blockUpdate": 1783521645613
+      "locationY": 35.789493,
+      "locationX": 50.970386,
+      "updateMillis": 1786692435268,
+      "blockUpdate": 1765941722925
+    },
+    {
+      "id": 1862088850,
+      "street": "59",
+      "city": "کرج",
+      "country": "IR",
+      "level": 5,
+      "length": 246,
+      "speed": 0,
+      "endNode": "کرج",
+      "line": [
+        {
+          "x": 51.04735,
+          "y": 35.835595
+        },
+        {
+          "x": 51.047801,
+          "y": 35.83576
+        },
+        {
+          "x": 51.048165,
+          "y": 35.835856
+        },
+        {
+          "x": 51.048809,
+          "y": 35.835965
+        },
+        {
+          "x": 51.049962,
+          "y": 35.836192
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 219760519,
+          "ID": 261894624,
+          "toNode": 219760479,
+          "isForward": false
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": true,
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 6,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 219760519,
+        "uuid": "3388391a-b62c-486f-b62c-83fba778936d",
+        "nearBy": "کرج",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 6,
+        "magvar": 66,
+        "subtype": "",
+        "street": "59",
+        "additionalInfo": "",
+        "wazeData": "world,51.04735091529006,35.83559531736587,3388391a-b62c-486f-b62c-83fba778936d",
+        "toNodeId": 219760479,
+        "reportDescription": "",
+        "location": {
+          "x": 51.04735,
+          "y": 35.835595
+        },
+        "id": "alert-1788801557/3388391a-b62c-486f-b62c-83fba778936d",
+        "pubMillis": 1786688250000
+      },
+      "locationY": 35.835595,
+      "locationX": 51.04735,
+      "updateMillis": 1786692435199,
+      "blockUpdate": 1786688250503
     },
     {
       "id": 1691115710,
@@ -3179,7 +2254,7 @@
       },
       "locationY": 35.752568,
       "locationX": 51.144991,
-      "updateMillis": 1786681024350,
+      "updateMillis": 1786692434921,
       "blockUpdate": 1785162798856
     },
     {
@@ -3263,60 +2338,1512 @@
       },
       "locationY": 35.739473,
       "locationX": 51.159317,
-      "updateMillis": 1786681024272,
+      "updateMillis": 1786692434916,
       "blockUpdate": 1771051593213
     },
     {
-      "id": 1856879266,
-      "street": "Mostafa Khomeini N Blvd - بلوار مصطفی خمینی شمالی",
-      "city": "کرج",
-      "country": null,
-      "level": 4,
-      "length": 225,
-      "speed": 0.6416666666666667,
+      "id": 1691159672,
+      "street": "",
+      "city": "تهران",
+      "country": "IR",
+      "level": 5,
+      "length": 147,
+      "speed": 0,
       "line": [
         {
-          "x": 50.970549,
-          "y": 35.872886
+          "x": 51.159125,
+          "y": 35.76084
         },
         {
-          "x": 50.970944,
-          "y": 35.873874
+          "x": 51.15916,
+          "y": 35.761086
         },
         {
-          "x": 50.971335,
-          "y": 35.874815
+          "x": 51.159101,
+          "y": 35.761156
+        },
+        {
+          "x": 51.158326,
+          "y": 35.761101
+        },
+        {
+          "x": 51.158237,
+          "y": 35.76098
+        },
+        {
+          "x": 51.158324,
+          "y": 35.760776
         }
       ],
       "segments": [
         {
-          "fromNode": 218571968,
-          "ID": 260039651,
-          "toNode": 218300329,
+          "fromNode": 321702216,
+          "ID": 418126363,
+          "toNode": 321702205,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "تهران",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 1,
+        "reliability": 9,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 321702216,
+        "uuid": "be3df547-cff7-4631-92eb-063c468c218a",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 4,
+        "magvar": 7,
+        "subtype": "",
+        "additionalInfo": "",
+        "wazeData": "world,51.15912507241428,35.760840015114304,be3df547-cff7-4631-92eb-063c468c218a",
+        "toNodeId": 321702205,
+        "reportDescription": "",
+        "location": {
+          "x": 51.159125,
+          "y": 35.76084
+        },
+        "id": "alert-637559313/be3df547-cff7-4631-92eb-063c468c218a",
+        "pubMillis": 1773752421000
+      },
+      "locationY": 35.76084,
+      "locationX": 51.159125,
+      "updateMillis": 1786692434564,
+      "blockUpdate": 1773752421559
+    },
+    {
+      "id": 1797652150,
+      "street": "",
+      "city": "اندیشه",
+      "country": "IR",
+      "level": 5,
+      "length": 16,
+      "speed": 0,
+      "endNode": "Azadi Blvd - بلوار آزادی",
+      "line": [
+        {
+          "x": 51.029789,
+          "y": 35.711984
+        },
+        {
+          "x": 51.029641,
+          "y": 35.711906
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 267938909,
+          "ID": 335031326,
+          "toNode": 267938908,
+          "isForward": false
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "اندیشه",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 7,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 267938909,
+        "uuid": "e8bde2bb-d79d-4ed3-8fbe-cc91d32b300b",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 2,
+        "magvar": 237,
+        "subtype": "",
+        "additionalInfo": "",
+        "wazeData": "world,51.0297893702449,35.711984957575396,e8bde2bb-d79d-4ed3-8fbe-cc91d32b300b",
+        "toNodeId": 267938908,
+        "reportDescription": "",
+        "location": {
+          "x": 51.029789,
+          "y": 35.711984
+        },
+        "id": "alert-1748895425/e8bde2bb-d79d-4ed3-8fbe-cc91d32b300b",
+        "pubMillis": 1786345628000
+      },
+      "locationY": 35.711984,
+      "locationX": 51.029789,
+      "updateMillis": 1786692434520,
+      "blockUpdate": 1786345628563
+    },
+    {
+      "id": 1797691474,
+      "street": "",
+      "city": "اندیشه",
+      "country": "IR",
+      "level": 5,
+      "length": 16,
+      "speed": 0,
+      "endNode": "Azadi Blvd - بلوار آزادی",
+      "line": [
+        {
+          "x": 51.029641,
+          "y": 35.711906
+        },
+        {
+          "x": 51.029789,
+          "y": 35.711984
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 267938908,
+          "ID": 335031326,
+          "toNode": 267938909,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "اندیشه",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 6,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 267938908,
+        "uuid": "e4da4614-7e7f-4060-bbf4-ab4f1b1695bc",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 2,
+        "magvar": 57,
+        "subtype": "",
+        "additionalInfo": "",
+        "wazeData": "world,51.02964109526668,35.711906250817265,e4da4614-7e7f-4060-bbf4-ab4f1b1695bc",
+        "toNodeId": 267938909,
+        "reportDescription": "",
+        "location": {
+          "x": 51.029641,
+          "y": 35.711906
+        },
+        "id": "alert-1748812007/e4da4614-7e7f-4060-bbf4-ab4f1b1695bc",
+        "pubMillis": 1786345628000
+      },
+      "locationY": 35.711906,
+      "locationX": 51.029641,
+      "updateMillis": 1786692434518,
+      "blockUpdate": 1786345628528
+    },
+    {
+      "id": 1691159568,
+      "street": "",
+      "city": "کرج",
+      "country": "IR",
+      "level": 5,
+      "length": 43,
+      "speed": 0,
+      "endNode": "کرج",
+      "line": [
+        {
+          "x": 51.032399,
+          "y": 35.830661
+        },
+        {
+          "x": 51.032325,
+          "y": 35.830584
+        },
+        {
+          "x": 51.032298,
+          "y": 35.83054
+        },
+        {
+          "x": 51.032296,
+          "y": 35.830493
+        },
+        {
+          "x": 51.032347,
+          "y": 35.830426
+        },
+        {
+          "x": 51.032474,
+          "y": 35.83038
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 261414161,
+          "ID": 324443289,
+          "toNode": 261414164,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 6,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 261414161,
+        "uuid": "a65f5f25-dca9-4d3d-a6b3-b11143f62d16",
+        "nearBy": "کرج",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 4,
+        "magvar": 218,
+        "subtype": "",
+        "additionalInfo": "",
+        "wazeData": "world,51.032399400846565,35.83066131665501,a65f5f25-dca9-4d3d-a6b3-b11143f62d16",
+        "toNodeId": 261414164,
+        "reportDescription": "",
+        "location": {
+          "x": 51.032399,
+          "y": 35.830661
+        },
+        "id": "alert-1673259915/a65f5f25-dca9-4d3d-a6b3-b11143f62d16",
+        "pubMillis": 1785591854000
+      },
+      "locationY": 35.830661,
+      "locationX": 51.032399,
+      "updateMillis": 1786692434486,
+      "blockUpdate": 1785591854670
+    },
+    {
+      "id": 1691104540,
+      "street": "",
+      "city": "کرج",
+      "country": "IR",
+      "level": 5,
+      "length": 42,
+      "speed": 0,
+      "endNode": "کرج",
+      "line": [
+        {
+          "x": 51.032077,
+          "y": 35.830314
+        },
+        {
+          "x": 51.032151,
+          "y": 35.830387
+        },
+        {
+          "x": 51.032167,
+          "y": 35.830429
+        },
+        {
+          "x": 51.032157,
+          "y": 35.830475
+        },
+        {
+          "x": 51.032133,
+          "y": 35.830526
+        },
+        {
+          "x": 51.032089,
+          "y": 35.83056
+        },
+        {
+          "x": 51.031986,
+          "y": 35.830587
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 261414120,
+          "ID": 324443235,
+          "toNode": 261414119,
+          "isForward": false
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 6,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 261414120,
+        "uuid": "1f014e71-14dc-4293-ad6b-70c134766776",
+        "nearBy": "کرج",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 4,
+        "magvar": 40,
+        "subtype": "",
+        "additionalInfo": "",
+        "wazeData": "world,51.03207702471977,35.830314095031596,1f014e71-14dc-4293-ad6b-70c134766776",
+        "toNodeId": 261414119,
+        "reportDescription": "",
+        "location": {
+          "x": 51.032077,
+          "y": 35.830314
+        },
+        "id": "alert-1673259914/1f014e71-14dc-4293-ad6b-70c134766776",
+        "pubMillis": 1785591854000
+      },
+      "locationY": 35.830314,
+      "locationX": 51.032077,
+      "updateMillis": 1786692434483,
+      "blockUpdate": 1785591854670
+    },
+    {
+      "id": 1691108472,
+      "street": "Zob Ahan - ذوب آهن",
+      "city": "کرج",
+      "country": "IR",
+      "level": 5,
+      "length": 26,
+      "speed": 0,
+      "endNode": "Panahi - پناهی",
+      "line": [
+        {
+          "x": 50.970381,
+          "y": 35.789729
+        },
+        {
+          "x": 50.970386,
+          "y": 35.789493
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 224071051,
+          "ID": 268625207,
+          "toNode": 224071543,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": true,
+        "city": "کرج",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 6,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 224071051,
+        "uuid": "554b314e-5e68-48db-b16d-2efd00a0056f",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 7,
+        "magvar": 179,
+        "subtype": "",
+        "street": "Zob Ahan - ذوب آهن",
+        "additionalInfo": "",
+        "wazeData": "world,50.970381955702756,35.789729303831834,554b314e-5e68-48db-b16d-2efd00a0056f",
+        "toNodeId": 224071543,
+        "reportDescription": "",
+        "location": {
+          "x": 50.970381,
+          "y": 35.789729
+        },
+        "id": "alert-1877025087/554b314e-5e68-48db-b16d-2efd00a0056f",
+        "pubMillis": 1765379605000
+      },
+      "locationY": 35.789729,
+      "locationX": 50.970381,
+      "updateMillis": 1786692434426,
+      "blockUpdate": 1765379605031
+    },
+    {
+      "id": 1691054352,
+      "street": "",
+      "city": "تهران",
+      "country": "IR",
+      "level": 5,
+      "length": 21,
+      "speed": 0,
+      "line": [
+        {
+          "x": 51.190915,
+          "y": 35.756319
+        },
+        {
+          "x": 51.19086,
+          "y": 35.756501
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 310290780,
+          "ID": 400628423,
+          "toNode": 310290781,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "تهران",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 1,
+        "reliability": 9,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 310290780,
+        "uuid": "d42510d6-ce96-4987-a5f5-e5af71caff45",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 2,
+        "magvar": 346,
+        "subtype": "",
+        "additionalInfo": "",
+        "wazeData": "world,51.190915136182376,35.756319692613324,d42510d6-ce96-4987-a5f5-e5af71caff45",
+        "toNodeId": 310290781,
+        "reportDescription": "",
+        "location": {
+          "x": 51.190915,
+          "y": 35.756319
+        },
+        "id": "alert-150864192/d42510d6-ce96-4987-a5f5-e5af71caff45",
+        "pubMillis": 1771913281000
+      },
+      "locationY": 35.756319,
+      "locationX": 51.190915,
+      "updateMillis": 1786692434319,
+      "blockUpdate": 1771913281346
+    },
+    {
+      "id": 1691073916,
+      "street": "",
+      "city": "تهران",
+      "country": "IR",
+      "level": 5,
+      "length": 21,
+      "speed": 0,
+      "line": [
+        {
+          "x": 51.19086,
+          "y": 35.756501
+        },
+        {
+          "x": 51.190915,
+          "y": 35.756319
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 310290781,
+          "ID": 400628423,
+          "toNode": 310290780,
+          "isForward": false
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "تهران",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 1,
+        "reliability": 9,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 310290781,
+        "uuid": "37f51337-c4b6-4a0f-8e92-7f772f254794",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 2,
+        "magvar": 166,
+        "subtype": "",
+        "additionalInfo": "",
+        "wazeData": "world,51.19086055395931,35.756501925161345,37f51337-c4b6-4a0f-8e92-7f772f254794",
+        "toNodeId": 310290780,
+        "reportDescription": "",
+        "location": {
+          "x": 51.19086,
+          "y": 35.756501
+        },
+        "id": "alert-150864193/37f51337-c4b6-4a0f-8e92-7f772f254794",
+        "pubMillis": 1771913281000
+      },
+      "locationY": 35.756501,
+      "locationX": 51.19086,
+      "updateMillis": 1786692434319,
+      "blockUpdate": 1771913281347
+    },
+    {
+      "id": 1865067052,
+      "street": "2, آزادراه فلاحی",
+      "city": "کرج",
+      "country": null,
+      "level": 1,
+      "length": 3926,
+      "speed": 12.780555555555555,
+      "endNode": "کرج",
+      "line": [
+        {
+          "x": 50.964133,
+          "y": 35.807537
+        },
+        {
+          "x": 50.964703,
+          "y": 35.807141
+        },
+        {
+          "x": 50.965699,
+          "y": 35.806382
+        },
+        {
+          "x": 50.966473,
+          "y": 35.805653
+        },
+        {
+          "x": 50.967345,
+          "y": 35.804757
+        },
+        {
+          "x": 50.968554,
+          "y": 35.803052
+        },
+        {
+          "x": 50.969423,
+          "y": 35.801788
+        },
+        {
+          "x": 50.97033,
+          "y": 35.800765
+        },
+        {
+          "x": 50.970789,
+          "y": 35.800347
+        },
+        {
+          "x": 50.97127,
+          "y": 35.799931
+        },
+        {
+          "x": 50.971561,
+          "y": 35.799696
+        },
+        {
+          "x": 50.97298,
+          "y": 35.798768
+        },
+        {
+          "x": 50.973906,
+          "y": 35.798228
+        },
+        {
+          "x": 50.974916,
+          "y": 35.797654
+        },
+        {
+          "x": 50.975903,
+          "y": 35.797111
+        },
+        {
+          "x": 50.979688,
+          "y": 35.795284
+        },
+        {
+          "x": 50.98039,
+          "y": 35.795003
+        },
+        {
+          "x": 50.982345,
+          "y": 35.794137
+        },
+        {
+          "x": 50.98535,
+          "y": 35.793059
+        },
+        {
+          "x": 50.987017,
+          "y": 35.792536
+        },
+        {
+          "x": 50.989573,
+          "y": 35.791888
+        },
+        {
+          "x": 50.990887,
+          "y": 35.791618
+        },
+        {
+          "x": 50.993537,
+          "y": 35.791222
+        },
+        {
+          "x": 51.000119,
+          "y": 35.790786
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 359514928,
+          "ID": 478597800,
+          "toNode": 360044694,
           "isForward": false
         },
         {
-          "fromNode": 218300329,
-          "ID": 259611246,
-          "toNode": 218300328,
+          "fromNode": 360044694,
+          "ID": 478597798,
+          "toNode": 218166497,
+          "isForward": false
+        },
+        {
+          "fromNode": 218166497,
+          "ID": 268700873,
+          "toNode": 224119242,
+          "isForward": false
+        },
+        {
+          "fromNode": 224119242,
+          "ID": 268700872,
+          "toNode": 212901856,
+          "isForward": false
+        },
+        {
+          "fromNode": 212901856,
+          "ID": 363837734,
+          "toNode": 223342387,
           "isForward": true
         }
       ],
       "causeAlert": null,
-      "locationY": 35.872886,
-      "locationX": 50.970549,
-      "updateMillis": 1786680904945,
+      "locationY": 35.807537,
+      "locationX": 50.964133,
+      "updateMillis": 1786692434231,
+      "blockUpdate": null
+    },
+    {
+      "id": 1691143538,
+      "street": "",
+      "city": "قدس",
+      "country": "IR",
+      "level": 5,
+      "length": 60,
+      "speed": 0,
+      "line": [
+        {
+          "x": 51.119076,
+          "y": 35.733763
+        },
+        {
+          "x": 51.118798,
+          "y": 35.733274
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 268008803,
+          "ID": 362030519,
+          "toNode": 285090952,
+          "isForward": false
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "قدس",
+        "reportRating": 0,
+        "reportByMunicipalityUser": "false",
+        "confidence": 5,
+        "reliability": 10,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 268008803,
+        "uuid": "b78fe497-98ef-44ef-9fb2-d36b4172d540",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 17,
+        "magvar": 204,
+        "subtype": "ROAD_CLOSED_EVENT",
+        "additionalInfo": "",
+        "wazeData": "world,51.119076267532705,35.73376317472462,b78fe497-98ef-44ef-9fb2-d36b4172d540",
+        "toNodeId": 285090952,
+        "location": {
+          "x": 51.119076,
+          "y": 35.733763
+        },
+        "id": "alert-1839760825/b78fe497-98ef-44ef-9fb2-d36b4172d540",
+        "pubMillis": 1697038889000
+      },
+      "locationY": 35.733763,
+      "locationX": 51.119076,
+      "updateMillis": 1786692433894,
+      "blockUpdate": 1697038889222
+    },
+    {
+      "id": 1691049876,
+      "street": "Soleimani Hwy - بزرگراه سلیمانی",
+      "city": "کرج",
+      "country": "IR",
+      "level": 5,
+      "length": 233,
+      "speed": 0,
+      "endNode": "Soleimani Fwy - آزادراه سلیمانی",
+      "line": [
+        {
+          "x": 51.011087,
+          "y": 35.845824
+        },
+        {
+          "x": 51.010296,
+          "y": 35.84635
+        },
+        {
+          "x": 51.009765,
+          "y": 35.846889
+        },
+        {
+          "x": 51.009479,
+          "y": 35.847418
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 312939185,
+          "ID": 436794915,
+          "toNode": 334092768,
+          "isForward": false
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": true,
+        "city": "کرج",
+        "reportRating": 0,
+        "reportByMunicipalityUser": "false",
+        "confidence": 5,
+        "reliability": 10,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 312939185,
+        "uuid": "84365da7-dca2-4650-b0cf-83dee8b0f36a",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 6,
+        "magvar": 320,
+        "subtype": "ROAD_CLOSED_EVENT",
+        "street": "Soleimani Hwy - بزرگراه سلیمانی",
+        "additionalInfo": "",
+        "wazeData": "world,51.01108798886,35.845824803365,84365da7-dca2-4650-b0cf-83dee8b0f36a",
+        "toNodeId": 334092768,
+        "reportDescription": "",
+        "location": {
+          "x": 51.011087,
+          "y": 35.845824
+        },
+        "id": "alert-767674054/84365da7-dca2-4650-b0cf-83dee8b0f36a",
+        "pubMillis": 1702913237000
+      },
+      "locationY": 35.845824,
+      "locationX": 51.011087,
+      "updateMillis": 1786692433837,
+      "blockUpdate": 1702913237585
+    },
+    {
+      "id": 1691096730,
+      "street": "",
+      "city": "تهران",
+      "country": "IR",
+      "level": 5,
+      "length": 613,
+      "speed": 0,
+      "line": [
+        {
+          "x": 51.188564,
+          "y": 35.750022
+        },
+        {
+          "x": 51.187196,
+          "y": 35.752998
+        },
+        {
+          "x": 51.186836,
+          "y": 35.754241
+        },
+        {
+          "x": 51.186802,
+          "y": 35.754521
+        },
+        {
+          "x": 51.186831,
+          "y": 35.754804
+        },
+        {
+          "x": 51.186938,
+          "y": 35.755079
+        },
+        {
+          "x": 51.187064,
+          "y": 35.755271
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 263772002,
+          "ID": 406268001,
+          "toNode": 261315854,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": true,
+        "city": "تهران",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 5,
+        "reliability": 10,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 263772002,
+        "uuid": "b32d8e37-8645-4462-b007-adb26c30e4f6",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 7,
+        "magvar": 340,
+        "subtype": "",
+        "additionalInfo": "",
+        "wazeData": "world,51.18856495516908,35.750022579503224,b32d8e37-8645-4462-b007-adb26c30e4f6",
+        "toNodeId": 261315854,
+        "reportDescription": "",
+        "location": {
+          "x": 51.188564,
+          "y": 35.750022
+        },
+        "id": "alert-1278068131/b32d8e37-8645-4462-b007-adb26c30e4f6",
+        "pubMillis": 1762197605000
+      },
+      "locationY": 35.750022,
+      "locationX": 51.188564,
+      "updateMillis": 1786692433794,
+      "blockUpdate": 1762197605619
+    },
+    {
+      "id": 1691120090,
+      "street": "",
+      "city": "قدس",
+      "country": "IR",
+      "level": 5,
+      "length": 60,
+      "speed": 0,
+      "endNode": "Piruzi - پیروزی",
+      "line": [
+        {
+          "x": 51.118798,
+          "y": 35.733274
+        },
+        {
+          "x": 51.119076,
+          "y": 35.733763
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 285090952,
+          "ID": 362030519,
+          "toNode": 268008803,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "قدس",
+        "reportRating": 0,
+        "reportByMunicipalityUser": "false",
+        "confidence": 5,
+        "reliability": 10,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 285090952,
+        "uuid": "1d4fb8c8-bfe7-485d-9738-b985e87bb6c4",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 17,
+        "magvar": 24,
+        "subtype": "ROAD_CLOSED_EVENT",
+        "additionalInfo": "",
+        "wazeData": "world,51.118798032937,35.7332740808073,1d4fb8c8-bfe7-485d-9738-b985e87bb6c4",
+        "toNodeId": 268008803,
+        "location": {
+          "x": 51.118798,
+          "y": 35.733274
+        },
+        "id": "alert-1839758659/1d4fb8c8-bfe7-485d-9738-b985e87bb6c4",
+        "pubMillis": 1697038889000
+      },
+      "locationY": 35.733274,
+      "locationX": 51.118798,
+      "updateMillis": 1786692433570,
+      "blockUpdate": 1697038889274
+    },
+    {
+      "id": 1865428498,
+      "street": "Enqelab - انقلاب",
+      "city": "کرج",
+      "country": null,
+      "level": 3,
+      "length": 194,
+      "speed": 0.9388888888888889,
+      "endNode": "8th E - هشتم شرقی",
+      "line": [
+        {
+          "x": 50.974945,
+          "y": 35.832745
+        },
+        {
+          "x": 50.97465,
+          "y": 35.832047
+        },
+        {
+          "x": 50.974514,
+          "y": 35.831699
+        },
+        {
+          "x": 50.974402,
+          "y": 35.831583
+        },
+        {
+          "x": 50.973846,
+          "y": 35.831367
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 221142682,
+          "ID": 326933329,
+          "toNode": 262900113,
+          "isForward": true
+        },
+        {
+          "fromNode": 262900113,
+          "ID": 326933330,
+          "toNode": 221142657,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 35.832745,
+      "locationX": 50.974945,
+      "updateMillis": 1786692433456,
+      "blockUpdate": null
+    },
+    {
+      "id": 1861772940,
+      "street": "2, آزادراه فلاحی",
+      "city": "کرج",
+      "country": null,
+      "level": 3,
+      "length": 5844,
+      "speed": 4.847222222222222,
+      "endNode": "کرج",
+      "line": [
+        {
+          "x": 50.908655,
+          "y": 35.853182
+        },
+        {
+          "x": 50.908763,
+          "y": 35.852579
+        },
+        {
+          "x": 50.90887,
+          "y": 35.851732
+        },
+        {
+          "x": 50.908931,
+          "y": 35.851108
+        },
+        {
+          "x": 50.909151,
+          "y": 35.847556
+        },
+        {
+          "x": 50.909171,
+          "y": 35.846499
+        },
+        {
+          "x": 50.909561,
+          "y": 35.840826
+        },
+        {
+          "x": 50.909599,
+          "y": 35.839106
+        },
+        {
+          "x": 50.909833,
+          "y": 35.8364
+        },
+        {
+          "x": 50.909893,
+          "y": 35.835579
+        },
+        {
+          "x": 50.910068,
+          "y": 35.833701
+        },
+        {
+          "x": 50.910192,
+          "y": 35.832839
+        },
+        {
+          "x": 50.910481,
+          "y": 35.831595
+        },
+        {
+          "x": 50.910621,
+          "y": 35.831108
+        },
+        {
+          "x": 50.910932,
+          "y": 35.830244
+        },
+        {
+          "x": 50.911107,
+          "y": 35.829741
+        },
+        {
+          "x": 50.911773,
+          "y": 35.828305
+        },
+        {
+          "x": 50.912766,
+          "y": 35.826492
+        },
+        {
+          "x": 50.913871,
+          "y": 35.825175
+        },
+        {
+          "x": 50.914413,
+          "y": 35.824677
+        },
+        {
+          "x": 50.914944,
+          "y": 35.824074
+        },
+        {
+          "x": 50.916147,
+          "y": 35.82297
+        },
+        {
+          "x": 50.916839,
+          "y": 35.822391
+        },
+        {
+          "x": 50.91696,
+          "y": 35.822302
+        },
+        {
+          "x": 50.917966,
+          "y": 35.821556
+        },
+        {
+          "x": 50.918355,
+          "y": 35.821317
+        },
+        {
+          "x": 50.919964,
+          "y": 35.820348
+        },
+        {
+          "x": 50.920988,
+          "y": 35.819861
+        },
+        {
+          "x": 50.9219,
+          "y": 35.81946
+        },
+        {
+          "x": 50.922769,
+          "y": 35.819104
+        },
+        {
+          "x": 50.923767,
+          "y": 35.818738
+        },
+        {
+          "x": 50.924945,
+          "y": 35.818386
+        },
+        {
+          "x": 50.926535,
+          "y": 35.818012
+        },
+        {
+          "x": 50.927719,
+          "y": 35.81777
+        },
+        {
+          "x": 50.929249,
+          "y": 35.817504
+        },
+        {
+          "x": 50.932608,
+          "y": 35.817001
+        },
+        {
+          "x": 50.933187,
+          "y": 35.816894
+        },
+        {
+          "x": 50.934056,
+          "y": 35.81675
+        },
+        {
+          "x": 50.935698,
+          "y": 35.816485
+        },
+        {
+          "x": 50.936674,
+          "y": 35.816355
+        },
+        {
+          "x": 50.937177,
+          "y": 35.816272
+        },
+        {
+          "x": 50.938103,
+          "y": 35.816124
+        },
+        {
+          "x": 50.938455,
+          "y": 35.816059
+        },
+        {
+          "x": 50.93927,
+          "y": 35.815946
+        },
+        {
+          "x": 50.939968,
+          "y": 35.815803
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 221130615,
+          "ID": 457441272,
+          "toNode": 347310476,
+          "isForward": false
+        },
+        {
+          "fromNode": 347310476,
+          "ID": 457441271,
+          "toNode": 293040874,
+          "isForward": false
+        },
+        {
+          "fromNode": 293040874,
+          "ID": 405615236,
+          "toNode": 313628063,
+          "isForward": false
+        },
+        {
+          "fromNode": 313628063,
+          "ID": 405615238,
+          "toNode": 305958050,
+          "isForward": true
+        },
+        {
+          "fromNode": 305958050,
+          "ID": 416744399,
+          "toNode": 320812688,
+          "isForward": true
+        },
+        {
+          "fromNode": 320812688,
+          "ID": 416744400,
+          "toNode": 320786240,
+          "isForward": true
+        },
+        {
+          "fromNode": 320786240,
+          "ID": 416704807,
+          "toNode": 320786244,
+          "isForward": true
+        },
+        {
+          "fromNode": 320786244,
+          "ID": 416717693,
+          "toNode": 221128615,
+          "isForward": true
+        },
+        {
+          "fromNode": 221128615,
+          "ID": 268699284,
+          "toNode": 224118279,
+          "isForward": false
+        },
+        {
+          "fromNode": 224118279,
+          "ID": 268699283,
+          "toNode": 218170291,
+          "isForward": false
+        },
+        {
+          "fromNode": 218170291,
+          "ID": 416585147,
+          "toNode": 320706937,
+          "isForward": false
+        },
+        {
+          "fromNode": 320706937,
+          "ID": 416585146,
+          "toNode": 218170493,
+          "isForward": false
+        },
+        {
+          "fromNode": 218170493,
+          "ID": 259444161,
+          "toNode": 218168074,
+          "isForward": false
+        },
+        {
+          "fromNode": 218168074,
+          "ID": 268315348,
+          "toNode": 223847038,
+          "isForward": false
+        },
+        {
+          "fromNode": 223847038,
+          "ID": 268315347,
+          "toNode": 218168123,
+          "isForward": false
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 35.853182,
+      "locationX": 50.908655,
+      "updateMillis": 1786692433016,
+      "blockUpdate": null
+    },
+    {
+      "id": 1691053798,
+      "street": "",
+      "city": "کرج",
+      "country": "IR",
+      "level": 5,
+      "length": 27,
+      "speed": 0,
+      "endNode": "Kachuei - کچویی",
+      "line": [
+        {
+          "x": 50.992518,
+          "y": 35.774308
+        },
+        {
+          "x": 50.992524,
+          "y": 35.774369
+        },
+        {
+          "x": 50.992506,
+          "y": 35.774404
+        },
+        {
+          "x": 50.992469,
+          "y": 35.77442
+        },
+        {
+          "x": 50.992412,
+          "y": 35.774423
+        },
+        {
+          "x": 50.992338,
+          "y": 35.774397
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 263380638,
+          "ID": 327709887,
+          "toNode": 263380639,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "کرج",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 4,
+        "reliability": 10,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 263380638,
+        "uuid": "b6f1768e-263c-448e-bd8f-457d81d4218b",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 4,
+        "magvar": 4,
+        "subtype": "",
+        "additionalInfo": "",
+        "wazeData": "world,50.99251895517133,35.774308173427045,b6f1768e-263c-448e-bd8f-457d81d4218b",
+        "toNodeId": 263380639,
+        "reportDescription": "",
+        "location": {
+          "x": 50.992518,
+          "y": 35.774308
+        },
+        "id": "alert-1301969419/b6f1768e-263c-448e-bd8f-457d81d4218b",
+        "pubMillis": 1759436169000
+      },
+      "locationY": 35.774308,
+      "locationX": 50.992518,
+      "updateMillis": 1786692432921,
+      "blockUpdate": 1759436169964
+    },
+    {
+      "id": 1100217698,
+      "street": "Modarres Blvd - بلوار مدرس",
+      "city": "کرج",
+      "country": "IR",
+      "level": 5,
+      "length": 32,
+      "speed": 0,
+      "endNode": "",
+      "line": [
+        {
+          "x": 50.972514,
+          "y": 35.792056
+        },
+        {
+          "x": 50.972774,
+          "y": 35.792247
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 272335736,
+          "ID": 342046161,
+          "toNode": 264526254,
+          "isForward": false
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": true,
+        "city": "کرج",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 6,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 272335736,
+        "uuid": "2afb9779-8b22-407f-b977-91b17057fef3",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 7,
+        "magvar": 48,
+        "subtype": "",
+        "street": "Modarres Blvd - بلوار مدرس",
+        "additionalInfo": "",
+        "wazeData": "world,50.97251430343918,35.792056086712044,2afb9779-8b22-407f-b977-91b17057fef3",
+        "toNodeId": 264526254,
+        "reportDescription": "",
+        "location": {
+          "x": 50.972514,
+          "y": 35.792056
+        },
+        "id": "alert-1709345005/2afb9779-8b22-407f-b977-91b17057fef3",
+        "pubMillis": 1783521645000
+      },
+      "locationY": 35.792056,
+      "locationX": 50.972514,
+      "updateMillis": 1786692432477,
+      "blockUpdate": 1783521645613
+    },
+    {
+      "id": 1864973530,
+      "street": "2, Fahmideh Fwy",
+      "city": "کرج",
+      "country": null,
+      "level": 2,
+      "length": 1883,
+      "speed": 9.577777777777778,
+      "endNode": "کرج",
+      "line": [
+        {
+          "x": 51.000119,
+          "y": 35.790786
+        },
+        {
+          "x": 51.001605,
+          "y": 35.790713
+        },
+        {
+          "x": 51.005968,
+          "y": 35.790429
+        },
+        {
+          "x": 51.012066,
+          "y": 35.790052
+        },
+        {
+          "x": 51.013766,
+          "y": 35.789851
+        },
+        {
+          "x": 51.014662,
+          "y": 35.789708
+        },
+        {
+          "x": 51.01588,
+          "y": 35.789464
+        },
+        {
+          "x": 51.016977,
+          "y": 35.789192
+        },
+        {
+          "x": 51.017902,
+          "y": 35.788992
+        },
+        {
+          "x": 51.01864,
+          "y": 35.788783
+        },
+        {
+          "x": 51.019549,
+          "y": 35.788496
+        },
+        {
+          "x": 51.020566,
+          "y": 35.788163
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 223342387,
+          "ID": 323689458,
+          "toNode": 260940228,
+          "isForward": false
+        },
+        {
+          "fromNode": 260940228,
+          "ID": 371675421,
+          "toNode": 218837807,
+          "isForward": false
+        },
+        {
+          "fromNode": 218837807,
+          "ID": 267533521,
+          "toNode": 223341995,
+          "isForward": false
+        },
+        {
+          "fromNode": 223341995,
+          "ID": 267533520,
+          "toNode": 219760902,
+          "isForward": false
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 35.790786,
+      "locationX": 51.000119,
+      "updateMillis": 1786692432216,
       "blockUpdate": null
     }
   ],
   "meta": {
-    "alerts_count": 44,
-    "jams_count": 35,
+    "alerts_count": 39,
+    "jams_count": 40,
     "jams_interval_min": 120,
     "alerts_interval_min": 720
   },
   "schedule": {
-    "last_jams_update": "2026-08-14T04:17:47.824939Z",
-    "last_alerts_update": "2026-08-13T18:11:14.058215Z"
+    "last_jams_update": "2026-08-14T07:28:09.860580Z",
+    "last_alerts_update": "2026-08-14T07:28:11.471241Z"
   }
 }

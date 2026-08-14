@@ -1,55 +1,9 @@
 {
   "region": "tabriz",
   "name": "تبریز",
-  "updated_at": "2026-08-14T04:17:54.387075Z",
+  "updated_at": "2026-08-14T07:28:23.033644Z",
   "status": "ok",
   "alerts": [
-    {
-      "id": "alert-1785014759/683f69af-e0a4-4f6d-b8fc-aecbc2870937",
-      "type": "JAM",
-      "subType": "JAM_STAND_STILL_TRAFFIC",
-      "reliability": null,
-      "street": null,
-      "city": null,
-      "country": null,
-      "nearBy": null,
-      "locationY": 38.077333,
-      "locationX": 46.362116,
-      "timestamp": 1786643345000,
-      "timestampUTC": "Thu, 13 Aug 2026 17:49:05 GMT",
-      "reportDescription": null,
-      "magvar": null,
-      "nThumbsUp": null,
-      "confidence": null,
-      "roadType": null,
-      "reportRating": null,
-      "reportMood": null,
-      "reportByMunicipalityUser": null,
-      "reported_by": null
-    },
-    {
-      "id": "alert-1784926524/29b5f7e3-9285-473e-bce6-8bbea80cadb0",
-      "type": "JAM",
-      "subType": "JAM_STAND_STILL_TRAFFIC",
-      "reliability": null,
-      "street": null,
-      "city": null,
-      "country": null,
-      "nearBy": null,
-      "locationY": 38.065508,
-      "locationX": 46.35674,
-      "timestamp": 1786642907000,
-      "timestampUTC": "Thu, 13 Aug 2026 17:41:47 GMT",
-      "reportDescription": null,
-      "magvar": null,
-      "nThumbsUp": null,
-      "confidence": null,
-      "roadType": null,
-      "reportRating": null,
-      "reportMood": null,
-      "reportByMunicipalityUser": null,
-      "reported_by": null
-    },
     {
       "id": "alert-1771594264/a09fd2f5-a44c-4db1-906a-c9225cb412c6",
       "type": "HAZARD",
@@ -191,6 +145,74 @@
   ],
   "jams": [
     {
+      "id": 1852844848,
+      "street": "Moqavemat Blvd - بلوار مقاومت",
+      "city": "تبریز",
+      "country": "IR",
+      "level": 5,
+      "length": 579,
+      "speed": 0,
+      "endNode": "",
+      "line": [
+        {
+          "x": 46.273856,
+          "y": 38.048345
+        },
+        {
+          "x": 46.279087,
+          "y": 38.048416
+        },
+        {
+          "x": 46.27972,
+          "y": 38.048376
+        },
+        {
+          "x": 46.280445,
+          "y": 38.048281
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 271790880,
+          "ID": 341157719,
+          "toNode": 271791193,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": true,
+        "city": "تبریز",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 7,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 271790880,
+        "uuid": "a3af3621-5342-4623-8f4c-848e1910c795",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 7,
+        "magvar": 89,
+        "subtype": "",
+        "street": "Moqavemat Blvd - بلوار مقاومت",
+        "additionalInfo": "",
+        "wazeData": "world,46.27385633806447,38.04834557228137,a3af3621-5342-4623-8f4c-848e1910c795",
+        "toNodeId": 271791193,
+        "reportDescription": "",
+        "location": {
+          "x": 46.273856,
+          "y": 38.048345
+        },
+        "id": "alert-88960421/a3af3621-5342-4623-8f4c-848e1910c795",
+        "pubMillis": 1769396844000
+      },
+      "locationY": 38.048345,
+      "locationX": 46.273856,
+      "updateMillis": 1786692500764,
+      "blockUpdate": 1769396844132
+    },
+    {
       "id": 637287436,
       "street": "Tohid - توحید",
       "city": "تبریز",
@@ -247,7 +269,7 @@
       },
       "locationY": 38.080258,
       "locationX": 46.281775,
-      "updateMillis": 1786680997778,
+      "updateMillis": 1786692408692,
       "blockUpdate": 1755926202833
     },
     {
@@ -322,8 +344,169 @@
       },
       "locationY": 38.029604,
       "locationX": 46.450085,
-      "updateMillis": 1786680997356,
+      "updateMillis": 1786692407878,
       "blockUpdate": 1779816238161
+    },
+    {
+      "id": 1852829568,
+      "street": "Akhoni - آخونی",
+      "city": "تبریز",
+      "country": "IR",
+      "level": 5,
+      "length": 30,
+      "speed": 0,
+      "endNode": "",
+      "line": [
+        {
+          "x": 46.256777,
+          "y": 38.081648
+        },
+        {
+          "x": 46.257112,
+          "y": 38.081595
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 297284305,
+          "ID": 380918516,
+          "toNode": 270154748,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "تبریز",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 5,
+        "reliability": 10,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 297284305,
+        "uuid": "bee863af-f34f-4875-9381-b88f3a2cf421",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 2,
+        "magvar": 101,
+        "subtype": "",
+        "street": "Akhoni - آخونی",
+        "additionalInfo": "",
+        "wazeData": "world,46.25677791241305,38.081648431346345,bee863af-f34f-4875-9381-b88f3a2cf421",
+        "toNodeId": 270154748,
+        "reportDescription": "",
+        "location": {
+          "x": 46.256777,
+          "y": 38.081648
+        },
+        "id": "alert-1839561950/bee863af-f34f-4875-9381-b88f3a2cf421",
+        "pubMillis": 1727773325000
+      },
+      "locationY": 38.081648,
+      "locationX": 46.256777,
+      "updateMillis": 1786692406977,
+      "blockUpdate": 1727773325278
+    },
+    {
+      "id": 1852860412,
+      "street": "Akhoni - آخونی",
+      "city": "تبریز",
+      "country": "IR",
+      "level": 5,
+      "length": 30,
+      "speed": 0,
+      "endNode": "1st Khaneh Kargar - خانه کارگر یکم",
+      "line": [
+        {
+          "x": 46.257112,
+          "y": 38.081595
+        },
+        {
+          "x": 46.256777,
+          "y": 38.081648
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 270154748,
+          "ID": 380918516,
+          "toNode": 297284305,
+          "isForward": false
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "تبریز",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 5,
+        "reliability": 10,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 270154748,
+        "uuid": "83783913-3a22-486e-b6ca-300880c90d66",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 2,
+        "magvar": 281,
+        "subtype": "",
+        "street": "Akhoni - آخونی",
+        "additionalInfo": "",
+        "wazeData": "world,46.25711250215345,38.08159544437568,83783913-3a22-486e-b6ca-300880c90d66",
+        "toNodeId": 297284305,
+        "reportDescription": "",
+        "location": {
+          "x": 46.257112,
+          "y": 38.081595
+        },
+        "id": "alert-1839453634/83783913-3a22-486e-b6ca-300880c90d66",
+        "pubMillis": 1727773325000
+      },
+      "locationY": 38.081595,
+      "locationX": 46.257112,
+      "updateMillis": 1786692405928,
+      "blockUpdate": 1727773325339
+    },
+    {
+      "id": 1864584532,
+      "street": "2, Kasaei Fwy",
+      "city": "تبریز",
+      "country": null,
+      "level": 4,
+      "length": 601,
+      "speed": 3.9305555555555554,
+      "endNode": "",
+      "line": [
+        {
+          "x": 46.253898,
+          "y": 38.047703
+        },
+        {
+          "x": 46.249141,
+          "y": 38.047804
+        },
+        {
+          "x": 46.248097,
+          "y": 38.047833
+        },
+        {
+          "x": 46.247061,
+          "y": 38.04789
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 296336116,
+          "ID": 380921321,
+          "toNode": 222098948,
+          "isForward": false
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 38.047703,
+      "locationX": 46.253898,
+      "updateMillis": 1786692405747,
+      "blockUpdate": null
     },
     {
       "id": 1852770584,
@@ -401,206 +584,18 @@
       },
       "locationY": 38.04783,
       "locationX": 46.267145,
-      "updateMillis": 1786680997216,
+      "updateMillis": 1786692404889,
       "blockUpdate": 1759287390887
-    },
-    {
-      "id": 1852829568,
-      "street": "Akhoni - آخونی",
-      "city": "تبریز",
-      "country": "IR",
-      "level": 5,
-      "length": 30,
-      "speed": 0,
-      "endNode": "",
-      "line": [
-        {
-          "x": 46.256777,
-          "y": 38.081648
-        },
-        {
-          "x": 46.257112,
-          "y": 38.081595
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 297284305,
-          "ID": 380918516,
-          "toNode": 270154748,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "تبریز",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 5,
-        "reliability": 10,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 297284305,
-        "uuid": "bee863af-f34f-4875-9381-b88f3a2cf421",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 2,
-        "magvar": 101,
-        "subtype": "",
-        "street": "Akhoni - آخونی",
-        "additionalInfo": "",
-        "wazeData": "world,46.25677791241305,38.081648431346345,bee863af-f34f-4875-9381-b88f3a2cf421",
-        "toNodeId": 270154748,
-        "reportDescription": "",
-        "location": {
-          "x": 46.256777,
-          "y": 38.081648
-        },
-        "id": "alert-1839561950/bee863af-f34f-4875-9381-b88f3a2cf421",
-        "pubMillis": 1727773325000
-      },
-      "locationY": 38.081648,
-      "locationX": 46.256777,
-      "updateMillis": 1786680997171,
-      "blockUpdate": 1727773325278
-    },
-    {
-      "id": 1852860412,
-      "street": "Akhoni - آخونی",
-      "city": "تبریز",
-      "country": "IR",
-      "level": 5,
-      "length": 30,
-      "speed": 0,
-      "endNode": "1st Khaneh Kargar - خانه کارگر یکم",
-      "line": [
-        {
-          "x": 46.257112,
-          "y": 38.081595
-        },
-        {
-          "x": 46.256777,
-          "y": 38.081648
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 270154748,
-          "ID": 380918516,
-          "toNode": 297284305,
-          "isForward": false
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "تبریز",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 5,
-        "reliability": 10,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 270154748,
-        "uuid": "83783913-3a22-486e-b6ca-300880c90d66",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 2,
-        "magvar": 281,
-        "subtype": "",
-        "street": "Akhoni - آخونی",
-        "additionalInfo": "",
-        "wazeData": "world,46.25711250215345,38.08159544437568,83783913-3a22-486e-b6ca-300880c90d66",
-        "toNodeId": 297284305,
-        "reportDescription": "",
-        "location": {
-          "x": 46.257112,
-          "y": 38.081595
-        },
-        "id": "alert-1839453634/83783913-3a22-486e-b6ca-300880c90d66",
-        "pubMillis": 1727773325000
-      },
-      "locationY": 38.081595,
-      "locationX": 46.257112,
-      "updateMillis": 1786680996170,
-      "blockUpdate": 1727773325339
-    },
-    {
-      "id": 1852844848,
-      "street": "Moqavemat Blvd - بلوار مقاومت",
-      "city": "تبریز",
-      "country": "IR",
-      "level": 5,
-      "length": 579,
-      "speed": 0,
-      "endNode": "",
-      "line": [
-        {
-          "x": 46.273856,
-          "y": 38.048345
-        },
-        {
-          "x": 46.279087,
-          "y": 38.048416
-        },
-        {
-          "x": 46.27972,
-          "y": 38.048376
-        },
-        {
-          "x": 46.280445,
-          "y": 38.048281
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 271790880,
-          "ID": 341157719,
-          "toNode": 271791193,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": true,
-        "city": "تبریز",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 0,
-        "reliability": 7,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 271790880,
-        "uuid": "a3af3621-5342-4623-8f4c-848e1910c795",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 7,
-        "magvar": 89,
-        "subtype": "",
-        "street": "Moqavemat Blvd - بلوار مقاومت",
-        "additionalInfo": "",
-        "wazeData": "world,46.27385633806447,38.04834557228137,a3af3621-5342-4623-8f4c-848e1910c795",
-        "toNodeId": 271791193,
-        "reportDescription": "",
-        "location": {
-          "x": 46.273856,
-          "y": 38.048345
-        },
-        "id": "alert-88960421/a3af3621-5342-4623-8f4c-848e1910c795",
-        "pubMillis": 1769396844000
-      },
-      "locationY": 38.048345,
-      "locationX": 46.273856,
-      "updateMillis": 1786680996069,
-      "blockUpdate": 1769396844132
     }
   ],
   "meta": {
-    "alerts_count": 8,
-    "jams_count": 6,
+    "alerts_count": 6,
+    "jams_count": 7,
     "jams_interval_min": 120,
     "alerts_interval_min": 720
   },
   "schedule": {
-    "last_jams_update": "2026-08-14T04:17:54.387053Z",
-    "last_alerts_update": "2026-08-13T18:11:26.758061Z"
+    "last_jams_update": "2026-08-14T07:28:21.956832Z",
+    "last_alerts_update": "2026-08-14T07:28:23.033623Z"
   }
 }

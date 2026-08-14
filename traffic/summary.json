@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-08-14T04:17:55.389438Z",
+  "updated_at": "2026-08-14T07:28:24.035477Z",
   "regions": {
     "tehran": {
       "name": "تهران",
       "status": "ok",
       "alerts": 200,
-      "jams": 194,
-      "updated_at": "2026-08-14T04:17:42.809283Z",
-      "last_alerts_update": "2026-08-13T18:11:05.274475Z",
-      "last_jams_update": "2026-08-14T04:17:42.809260Z"
+      "jams": 200,
+      "updated_at": "2026-08-14T07:28:02.889877Z",
+      "last_alerts_update": "2026-08-14T07:28:02.889853Z",
+      "last_jams_update": "2026-08-14T07:28:00.402783Z"
     },
     "mashhad": {
       "name": "مشهد",
       "status": "ok",
       "alerts": 15,
-      "jams": 16,
-      "updated_at": "2026-08-14T04:17:45.247974Z",
-      "last_alerts_update": "2026-08-13T18:11:09.500155Z",
-      "last_jams_update": "2026-08-14T04:17:45.247950Z"
+      "jams": 26,
+      "updated_at": "2026-08-14T07:28:07.049495Z",
+      "last_alerts_update": "2026-08-14T07:28:07.049474Z",
+      "last_jams_update": "2026-08-14T07:28:05.649663Z"
     },
     "karaj": {
       "name": "کرج",
       "status": "ok",
-      "alerts": 44,
-      "jams": 35,
-      "updated_at": "2026-08-14T04:17:47.824961Z",
-      "last_alerts_update": "2026-08-13T18:11:14.058215Z",
-      "last_jams_update": "2026-08-14T04:17:47.824939Z"
+      "alerts": 39,
+      "jams": 40,
+      "updated_at": "2026-08-14T07:28:11.471301Z",
+      "last_alerts_update": "2026-08-14T07:28:11.471241Z",
+      "last_jams_update": "2026-08-14T07:28:09.860580Z"
     },
     "isfahan": {
       "name": "اصفهان",
       "status": "ok",
-      "alerts": 12,
-      "jams": 6,
-      "updated_at": "2026-08-14T04:17:49.942564Z",
-      "last_alerts_update": "2026-08-13T18:11:18.195817Z",
-      "last_jams_update": "2026-08-14T04:17:49.942541Z"
+      "alerts": 10,
+      "jams": 8,
+      "updated_at": "2026-08-14T07:28:14.684736Z",
+      "last_alerts_update": "2026-08-14T07:28:14.684716Z",
+      "last_jams_update": "2026-08-14T07:28:13.599892Z"
     },
     "shiraz": {
       "name": "شیراز",
       "status": "ok",
-      "alerts": 47,
-      "jams": 46,
-      "updated_at": "2026-08-14T04:17:52.484274Z",
-      "last_alerts_update": "2026-08-13T18:11:23.190317Z",
-      "last_jams_update": "2026-08-14T04:17:52.484252Z"
+      "alerts": 46,
+      "jams": 48,
+      "updated_at": "2026-08-14T07:28:19.706955Z",
+      "last_alerts_update": "2026-08-14T07:28:19.706910Z",
+      "last_jams_update": "2026-08-14T07:28:17.843912Z"
     },
     "tabriz": {
       "name": "تبریز",
       "status": "ok",
-      "alerts": 8,
-      "jams": 6,
-      "updated_at": "2026-08-14T04:17:54.387075Z",
-      "last_alerts_update": "2026-08-13T18:11:26.758061Z",
-      "last_jams_update": "2026-08-14T04:17:54.387053Z"
+      "alerts": 6,
+      "jams": 7,
+      "updated_at": "2026-08-14T07:28:23.033644Z",
+      "last_alerts_update": "2026-08-14T07:28:23.033623Z",
+      "last_jams_update": "2026-08-14T07:28:21.956832Z"
     },
     "ahvaz": {
       "name": "اهواز",
@@ -137,6 +137,6 @@
       "last_jams_update": "2026-08-14T02:08:24.200566Z"
     }
   },
-  "total_alerts": 347,
-  "total_jams": 321
+  "total_alerts": 337,
+  "total_jams": 347
 }
