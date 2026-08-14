@@ -1,7 +1,7 @@
 {
   "region": "yazd",
   "name": "یزد",
-  "updated_at": "2026-08-13T18:11:51.283769Z",
+  "updated_at": "2026-08-14T02:08:20.309880Z",
   "status": "ok",
   "alerts": [
     {
@@ -29,6 +29,39 @@
     }
   ],
   "jams": [
+    {
+      "id": 1851954946,
+      "street": "7th Kowsar - کوثر هفتم",
+      "city": "شحنه",
+      "country": null,
+      "level": 4,
+      "length": 253,
+      "speed": 1.9388888888888889,
+      "endNode": "شحنه",
+      "line": [
+        {
+          "x": 54.243764,
+          "y": 31.84146
+        },
+        {
+          "x": 54.246144,
+          "y": 31.840437
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 285907450,
+          "ID": 363299959,
+          "toNode": 285907463,
+          "isForward": true
+        }
+      ],
+      "causeAlert": null,
+      "locationY": 31.84146,
+      "locationX": 54.243764,
+      "updateMillis": 1786673267223,
+      "blockUpdate": null
+    },
     {
       "id": 1691103718,
       "street": "",
@@ -165,18 +198,18 @@
       },
       "locationY": 31.97659,
       "locationX": 54.273328,
-      "updateMillis": 1786644623296,
+      "updateMillis": 1786673264616,
       "blockUpdate": 1723460417433
     }
   ],
   "meta": {
     "alerts_count": 1,
-    "jams_count": 1,
+    "jams_count": 2,
     "jams_interval_min": 360,
     "alerts_interval_min": 1440
   },
   "schedule": {
-    "last_jams_update": "2026-08-13T18:11:50.145547Z",
+    "last_jams_update": "2026-08-14T02:08:20.309858Z",
     "last_alerts_update": "2026-08-13T18:11:51.283746Z"
   }
 }

@@ -1,82 +1,18 @@
 {
   "region": "urmia",
   "name": "ارومیه",
-  "updated_at": "2026-08-13T18:11:44.591041Z",
+  "updated_at": "2026-08-14T02:08:16.407426Z",
   "status": "ok",
   "alerts": [],
-  "jams": [
-    {
-      "id": 1799794582,
-      "street": "Beheshti - بهشتی",
-      "city": "ارومیه",
-      "country": null,
-      "level": 4,
-      "length": 379,
-      "speed": 1.7583333333333333,
-      "endNode": "Ostadan - استادان",
-      "line": [
-        {
-          "x": 45.044447,
-          "y": 37.529544
-        },
-        {
-          "x": 45.044834,
-          "y": 37.529715
-        },
-        {
-          "x": 45.045564,
-          "y": 37.530039
-        },
-        {
-          "x": 45.047738,
-          "y": 37.530998
-        },
-        {
-          "x": 45.048207,
-          "y": 37.53118
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 317496241,
-          "ID": 411583267,
-          "toNode": 270666769,
-          "isForward": false
-        },
-        {
-          "fromNode": 270666769,
-          "ID": 353802952,
-          "toNode": 279722090,
-          "isForward": true
-        },
-        {
-          "fromNode": 279722090,
-          "ID": 353802953,
-          "toNode": 272480382,
-          "isForward": true
-        },
-        {
-          "fromNode": 272480382,
-          "ID": 342281364,
-          "toNode": 247098946,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 37.529544,
-      "locationX": 45.044447,
-      "updateMillis": 1786644651670,
-      "blockUpdate": null
-    }
-  ],
+  "jams": [],
   "meta": {
     "alerts_count": 0,
-    "jams_count": 1,
+    "jams_count": 0,
     "jams_interval_min": 360,
     "alerts_interval_min": 1440
   },
   "schedule": {
-    "last_jams_update": "2026-08-13T18:11:43.162122Z",
+    "last_jams_update": "2026-08-14T02:08:16.407403Z",
     "last_alerts_update": "2026-08-13T18:11:44.591018Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "region": "bandar_abbas",
   "name": "بندرعباس",
-  "updated_at": "2026-08-13T18:11:54.265062Z",
+  "updated_at": "2026-08-14T02:08:22.264554Z",
   "status": "ok",
   "alerts": [],
   "jams": [],
@@ -12,7 +12,7 @@
     "alerts_interval_min": 1440
   },
   "schedule": {
-    "last_jams_update": "2026-08-13T18:11:53.305954Z",
+    "last_jams_update": "2026-08-14T02:08:22.264530Z",
     "last_alerts_update": "2026-08-13T18:11:54.265039Z"
   }
 }

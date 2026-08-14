@@ -1,82 +1,18 @@
 {
   "region": "kermanshah",
   "name": "کرمانشاه",
-  "updated_at": "2026-08-13T18:11:41.142193Z",
+  "updated_at": "2026-08-14T02:08:14.467469Z",
   "status": "ok",
   "alerts": [],
-  "jams": [
-    {
-      "id": 1798977560,
-      "street": "30 Metri Aval - سی متری اول",
-      "city": "کرمانشاه",
-      "country": null,
-      "level": 3,
-      "length": 323,
-      "speed": 1.7472222222222222,
-      "endNode": "",
-      "line": [
-        {
-          "x": 47.087617,
-          "y": 34.339935
-        },
-        {
-          "x": 47.086149,
-          "y": 34.339942
-        },
-        {
-          "x": 47.085742,
-          "y": 34.339936
-        },
-        {
-          "x": 47.084355,
-          "y": 34.33996
-        },
-        {
-          "x": 47.084107,
-          "y": 34.339969
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 222896678,
-          "ID": 339336750,
-          "toNode": 270640292,
-          "isForward": false
-        },
-        {
-          "fromNode": 270640292,
-          "ID": 339336749,
-          "toNode": 242787010,
-          "isForward": false
-        },
-        {
-          "fromNode": 242787010,
-          "ID": 393974131,
-          "toNode": 305815098,
-          "isForward": false
-        },
-        {
-          "fromNode": 305815098,
-          "ID": 393974130,
-          "toNode": 272337810,
-          "isForward": false
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 34.339935,
-      "locationX": 47.087617,
-      "updateMillis": 1786644624928,
-      "blockUpdate": null
-    }
-  ],
+  "jams": [],
   "meta": {
     "alerts_count": 0,
-    "jams_count": 1,
+    "jams_count": 0,
     "jams_interval_min": 360,
     "alerts_interval_min": 1440
   },
   "schedule": {
-    "last_jams_update": "2026-08-13T18:11:39.895595Z",
+    "last_jams_update": "2026-08-14T02:08:14.467445Z",
     "last_alerts_update": "2026-08-13T18:11:41.142152Z"
   }
 }

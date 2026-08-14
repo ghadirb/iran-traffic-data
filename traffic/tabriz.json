@@ -1,7 +1,7 @@
 {
   "region": "tabriz",
   "name": "تبریز",
-  "updated_at": "2026-08-13T22:59:18.862819Z",
+  "updated_at": "2026-08-14T02:08:06.414225Z",
   "status": "ok",
   "alerts": [
     {
@@ -247,68 +247,8 @@
       },
       "locationY": 38.080258,
       "locationX": 46.281775,
-      "updateMillis": 1786661903630,
+      "updateMillis": 1786673276888,
       "blockUpdate": 1755926202833
-    },
-    {
-      "id": 1688298254,
-      "street": "Akhoni - آخونی",
-      "city": "تبریز",
-      "country": "IR",
-      "level": 5,
-      "length": 30,
-      "speed": 0,
-      "endNode": "",
-      "line": [
-        {
-          "x": 46.256777,
-          "y": 38.081648
-        },
-        {
-          "x": 46.257112,
-          "y": 38.081595
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 297284305,
-          "ID": 380918516,
-          "toNode": 270154748,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "تبریز",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 5,
-        "reliability": 10,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 297284305,
-        "uuid": "bee863af-f34f-4875-9381-b88f3a2cf421",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 2,
-        "magvar": 101,
-        "subtype": "",
-        "street": "Akhoni - آخونی",
-        "additionalInfo": "",
-        "wazeData": "world,46.25677791241305,38.081648431346345,bee863af-f34f-4875-9381-b88f3a2cf421",
-        "toNodeId": 270154748,
-        "reportDescription": "",
-        "location": {
-          "x": 46.256777,
-          "y": 38.081648
-        },
-        "id": "alert-1839561950/bee863af-f34f-4875-9381-b88f3a2cf421",
-        "pubMillis": 1727773325000
-      },
-      "locationY": 38.081648,
-      "locationX": 46.256777,
-      "updateMillis": 1786661903448,
-      "blockUpdate": 1727773325278
     },
     {
       "id": 1642603036,
@@ -382,8 +322,68 @@
       },
       "locationY": 38.029604,
       "locationX": 46.450085,
-      "updateMillis": 1786661903426,
+      "updateMillis": 1786673276680,
       "blockUpdate": 1779816238161
+    },
+    {
+      "id": 1688298254,
+      "street": "Akhoni - آخونی",
+      "city": "تبریز",
+      "country": "IR",
+      "level": 5,
+      "length": 30,
+      "speed": 0,
+      "endNode": "",
+      "line": [
+        {
+          "x": 46.256777,
+          "y": 38.081648
+        },
+        {
+          "x": 46.257112,
+          "y": 38.081595
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 297284305,
+          "ID": 380918516,
+          "toNode": 270154748,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "تبریز",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 5,
+        "reliability": 10,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 297284305,
+        "uuid": "bee863af-f34f-4875-9381-b88f3a2cf421",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 2,
+        "magvar": 101,
+        "subtype": "",
+        "street": "Akhoni - آخونی",
+        "additionalInfo": "",
+        "wazeData": "world,46.25677791241305,38.081648431346345,bee863af-f34f-4875-9381-b88f3a2cf421",
+        "toNodeId": 270154748,
+        "reportDescription": "",
+        "location": {
+          "x": 46.256777,
+          "y": 38.081648
+        },
+        "id": "alert-1839561950/bee863af-f34f-4875-9381-b88f3a2cf421",
+        "pubMillis": 1727773325000
+      },
+      "locationY": 38.081648,
+      "locationX": 46.256777,
+      "updateMillis": 1786673276466,
+      "blockUpdate": 1727773325278
     },
     {
       "id": 1642548238,
@@ -461,7 +461,7 @@
       },
       "locationY": 38.04783,
       "locationX": 46.267145,
-      "updateMillis": 1786661903302,
+      "updateMillis": 1786673276457,
       "blockUpdate": 1759287390887
     },
     {
@@ -521,7 +521,7 @@
       },
       "locationY": 38.081595,
       "locationX": 46.257112,
-      "updateMillis": 1786661902785,
+      "updateMillis": 1786673276204,
       "blockUpdate": 1727773325339
     },
     {
@@ -589,7 +589,7 @@
       },
       "locationY": 38.048345,
       "locationX": 46.273856,
-      "updateMillis": 1786661902590,
+      "updateMillis": 1786673276169,
       "blockUpdate": 1769396844132
     }
   ],
@@ -600,7 +600,7 @@
     "alerts_interval_min": 720
   },
   "schedule": {
-    "last_jams_update": "2026-08-13T22:59:18.862798Z",
+    "last_jams_update": "2026-08-14T02:08:06.414201Z",
     "last_alerts_update": "2026-08-13T18:11:26.758061Z"
   }
 }

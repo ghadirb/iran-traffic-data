@@ -1,7 +1,7 @@
 {
   "region": "qom",
   "name": "قم",
-  "updated_at": "2026-08-13T18:11:33.712324Z",
+  "updated_at": "2026-08-14T02:08:10.524430Z",
   "status": "ok",
   "alerts": [
     {
@@ -237,6 +237,73 @@
   ],
   "jams": [
     {
+      "id": 1691038688,
+      "street": "",
+      "city": "قم",
+      "country": "IR",
+      "level": 5,
+      "length": 55,
+      "speed": 0,
+      "endNode": "Kabiri Blvd - بلوار کبیری",
+      "line": [
+        {
+          "x": 50.890337,
+          "y": 34.597858
+        },
+        {
+          "x": 50.890282,
+          "y": 34.597732
+        },
+        {
+          "x": 50.890368,
+          "y": 34.597595
+        },
+        {
+          "x": 50.890619,
+          "y": 34.597615
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 279760322,
+          "ID": 353858340,
+          "toNode": 279760323,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "قم",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 0,
+        "reliability": 6,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 279760322,
+        "uuid": "128ceb8a-8d77-4d21-8f58-b2c0db82c3ec",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 4,
+        "magvar": 200,
+        "subtype": "",
+        "additionalInfo": "",
+        "wazeData": "world,50.89033766679131,34.59785859399191,128ceb8a-8d77-4d21-8f58-b2c0db82c3ec",
+        "toNodeId": 279760323,
+        "reportDescription": "",
+        "location": {
+          "x": 50.890337,
+          "y": 34.597858
+        },
+        "id": "alert-1755462142/128ceb8a-8d77-4d21-8f58-b2c0db82c3ec",
+        "pubMillis": 1786432447000
+      },
+      "locationY": 34.597858,
+      "locationX": 50.890337,
+      "updateMillis": 1786673267213,
+      "blockUpdate": 1786432447645
+    },
+    {
       "id": 1691151564,
       "street": "",
       "city": "قم",
@@ -300,7 +367,7 @@
       },
       "locationY": 34.62804,
       "locationX": 50.866563,
-      "updateMillis": 1786644627454,
+      "updateMillis": 1786673266935,
       "blockUpdate": 1735654665553
     },
     {
@@ -395,493 +462,8 @@
       },
       "locationY": 34.627491,
       "locationX": 50.866916,
-      "updateMillis": 1786644627260,
+      "updateMillis": 1786673266639,
       "blockUpdate": 1725350296785
-    },
-    {
-      "id": 1797460844,
-      "street": "Bateni - باطنی",
-      "city": "قم",
-      "country": null,
-      "level": 4,
-      "length": 486,
-      "speed": 1.5944444444444446,
-      "endNode": "Ammar Yaser Blvd - بلوار عمار یاسر",
-      "line": [
-        {
-          "x": 50.884063,
-          "y": 34.632952
-        },
-        {
-          "x": 50.884054,
-          "y": 34.633429
-        },
-        {
-          "x": 50.883901,
-          "y": 34.633901
-        },
-        {
-          "x": 50.883769,
-          "y": 34.634181
-        },
-        {
-          "x": 50.882815,
-          "y": 34.635821
-        },
-        {
-          "x": 50.8823,
-          "y": 34.636708
-        },
-        {
-          "x": 50.882278,
-          "y": 34.636879
-        },
-        {
-          "x": 50.882292,
-          "y": 34.637019
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 262574331,
-          "ID": 428408526,
-          "toNode": 262866164,
-          "isForward": true
-        },
-        {
-          "fromNode": 262866164,
-          "ID": 326878292,
-          "toNode": 262866165,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 34.632952,
-      "locationX": 50.884063,
-      "updateMillis": 1786644626789,
-      "blockUpdate": null
-    },
-    {
-      "id": 1797862706,
-      "street": "Ghadir Tunnel - تونل غدیر",
-      "city": "قم",
-      "country": null,
-      "level": 4,
-      "length": 233,
-      "speed": 1.4944444444444445,
-      "line": [
-        {
-          "x": 50.891753,
-          "y": 34.644652
-        },
-        {
-          "x": 50.890877,
-          "y": 34.64385
-        },
-        {
-          "x": 50.890127,
-          "y": 34.643038
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 342250213,
-          "ID": 327115553,
-          "toNode": 263011245,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 34.644652,
-      "locationX": 50.891753,
-      "updateMillis": 1786644626779,
-      "blockUpdate": null
-    },
-    {
-      "id": 1798709640,
-      "street": "Ammar Yaser Blvd - بلوار عمار یاسر",
-      "city": "قم",
-      "country": null,
-      "level": 4,
-      "length": 326,
-      "speed": 1.0527777777777778,
-      "endNode": "",
-      "line": [
-        {
-          "x": 50.882292,
-          "y": 34.637019
-        },
-        {
-          "x": 50.883925,
-          "y": 34.638226
-        },
-        {
-          "x": 50.88493,
-          "y": 34.638992
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 262866165,
-          "ID": 440818124,
-          "toNode": 263858795,
-          "isForward": true
-        },
-        {
-          "fromNode": 263858795,
-          "ID": 458095836,
-          "toNode": 347743431,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 34.637019,
-      "locationX": 50.882292,
-      "updateMillis": 1786644626435,
-      "blockUpdate": null
-    },
-    {
-      "id": 1691006944,
-      "street": "",
-      "city": "قم",
-      "country": "IR",
-      "level": 5,
-      "length": 19,
-      "speed": 0,
-      "endNode": "Hazrat Masumeh Blvd - بلوار حضرت معصومه",
-      "line": [
-        {
-          "x": 50.833735,
-          "y": 34.664638
-        },
-        {
-          "x": 50.833829,
-          "y": 34.664788
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 317468932,
-          "ID": 411540723,
-          "toNode": 317468933,
-          "isForward": false
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "قم",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 1,
-        "reliability": 9,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 317468932,
-        "uuid": "31a642ea-0f59-4ccb-bacf-ec4bcc248429",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 4,
-        "magvar": 27,
-        "subtype": "",
-        "additionalInfo": "",
-        "wazeData": "world,50.833735597389484,34.66463824353047,31a642ea-0f59-4ccb-bacf-ec4bcc248429",
-        "toNodeId": 317468933,
-        "reportDescription": "",
-        "location": {
-          "x": 50.833735,
-          "y": 34.664638
-        },
-        "id": "alert-1722215335/31a642ea-0f59-4ccb-bacf-ec4bcc248429",
-        "pubMillis": 1786034783000
-      },
-      "locationY": 34.664638,
-      "locationX": 50.833735,
-      "updateMillis": 1786644626330,
-      "blockUpdate": 1786034783166
-    },
-    {
-      "id": 1691092442,
-      "street": "",
-      "city": "قم",
-      "country": "IR",
-      "level": 5,
-      "length": 19,
-      "speed": 0,
-      "endNode": "Hazrat Masumeh Blvd - بلوار حضرت معصومه",
-      "line": [
-        {
-          "x": 50.833829,
-          "y": 34.664788
-        },
-        {
-          "x": 50.833735,
-          "y": 34.664638
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 317468933,
-          "ID": 411540723,
-          "toNode": 317468932,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "قم",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 1,
-        "reliability": 8,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 317468933,
-        "uuid": "77ab0f47-e6c6-4e82-80eb-7cca53cd2102",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 4,
-        "magvar": 207,
-        "subtype": "",
-        "additionalInfo": "",
-        "wazeData": "world,50.8338294747055,34.664788258475134,77ab0f47-e6c6-4e82-80eb-7cca53cd2102",
-        "toNodeId": 317468932,
-        "reportDescription": "",
-        "location": {
-          "x": 50.833829,
-          "y": 34.664788
-        },
-        "id": "alert-1722215336/77ab0f47-e6c6-4e82-80eb-7cca53cd2102",
-        "pubMillis": 1786034783000
-      },
-      "locationY": 34.664788,
-      "locationX": 50.833829,
-      "updateMillis": 1786644626330,
-      "blockUpdate": 1786034783166
-    },
-    {
-      "id": 1691038688,
-      "street": "",
-      "city": "قم",
-      "country": "IR",
-      "level": 5,
-      "length": 55,
-      "speed": 0,
-      "endNode": "Kabiri Blvd - بلوار کبیری",
-      "line": [
-        {
-          "x": 50.890337,
-          "y": 34.597858
-        },
-        {
-          "x": 50.890282,
-          "y": 34.597732
-        },
-        {
-          "x": 50.890368,
-          "y": 34.597595
-        },
-        {
-          "x": 50.890619,
-          "y": 34.597615
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 279760322,
-          "ID": 353858340,
-          "toNode": 279760323,
-          "isForward": true
-        }
-      ],
-      "causeAlert": {
-        "country": "IR",
-        "inscale": false,
-        "city": "قم",
-        "reportRating": 5,
-        "reportByMunicipalityUser": "false",
-        "confidence": 0,
-        "reliability": 6,
-        "type": "ROAD_CLOSED",
-        "fromNodeId": 279760322,
-        "uuid": "128ceb8a-8d77-4d21-8f58-b2c0db82c3ec",
-        "speed": 0,
-        "reportMood": 0,
-        "roadType": 4,
-        "magvar": 200,
-        "subtype": "",
-        "additionalInfo": "",
-        "wazeData": "world,50.89033766679131,34.59785859399191,128ceb8a-8d77-4d21-8f58-b2c0db82c3ec",
-        "toNodeId": 279760323,
-        "reportDescription": "",
-        "location": {
-          "x": 50.890337,
-          "y": 34.597858
-        },
-        "id": "alert-1755462142/128ceb8a-8d77-4d21-8f58-b2c0db82c3ec",
-        "pubMillis": 1786432447000
-      },
-      "locationY": 34.597858,
-      "locationX": 50.890337,
-      "updateMillis": 1786644625578,
-      "blockUpdate": 1786432447645
-    },
-    {
-      "id": 1798007418,
-      "street": "Soleimani Blvd - بلوار سردار سلیمانی",
-      "city": "قم",
-      "country": null,
-      "level": 2,
-      "length": 1674,
-      "speed": 5.691666666666666,
-      "endNode": "",
-      "line": [
-        {
-          "x": 50.883326,
-          "y": 34.646413
-        },
-        {
-          "x": 50.884046,
-          "y": 34.646977
-        },
-        {
-          "x": 50.888114,
-          "y": 34.650459
-        },
-        {
-          "x": 50.888425,
-          "y": 34.650745
-        },
-        {
-          "x": 50.889236,
-          "y": 34.651441
-        },
-        {
-          "x": 50.890573,
-          "y": 34.652489
-        },
-        {
-          "x": 50.891151,
-          "y": 34.652968
-        },
-        {
-          "x": 50.892127,
-          "y": 34.653778
-        },
-        {
-          "x": 50.894669,
-          "y": 34.655838
-        },
-        {
-          "x": 50.894849,
-          "y": 34.655984
-        },
-        {
-          "x": 50.896177,
-          "y": 34.657133
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 262489715,
-          "ID": 394264876,
-          "toNode": 306011287,
-          "isForward": true
-        },
-        {
-          "fromNode": 306011287,
-          "ID": 394264877,
-          "toNode": 216667881,
-          "isForward": true
-        },
-        {
-          "fromNode": 216667881,
-          "ID": 449051159,
-          "toNode": 341962985,
-          "isForward": false
-        },
-        {
-          "fromNode": 341962985,
-          "ID": 461811564,
-          "toNode": 349941810,
-          "isForward": false
-        },
-        {
-          "fromNode": 349941810,
-          "ID": 461811563,
-          "toNode": 336967820,
-          "isForward": false
-        },
-        {
-          "fromNode": 336967820,
-          "ID": 461811584,
-          "toNode": 349835332,
-          "isForward": false
-        },
-        {
-          "fromNode": 349835332,
-          "ID": 461623394,
-          "toNode": 266110692,
-          "isForward": false
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 34.646413,
-      "locationX": 50.883326,
-      "updateMillis": 1786644625417,
-      "blockUpdate": null
-    },
-    {
-      "id": 1798670374,
-      "street": "Imam Musa Sadr Blvd - بلوار امام موسی صدر",
-      "city": "قم",
-      "country": null,
-      "level": 3,
-      "length": 214,
-      "speed": 1.1388888888888888,
-      "endNode": "Amir Kabir - امیرکبیر",
-      "line": [
-        {
-          "x": 50.884302,
-          "y": 34.648284
-        },
-        {
-          "x": 50.883951,
-          "y": 34.647944
-        },
-        {
-          "x": 50.883729,
-          "y": 34.647735
-        },
-        {
-          "x": 50.882775,
-          "y": 34.646837
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 214712766,
-          "ID": 254173345,
-          "toNode": 214714605,
-          "isForward": true
-        },
-        {
-          "fromNode": 214714605,
-          "ID": 457142985,
-          "toNode": 347116517,
-          "isForward": true
-        },
-        {
-          "fromNode": 347116517,
-          "ID": 457142986,
-          "toNode": 340370670,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 34.648284,
-      "locationX": 50.884302,
-      "updateMillis": 1786644625045,
-      "blockUpdate": null
     },
     {
       "id": 1691026800,
@@ -951,67 +533,8 @@
       },
       "locationY": 34.614918,
       "locationX": 50.84459,
-      "updateMillis": 1786644624800,
+      "updateMillis": 1786673266265,
       "blockUpdate": 1696068136858
-    },
-    {
-      "id": 1798819402,
-      "street": "Soleimani Blvd - بلوار سردار سلیمانی",
-      "city": "قم",
-      "country": null,
-      "level": 3,
-      "length": 2416,
-      "speed": 4.758333333333334,
-      "endNode": "",
-      "line": [
-        {
-          "x": 50.885247,
-          "y": 34.648445
-        },
-        {
-          "x": 50.882985,
-          "y": 34.646509
-        },
-        {
-          "x": 50.881891,
-          "y": 34.645719
-        },
-        {
-          "x": 50.87636,
-          "y": 34.642369
-        },
-        {
-          "x": 50.87545,
-          "y": 34.64188
-        },
-        {
-          "x": 50.868272,
-          "y": 34.637907
-        },
-        {
-          "x": 50.864622,
-          "y": 34.634993
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 216667880,
-          "ID": 325799745,
-          "toNode": 262227263,
-          "isForward": false
-        },
-        {
-          "fromNode": 262227263,
-          "ID": 327468786,
-          "toNode": 262680333,
-          "isForward": false
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 34.648445,
-      "locationX": 50.885247,
-      "updateMillis": 1786644624718,
-      "blockUpdate": null
     },
     {
       "id": 590045806,
@@ -1081,8 +604,126 @@
       },
       "locationY": 34.615572,
       "locationX": 50.841148,
-      "updateMillis": 1786644624303,
+      "updateMillis": 1786673265767,
       "blockUpdate": 1696068136770
+    },
+    {
+      "id": 1691006944,
+      "street": "",
+      "city": "قم",
+      "country": "IR",
+      "level": 5,
+      "length": 19,
+      "speed": 0,
+      "endNode": "Hazrat Masumeh Blvd - بلوار حضرت معصومه",
+      "line": [
+        {
+          "x": 50.833735,
+          "y": 34.664638
+        },
+        {
+          "x": 50.833829,
+          "y": 34.664788
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 317468932,
+          "ID": 411540723,
+          "toNode": 317468933,
+          "isForward": false
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "قم",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 1,
+        "reliability": 9,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 317468932,
+        "uuid": "31a642ea-0f59-4ccb-bacf-ec4bcc248429",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 4,
+        "magvar": 27,
+        "subtype": "",
+        "additionalInfo": "",
+        "wazeData": "world,50.833735597389484,34.66463824353047,31a642ea-0f59-4ccb-bacf-ec4bcc248429",
+        "toNodeId": 317468933,
+        "reportDescription": "",
+        "location": {
+          "x": 50.833735,
+          "y": 34.664638
+        },
+        "id": "alert-1722215335/31a642ea-0f59-4ccb-bacf-ec4bcc248429",
+        "pubMillis": 1786034783000
+      },
+      "locationY": 34.664638,
+      "locationX": 50.833735,
+      "updateMillis": 1786673265650,
+      "blockUpdate": 1786034783166
+    },
+    {
+      "id": 1691092442,
+      "street": "",
+      "city": "قم",
+      "country": "IR",
+      "level": 5,
+      "length": 19,
+      "speed": 0,
+      "endNode": "Hazrat Masumeh Blvd - بلوار حضرت معصومه",
+      "line": [
+        {
+          "x": 50.833829,
+          "y": 34.664788
+        },
+        {
+          "x": 50.833735,
+          "y": 34.664638
+        }
+      ],
+      "segments": [
+        {
+          "fromNode": 317468933,
+          "ID": 411540723,
+          "toNode": 317468932,
+          "isForward": true
+        }
+      ],
+      "causeAlert": {
+        "country": "IR",
+        "inscale": false,
+        "city": "قم",
+        "reportRating": 5,
+        "reportByMunicipalityUser": "false",
+        "confidence": 1,
+        "reliability": 8,
+        "type": "ROAD_CLOSED",
+        "fromNodeId": 317468933,
+        "uuid": "77ab0f47-e6c6-4e82-80eb-7cca53cd2102",
+        "speed": 0,
+        "reportMood": 0,
+        "roadType": 4,
+        "magvar": 207,
+        "subtype": "",
+        "additionalInfo": "",
+        "wazeData": "world,50.8338294747055,34.664788258475134,77ab0f47-e6c6-4e82-80eb-7cca53cd2102",
+        "toNodeId": 317468932,
+        "reportDescription": "",
+        "location": {
+          "x": 50.833829,
+          "y": 34.664788
+        },
+        "id": "alert-1722215336/77ab0f47-e6c6-4e82-80eb-7cca53cd2102",
+        "pubMillis": 1786034783000
+      },
+      "locationY": 34.664788,
+      "locationX": 50.833829,
+      "updateMillis": 1786673265648,
+      "blockUpdate": 1786034783166
     },
     {
       "id": 1691038002,
@@ -1140,55 +781,8 @@
       },
       "locationY": 34.717469,
       "locationX": 50.870323,
-      "updateMillis": 1786644624155,
+      "updateMillis": 1786673265228,
       "blockUpdate": 1784392054420
-    },
-    {
-      "id": 1800029330,
-      "street": "Jafar Tayyar Blvd - بلوار جعفر طیار",
-      "city": "قم",
-      "country": null,
-      "level": 3,
-      "length": 409,
-      "speed": 3.025,
-      "endNode": "",
-      "line": [
-        {
-          "x": 50.874766,
-          "y": 34.632561
-        },
-        {
-          "x": 50.874224,
-          "y": 34.632303
-        },
-        {
-          "x": 50.871565,
-          "y": 34.630671
-        },
-        {
-          "x": 50.871178,
-          "y": 34.630373
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 337447820,
-          "ID": 441906996,
-          "toNode": 337314211,
-          "isForward": true
-        },
-        {
-          "fromNode": 337314211,
-          "ID": 441712967,
-          "toNode": 335554110,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 34.632561,
-      "locationX": 50.874766,
-      "updateMillis": 1786644624023,
-      "blockUpdate": null
     },
     {
       "id": 1691088396,
@@ -1262,365 +856,8 @@
       },
       "locationY": 34.597303,
       "locationX": 50.890085,
-      "updateMillis": 1786644623758,
+      "updateMillis": 1786673264972,
       "blockUpdate": 1786432447619
-    },
-    {
-      "id": 1800103244,
-      "street": "Danesh Blvd - بلوار دانش",
-      "city": "قم",
-      "country": null,
-      "level": 4,
-      "length": 295,
-      "speed": 1.0805555555555555,
-      "endNode": "Shohadaye Rohaniyat Blvd - بلوار شهدای روحانیت",
-      "line": [
-        {
-          "x": 50.835811,
-          "y": 34.617149
-        },
-        {
-          "x": 50.836339,
-          "y": 34.617176
-        },
-        {
-          "x": 50.836921,
-          "y": 34.617277
-        },
-        {
-          "x": 50.837505,
-          "y": 34.617433
-        },
-        {
-          "x": 50.838418,
-          "y": 34.617844
-        },
-        {
-          "x": 50.838619,
-          "y": 34.617858
-        },
-        {
-          "x": 50.838839,
-          "y": 34.617785
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 284212781,
-          "ID": 368194018,
-          "toNode": 289069200,
-          "isForward": true
-        },
-        {
-          "fromNode": 289069200,
-          "ID": 368194024,
-          "toNode": 289069206,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 34.617149,
-      "locationX": 50.835811,
-      "updateMillis": 1786644623734,
-      "blockUpdate": null
-    },
-    {
-      "id": 1799583754,
-      "street": "7, Amir Kabir Fwy",
-      "city": "قم",
-      "country": null,
-      "level": 2,
-      "length": 3475,
-      "speed": 12.161111111111111,
-      "endNode": "قم",
-      "line": [
-        {
-          "x": 50.905606,
-          "y": 34.675746
-        },
-        {
-          "x": 50.907625,
-          "y": 34.674286
-        },
-        {
-          "x": 50.908731,
-          "y": 34.673595
-        },
-        {
-          "x": 50.910797,
-          "y": 34.672324
-        },
-        {
-          "x": 50.912806,
-          "y": 34.671003
-        },
-        {
-          "x": 50.914047,
-          "y": 34.670212
-        },
-        {
-          "x": 50.914983,
-          "y": 34.669616
-        },
-        {
-          "x": 50.918592,
-          "y": 34.667316
-        },
-        {
-          "x": 50.921767,
-          "y": 34.664943
-        },
-        {
-          "x": 50.923436,
-          "y": 34.663557
-        },
-        {
-          "x": 50.924889,
-          "y": 34.662291
-        },
-        {
-          "x": 50.926569,
-          "y": 34.660711
-        },
-        {
-          "x": 50.92813,
-          "y": 34.659167
-        },
-        {
-          "x": 50.930823,
-          "y": 34.656224
-        },
-        {
-          "x": 50.931767,
-          "y": 34.655099
-        },
-        {
-          "x": 50.932604,
-          "y": 34.654034
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 256319938,
-          "ID": 316419224,
-          "toNode": 232779784,
-          "isForward": false
-        },
-        {
-          "fromNode": 232779784,
-          "ID": 382422642,
-          "toNode": 298280586,
-          "isForward": false
-        },
-        {
-          "fromNode": 298280586,
-          "ID": 382422641,
-          "toNode": 256319849,
-          "isForward": false
-        },
-        {
-          "fromNode": 256319849,
-          "ID": 400973216,
-          "toNode": 310520735,
-          "isForward": false
-        },
-        {
-          "fromNode": 310520735,
-          "ID": 400973225,
-          "toNode": 310520737,
-          "isForward": false
-        },
-        {
-          "fromNode": 310520737,
-          "ID": 400973224,
-          "toNode": 276971806,
-          "isForward": false
-        },
-        {
-          "fromNode": 276971806,
-          "ID": 354414227,
-          "toNode": 276221607,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 34.675746,
-      "locationX": 50.905606,
-      "updateMillis": 1786644623646,
-      "blockUpdate": null
-    },
-    {
-      "id": 1799203022,
-      "street": "Taleqani - طالقانی",
-      "city": "قم",
-      "country": null,
-      "level": 3,
-      "length": 647,
-      "speed": 3.05,
-      "endNode": "63rd Taleqani - طالقانی شصت و سوم",
-      "line": [
-        {
-          "x": 50.903193,
-          "y": 34.635782
-        },
-        {
-          "x": 50.902775,
-          "y": 34.635962
-        },
-        {
-          "x": 50.902397,
-          "y": 34.636098
-        },
-        {
-          "x": 50.901717,
-          "y": 34.636414
-        },
-        {
-          "x": 50.900917,
-          "y": 34.636785
-        },
-        {
-          "x": 50.900537,
-          "y": 34.636967
-        },
-        {
-          "x": 50.900365,
-          "y": 34.637049
-        },
-        {
-          "x": 50.900212,
-          "y": 34.637127
-        },
-        {
-          "x": 50.899547,
-          "y": 34.637465
-        },
-        {
-          "x": 50.898846,
-          "y": 34.637822
-        },
-        {
-          "x": 50.898254,
-          "y": 34.638131
-        },
-        {
-          "x": 50.898068,
-          "y": 34.638222
-        },
-        {
-          "x": 50.898,
-          "y": 34.638255
-        },
-        {
-          "x": 50.897529,
-          "y": 34.638498
-        },
-        {
-          "x": 50.897191,
-          "y": 34.638671
-        },
-        {
-          "x": 50.8971,
-          "y": 34.638717
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 286820695,
-          "ID": 364718013,
-          "toNode": 264801531,
-          "isForward": true
-        },
-        {
-          "fromNode": 264801531,
-          "ID": 355713346,
-          "toNode": 280980108,
-          "isForward": true
-        },
-        {
-          "fromNode": 280980108,
-          "ID": 365318316,
-          "toNode": 287204163,
-          "isForward": true
-        },
-        {
-          "fromNode": 287204163,
-          "ID": 365318317,
-          "toNode": 214717686,
-          "isForward": true
-        },
-        {
-          "fromNode": 214717686,
-          "ID": 365381763,
-          "toNode": 287244897,
-          "isForward": true
-        },
-        {
-          "fromNode": 287244897,
-          "ID": 365381764,
-          "toNode": 214717554,
-          "isForward": true
-        },
-        {
-          "fromNode": 214717554,
-          "ID": 403501753,
-          "toNode": 312200819,
-          "isForward": true
-        },
-        {
-          "fromNode": 312200819,
-          "ID": 403501754,
-          "toNode": 286951121,
-          "isForward": true
-        },
-        {
-          "fromNode": 286951121,
-          "ID": 364920473,
-          "toNode": 214717555,
-          "isForward": true
-        },
-        {
-          "fromNode": 214717555,
-          "ID": 254178527,
-          "toNode": 214717503,
-          "isForward": true
-        },
-        {
-          "fromNode": 214717503,
-          "ID": 455130494,
-          "toNode": 345815767,
-          "isForward": true
-        },
-        {
-          "fromNode": 345815767,
-          "ID": 455130495,
-          "toNode": 212098508,
-          "isForward": true
-        },
-        {
-          "fromNode": 212098508,
-          "ID": 364920591,
-          "toNode": 286951194,
-          "isForward": true
-        },
-        {
-          "fromNode": 286951194,
-          "ID": 364920592,
-          "toNode": 214717696,
-          "isForward": true
-        },
-        {
-          "fromNode": 214717696,
-          "ID": 455130744,
-          "toNode": 345815880,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 34.635782,
-      "locationX": 50.903193,
-      "updateMillis": 1786644623628,
-      "blockUpdate": null
     },
     {
       "id": 1691131218,
@@ -1726,195 +963,18 @@
       },
       "locationY": 34.6047,
       "locationX": 50.905431,
-      "updateMillis": 1786644623622,
+      "updateMillis": 1786673264822,
       "blockUpdate": 1786432535035
-    },
-    {
-      "id": 1794865940,
-      "street": "Ammar Yaser Blvd - بلوار عمار یاسر",
-      "city": "قم",
-      "country": null,
-      "level": 3,
-      "length": 1048,
-      "speed": 2.575,
-      "endNode": "Enqelab - انقلاب",
-      "line": [
-        {
-          "x": 50.89772,
-          "y": 34.648359
-        },
-        {
-          "x": 50.897309,
-          "y": 34.648077
-        },
-        {
-          "x": 50.896667,
-          "y": 34.647685
-        },
-        {
-          "x": 50.896257,
-          "y": 34.647434
-        },
-        {
-          "x": 50.895823,
-          "y": 34.647171
-        },
-        {
-          "x": 50.895397,
-          "y": 34.646922
-        },
-        {
-          "x": 50.895063,
-          "y": 34.646721
-        },
-        {
-          "x": 50.894541,
-          "y": 34.646398
-        },
-        {
-          "x": 50.892532,
-          "y": 34.645147
-        },
-        {
-          "x": 50.891753,
-          "y": 34.644652
-        },
-        {
-          "x": 50.89152,
-          "y": 34.644562
-        },
-        {
-          "x": 50.891253,
-          "y": 34.644357
-        },
-        {
-          "x": 50.890896,
-          "y": 34.644013
-        },
-        {
-          "x": 50.889676,
-          "y": 34.642809
-        },
-        {
-          "x": 50.889495,
-          "y": 34.642623
-        },
-        {
-          "x": 50.889175,
-          "y": 34.64234
-        },
-        {
-          "x": 50.889068,
-          "y": 34.642261
-        }
-      ],
-      "segments": [
-        {
-          "fromNode": 265879791,
-          "ID": 363839771,
-          "toNode": 214716391,
-          "isForward": true
-        },
-        {
-          "fromNode": 214716391,
-          "ID": 402132916,
-          "toNode": 216663078,
-          "isForward": true
-        },
-        {
-          "fromNode": 216663078,
-          "ID": 257095242,
-          "toNode": 216663066,
-          "isForward": true
-        },
-        {
-          "fromNode": 216663066,
-          "ID": 257095230,
-          "toNode": 216663071,
-          "isForward": true
-        },
-        {
-          "fromNode": 216663071,
-          "ID": 257095231,
-          "toNode": 214716389,
-          "isForward": true
-        },
-        {
-          "fromNode": 214716389,
-          "ID": 257096482,
-          "toNode": 216663828,
-          "isForward": true
-        },
-        {
-          "fromNode": 216663828,
-          "ID": 257096483,
-          "toNode": 214716405,
-          "isForward": true
-        },
-        {
-          "fromNode": 214716405,
-          "ID": 254297685,
-          "toNode": 214787846,
-          "isForward": true
-        },
-        {
-          "fromNode": 214787846,
-          "ID": 449506018,
-          "toNode": 342250213,
-          "isForward": true
-        },
-        {
-          "fromNode": 342250213,
-          "ID": 449506019,
-          "toNode": 287318428,
-          "isForward": true
-        },
-        {
-          "fromNode": 287318428,
-          "ID": 365495346,
-          "toNode": 262880443,
-          "isForward": true
-        },
-        {
-          "fromNode": 262880443,
-          "ID": 369589446,
-          "toNode": 290009633,
-          "isForward": true
-        },
-        {
-          "fromNode": 290009633,
-          "ID": 369589448,
-          "toNode": 211848972,
-          "isForward": true
-        },
-        {
-          "fromNode": 211848972,
-          "ID": 365234580,
-          "toNode": 287151022,
-          "isForward": true
-        },
-        {
-          "fromNode": 287151022,
-          "ID": 365236261,
-          "toNode": 287152084,
-          "isForward": true
-        }
-      ],
-      "causeAlert": null,
-      "locationY": 34.648359,
-      "locationX": 50.89772,
-      "updateMillis": 1786644623290,
-      "blockUpdate": null
     }
   ],
   "meta": {
     "alerts_count": 10,
-    "jams_count": 21,
+    "jams_count": 10,
     "jams_interval_min": 360,
     "alerts_interval_min": 1440
   },
   "schedule": {
-    "last_jams_update": "2026-08-13T18:11:32.315954Z",
+    "last_jams_update": "2026-08-14T02:08:10.524407Z",
     "last_alerts_update": "2026-08-13T18:11:33.712299Z"
   }
 }
